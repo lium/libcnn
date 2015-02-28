@@ -1,0 +1,33 @@
+\hypertarget{conv__layer_8cpp}{\section{src/conv\-\_\-layer.cpp \-File \-Reference}
+\label{conv__layer_8cpp}\index{src/conv\-\_\-layer.\-cpp@{src/conv\-\_\-layer.\-cpp}}
+}
+{\ttfamily \#include \char`\"{}conv\-\_\-layer.\-h\char`\"{}}\*
+{\ttfamily \#include $<$\-Eigen/\-Dense$>$}\*
+{\ttfamily \#include $<$iostream$>$}\*
+{\ttfamily \#include $<$vector$>$}\*
+{\ttfamily \#include $<$cmath$>$}\*
+{\ttfamily \#include $<$ctime$>$}\*
+{\ttfamily \#include $<$string$>$}\*
+{\ttfamily \#include $<$stdexcept$>$}\*
+{\ttfamily \#include $<$sys/time.\-h$>$}\*
+{\ttfamily \#include $<$omp.\-h$>$}\*
+\-Include dependency graph for conv\-\_\-layer.\-cpp\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{conv__layer_8cpp__incl}
+\end{center}
+\end{figure}
+\subsection*{\-Namespaces}
+\begin{DoxyCompactItemize}
+\item 
+namespace \hyperlink{namespacelibcnn}{libcnn}
+\end{DoxyCompactItemize}
+\subsection*{\-Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{namespacelibcnn_a938dc3abb088288e524b06ae20f3fdcf}{libcnn\-::get\-\_\-feature\-\_\-vector} (const vector$<$ vector$<$ \-Matrix\-Xd $>$ $>$ \&batch\-\_\-feature\-\_\-maps, \-Matrix\-Xd \&feature\-\_\-vectors)
+\item 
+void \hyperlink{namespacelibcnn_abaf4a87de431b09e42262980dc8d1e23}{libcnn\-::softmax2conv} (const \-Matrix\-Xd \&err\-\_\-softmax, const int \&\hyperlink{train_8cpp_a2c643af60711df9339a5a9fb6519148b}{batch\-\_\-size}, const int \&map\-\_\-hight, const int \&map\-\_\-width, vector$<$ vector$<$ \-Matrix\-Xd $>$ $>$ \&err\-\_\-conv)
+\end{DoxyCompactItemize}

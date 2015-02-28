@@ -1,0 +1,247 @@
+\hypertarget{gpu_2src_2train_8cpp}{\section{gpu/src/train.cpp \-File \-Reference}
+\label{gpu_2src_2train_8cpp}\index{gpu/src/train.\-cpp@{gpu/src/train.\-cpp}}
+}
+{\ttfamily \#include \char`\"{}conv\-\_\-layer.\-h\char`\"{}}\*
+{\ttfamily \#include \char`\"{}softmax\-\_\-class.\-h\char`\"{}}\*
+{\ttfamily \#include \char`\"{}pool.\-h\char`\"{}}\*
+{\ttfamily \#include \char`\"{}load\-\_\-data.\-h\char`\"{}}\*
+{\ttfamily \#include \char`\"{}init\-\_\-params.\-h\char`\"{}}\*
+{\ttfamily \#include \char`\"{}preprocess.\-h\char`\"{}}\*
+{\ttfamily \#include \char`\"{}rand\-\_\-initialize.\-h\char`\"{}}\*
+{\ttfamily \#include $<$\-Eigen/\-Dense$>$}\*
+{\ttfamily \#include $<$iostream$>$}\*
+{\ttfamily \#include $<$vector$>$}\*
+{\ttfamily \#include $<$cmath$>$}\*
+{\ttfamily \#include $<$string$>$}\*
+{\ttfamily \#include $<$ctime$>$}\*
+{\ttfamily \#include $<$sys/types.\-h$>$}\*
+{\ttfamily \#include $<$dirent.\-h$>$}\*
+{\ttfamily \#include $<$cstdlib$>$}\*
+{\ttfamily \#include $<$cassert$>$}\*
+{\ttfamily \#include $<$algorithm$>$}\*
+{\ttfamily \#include $<$stdio.\-h$>$}\*
+{\ttfamily \#include \char`\"{}yaml-\/cpp/yaml.\-h\char`\"{}}\*
+\-Include dependency graph for train.\-cpp\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{gpu_2src_2train_8cpp__incl}
+\end{center}
+\end{figure}
+\subsection*{\-Defines}
+\begin{DoxyCompactItemize}
+\item 
+\#define \hyperlink{gpu_2src_2train_8cpp_a34b04bd23b07b485921a728ad0805ac4}{\-M\-A\-I\-N}
+\item 
+\#define \hyperlink{gpu_2src_2train_8cpp_ab2868d85c8a74e3ee08bdc44580e2235}{\-S\-A\-V\-E}
+\end{DoxyCompactItemize}
+\subsection*{\-Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{gpu_2src_2train_8cpp_a7bc382c1af51bbe0abf0f61a5e98c99c}{print\-\_\-conv} (const vector$<$ \-Matrix\-Xd $>$ \&weights, const \-Matrix\-Xd \&biases)
+\item 
+void \hyperlink{gpu_2src_2train_8cpp_a8d8f47ed70e9d49f1a0361ee478ee55b}{print\-\_\-class} (const \-Matrix\-Xd \&weight, const \-Matrix\-Xd \&bias)
+\item 
+void \hyperlink{gpu_2src_2train_8cpp_a6113682517703008d4dea0c653448610}{training\-\_\-single} ()
+\item 
+void \hyperlink{gpu_2src_2train_8cpp_a85d8021bce07b2466383f3891dc6c913}{training\-\_\-batch} ()
+\item 
+int \hyperlink{gpu_2src_2train_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}{main} ()
+\end{DoxyCompactItemize}
+\subsection*{\-Variables}
+\begin{DoxyCompactItemize}
+\item 
+const int \hyperlink{gpu_2src_2train_8cpp_a8476ec27c8e5400b7eec34f0d0ad6be6}{image\-\_\-height} = 320
+\item 
+const int \hyperlink{gpu_2src_2train_8cpp_a864b445a94b3a4416c82a97ab9cd3a55}{image\-\_\-width} = 240
+\item 
+const int \hyperlink{gpu_2src_2train_8cpp_af17a6f9c9fc8fc26d1645cf6291bb0d9}{pool} = 8
+\item 
+const int \hyperlink{gpu_2src_2train_8cpp_a9b2018494ed2bdca5175de5bea19b198}{num\-\_\-kerns1} = 4
+\item 
+const int \hyperlink{gpu_2src_2train_8cpp_a5b047b4d1dd331bbb11859d5b91c9f8f}{num\-\_\-kerns2} = 6
+\item 
+const int \hyperlink{gpu_2src_2train_8cpp_a0b12f9b542065fa65cb8604002c2799d}{num\-\_\-kerns3} = 8
+\item 
+const int \hyperlink{gpu_2src_2train_8cpp_a39899a59e72620ab32d676987dd8ba49}{kernel\-\_\-size} = 7
+\item 
+const int \hyperlink{gpu_2src_2train_8cpp_a8917e12c91d83995f62f81e68aa9cb6b}{num\-\_\-labels} = 9
+\item 
+const double \hyperlink{gpu_2src_2train_8cpp_aa1b0a484ac95c8aa6e11ff885a2dae78}{weight\-\_\-bound} = 0.\-1
+\item 
+const double \hyperlink{gpu_2src_2train_8cpp_a032a7a5229c6fd6a22f96436ae9500fa}{bias\-\_\-bound} = 0.\-01
+\item 
+const double \hyperlink{gpu_2src_2train_8cpp_a92f3087835c14040e65651f0638ca507}{wb} = 0.\-05
+\item 
+const double \hyperlink{gpu_2src_2train_8cpp_a91f56d5c28de4346a57200665d995784}{bb} = 0.\-0005
+\item 
+const int \hyperlink{gpu_2src_2train_8cpp_aeda9aa6239a9e3337b85ef51668739d3}{num\-\_\-input\-\_\-channels} = 3
+\item 
+const int \hyperlink{gpu_2src_2train_8cpp_ac8d3682725de2f401975e90712ce1e5c}{pool\-\_\-size} = 2
+\item 
+double \hyperlink{gpu_2src_2train_8cpp_abaa236ecd5f1965a51e3e3337e1a4ae5}{learning\-\_\-rate1} = 0.\-01
+\item 
+double \hyperlink{gpu_2src_2train_8cpp_af91776424ae6645e9b60e25640c418ed}{learning\-\_\-rate2} = 0.\-01
+\item 
+const int \hyperlink{gpu_2src_2train_8cpp_a326e252cb0b0ed7a7b634b0cfab52a28}{num\-\_\-images} = 200
+\item 
+const int \hyperlink{gpu_2src_2train_8cpp_a2c643af60711df9339a5a9fb6519148b}{batch\-\_\-size} = 40
+\item 
+const int \hyperlink{gpu_2src_2train_8cpp_ab11165448f7def007498acd8283a10ff}{num\-\_\-batches} = \hyperlink{validate_8cpp_a326e252cb0b0ed7a7b634b0cfab52a28}{num\-\_\-images} / \hyperlink{src_2train_8cpp_a2c643af60711df9339a5a9fb6519148b}{batch\-\_\-size}
+\item 
+int \hyperlink{gpu_2src_2train_8cpp_a34f4541b93687f4eba94f12aadd95050}{beginning} = 1
+\item 
+const int \hyperlink{gpu_2src_2train_8cpp_a76ec1a7087432a2317f948b84b6bd788}{loop} = 500
+\end{DoxyCompactItemize}
+
+
+\subsection{\-Define \-Documentation}
+\hypertarget{gpu_2src_2train_8cpp_a34b04bd23b07b485921a728ad0805ac4}{\index{gpu/src/train.\-cpp@{gpu/src/train.\-cpp}!\-M\-A\-I\-N@{\-M\-A\-I\-N}}
+\index{\-M\-A\-I\-N@{\-M\-A\-I\-N}!gpu/src/train.cpp@{gpu/src/train.\-cpp}}
+\subsubsection[{\-M\-A\-I\-N}]{\setlength{\rightskip}{0pt plus 5cm}\#define {\bf \-M\-A\-I\-N}}}\label{gpu_2src_2train_8cpp_a34b04bd23b07b485921a728ad0805ac4}
+\hypertarget{gpu_2src_2train_8cpp_ab2868d85c8a74e3ee08bdc44580e2235}{\index{gpu/src/train.\-cpp@{gpu/src/train.\-cpp}!\-S\-A\-V\-E@{\-S\-A\-V\-E}}
+\index{\-S\-A\-V\-E@{\-S\-A\-V\-E}!gpu/src/train.cpp@{gpu/src/train.\-cpp}}
+\subsubsection[{\-S\-A\-V\-E}]{\setlength{\rightskip}{0pt plus 5cm}\#define {\bf \-S\-A\-V\-E}}}\label{gpu_2src_2train_8cpp_ab2868d85c8a74e3ee08bdc44580e2235}
+
+
+\subsection{\-Function \-Documentation}
+\hypertarget{gpu_2src_2train_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}{\index{gpu/src/train.\-cpp@{gpu/src/train.\-cpp}!main@{main}}
+\index{main@{main}!gpu/src/train.cpp@{gpu/src/train.\-cpp}}
+\subsubsection[{main}]{\setlength{\rightskip}{0pt plus 5cm}int {\bf main} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{gpu_2src_2train_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}
+
+
+\-Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{gpu_2src_2train_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{gpu_2src_2train_8cpp_a8d8f47ed70e9d49f1a0361ee478ee55b}{\index{gpu/src/train.\-cpp@{gpu/src/train.\-cpp}!print\-\_\-class@{print\-\_\-class}}
+\index{print\-\_\-class@{print\-\_\-class}!gpu/src/train.cpp@{gpu/src/train.\-cpp}}
+\subsubsection[{print\-\_\-class}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf print\-\_\-class} (
+\begin{DoxyParamCaption}
+\item[{const \-Matrix\-Xd \&}]{weight, }
+\item[{const \-Matrix\-Xd \&}]{bias}
+\end{DoxyParamCaption}
+)}}\label{gpu_2src_2train_8cpp_a8d8f47ed70e9d49f1a0361ee478ee55b}
+\hypertarget{gpu_2src_2train_8cpp_a7bc382c1af51bbe0abf0f61a5e98c99c}{\index{gpu/src/train.\-cpp@{gpu/src/train.\-cpp}!print\-\_\-conv@{print\-\_\-conv}}
+\index{print\-\_\-conv@{print\-\_\-conv}!gpu/src/train.cpp@{gpu/src/train.\-cpp}}
+\subsubsection[{print\-\_\-conv}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf print\-\_\-conv} (
+\begin{DoxyParamCaption}
+\item[{const vector$<$ \-Matrix\-Xd $>$ \&}]{weights, }
+\item[{const \-Matrix\-Xd \&}]{biases}
+\end{DoxyParamCaption}
+)}}\label{gpu_2src_2train_8cpp_a7bc382c1af51bbe0abf0f61a5e98c99c}
+\hypertarget{gpu_2src_2train_8cpp_a85d8021bce07b2466383f3891dc6c913}{\index{gpu/src/train.\-cpp@{gpu/src/train.\-cpp}!training\-\_\-batch@{training\-\_\-batch}}
+\index{training\-\_\-batch@{training\-\_\-batch}!gpu/src/train.cpp@{gpu/src/train.\-cpp}}
+\subsubsection[{training\-\_\-batch}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf training\-\_\-batch} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{gpu_2src_2train_8cpp_a85d8021bce07b2466383f3891dc6c913}
+
+
+\-Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{gpu_2src_2train_8cpp_a85d8021bce07b2466383f3891dc6c913_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{gpu_2src_2train_8cpp_a6113682517703008d4dea0c653448610}{\index{gpu/src/train.\-cpp@{gpu/src/train.\-cpp}!training\-\_\-single@{training\-\_\-single}}
+\index{training\-\_\-single@{training\-\_\-single}!gpu/src/train.cpp@{gpu/src/train.\-cpp}}
+\subsubsection[{training\-\_\-single}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf training\-\_\-single} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{gpu_2src_2train_8cpp_a6113682517703008d4dea0c653448610}
+
+
+\-Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{gpu_2src_2train_8cpp_a6113682517703008d4dea0c653448610_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+\subsection{\-Variable \-Documentation}
+\hypertarget{gpu_2src_2train_8cpp_a2c643af60711df9339a5a9fb6519148b}{\index{gpu/src/train.\-cpp@{gpu/src/train.\-cpp}!batch\-\_\-size@{batch\-\_\-size}}
+\index{batch\-\_\-size@{batch\-\_\-size}!gpu/src/train.cpp@{gpu/src/train.\-cpp}}
+\subsubsection[{batch\-\_\-size}]{\setlength{\rightskip}{0pt plus 5cm}const int {\bf batch\-\_\-size} = 40}}\label{gpu_2src_2train_8cpp_a2c643af60711df9339a5a9fb6519148b}
+\hypertarget{gpu_2src_2train_8cpp_a91f56d5c28de4346a57200665d995784}{\index{gpu/src/train.\-cpp@{gpu/src/train.\-cpp}!bb@{bb}}
+\index{bb@{bb}!gpu/src/train.cpp@{gpu/src/train.\-cpp}}
+\subsubsection[{bb}]{\setlength{\rightskip}{0pt plus 5cm}const double {\bf bb} = 0.\-0005}}\label{gpu_2src_2train_8cpp_a91f56d5c28de4346a57200665d995784}
+\hypertarget{gpu_2src_2train_8cpp_a34f4541b93687f4eba94f12aadd95050}{\index{gpu/src/train.\-cpp@{gpu/src/train.\-cpp}!beginning@{beginning}}
+\index{beginning@{beginning}!gpu/src/train.cpp@{gpu/src/train.\-cpp}}
+\subsubsection[{beginning}]{\setlength{\rightskip}{0pt plus 5cm}int {\bf beginning} = 1}}\label{gpu_2src_2train_8cpp_a34f4541b93687f4eba94f12aadd95050}
+\hypertarget{gpu_2src_2train_8cpp_a032a7a5229c6fd6a22f96436ae9500fa}{\index{gpu/src/train.\-cpp@{gpu/src/train.\-cpp}!bias\-\_\-bound@{bias\-\_\-bound}}
+\index{bias\-\_\-bound@{bias\-\_\-bound}!gpu/src/train.cpp@{gpu/src/train.\-cpp}}
+\subsubsection[{bias\-\_\-bound}]{\setlength{\rightskip}{0pt plus 5cm}const double {\bf bias\-\_\-bound} = 0.\-01}}\label{gpu_2src_2train_8cpp_a032a7a5229c6fd6a22f96436ae9500fa}
+\hypertarget{gpu_2src_2train_8cpp_a8476ec27c8e5400b7eec34f0d0ad6be6}{\index{gpu/src/train.\-cpp@{gpu/src/train.\-cpp}!image\-\_\-height@{image\-\_\-height}}
+\index{image\-\_\-height@{image\-\_\-height}!gpu/src/train.cpp@{gpu/src/train.\-cpp}}
+\subsubsection[{image\-\_\-height}]{\setlength{\rightskip}{0pt plus 5cm}const int {\bf image\-\_\-height} = 320}}\label{gpu_2src_2train_8cpp_a8476ec27c8e5400b7eec34f0d0ad6be6}
+\hypertarget{gpu_2src_2train_8cpp_a864b445a94b3a4416c82a97ab9cd3a55}{\index{gpu/src/train.\-cpp@{gpu/src/train.\-cpp}!image\-\_\-width@{image\-\_\-width}}
+\index{image\-\_\-width@{image\-\_\-width}!gpu/src/train.cpp@{gpu/src/train.\-cpp}}
+\subsubsection[{image\-\_\-width}]{\setlength{\rightskip}{0pt plus 5cm}const int {\bf image\-\_\-width} = 240}}\label{gpu_2src_2train_8cpp_a864b445a94b3a4416c82a97ab9cd3a55}
+\hypertarget{gpu_2src_2train_8cpp_a39899a59e72620ab32d676987dd8ba49}{\index{gpu/src/train.\-cpp@{gpu/src/train.\-cpp}!kernel\-\_\-size@{kernel\-\_\-size}}
+\index{kernel\-\_\-size@{kernel\-\_\-size}!gpu/src/train.cpp@{gpu/src/train.\-cpp}}
+\subsubsection[{kernel\-\_\-size}]{\setlength{\rightskip}{0pt plus 5cm}const int {\bf kernel\-\_\-size} = 7}}\label{gpu_2src_2train_8cpp_a39899a59e72620ab32d676987dd8ba49}
+\hypertarget{gpu_2src_2train_8cpp_abaa236ecd5f1965a51e3e3337e1a4ae5}{\index{gpu/src/train.\-cpp@{gpu/src/train.\-cpp}!learning\-\_\-rate1@{learning\-\_\-rate1}}
+\index{learning\-\_\-rate1@{learning\-\_\-rate1}!gpu/src/train.cpp@{gpu/src/train.\-cpp}}
+\subsubsection[{learning\-\_\-rate1}]{\setlength{\rightskip}{0pt plus 5cm}double {\bf learning\-\_\-rate1} = 0.\-01}}\label{gpu_2src_2train_8cpp_abaa236ecd5f1965a51e3e3337e1a4ae5}
+\hypertarget{gpu_2src_2train_8cpp_af91776424ae6645e9b60e25640c418ed}{\index{gpu/src/train.\-cpp@{gpu/src/train.\-cpp}!learning\-\_\-rate2@{learning\-\_\-rate2}}
+\index{learning\-\_\-rate2@{learning\-\_\-rate2}!gpu/src/train.cpp@{gpu/src/train.\-cpp}}
+\subsubsection[{learning\-\_\-rate2}]{\setlength{\rightskip}{0pt plus 5cm}double {\bf learning\-\_\-rate2} = 0.\-01}}\label{gpu_2src_2train_8cpp_af91776424ae6645e9b60e25640c418ed}
+\hypertarget{gpu_2src_2train_8cpp_a76ec1a7087432a2317f948b84b6bd788}{\index{gpu/src/train.\-cpp@{gpu/src/train.\-cpp}!loop@{loop}}
+\index{loop@{loop}!gpu/src/train.cpp@{gpu/src/train.\-cpp}}
+\subsubsection[{loop}]{\setlength{\rightskip}{0pt plus 5cm}const int {\bf loop} = 500}}\label{gpu_2src_2train_8cpp_a76ec1a7087432a2317f948b84b6bd788}
+\hypertarget{gpu_2src_2train_8cpp_ab11165448f7def007498acd8283a10ff}{\index{gpu/src/train.\-cpp@{gpu/src/train.\-cpp}!num\-\_\-batches@{num\-\_\-batches}}
+\index{num\-\_\-batches@{num\-\_\-batches}!gpu/src/train.cpp@{gpu/src/train.\-cpp}}
+\subsubsection[{num\-\_\-batches}]{\setlength{\rightskip}{0pt plus 5cm}const int {\bf num\-\_\-batches} = {\bf num\-\_\-images} / {\bf batch\-\_\-size}}}\label{gpu_2src_2train_8cpp_ab11165448f7def007498acd8283a10ff}
+\hypertarget{gpu_2src_2train_8cpp_a326e252cb0b0ed7a7b634b0cfab52a28}{\index{gpu/src/train.\-cpp@{gpu/src/train.\-cpp}!num\-\_\-images@{num\-\_\-images}}
+\index{num\-\_\-images@{num\-\_\-images}!gpu/src/train.cpp@{gpu/src/train.\-cpp}}
+\subsubsection[{num\-\_\-images}]{\setlength{\rightskip}{0pt plus 5cm}const int {\bf num\-\_\-images} = 200}}\label{gpu_2src_2train_8cpp_a326e252cb0b0ed7a7b634b0cfab52a28}
+\hypertarget{gpu_2src_2train_8cpp_aeda9aa6239a9e3337b85ef51668739d3}{\index{gpu/src/train.\-cpp@{gpu/src/train.\-cpp}!num\-\_\-input\-\_\-channels@{num\-\_\-input\-\_\-channels}}
+\index{num\-\_\-input\-\_\-channels@{num\-\_\-input\-\_\-channels}!gpu/src/train.cpp@{gpu/src/train.\-cpp}}
+\subsubsection[{num\-\_\-input\-\_\-channels}]{\setlength{\rightskip}{0pt plus 5cm}const int {\bf num\-\_\-input\-\_\-channels} = 3}}\label{gpu_2src_2train_8cpp_aeda9aa6239a9e3337b85ef51668739d3}
+\hypertarget{gpu_2src_2train_8cpp_a9b2018494ed2bdca5175de5bea19b198}{\index{gpu/src/train.\-cpp@{gpu/src/train.\-cpp}!num\-\_\-kerns1@{num\-\_\-kerns1}}
+\index{num\-\_\-kerns1@{num\-\_\-kerns1}!gpu/src/train.cpp@{gpu/src/train.\-cpp}}
+\subsubsection[{num\-\_\-kerns1}]{\setlength{\rightskip}{0pt plus 5cm}const int {\bf num\-\_\-kerns1} = 4}}\label{gpu_2src_2train_8cpp_a9b2018494ed2bdca5175de5bea19b198}
+\hypertarget{gpu_2src_2train_8cpp_a5b047b4d1dd331bbb11859d5b91c9f8f}{\index{gpu/src/train.\-cpp@{gpu/src/train.\-cpp}!num\-\_\-kerns2@{num\-\_\-kerns2}}
+\index{num\-\_\-kerns2@{num\-\_\-kerns2}!gpu/src/train.cpp@{gpu/src/train.\-cpp}}
+\subsubsection[{num\-\_\-kerns2}]{\setlength{\rightskip}{0pt plus 5cm}const int {\bf num\-\_\-kerns2} = 6}}\label{gpu_2src_2train_8cpp_a5b047b4d1dd331bbb11859d5b91c9f8f}
+\hypertarget{gpu_2src_2train_8cpp_a0b12f9b542065fa65cb8604002c2799d}{\index{gpu/src/train.\-cpp@{gpu/src/train.\-cpp}!num\-\_\-kerns3@{num\-\_\-kerns3}}
+\index{num\-\_\-kerns3@{num\-\_\-kerns3}!gpu/src/train.cpp@{gpu/src/train.\-cpp}}
+\subsubsection[{num\-\_\-kerns3}]{\setlength{\rightskip}{0pt plus 5cm}const int {\bf num\-\_\-kerns3} = 8}}\label{gpu_2src_2train_8cpp_a0b12f9b542065fa65cb8604002c2799d}
+\hypertarget{gpu_2src_2train_8cpp_a8917e12c91d83995f62f81e68aa9cb6b}{\index{gpu/src/train.\-cpp@{gpu/src/train.\-cpp}!num\-\_\-labels@{num\-\_\-labels}}
+\index{num\-\_\-labels@{num\-\_\-labels}!gpu/src/train.cpp@{gpu/src/train.\-cpp}}
+\subsubsection[{num\-\_\-labels}]{\setlength{\rightskip}{0pt plus 5cm}const int {\bf num\-\_\-labels} = 9}}\label{gpu_2src_2train_8cpp_a8917e12c91d83995f62f81e68aa9cb6b}
+\hypertarget{gpu_2src_2train_8cpp_af17a6f9c9fc8fc26d1645cf6291bb0d9}{\index{gpu/src/train.\-cpp@{gpu/src/train.\-cpp}!pool@{pool}}
+\index{pool@{pool}!gpu/src/train.cpp@{gpu/src/train.\-cpp}}
+\subsubsection[{pool}]{\setlength{\rightskip}{0pt plus 5cm}const int {\bf pool} = 8}}\label{gpu_2src_2train_8cpp_af17a6f9c9fc8fc26d1645cf6291bb0d9}
+\hypertarget{gpu_2src_2train_8cpp_ac8d3682725de2f401975e90712ce1e5c}{\index{gpu/src/train.\-cpp@{gpu/src/train.\-cpp}!pool\-\_\-size@{pool\-\_\-size}}
+\index{pool\-\_\-size@{pool\-\_\-size}!gpu/src/train.cpp@{gpu/src/train.\-cpp}}
+\subsubsection[{pool\-\_\-size}]{\setlength{\rightskip}{0pt plus 5cm}const int {\bf pool\-\_\-size} = 2}}\label{gpu_2src_2train_8cpp_ac8d3682725de2f401975e90712ce1e5c}
+\hypertarget{gpu_2src_2train_8cpp_a92f3087835c14040e65651f0638ca507}{\index{gpu/src/train.\-cpp@{gpu/src/train.\-cpp}!wb@{wb}}
+\index{wb@{wb}!gpu/src/train.cpp@{gpu/src/train.\-cpp}}
+\subsubsection[{wb}]{\setlength{\rightskip}{0pt plus 5cm}const double {\bf wb} = 0.\-05}}\label{gpu_2src_2train_8cpp_a92f3087835c14040e65651f0638ca507}
+\hypertarget{gpu_2src_2train_8cpp_aa1b0a484ac95c8aa6e11ff885a2dae78}{\index{gpu/src/train.\-cpp@{gpu/src/train.\-cpp}!weight\-\_\-bound@{weight\-\_\-bound}}
+\index{weight\-\_\-bound@{weight\-\_\-bound}!gpu/src/train.cpp@{gpu/src/train.\-cpp}}
+\subsubsection[{weight\-\_\-bound}]{\setlength{\rightskip}{0pt plus 5cm}const double {\bf weight\-\_\-bound} = 0.\-1}}\label{gpu_2src_2train_8cpp_aa1b0a484ac95c8aa6e11ff885a2dae78}

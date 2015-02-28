@@ -1,0 +1,206 @@
+\hypertarget{classlibcnn_1_1_softmax}{\section{libcnn\-:\-:\-Softmax \-Class \-Reference}
+\label{classlibcnn_1_1_softmax}\index{libcnn\-::\-Softmax@{libcnn\-::\-Softmax}}
+}
+
+
+{\ttfamily \#include $<$softmax\-\_\-class.\-h$>$}
+
+
+
+\-Collaboration diagram for libcnn\-:\-:\-Softmax\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=208pt]{classlibcnn_1_1_softmax__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{\-Public \-Member \-Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classlibcnn_1_1_softmax_a1905addb7d4894b92ebb3c141040f7a1}{\-Softmax} (const \-Matrix\-Xd \&, const int \&, const \-Vector\-Xi \&, const double \&, const double \&)
+\item 
+\hyperlink{classlibcnn_1_1_softmax_aa43e90709ba3c5e44e5b7b435e54a902}{\-Softmax} (const \-Matrix\-Xd \&, const int \&, const \-Vector\-Xi \&, const double \&, const double \&, const \-Matrix\-Xd \&, const \-Matrix\-Xd \&)
+\item 
+void \hyperlink{classlibcnn_1_1_softmax_ae6af9e18ce2ab849d26b38a9d4a5be20}{calculation\-\_\-output} ()
+\item 
+void \hyperlink{classlibcnn_1_1_softmax_ad52de893453032d29c6fb3bca6e9f492}{backprop} (const double \&)
+\item 
+\hyperlink{classlibcnn_1_1_softmax_a1905addb7d4894b92ebb3c141040f7a1}{\-Softmax} (const \-Matrix\-Xd \&, const int \&, const \-Vector\-Xi \&, const double \&, const double \&)
+\item 
+\hyperlink{classlibcnn_1_1_softmax_aa43e90709ba3c5e44e5b7b435e54a902}{\-Softmax} (const \-Matrix\-Xd \&, const int \&, const \-Vector\-Xi \&, const double \&, const double \&, const \-Matrix\-Xd \&, const \-Matrix\-Xd \&)
+\item 
+void \hyperlink{classlibcnn_1_1_softmax_ae6af9e18ce2ab849d26b38a9d4a5be20}{calculation\-\_\-output} ()
+\item 
+void \hyperlink{classlibcnn_1_1_softmax_ad52de893453032d29c6fb3bca6e9f492}{backprop} (const double \&)
+\end{DoxyCompactItemize}
+\subsection*{\-Public \-Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\-Eigen\-::\-Matrix\-Xd \hyperlink{classlibcnn_1_1_softmax_a9904a3314f8b72c089cdfe5930f75445}{weight}
+\item 
+\-Eigen\-::\-Matrix\-Xd \hyperlink{classlibcnn_1_1_softmax_af7177b8068a5bb00b493684bd17e133e}{bias}
+\item 
+\-Eigen\-::\-Matrix\-Xd \hyperlink{classlibcnn_1_1_softmax_a6a7f3d59e90ecf66b9ddf437b452c780}{input}
+\item 
+\-Eigen\-::\-Matrix\-Xd \hyperlink{classlibcnn_1_1_softmax_a0d1f28abafbb3cddcf87defa87178ce4}{prob}
+\item 
+\-Eigen\-::\-Vector\-Xi \hyperlink{classlibcnn_1_1_softmax_ad2c468ea12679d111190c549fc46d8c1}{truth}
+\item 
+\-Eigen\-::\-Vector\-Xd \hyperlink{classlibcnn_1_1_softmax_a851740b9977df6ebc1dd3c672e367f56}{m}
+\item 
+\-Eigen\-::\-Vector\-Xd \hyperlink{classlibcnn_1_1_softmax_a89d340fbed0365db9c30dffafc492aca}{c}
+\item 
+double \hyperlink{classlibcnn_1_1_softmax_a13cbff525a19cea4f94836f5b439b2a7}{cost}
+\item 
+double \hyperlink{classlibcnn_1_1_softmax_a3995e5ba8bc5d766482735974b8eda92}{lr}
+\item 
+\-Eigen\-::\-Matrix\-Xd \hyperlink{classlibcnn_1_1_softmax_a3c4257681cef58ab58ca3601400ab098}{grad\-\_\-input}
+\end{DoxyCompactItemize}
+
+
+\subsection{\-Constructor \& \-Destructor \-Documentation}
+\hypertarget{classlibcnn_1_1_softmax_a1905addb7d4894b92ebb3c141040f7a1}{\index{libcnn\-::\-Softmax@{libcnn\-::\-Softmax}!\-Softmax@{\-Softmax}}
+\index{\-Softmax@{\-Softmax}!libcnn::Softmax@{libcnn\-::\-Softmax}}
+\subsubsection[{\-Softmax}]{\setlength{\rightskip}{0pt plus 5cm}{\bf libcnn\-::\-Softmax\-::\-Softmax} (
+\begin{DoxyParamCaption}
+\item[{const \-Matrix\-Xd \&}]{cnn\-\_\-output, }
+\item[{const int \&}]{\-Label\-\_\-number, }
+\item[{const \-Vector\-Xi \&}]{ground\-\_\-truth, }
+\item[{const double \&}]{w\-\_\-bound, }
+\item[{const double \&}]{b\-\_\-bound}
+\end{DoxyParamCaption}
+)}}\label{classlibcnn_1_1_softmax_a1905addb7d4894b92ebb3c141040f7a1}
+
+
+\-Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=316pt]{classlibcnn_1_1_softmax_a1905addb7d4894b92ebb3c141040f7a1_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classlibcnn_1_1_softmax_aa43e90709ba3c5e44e5b7b435e54a902}{\index{libcnn\-::\-Softmax@{libcnn\-::\-Softmax}!\-Softmax@{\-Softmax}}
+\index{\-Softmax@{\-Softmax}!libcnn::Softmax@{libcnn\-::\-Softmax}}
+\subsubsection[{\-Softmax}]{\setlength{\rightskip}{0pt plus 5cm}{\bf libcnn\-::\-Softmax\-::\-Softmax} (
+\begin{DoxyParamCaption}
+\item[{const \-Matrix\-Xd \&}]{cnn\-\_\-output, }
+\item[{const int \&}]{\-Label\-\_\-number, }
+\item[{const \-Vector\-Xi \&}]{ground\-\_\-truth, }
+\item[{const double \&}]{w\-\_\-bound, }
+\item[{const double \&}]{b\-\_\-bound, }
+\item[{const \-Matrix\-Xd \&}]{initial\-\_\-weight, }
+\item[{const \-Matrix\-Xd \&}]{initial\-\_\-bias}
+\end{DoxyParamCaption}
+)}}\label{classlibcnn_1_1_softmax_aa43e90709ba3c5e44e5b7b435e54a902}
+
+
+\-Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=316pt]{classlibcnn_1_1_softmax_aa43e90709ba3c5e44e5b7b435e54a902_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classlibcnn_1_1_softmax_a1905addb7d4894b92ebb3c141040f7a1}{\index{libcnn\-::\-Softmax@{libcnn\-::\-Softmax}!\-Softmax@{\-Softmax}}
+\index{\-Softmax@{\-Softmax}!libcnn::Softmax@{libcnn\-::\-Softmax}}
+\subsubsection[{\-Softmax}]{\setlength{\rightskip}{0pt plus 5cm}{\bf libcnn\-::\-Softmax\-::\-Softmax} (
+\begin{DoxyParamCaption}
+\item[{const \-Matrix\-Xd \&}]{, }
+\item[{const int \&}]{, }
+\item[{const \-Vector\-Xi \&}]{, }
+\item[{const double \&}]{, }
+\item[{const double \&}]{}
+\end{DoxyParamCaption}
+)}}\label{classlibcnn_1_1_softmax_a1905addb7d4894b92ebb3c141040f7a1}
+\hypertarget{classlibcnn_1_1_softmax_aa43e90709ba3c5e44e5b7b435e54a902}{\index{libcnn\-::\-Softmax@{libcnn\-::\-Softmax}!\-Softmax@{\-Softmax}}
+\index{\-Softmax@{\-Softmax}!libcnn::Softmax@{libcnn\-::\-Softmax}}
+\subsubsection[{\-Softmax}]{\setlength{\rightskip}{0pt plus 5cm}{\bf libcnn\-::\-Softmax\-::\-Softmax} (
+\begin{DoxyParamCaption}
+\item[{const \-Matrix\-Xd \&}]{, }
+\item[{const int \&}]{, }
+\item[{const \-Vector\-Xi \&}]{, }
+\item[{const double \&}]{, }
+\item[{const double \&}]{, }
+\item[{const \-Matrix\-Xd \&}]{, }
+\item[{const \-Matrix\-Xd \&}]{}
+\end{DoxyParamCaption}
+)}}\label{classlibcnn_1_1_softmax_aa43e90709ba3c5e44e5b7b435e54a902}
+
+
+\subsection{\-Member \-Function \-Documentation}
+\hypertarget{classlibcnn_1_1_softmax_ad52de893453032d29c6fb3bca6e9f492}{\index{libcnn\-::\-Softmax@{libcnn\-::\-Softmax}!backprop@{backprop}}
+\index{backprop@{backprop}!libcnn::Softmax@{libcnn\-::\-Softmax}}
+\subsubsection[{backprop}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf libcnn\-::\-Softmax\-::backprop} (
+\begin{DoxyParamCaption}
+\item[{const double \&}]{lr}
+\end{DoxyParamCaption}
+)}}\label{classlibcnn_1_1_softmax_ad52de893453032d29c6fb3bca6e9f492}
+\hypertarget{classlibcnn_1_1_softmax_ad52de893453032d29c6fb3bca6e9f492}{\index{libcnn\-::\-Softmax@{libcnn\-::\-Softmax}!backprop@{backprop}}
+\index{backprop@{backprop}!libcnn::Softmax@{libcnn\-::\-Softmax}}
+\subsubsection[{backprop}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf libcnn\-::\-Softmax\-::backprop} (
+\begin{DoxyParamCaption}
+\item[{const double \&}]{}
+\end{DoxyParamCaption}
+)}}\label{classlibcnn_1_1_softmax_ad52de893453032d29c6fb3bca6e9f492}
+\hypertarget{classlibcnn_1_1_softmax_ae6af9e18ce2ab849d26b38a9d4a5be20}{\index{libcnn\-::\-Softmax@{libcnn\-::\-Softmax}!calculation\-\_\-output@{calculation\-\_\-output}}
+\index{calculation\-\_\-output@{calculation\-\_\-output}!libcnn::Softmax@{libcnn\-::\-Softmax}}
+\subsubsection[{calculation\-\_\-output}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf libcnn\-::\-Softmax\-::calculation\-\_\-output} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classlibcnn_1_1_softmax_ae6af9e18ce2ab849d26b38a9d4a5be20}
+\hypertarget{classlibcnn_1_1_softmax_ae6af9e18ce2ab849d26b38a9d4a5be20}{\index{libcnn\-::\-Softmax@{libcnn\-::\-Softmax}!calculation\-\_\-output@{calculation\-\_\-output}}
+\index{calculation\-\_\-output@{calculation\-\_\-output}!libcnn::Softmax@{libcnn\-::\-Softmax}}
+\subsubsection[{calculation\-\_\-output}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf libcnn\-::\-Softmax\-::calculation\-\_\-output} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classlibcnn_1_1_softmax_ae6af9e18ce2ab849d26b38a9d4a5be20}
+
+
+\subsection{\-Member \-Data \-Documentation}
+\hypertarget{classlibcnn_1_1_softmax_af7177b8068a5bb00b493684bd17e133e}{\index{libcnn\-::\-Softmax@{libcnn\-::\-Softmax}!bias@{bias}}
+\index{bias@{bias}!libcnn::Softmax@{libcnn\-::\-Softmax}}
+\subsubsection[{bias}]{\setlength{\rightskip}{0pt plus 5cm}\-Eigen\-::\-Matrix\-Xd {\bf libcnn\-::\-Softmax\-::bias}}}\label{classlibcnn_1_1_softmax_af7177b8068a5bb00b493684bd17e133e}
+\hypertarget{classlibcnn_1_1_softmax_a89d340fbed0365db9c30dffafc492aca}{\index{libcnn\-::\-Softmax@{libcnn\-::\-Softmax}!c@{c}}
+\index{c@{c}!libcnn::Softmax@{libcnn\-::\-Softmax}}
+\subsubsection[{c}]{\setlength{\rightskip}{0pt plus 5cm}\-Eigen\-::\-Vector\-Xd {\bf libcnn\-::\-Softmax\-::c}}}\label{classlibcnn_1_1_softmax_a89d340fbed0365db9c30dffafc492aca}
+\hypertarget{classlibcnn_1_1_softmax_a13cbff525a19cea4f94836f5b439b2a7}{\index{libcnn\-::\-Softmax@{libcnn\-::\-Softmax}!cost@{cost}}
+\index{cost@{cost}!libcnn::Softmax@{libcnn\-::\-Softmax}}
+\subsubsection[{cost}]{\setlength{\rightskip}{0pt plus 5cm}double {\bf libcnn\-::\-Softmax\-::cost}}}\label{classlibcnn_1_1_softmax_a13cbff525a19cea4f94836f5b439b2a7}
+\hypertarget{classlibcnn_1_1_softmax_a3c4257681cef58ab58ca3601400ab098}{\index{libcnn\-::\-Softmax@{libcnn\-::\-Softmax}!grad\-\_\-input@{grad\-\_\-input}}
+\index{grad\-\_\-input@{grad\-\_\-input}!libcnn::Softmax@{libcnn\-::\-Softmax}}
+\subsubsection[{grad\-\_\-input}]{\setlength{\rightskip}{0pt plus 5cm}\-Eigen\-::\-Matrix\-Xd {\bf libcnn\-::\-Softmax\-::grad\-\_\-input}}}\label{classlibcnn_1_1_softmax_a3c4257681cef58ab58ca3601400ab098}
+\hypertarget{classlibcnn_1_1_softmax_a6a7f3d59e90ecf66b9ddf437b452c780}{\index{libcnn\-::\-Softmax@{libcnn\-::\-Softmax}!input@{input}}
+\index{input@{input}!libcnn::Softmax@{libcnn\-::\-Softmax}}
+\subsubsection[{input}]{\setlength{\rightskip}{0pt plus 5cm}\-Eigen\-::\-Matrix\-Xd {\bf libcnn\-::\-Softmax\-::input}}}\label{classlibcnn_1_1_softmax_a6a7f3d59e90ecf66b9ddf437b452c780}
+\hypertarget{classlibcnn_1_1_softmax_a3995e5ba8bc5d766482735974b8eda92}{\index{libcnn\-::\-Softmax@{libcnn\-::\-Softmax}!lr@{lr}}
+\index{lr@{lr}!libcnn::Softmax@{libcnn\-::\-Softmax}}
+\subsubsection[{lr}]{\setlength{\rightskip}{0pt plus 5cm}double {\bf libcnn\-::\-Softmax\-::lr}}}\label{classlibcnn_1_1_softmax_a3995e5ba8bc5d766482735974b8eda92}
+\hypertarget{classlibcnn_1_1_softmax_a851740b9977df6ebc1dd3c672e367f56}{\index{libcnn\-::\-Softmax@{libcnn\-::\-Softmax}!m@{m}}
+\index{m@{m}!libcnn::Softmax@{libcnn\-::\-Softmax}}
+\subsubsection[{m}]{\setlength{\rightskip}{0pt plus 5cm}\-Eigen\-::\-Vector\-Xd {\bf libcnn\-::\-Softmax\-::m}}}\label{classlibcnn_1_1_softmax_a851740b9977df6ebc1dd3c672e367f56}
+\hypertarget{classlibcnn_1_1_softmax_a0d1f28abafbb3cddcf87defa87178ce4}{\index{libcnn\-::\-Softmax@{libcnn\-::\-Softmax}!prob@{prob}}
+\index{prob@{prob}!libcnn::Softmax@{libcnn\-::\-Softmax}}
+\subsubsection[{prob}]{\setlength{\rightskip}{0pt plus 5cm}\-Eigen\-::\-Matrix\-Xd {\bf libcnn\-::\-Softmax\-::prob}}}\label{classlibcnn_1_1_softmax_a0d1f28abafbb3cddcf87defa87178ce4}
+\hypertarget{classlibcnn_1_1_softmax_ad2c468ea12679d111190c549fc46d8c1}{\index{libcnn\-::\-Softmax@{libcnn\-::\-Softmax}!truth@{truth}}
+\index{truth@{truth}!libcnn::Softmax@{libcnn\-::\-Softmax}}
+\subsubsection[{truth}]{\setlength{\rightskip}{0pt plus 5cm}\-Eigen\-::\-Vector\-Xi {\bf libcnn\-::\-Softmax\-::truth}}}\label{classlibcnn_1_1_softmax_ad2c468ea12679d111190c549fc46d8c1}
+\hypertarget{classlibcnn_1_1_softmax_a9904a3314f8b72c089cdfe5930f75445}{\index{libcnn\-::\-Softmax@{libcnn\-::\-Softmax}!weight@{weight}}
+\index{weight@{weight}!libcnn::Softmax@{libcnn\-::\-Softmax}}
+\subsubsection[{weight}]{\setlength{\rightskip}{0pt plus 5cm}\-Eigen\-::\-Matrix\-Xd {\bf libcnn\-::\-Softmax\-::weight}}}\label{classlibcnn_1_1_softmax_a9904a3314f8b72c089cdfe5930f75445}
+
+
+\-The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+gpu/include/\hyperlink{gpu_2include_2softmax__class_8h}{softmax\-\_\-class.\-h}\item 
+include/\hyperlink{include_2softmax__class_8h}{softmax\-\_\-class.\-h}\item 
+gpu/src/\hyperlink{gpu_2src_2softmax__class_8cpp}{softmax\-\_\-class.\-cpp}\item 
+src/\hyperlink{src_2softmax__class_8cpp}{softmax\-\_\-class.\-cpp}\end{DoxyCompactItemize}

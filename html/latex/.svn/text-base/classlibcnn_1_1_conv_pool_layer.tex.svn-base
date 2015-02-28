@@ -1,0 +1,212 @@
+\hypertarget{classlibcnn_1_1_conv_pool_layer}{\section{libcnn\-:\-:\-Conv\-Pool\-Layer \-Class \-Reference}
+\label{classlibcnn_1_1_conv_pool_layer}\index{libcnn\-::\-Conv\-Pool\-Layer@{libcnn\-::\-Conv\-Pool\-Layer}}
+}
+
+
+{\ttfamily \#include $<$conv\-\_\-layer.\-h$>$}
+
+\subsection*{\-Public \-Member \-Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classlibcnn_1_1_conv_pool_layer_a4ef1d6c7eac689b2472815abf5aea08a}{\-Conv\-Pool\-Layer} (const vector$<$ vector$<$ \-Matrix\-Xd $>$ $>$ \&, const int \&, const int \&, const string \&, const string \&)
+\item 
+\hyperlink{classlibcnn_1_1_conv_pool_layer_ad24c278c8e1ea940eecc862dd8a334c3}{\-Conv\-Pool\-Layer} (const vector$<$ vector$<$ \-Matrix\-Xd $>$ $>$ \&, const int \&, const int \&, const string \&, const string \&, const vector$<$ \-Matrix\-Xd $>$ \&, const \-Matrix\-Xd \&)
+\item 
+void \hyperlink{classlibcnn_1_1_conv_pool_layer_a29c5445a08cf88d44a69b9370e5adc1d}{compute} ()
+\item 
+void \hyperlink{classlibcnn_1_1_conv_pool_layer_a32bafdf90d99eb5fc5902f831b208838}{bp\-\_\-activate} (const vector$<$ vector$<$ \-Matrix\-Xd $>$ $>$ \&, const vector$<$ vector$<$ \-Matrix\-Xd $>$ $>$ \&, vector$<$ vector$<$ \-Matrix\-Xd $>$ $>$ \&)
+\item 
+void \hyperlink{classlibcnn_1_1_conv_pool_layer_a30204d1f55cc343c422cb6da5b1b4590}{bp\-\_\-conv} (const vector$<$ vector$<$ \-Matrix\-Xd $>$ $>$ \&, const double \&)
+\item 
+void \hyperlink{classlibcnn_1_1_conv_pool_layer_ab74a2227a84ff1de545dd1e69f0c8fb3}{back\-\_\-prop} (const vector$<$ vector$<$ \-Matrix\-Xd $>$ $>$ \&, const double \&)
+\item 
+\hyperlink{classlibcnn_1_1_conv_pool_layer_a4ef1d6c7eac689b2472815abf5aea08a}{\-Conv\-Pool\-Layer} (const vector$<$ vector$<$ \-Matrix\-Xd $>$ $>$ \&, const int \&, const int \&, const string \&, const string \&)
+\item 
+\hyperlink{classlibcnn_1_1_conv_pool_layer_ad24c278c8e1ea940eecc862dd8a334c3}{\-Conv\-Pool\-Layer} (const vector$<$ vector$<$ \-Matrix\-Xd $>$ $>$ \&, const int \&, const int \&, const string \&, const string \&, const vector$<$ \-Matrix\-Xd $>$ \&, const \-Matrix\-Xd \&)
+\item 
+void \hyperlink{classlibcnn_1_1_conv_pool_layer_a29c5445a08cf88d44a69b9370e5adc1d}{compute} ()
+\item 
+void \hyperlink{classlibcnn_1_1_conv_pool_layer_a32bafdf90d99eb5fc5902f831b208838}{bp\-\_\-activate} (const vector$<$ vector$<$ \-Matrix\-Xd $>$ $>$ \&, const vector$<$ vector$<$ \-Matrix\-Xd $>$ $>$ \&, vector$<$ vector$<$ \-Matrix\-Xd $>$ $>$ \&)
+\item 
+void \hyperlink{classlibcnn_1_1_conv_pool_layer_a30204d1f55cc343c422cb6da5b1b4590}{bp\-\_\-conv} (const vector$<$ vector$<$ \-Matrix\-Xd $>$ $>$ \&, const double \&)
+\item 
+void \hyperlink{classlibcnn_1_1_conv_pool_layer_ab74a2227a84ff1de545dd1e69f0c8fb3}{back\-\_\-prop} (const vector$<$ vector$<$ \-Matrix\-Xd $>$ $>$ \&, const double \&)
+\end{DoxyCompactItemize}
+\subsection*{\-Public \-Attributes}
+\begin{DoxyCompactItemize}
+\item 
+vector$<$ vector$<$ \-Matrix\-Xd $>$ $>$ \hyperlink{classlibcnn_1_1_conv_pool_layer_a63d9d97664284772029c36a897e4e30e}{batch\-\_\-maps\-\_\-input}
+\item 
+vector$<$ vector$<$ \-Matrix\-Xd $>$ $>$ \hyperlink{classlibcnn_1_1_conv_pool_layer_a519dad823100b62bc93738477a593a6d}{grad\-\_\-batch\-\_\-maps\-\_\-input}
+\item 
+vector$<$ \-Matrix\-Xd $>$ \hyperlink{classlibcnn_1_1_conv_pool_layer_ad9b3b0b372858e32e075565beec5226a}{weight}
+\item 
+vector$<$ \-Matrix\-Xd $>$ \hyperlink{classlibcnn_1_1_conv_pool_layer_a2728855bb4a00c4800ff4a912ef21e85}{grad\-\_\-weight}
+\item 
+\-Matrix\-Xd \hyperlink{classlibcnn_1_1_conv_pool_layer_a8b537b16fb08d935f442360f564b9403}{bias}
+\item 
+\-Matrix\-Xd \hyperlink{classlibcnn_1_1_conv_pool_layer_a4bf6b594b2a91f6bd8291ff8e446e4ba}{grad\-\_\-bias}
+\item 
+vector$<$ vector$<$ \-Matrix\-Xd $>$ $>$ \hyperlink{classlibcnn_1_1_conv_pool_layer_ad42c5b645c6103b200b9b950b4349550}{batch\-\_\-maps\-\_\-activated}
+\item 
+vector$<$ vector$<$ vector\*
+$<$ \-Matrix\-Xd $>$ $>$ $>$ \hyperlink{classlibcnn_1_1_conv_pool_layer_a0b8d18fc0be5f3e75813a86b24dce247}{batch\-\_\-coordinates}
+\item 
+string \hyperlink{classlibcnn_1_1_conv_pool_layer_aa57ba56fe0f3e38f58931137a03e07f3}{activation\-\_\-type}
+\end{DoxyCompactItemize}
+
+
+\subsection{\-Constructor \& \-Destructor \-Documentation}
+\hypertarget{classlibcnn_1_1_conv_pool_layer_a4ef1d6c7eac689b2472815abf5aea08a}{\index{libcnn\-::\-Conv\-Pool\-Layer@{libcnn\-::\-Conv\-Pool\-Layer}!\-Conv\-Pool\-Layer@{\-Conv\-Pool\-Layer}}
+\index{\-Conv\-Pool\-Layer@{\-Conv\-Pool\-Layer}!libcnn::ConvPoolLayer@{libcnn\-::\-Conv\-Pool\-Layer}}
+\subsubsection[{\-Conv\-Pool\-Layer}]{\setlength{\rightskip}{0pt plus 5cm}{\bf libcnn\-::\-Conv\-Pool\-Layer\-::\-Conv\-Pool\-Layer} (
+\begin{DoxyParamCaption}
+\item[{const vector$<$ vector$<$ \-Matrix\-Xd $>$ $>$ \&}]{input, }
+\item[{const int \&}]{num\-\_\-kerns, }
+\item[{const int \&}]{kern\-\_\-size, }
+\item[{const string \&}]{conv\-\_\-mode, }
+\item[{const string \&}]{act\-\_\-type}
+\end{DoxyParamCaption}
+)}}\label{classlibcnn_1_1_conv_pool_layer_a4ef1d6c7eac689b2472815abf5aea08a}
+\hypertarget{classlibcnn_1_1_conv_pool_layer_ad24c278c8e1ea940eecc862dd8a334c3}{\index{libcnn\-::\-Conv\-Pool\-Layer@{libcnn\-::\-Conv\-Pool\-Layer}!\-Conv\-Pool\-Layer@{\-Conv\-Pool\-Layer}}
+\index{\-Conv\-Pool\-Layer@{\-Conv\-Pool\-Layer}!libcnn::ConvPoolLayer@{libcnn\-::\-Conv\-Pool\-Layer}}
+\subsubsection[{\-Conv\-Pool\-Layer}]{\setlength{\rightskip}{0pt plus 5cm}{\bf libcnn\-::\-Conv\-Pool\-Layer\-::\-Conv\-Pool\-Layer} (
+\begin{DoxyParamCaption}
+\item[{const vector$<$ vector$<$ \-Matrix\-Xd $>$ $>$ \&}]{input, }
+\item[{const int \&}]{num\-\_\-kerns, }
+\item[{const int \&}]{kern\-\_\-size, }
+\item[{const string \&}]{conv\-\_\-mode, }
+\item[{const string \&}]{act\-\_\-type, }
+\item[{const vector$<$ \-Matrix\-Xd $>$ \&}]{weight\-\_\-, }
+\item[{const \-Matrix\-Xd \&}]{bias\-\_\-}
+\end{DoxyParamCaption}
+)}}\label{classlibcnn_1_1_conv_pool_layer_ad24c278c8e1ea940eecc862dd8a334c3}
+\hypertarget{classlibcnn_1_1_conv_pool_layer_a4ef1d6c7eac689b2472815abf5aea08a}{\index{libcnn\-::\-Conv\-Pool\-Layer@{libcnn\-::\-Conv\-Pool\-Layer}!\-Conv\-Pool\-Layer@{\-Conv\-Pool\-Layer}}
+\index{\-Conv\-Pool\-Layer@{\-Conv\-Pool\-Layer}!libcnn::ConvPoolLayer@{libcnn\-::\-Conv\-Pool\-Layer}}
+\subsubsection[{\-Conv\-Pool\-Layer}]{\setlength{\rightskip}{0pt plus 5cm}{\bf libcnn\-::\-Conv\-Pool\-Layer\-::\-Conv\-Pool\-Layer} (
+\begin{DoxyParamCaption}
+\item[{const vector$<$ vector$<$ \-Matrix\-Xd $>$ $>$ \&}]{, }
+\item[{const int \&}]{, }
+\item[{const int \&}]{, }
+\item[{const string \&}]{, }
+\item[{const string \&}]{}
+\end{DoxyParamCaption}
+)}}\label{classlibcnn_1_1_conv_pool_layer_a4ef1d6c7eac689b2472815abf5aea08a}
+\hypertarget{classlibcnn_1_1_conv_pool_layer_ad24c278c8e1ea940eecc862dd8a334c3}{\index{libcnn\-::\-Conv\-Pool\-Layer@{libcnn\-::\-Conv\-Pool\-Layer}!\-Conv\-Pool\-Layer@{\-Conv\-Pool\-Layer}}
+\index{\-Conv\-Pool\-Layer@{\-Conv\-Pool\-Layer}!libcnn::ConvPoolLayer@{libcnn\-::\-Conv\-Pool\-Layer}}
+\subsubsection[{\-Conv\-Pool\-Layer}]{\setlength{\rightskip}{0pt plus 5cm}{\bf libcnn\-::\-Conv\-Pool\-Layer\-::\-Conv\-Pool\-Layer} (
+\begin{DoxyParamCaption}
+\item[{const vector$<$ vector$<$ \-Matrix\-Xd $>$ $>$ \&}]{, }
+\item[{const int \&}]{, }
+\item[{const int \&}]{, }
+\item[{const string \&}]{, }
+\item[{const string \&}]{, }
+\item[{const vector$<$ \-Matrix\-Xd $>$ \&}]{, }
+\item[{const \-Matrix\-Xd \&}]{}
+\end{DoxyParamCaption}
+)}}\label{classlibcnn_1_1_conv_pool_layer_ad24c278c8e1ea940eecc862dd8a334c3}
+
+
+\subsection{\-Member \-Function \-Documentation}
+\hypertarget{classlibcnn_1_1_conv_pool_layer_ab74a2227a84ff1de545dd1e69f0c8fb3}{\index{libcnn\-::\-Conv\-Pool\-Layer@{libcnn\-::\-Conv\-Pool\-Layer}!back\-\_\-prop@{back\-\_\-prop}}
+\index{back\-\_\-prop@{back\-\_\-prop}!libcnn::ConvPoolLayer@{libcnn\-::\-Conv\-Pool\-Layer}}
+\subsubsection[{back\-\_\-prop}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf libcnn\-::\-Conv\-Pool\-Layer\-::back\-\_\-prop} (
+\begin{DoxyParamCaption}
+\item[{const vector$<$ vector$<$ \-Matrix\-Xd $>$ $>$ \&}]{grad\-\_\-batch\-\_\-maps\-\_\-activated, }
+\item[{const double \&}]{lr}
+\end{DoxyParamCaption}
+)}}\label{classlibcnn_1_1_conv_pool_layer_ab74a2227a84ff1de545dd1e69f0c8fb3}
+\hypertarget{classlibcnn_1_1_conv_pool_layer_ab74a2227a84ff1de545dd1e69f0c8fb3}{\index{libcnn\-::\-Conv\-Pool\-Layer@{libcnn\-::\-Conv\-Pool\-Layer}!back\-\_\-prop@{back\-\_\-prop}}
+\index{back\-\_\-prop@{back\-\_\-prop}!libcnn::ConvPoolLayer@{libcnn\-::\-Conv\-Pool\-Layer}}
+\subsubsection[{back\-\_\-prop}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf libcnn\-::\-Conv\-Pool\-Layer\-::back\-\_\-prop} (
+\begin{DoxyParamCaption}
+\item[{const vector$<$ vector$<$ \-Matrix\-Xd $>$ $>$ \&}]{, }
+\item[{const double \&}]{}
+\end{DoxyParamCaption}
+)}}\label{classlibcnn_1_1_conv_pool_layer_ab74a2227a84ff1de545dd1e69f0c8fb3}
+\hypertarget{classlibcnn_1_1_conv_pool_layer_a32bafdf90d99eb5fc5902f831b208838}{\index{libcnn\-::\-Conv\-Pool\-Layer@{libcnn\-::\-Conv\-Pool\-Layer}!bp\-\_\-activate@{bp\-\_\-activate}}
+\index{bp\-\_\-activate@{bp\-\_\-activate}!libcnn::ConvPoolLayer@{libcnn\-::\-Conv\-Pool\-Layer}}
+\subsubsection[{bp\-\_\-activate}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf libcnn\-::\-Conv\-Pool\-Layer\-::bp\-\_\-activate} (
+\begin{DoxyParamCaption}
+\item[{const vector$<$ vector$<$ \-Matrix\-Xd $>$ $>$ \&}]{grad\-\_\-batch\-\_\-maps\-\_\-activated, }
+\item[{const vector$<$ vector$<$ \-Matrix\-Xd $>$ $>$ \&}]{batch\-\_\-maps\-\_\-activated, }
+\item[{vector$<$ vector$<$ \-Matrix\-Xd $>$ $>$ \&}]{grad\-\_\-batch\-\_\-maps\-\_\-conved}
+\end{DoxyParamCaption}
+)}}\label{classlibcnn_1_1_conv_pool_layer_a32bafdf90d99eb5fc5902f831b208838}
+\hypertarget{classlibcnn_1_1_conv_pool_layer_a32bafdf90d99eb5fc5902f831b208838}{\index{libcnn\-::\-Conv\-Pool\-Layer@{libcnn\-::\-Conv\-Pool\-Layer}!bp\-\_\-activate@{bp\-\_\-activate}}
+\index{bp\-\_\-activate@{bp\-\_\-activate}!libcnn::ConvPoolLayer@{libcnn\-::\-Conv\-Pool\-Layer}}
+\subsubsection[{bp\-\_\-activate}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf libcnn\-::\-Conv\-Pool\-Layer\-::bp\-\_\-activate} (
+\begin{DoxyParamCaption}
+\item[{const vector$<$ vector$<$ \-Matrix\-Xd $>$ $>$ \&}]{, }
+\item[{const vector$<$ vector$<$ \-Matrix\-Xd $>$ $>$ \&}]{, }
+\item[{vector$<$ vector$<$ \-Matrix\-Xd $>$ $>$ \&}]{}
+\end{DoxyParamCaption}
+)}}\label{classlibcnn_1_1_conv_pool_layer_a32bafdf90d99eb5fc5902f831b208838}
+\hypertarget{classlibcnn_1_1_conv_pool_layer_a30204d1f55cc343c422cb6da5b1b4590}{\index{libcnn\-::\-Conv\-Pool\-Layer@{libcnn\-::\-Conv\-Pool\-Layer}!bp\-\_\-conv@{bp\-\_\-conv}}
+\index{bp\-\_\-conv@{bp\-\_\-conv}!libcnn::ConvPoolLayer@{libcnn\-::\-Conv\-Pool\-Layer}}
+\subsubsection[{bp\-\_\-conv}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf libcnn\-::\-Conv\-Pool\-Layer\-::bp\-\_\-conv} (
+\begin{DoxyParamCaption}
+\item[{const vector$<$ vector$<$ \-Matrix\-Xd $>$ $>$ \&}]{, }
+\item[{const double \&}]{}
+\end{DoxyParamCaption}
+)}}\label{classlibcnn_1_1_conv_pool_layer_a30204d1f55cc343c422cb6da5b1b4590}
+\hypertarget{classlibcnn_1_1_conv_pool_layer_a30204d1f55cc343c422cb6da5b1b4590}{\index{libcnn\-::\-Conv\-Pool\-Layer@{libcnn\-::\-Conv\-Pool\-Layer}!bp\-\_\-conv@{bp\-\_\-conv}}
+\index{bp\-\_\-conv@{bp\-\_\-conv}!libcnn::ConvPoolLayer@{libcnn\-::\-Conv\-Pool\-Layer}}
+\subsubsection[{bp\-\_\-conv}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf libcnn\-::\-Conv\-Pool\-Layer\-::bp\-\_\-conv} (
+\begin{DoxyParamCaption}
+\item[{const vector$<$ vector$<$ \-Matrix\-Xd $>$ $>$ \&}]{grad\-\_\-batch\-\_\-maps\-\_\-conved, }
+\item[{const double \&}]{lr}
+\end{DoxyParamCaption}
+)}}\label{classlibcnn_1_1_conv_pool_layer_a30204d1f55cc343c422cb6da5b1b4590}
+\hypertarget{classlibcnn_1_1_conv_pool_layer_a29c5445a08cf88d44a69b9370e5adc1d}{\index{libcnn\-::\-Conv\-Pool\-Layer@{libcnn\-::\-Conv\-Pool\-Layer}!compute@{compute}}
+\index{compute@{compute}!libcnn::ConvPoolLayer@{libcnn\-::\-Conv\-Pool\-Layer}}
+\subsubsection[{compute}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf libcnn\-::\-Conv\-Pool\-Layer\-::compute} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classlibcnn_1_1_conv_pool_layer_a29c5445a08cf88d44a69b9370e5adc1d}
+\hypertarget{classlibcnn_1_1_conv_pool_layer_a29c5445a08cf88d44a69b9370e5adc1d}{\index{libcnn\-::\-Conv\-Pool\-Layer@{libcnn\-::\-Conv\-Pool\-Layer}!compute@{compute}}
+\index{compute@{compute}!libcnn::ConvPoolLayer@{libcnn\-::\-Conv\-Pool\-Layer}}
+\subsubsection[{compute}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf libcnn\-::\-Conv\-Pool\-Layer\-::compute} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classlibcnn_1_1_conv_pool_layer_a29c5445a08cf88d44a69b9370e5adc1d}
+
+
+\subsection{\-Member \-Data \-Documentation}
+\hypertarget{classlibcnn_1_1_conv_pool_layer_aa57ba56fe0f3e38f58931137a03e07f3}{\index{libcnn\-::\-Conv\-Pool\-Layer@{libcnn\-::\-Conv\-Pool\-Layer}!activation\-\_\-type@{activation\-\_\-type}}
+\index{activation\-\_\-type@{activation\-\_\-type}!libcnn::ConvPoolLayer@{libcnn\-::\-Conv\-Pool\-Layer}}
+\subsubsection[{activation\-\_\-type}]{\setlength{\rightskip}{0pt plus 5cm}string {\bf libcnn\-::\-Conv\-Pool\-Layer\-::activation\-\_\-type}}}\label{classlibcnn_1_1_conv_pool_layer_aa57ba56fe0f3e38f58931137a03e07f3}
+\hypertarget{classlibcnn_1_1_conv_pool_layer_a0b8d18fc0be5f3e75813a86b24dce247}{\index{libcnn\-::\-Conv\-Pool\-Layer@{libcnn\-::\-Conv\-Pool\-Layer}!batch\-\_\-coordinates@{batch\-\_\-coordinates}}
+\index{batch\-\_\-coordinates@{batch\-\_\-coordinates}!libcnn::ConvPoolLayer@{libcnn\-::\-Conv\-Pool\-Layer}}
+\subsubsection[{batch\-\_\-coordinates}]{\setlength{\rightskip}{0pt plus 5cm}vector$<$ vector$<$ vector$<$ \-Matrix\-Xd $>$ $>$ $>$ {\bf libcnn\-::\-Conv\-Pool\-Layer\-::batch\-\_\-coordinates}}}\label{classlibcnn_1_1_conv_pool_layer_a0b8d18fc0be5f3e75813a86b24dce247}
+\hypertarget{classlibcnn_1_1_conv_pool_layer_ad42c5b645c6103b200b9b950b4349550}{\index{libcnn\-::\-Conv\-Pool\-Layer@{libcnn\-::\-Conv\-Pool\-Layer}!batch\-\_\-maps\-\_\-activated@{batch\-\_\-maps\-\_\-activated}}
+\index{batch\-\_\-maps\-\_\-activated@{batch\-\_\-maps\-\_\-activated}!libcnn::ConvPoolLayer@{libcnn\-::\-Conv\-Pool\-Layer}}
+\subsubsection[{batch\-\_\-maps\-\_\-activated}]{\setlength{\rightskip}{0pt plus 5cm}vector$<$ vector$<$ \-Matrix\-Xd $>$ $>$ {\bf libcnn\-::\-Conv\-Pool\-Layer\-::batch\-\_\-maps\-\_\-activated}}}\label{classlibcnn_1_1_conv_pool_layer_ad42c5b645c6103b200b9b950b4349550}
+\hypertarget{classlibcnn_1_1_conv_pool_layer_a63d9d97664284772029c36a897e4e30e}{\index{libcnn\-::\-Conv\-Pool\-Layer@{libcnn\-::\-Conv\-Pool\-Layer}!batch\-\_\-maps\-\_\-input@{batch\-\_\-maps\-\_\-input}}
+\index{batch\-\_\-maps\-\_\-input@{batch\-\_\-maps\-\_\-input}!libcnn::ConvPoolLayer@{libcnn\-::\-Conv\-Pool\-Layer}}
+\subsubsection[{batch\-\_\-maps\-\_\-input}]{\setlength{\rightskip}{0pt plus 5cm}vector$<$ vector$<$ \-Matrix\-Xd $>$ $>$ {\bf libcnn\-::\-Conv\-Pool\-Layer\-::batch\-\_\-maps\-\_\-input}}}\label{classlibcnn_1_1_conv_pool_layer_a63d9d97664284772029c36a897e4e30e}
+\hypertarget{classlibcnn_1_1_conv_pool_layer_a8b537b16fb08d935f442360f564b9403}{\index{libcnn\-::\-Conv\-Pool\-Layer@{libcnn\-::\-Conv\-Pool\-Layer}!bias@{bias}}
+\index{bias@{bias}!libcnn::ConvPoolLayer@{libcnn\-::\-Conv\-Pool\-Layer}}
+\subsubsection[{bias}]{\setlength{\rightskip}{0pt plus 5cm}\-Matrix\-Xd {\bf libcnn\-::\-Conv\-Pool\-Layer\-::bias}}}\label{classlibcnn_1_1_conv_pool_layer_a8b537b16fb08d935f442360f564b9403}
+\hypertarget{classlibcnn_1_1_conv_pool_layer_a519dad823100b62bc93738477a593a6d}{\index{libcnn\-::\-Conv\-Pool\-Layer@{libcnn\-::\-Conv\-Pool\-Layer}!grad\-\_\-batch\-\_\-maps\-\_\-input@{grad\-\_\-batch\-\_\-maps\-\_\-input}}
+\index{grad\-\_\-batch\-\_\-maps\-\_\-input@{grad\-\_\-batch\-\_\-maps\-\_\-input}!libcnn::ConvPoolLayer@{libcnn\-::\-Conv\-Pool\-Layer}}
+\subsubsection[{grad\-\_\-batch\-\_\-maps\-\_\-input}]{\setlength{\rightskip}{0pt plus 5cm}vector$<$ vector$<$ \-Matrix\-Xd $>$ $>$ {\bf libcnn\-::\-Conv\-Pool\-Layer\-::grad\-\_\-batch\-\_\-maps\-\_\-input}}}\label{classlibcnn_1_1_conv_pool_layer_a519dad823100b62bc93738477a593a6d}
+\hypertarget{classlibcnn_1_1_conv_pool_layer_a4bf6b594b2a91f6bd8291ff8e446e4ba}{\index{libcnn\-::\-Conv\-Pool\-Layer@{libcnn\-::\-Conv\-Pool\-Layer}!grad\-\_\-bias@{grad\-\_\-bias}}
+\index{grad\-\_\-bias@{grad\-\_\-bias}!libcnn::ConvPoolLayer@{libcnn\-::\-Conv\-Pool\-Layer}}
+\subsubsection[{grad\-\_\-bias}]{\setlength{\rightskip}{0pt plus 5cm}\-Matrix\-Xd {\bf libcnn\-::\-Conv\-Pool\-Layer\-::grad\-\_\-bias}}}\label{classlibcnn_1_1_conv_pool_layer_a4bf6b594b2a91f6bd8291ff8e446e4ba}
+\hypertarget{classlibcnn_1_1_conv_pool_layer_a2728855bb4a00c4800ff4a912ef21e85}{\index{libcnn\-::\-Conv\-Pool\-Layer@{libcnn\-::\-Conv\-Pool\-Layer}!grad\-\_\-weight@{grad\-\_\-weight}}
+\index{grad\-\_\-weight@{grad\-\_\-weight}!libcnn::ConvPoolLayer@{libcnn\-::\-Conv\-Pool\-Layer}}
+\subsubsection[{grad\-\_\-weight}]{\setlength{\rightskip}{0pt plus 5cm}vector$<$ \-Matrix\-Xd $>$ {\bf libcnn\-::\-Conv\-Pool\-Layer\-::grad\-\_\-weight}}}\label{classlibcnn_1_1_conv_pool_layer_a2728855bb4a00c4800ff4a912ef21e85}
+\hypertarget{classlibcnn_1_1_conv_pool_layer_ad9b3b0b372858e32e075565beec5226a}{\index{libcnn\-::\-Conv\-Pool\-Layer@{libcnn\-::\-Conv\-Pool\-Layer}!weight@{weight}}
+\index{weight@{weight}!libcnn::ConvPoolLayer@{libcnn\-::\-Conv\-Pool\-Layer}}
+\subsubsection[{weight}]{\setlength{\rightskip}{0pt plus 5cm}vector$<$ \-Matrix\-Xd $>$ {\bf libcnn\-::\-Conv\-Pool\-Layer\-::weight}}}\label{classlibcnn_1_1_conv_pool_layer_ad9b3b0b372858e32e075565beec5226a}
+
+
+\-The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+gpu/include/\hyperlink{gpu_2include_2conv__layer_8h}{conv\-\_\-layer.\-h}\item 
+include/\hyperlink{include_2conv__layer_8h}{conv\-\_\-layer.\-h}\item 
+gpu/src/\hyperlink{gpu_2src_2conv__layer_8cpp}{conv\-\_\-layer.\-cpp}\item 
+src/\hyperlink{src_2conv__layer_8cpp}{conv\-\_\-layer.\-cpp}\end{DoxyCompactItemize}

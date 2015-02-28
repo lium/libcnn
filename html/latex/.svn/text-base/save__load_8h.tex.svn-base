@@ -1,0 +1,34 @@
+\hypertarget{save__load_8h}{\section{include/save\-\_\-load.h \-File \-Reference}
+\label{save__load_8h}\index{include/save\-\_\-load.\-h@{include/save\-\_\-load.\-h}}
+}
+{\ttfamily \#include $<$\-Eigen/\-Dense$>$}\*
+{\ttfamily \#include $<$\-Eigen/\-Core$>$}\*
+{\ttfamily \#include $<$vector$>$}\*
+\-Include dependency graph for save\-\_\-load.\-h\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=296pt]{save__load_8h__incl}
+\end{center}
+\end{figure}
+\-This graph shows which files directly or indirectly include this file\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{save__load_8h__dep__incl}
+\end{center}
+\end{figure}
+\subsection*{\-Namespaces}
+\begin{DoxyCompactItemize}
+\item 
+namespace \hyperlink{namespacelibcnn}{libcnn}
+\end{DoxyCompactItemize}
+\subsection*{\-Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{namespacelibcnn_aa0d2c742374c714e8acadc2f2768db9e}{libcnn\-::save} (const vector$<$ vector$<$ \-Matrix\-Xd $>$ $>$ \&, const vector$<$ \-Matrix\-Xd $>$ \&, const \-Matrix\-Xd \&, const \-Matrix\-Xd \&)
+\item 
+void \hyperlink{namespacelibcnn_a05600c0680e871c0893560d97dce3179}{libcnn\-::load} (const vector$<$ int $>$ \&num\-\_\-kerns, vector$<$ vector$<$ \-Matrix\-Xd $>$ $>$ \&, vector$<$ \-Matrix\-Xd $>$ \&, \-Matrix\-Xd \&, \-Matrix\-Xd \&)
+\end{DoxyCompactItemize}

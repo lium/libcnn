@@ -1,0 +1,159 @@
+\hypertarget{get__klt__kernels_8m}{\section{matlab/kernels/get\-\_\-klt\-\_\-kernels.m \-File \-Reference}
+\label{get__klt__kernels_8m}\index{matlab/kernels/get\-\_\-klt\-\_\-kernels.\-m@{matlab/kernels/get\-\_\-klt\-\_\-kernels.\-m}}
+}
+\subsection*{\-Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{get__klt__kernels_8m_a1c9fd3c594d02062b3ac5cf712d90f8f}{subim\-\_\-} (\-:,\-:, \hyperlink{map__label__image_8m_a6f6ccfcf58b31cb6412107d9d5281426}{i})
+\item 
+\hyperlink{get__klt__kernels_8m_aa140f697e3b9bb2f7ba316a325f6c912}{figure} ('\-Position',\mbox{[}100 100 700 650\mbox{]})
+\item 
+for \hyperlink{get__klt__kernels_8m_ab3c390c8309e35a62c02e7342b599355}{subplot} (\hyperlink{get__klt__kernels_8m_aa4a403ed34dcccddf769c6c6709ccb85}{n}, \hyperlink{get__klt__kernels_8m_aa4a403ed34dcccddf769c6c6709ccb85}{n}, \hyperlink{map__label__image_8m_a6f6ccfcf58b31cb6412107d9d5281426}{i})
+\item 
+\hyperlink{get__klt__kernels_8m_acb7f26dfddf92958620c26619872a11b}{imagesc} (\hyperlink{get__klt__kernels_8m_a16e4ef534cec559430e07e05eb71c719}{\-K}(\-:,\-:, \hyperlink{map__label__image_8m_a6f6ccfcf58b31cb6412107d9d5281426}{i}))
+\item 
+colormap \hyperlink{rand__lr005_2test6_8m_ada8ad40249884b4f8e370f25724a131f}{gray} end \hyperlink{get__klt__kernels_8m_ab638a7a5d0720819296aa048fc4f5907}{title} (sprintf('\%\hyperlink{get__klt__kernels_8m_a3691308f2a4c2f6983f2880d32e29c84}{s}', \hyperlink{get__klt__kernels_8m_ad0ee599b1ec66f009a9a92d13e140b1e}{image\-\_\-filename}))
+\end{DoxyCompactItemize}
+\subsection*{\-Variables}
+\begin{DoxyCompactItemize}
+\item 
+function \hyperlink{get__klt__kernels_8m_a16e4ef534cec559430e07e05eb71c719}{\-K}
+\item 
+function \hyperlink{get__klt__kernels_8m_aa4a403ed34dcccddf769c6c6709ccb85}{n} = 7
+\item 
+\hyperlink{get__klt__kernels_8m_ad0ee599b1ec66f009a9a92d13e140b1e}{image\-\_\-filename} = '1.jpg'
+\item 
+elseif \hyperlink{get__klt__kernels_8m_a8b840739d323b6d3e5eccbbef6043558}{nargin} = = 1
+\item 
+end \hyperlink{get__klt__kernels_8m_a731676ea925e67f45c143fcf877dcb4c}{n\-\_\-sample} = 10$\ast$\hyperlink{get__klt__kernels_8m_aa4a403ed34dcccddf769c6c6709ccb85}{n}$\ast$\hyperlink{get__klt__kernels_8m_aa4a403ed34dcccddf769c6c6709ccb85}{n}
+\item 
+\hyperlink{get__klt__kernels_8m_a36aff75e89a0f2a99eca767b6ece034d}{im} = imread(\hyperlink{get__klt__kernels_8m_ad0ee599b1ec66f009a9a92d13e140b1e}{image\-\_\-filename})
+\item 
+\hyperlink{get__klt__kernels_8m_afe48d1d4f923c59f25255796d824a0e9}{im\-\_\-g} = rgb2gray(\hyperlink{get__klt__kernels_8m_a36aff75e89a0f2a99eca767b6ece034d}{im})
+\item 
+\hyperlink{get__klt__kernels_8m_a3691308f2a4c2f6983f2880d32e29c84}{s} = size(\hyperlink{get__klt__kernels_8m_a36aff75e89a0f2a99eca767b6ece034d}{im})
+\item 
+array of samples \hyperlink{get__klt__kernels_8m_ac5daebc4a595d193caa16862da3b170a}{subim\-\_\-} = zeros(\hyperlink{get__klt__kernels_8m_aa4a403ed34dcccddf769c6c6709ccb85}{n},\hyperlink{get__klt__kernels_8m_aa4a403ed34dcccddf769c6c6709ccb85}{n},\hyperlink{get__klt__kernels_8m_a731676ea925e67f45c143fcf877dcb4c}{n\-\_\-sample})
+\item 
+\hyperlink{get__klt__kernels_8m_a52324bcb04289fe3f876139bc74c6c30}{subim} = zeros(\hyperlink{get__klt__kernels_8m_aa4a403ed34dcccddf769c6c6709ccb85}{n},\hyperlink{get__klt__kernels_8m_aa4a403ed34dcccddf769c6c6709ccb85}{n},\hyperlink{get__klt__kernels_8m_a731676ea925e67f45c143fcf877dcb4c}{n\-\_\-sample})
+\item 
+substract mean for \hyperlink{get__klt__kernels_8m_a81b94ba50b782836960e54bcfa99fc88}{i} = 1\-:\hyperlink{get__klt__kernels_8m_a731676ea925e67f45c143fcf877dcb4c}{n\-\_\-sample}
+\item 
+substract mean for \hyperlink{get__klt__kernels_8m_aa6f55716b4169c96bd748a1949af521b}{r} = randi(\hyperlink{get__klt__kernels_8m_a3691308f2a4c2f6983f2880d32e29c84}{s}(1)-\/\hyperlink{get__klt__kernels_8m_aa4a403ed34dcccddf769c6c6709ccb85}{n}-\/1)
+\item 
+\hyperlink{get__klt__kernels_8m_ae0323a9039add2978bf5b49550572c7c}{c} = randi(\hyperlink{get__klt__kernels_8m_a3691308f2a4c2f6983f2880d32e29c84}{s}(2)-\/\hyperlink{get__klt__kernels_8m_aa4a403ed34dcccddf769c6c6709ccb85}{n}-\/1)
+\item 
+end \hyperlink{get__klt__kernels_8m_a1932ab2c985b9f56e67dd2b747c3aaa7}{im\-\_\-mean} = mean(\hyperlink{get__klt__kernels_8m_a1c9fd3c594d02062b3ac5cf712d90f8f}{subim\-\_\-},3)
+\item 
+image data as vectors \hyperlink{get__klt__kernels_8m_aa8421c649b51de89db65bf81df358fd6}{image\-\_\-vectors} = reshape(\hyperlink{get__klt__kernels_8m_a52324bcb04289fe3f876139bc74c6c30}{subim}, \hyperlink{get__klt__kernels_8m_aa4a403ed34dcccddf769c6c6709ccb85}{n}$\ast$\hyperlink{get__klt__kernels_8m_aa4a403ed34dcccddf769c6c6709ccb85}{n}, \hyperlink{get__klt__kernels_8m_a731676ea925e67f45c143fcf877dcb4c}{n\-\_\-sample})
+\item 
+covariance \hyperlink{get__klt__kernels_8m_ae587c08ca7bc00fe7739a3ecf276a2cf}{\-Cov} = \hyperlink{get__klt__kernels_8m_aa8421c649b51de89db65bf81df358fd6}{image\-\_\-vectors} $\ast$ \hyperlink{get__klt__kernels_8m_aa8421c649b51de89db65bf81df358fd6}{image\-\_\-vectors}'
+\item 
+\hyperlink{get__klt__kernels_8m_a0811656e57ca05d05abeb43b41eb11a7}{decompose} \mbox{[}u, \hyperlink{yaml__t__load_8cpp_a80d599bd22867a8e610e0be09bf1128d}{v}\mbox{]} = eig(\hyperlink{get__klt__kernels_8m_ae587c08ca7bc00fe7739a3ecf276a2cf}{\-Cov})
+\end{DoxyCompactItemize}
+
+
+\subsection{\-Function \-Documentation}
+\hypertarget{get__klt__kernels_8m_aa140f697e3b9bb2f7ba316a325f6c912}{\index{get\-\_\-klt\-\_\-kernels.\-m@{get\-\_\-klt\-\_\-kernels.\-m}!figure@{figure}}
+\index{figure@{figure}!get_klt_kernels.m@{get\-\_\-klt\-\_\-kernels.\-m}}
+\subsubsection[{figure}]{\setlength{\rightskip}{0pt plus 5cm}{\bf figure} (
+\begin{DoxyParamCaption}
+\item[{'\-Position'}]{}
+\end{DoxyParamCaption}
+)}}\label{get__klt__kernels_8m_aa140f697e3b9bb2f7ba316a325f6c912}
+\hypertarget{get__klt__kernels_8m_acb7f26dfddf92958620c26619872a11b}{\index{get\-\_\-klt\-\_\-kernels.\-m@{get\-\_\-klt\-\_\-kernels.\-m}!imagesc@{imagesc}}
+\index{imagesc@{imagesc}!get_klt_kernels.m@{get\-\_\-klt\-\_\-kernels.\-m}}
+\subsubsection[{imagesc}]{\setlength{\rightskip}{0pt plus 5cm}{\bf imagesc} (
+\begin{DoxyParamCaption}
+\item[{{\bf \-K}(\-:,\-:, {\bf i})}]{}
+\end{DoxyParamCaption}
+)}}\label{get__klt__kernels_8m_acb7f26dfddf92958620c26619872a11b}
+\hypertarget{get__klt__kernels_8m_a1c9fd3c594d02062b3ac5cf712d90f8f}{\index{get\-\_\-klt\-\_\-kernels.\-m@{get\-\_\-klt\-\_\-kernels.\-m}!subim\-\_\-@{subim\-\_\-}}
+\index{subim\-\_\-@{subim\-\_\-}!get_klt_kernels.m@{get\-\_\-klt\-\_\-kernels.\-m}}
+\subsubsection[{subim\-\_\-}]{\setlength{\rightskip}{0pt plus 5cm}{\bf subim\-\_\-} (
+\begin{DoxyParamCaption}
+\item[{\-:}]{, }
+\item[{\-:}]{, }
+\item[{{\bf i}}]{}
+\end{DoxyParamCaption}
+)}}\label{get__klt__kernels_8m_a1c9fd3c594d02062b3ac5cf712d90f8f}
+\hypertarget{get__klt__kernels_8m_ab3c390c8309e35a62c02e7342b599355}{\index{get\-\_\-klt\-\_\-kernels.\-m@{get\-\_\-klt\-\_\-kernels.\-m}!subplot@{subplot}}
+\index{subplot@{subplot}!get_klt_kernels.m@{get\-\_\-klt\-\_\-kernels.\-m}}
+\subsubsection[{subplot}]{\setlength{\rightskip}{0pt plus 5cm}for {\bf subplot} (
+\begin{DoxyParamCaption}
+\item[{{\bf n}}]{, }
+\item[{{\bf n}}]{, }
+\item[{{\bf i}}]{}
+\end{DoxyParamCaption}
+)}}\label{get__klt__kernels_8m_ab3c390c8309e35a62c02e7342b599355}
+\hypertarget{get__klt__kernels_8m_ab638a7a5d0720819296aa048fc4f5907}{\index{get\-\_\-klt\-\_\-kernels.\-m@{get\-\_\-klt\-\_\-kernels.\-m}!title@{title}}
+\index{title@{title}!get_klt_kernels.m@{get\-\_\-klt\-\_\-kernels.\-m}}
+\subsubsection[{title}]{\setlength{\rightskip}{0pt plus 5cm}colormap {\bf gray} end {\bf title} (
+\begin{DoxyParamCaption}
+\item[{sprintf('\%{\bf s}', {\bf image\-\_\-filename})}]{}
+\end{DoxyParamCaption}
+)}}\label{get__klt__kernels_8m_ab638a7a5d0720819296aa048fc4f5907}
+
+
+\subsection{\-Variable \-Documentation}
+\hypertarget{get__klt__kernels_8m_ae0323a9039add2978bf5b49550572c7c}{\index{get\-\_\-klt\-\_\-kernels.\-m@{get\-\_\-klt\-\_\-kernels.\-m}!c@{c}}
+\index{c@{c}!get_klt_kernels.m@{get\-\_\-klt\-\_\-kernels.\-m}}
+\subsubsection[{c}]{\setlength{\rightskip}{0pt plus 5cm}{\bf c} = randi({\bf s}(2)-\/{\bf n}-\/1)}}\label{get__klt__kernels_8m_ae0323a9039add2978bf5b49550572c7c}
+\hypertarget{get__klt__kernels_8m_ae587c08ca7bc00fe7739a3ecf276a2cf}{\index{get\-\_\-klt\-\_\-kernels.\-m@{get\-\_\-klt\-\_\-kernels.\-m}!\-Cov@{\-Cov}}
+\index{\-Cov@{\-Cov}!get_klt_kernels.m@{get\-\_\-klt\-\_\-kernels.\-m}}
+\subsubsection[{\-Cov}]{\setlength{\rightskip}{0pt plus 5cm}covariance {\bf \-Cov} = {\bf image\-\_\-vectors} $\ast$ {\bf image\-\_\-vectors}'}}\label{get__klt__kernels_8m_ae587c08ca7bc00fe7739a3ecf276a2cf}
+\hypertarget{get__klt__kernels_8m_a0811656e57ca05d05abeb43b41eb11a7}{\index{get\-\_\-klt\-\_\-kernels.\-m@{get\-\_\-klt\-\_\-kernels.\-m}!decompose@{decompose}}
+\index{decompose@{decompose}!get_klt_kernels.m@{get\-\_\-klt\-\_\-kernels.\-m}}
+\subsubsection[{decompose}]{\setlength{\rightskip}{0pt plus 5cm}{\bf decompose}\mbox{[}u, {\bf v}\mbox{]} = eig({\bf \-Cov})}}\label{get__klt__kernels_8m_a0811656e57ca05d05abeb43b41eb11a7}
+\hypertarget{get__klt__kernels_8m_a81b94ba50b782836960e54bcfa99fc88}{\index{get\-\_\-klt\-\_\-kernels.\-m@{get\-\_\-klt\-\_\-kernels.\-m}!i@{i}}
+\index{i@{i}!get_klt_kernels.m@{get\-\_\-klt\-\_\-kernels.\-m}}
+\subsubsection[{i}]{\setlength{\rightskip}{0pt plus 5cm}end for {\bf i} = 1\-:{\bf n\-\_\-sample}}}\label{get__klt__kernels_8m_a81b94ba50b782836960e54bcfa99fc88}
+\hypertarget{get__klt__kernels_8m_a36aff75e89a0f2a99eca767b6ece034d}{\index{get\-\_\-klt\-\_\-kernels.\-m@{get\-\_\-klt\-\_\-kernels.\-m}!im@{im}}
+\index{im@{im}!get_klt_kernels.m@{get\-\_\-klt\-\_\-kernels.\-m}}
+\subsubsection[{im}]{\setlength{\rightskip}{0pt plus 5cm}{\bf im} = imread({\bf image\-\_\-filename})}}\label{get__klt__kernels_8m_a36aff75e89a0f2a99eca767b6ece034d}
+\hypertarget{get__klt__kernels_8m_afe48d1d4f923c59f25255796d824a0e9}{\index{get\-\_\-klt\-\_\-kernels.\-m@{get\-\_\-klt\-\_\-kernels.\-m}!im\-\_\-g@{im\-\_\-g}}
+\index{im\-\_\-g@{im\-\_\-g}!get_klt_kernels.m@{get\-\_\-klt\-\_\-kernels.\-m}}
+\subsubsection[{im\-\_\-g}]{\setlength{\rightskip}{0pt plus 5cm}{\bf im\-\_\-g} = rgb2gray({\bf im})}}\label{get__klt__kernels_8m_afe48d1d4f923c59f25255796d824a0e9}
+\hypertarget{get__klt__kernels_8m_a1932ab2c985b9f56e67dd2b747c3aaa7}{\index{get\-\_\-klt\-\_\-kernels.\-m@{get\-\_\-klt\-\_\-kernels.\-m}!im\-\_\-mean@{im\-\_\-mean}}
+\index{im\-\_\-mean@{im\-\_\-mean}!get_klt_kernels.m@{get\-\_\-klt\-\_\-kernels.\-m}}
+\subsubsection[{im\-\_\-mean}]{\setlength{\rightskip}{0pt plus 5cm}end {\bf im\-\_\-mean} = mean({\bf subim\-\_\-},3)}}\label{get__klt__kernels_8m_a1932ab2c985b9f56e67dd2b747c3aaa7}
+\hypertarget{get__klt__kernels_8m_ad0ee599b1ec66f009a9a92d13e140b1e}{\index{get\-\_\-klt\-\_\-kernels.\-m@{get\-\_\-klt\-\_\-kernels.\-m}!image\-\_\-filename@{image\-\_\-filename}}
+\index{image\-\_\-filename@{image\-\_\-filename}!get_klt_kernels.m@{get\-\_\-klt\-\_\-kernels.\-m}}
+\subsubsection[{image\-\_\-filename}]{\setlength{\rightskip}{0pt plus 5cm}{\bf image\-\_\-filename} = '1.jpg'}}\label{get__klt__kernels_8m_ad0ee599b1ec66f009a9a92d13e140b1e}
+\hypertarget{get__klt__kernels_8m_aa8421c649b51de89db65bf81df358fd6}{\index{get\-\_\-klt\-\_\-kernels.\-m@{get\-\_\-klt\-\_\-kernels.\-m}!image\-\_\-vectors@{image\-\_\-vectors}}
+\index{image\-\_\-vectors@{image\-\_\-vectors}!get_klt_kernels.m@{get\-\_\-klt\-\_\-kernels.\-m}}
+\subsubsection[{image\-\_\-vectors}]{\setlength{\rightskip}{0pt plus 5cm}image data as vectors {\bf image\-\_\-vectors} = reshape({\bf subim}, {\bf n}$\ast${\bf n}, {\bf n\-\_\-sample})}}\label{get__klt__kernels_8m_aa8421c649b51de89db65bf81df358fd6}
+\hypertarget{get__klt__kernels_8m_a16e4ef534cec559430e07e05eb71c719}{\index{get\-\_\-klt\-\_\-kernels.\-m@{get\-\_\-klt\-\_\-kernels.\-m}!\-K@{\-K}}
+\index{\-K@{\-K}!get_klt_kernels.m@{get\-\_\-klt\-\_\-kernels.\-m}}
+\subsubsection[{\-K}]{\setlength{\rightskip}{0pt plus 5cm}{\bf \-K}}}\label{get__klt__kernels_8m_a16e4ef534cec559430e07e05eb71c719}
+{\bfseries \-Initial value\-:}
+\begin{DoxyCode}
+get_klt_kernels(image_filename,n)
+% @n is the output dimension of Kernels
+% @n_sample is the number of samples extract from image
+%
+% @K: computed kernels
+
+if nargin == 0
+\end{DoxyCode}
+\hypertarget{get__klt__kernels_8m_aa4a403ed34dcccddf769c6c6709ccb85}{\index{get\-\_\-klt\-\_\-kernels.\-m@{get\-\_\-klt\-\_\-kernels.\-m}!n@{n}}
+\index{n@{n}!get_klt_kernels.m@{get\-\_\-klt\-\_\-kernels.\-m}}
+\subsubsection[{n}]{\setlength{\rightskip}{0pt plus 5cm}elseif {\bf n} = 7}}\label{get__klt__kernels_8m_aa4a403ed34dcccddf769c6c6709ccb85}
+\hypertarget{get__klt__kernels_8m_a731676ea925e67f45c143fcf877dcb4c}{\index{get\-\_\-klt\-\_\-kernels.\-m@{get\-\_\-klt\-\_\-kernels.\-m}!n\-\_\-sample@{n\-\_\-sample}}
+\index{n\-\_\-sample@{n\-\_\-sample}!get_klt_kernels.m@{get\-\_\-klt\-\_\-kernels.\-m}}
+\subsubsection[{n\-\_\-sample}]{\setlength{\rightskip}{0pt plus 5cm}end {\bf n\-\_\-sample} = 10$\ast${\bf n}$\ast${\bf n}}}\label{get__klt__kernels_8m_a731676ea925e67f45c143fcf877dcb4c}
+\hypertarget{get__klt__kernels_8m_a8b840739d323b6d3e5eccbbef6043558}{\index{get\-\_\-klt\-\_\-kernels.\-m@{get\-\_\-klt\-\_\-kernels.\-m}!nargin@{nargin}}
+\index{nargin@{nargin}!get_klt_kernels.m@{get\-\_\-klt\-\_\-kernels.\-m}}
+\subsubsection[{nargin}]{\setlength{\rightskip}{0pt plus 5cm}elseif {\bf nargin} = = 1}}\label{get__klt__kernels_8m_a8b840739d323b6d3e5eccbbef6043558}
+\hypertarget{get__klt__kernels_8m_aa6f55716b4169c96bd748a1949af521b}{\index{get\-\_\-klt\-\_\-kernels.\-m@{get\-\_\-klt\-\_\-kernels.\-m}!r@{r}}
+\index{r@{r}!get_klt_kernels.m@{get\-\_\-klt\-\_\-kernels.\-m}}
+\subsubsection[{r}]{\setlength{\rightskip}{0pt plus 5cm}substract mean for {\bf r} = randi({\bf s}(1)-\/{\bf n}-\/1)}}\label{get__klt__kernels_8m_aa6f55716b4169c96bd748a1949af521b}
+\hypertarget{get__klt__kernels_8m_a3691308f2a4c2f6983f2880d32e29c84}{\index{get\-\_\-klt\-\_\-kernels.\-m@{get\-\_\-klt\-\_\-kernels.\-m}!s@{s}}
+\index{s@{s}!get_klt_kernels.m@{get\-\_\-klt\-\_\-kernels.\-m}}
+\subsubsection[{s}]{\setlength{\rightskip}{0pt plus 5cm}{\bf s} = size({\bf im})}}\label{get__klt__kernels_8m_a3691308f2a4c2f6983f2880d32e29c84}
+\hypertarget{get__klt__kernels_8m_a52324bcb04289fe3f876139bc74c6c30}{\index{get\-\_\-klt\-\_\-kernels.\-m@{get\-\_\-klt\-\_\-kernels.\-m}!subim@{subim}}
+\index{subim@{subim}!get_klt_kernels.m@{get\-\_\-klt\-\_\-kernels.\-m}}
+\subsubsection[{subim}]{\setlength{\rightskip}{0pt plus 5cm}{\bf subim} = zeros({\bf n},{\bf n},{\bf n\-\_\-sample})}}\label{get__klt__kernels_8m_a52324bcb04289fe3f876139bc74c6c30}
+\hypertarget{get__klt__kernels_8m_ac5daebc4a595d193caa16862da3b170a}{\index{get\-\_\-klt\-\_\-kernels.\-m@{get\-\_\-klt\-\_\-kernels.\-m}!subim\-\_\-@{subim\-\_\-}}
+\index{subim\-\_\-@{subim\-\_\-}!get_klt_kernels.m@{get\-\_\-klt\-\_\-kernels.\-m}}
+\subsubsection[{subim\-\_\-}]{\setlength{\rightskip}{0pt plus 5cm}array of samples {\bf subim\-\_\-} = zeros({\bf n},{\bf n},{\bf n\-\_\-sample})}}\label{get__klt__kernels_8m_ac5daebc4a595d193caa16862da3b170a}

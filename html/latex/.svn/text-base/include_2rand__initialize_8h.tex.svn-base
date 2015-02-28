@@ -1,0 +1,37 @@
+\hypertarget{include_2rand__initialize_8h}{\section{include/rand\-\_\-initialize.h \-File \-Reference}
+\label{include_2rand__initialize_8h}\index{include/rand\-\_\-initialize.\-h@{include/rand\-\_\-initialize.\-h}}
+}
+{\ttfamily \#include $<$iostream$>$}\*
+{\ttfamily \#include $<$\-Eigen/\-Dense$>$}\*
+{\ttfamily \#include $<$vector$>$}\*
+{\ttfamily \#include $<$ctime$>$}\*
+\-Include dependency graph for rand\-\_\-initialize.\-h\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=344pt]{include_2rand__initialize_8h__incl}
+\end{center}
+\end{figure}
+\-This graph shows which files directly or indirectly include this file\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{include_2rand__initialize_8h__dep__incl}
+\end{center}
+\end{figure}
+\subsection*{\-Namespaces}
+\begin{DoxyCompactItemize}
+\item 
+namespace \hyperlink{namespacelibcnn}{libcnn}
+\end{DoxyCompactItemize}
+\subsection*{\-Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{namespacelibcnn_a367a409a55921d3810474a42357ff285}{libcnn\-::rand\-\_\-classifier} (\-Matrix\-Xd \&, \-Matrix\-Xd \&, const vector$<$ int $>$ \&, const int \&, const int \&, const double \&, const double \&)
+\item 
+void \hyperlink{namespacelibcnn_a449702bcc49494b8e359548d03ba12e3}{libcnn\-::rand\-\_\-conv} (vector$<$ vector$<$ \-Matrix\-Xd $>$ $>$ \&, vector$<$ \-Matrix\-Xd $>$ \&, const vector$<$ int $>$ \&, const int \&, const int \&, const double \&, const double \&)
+\item 
+void \hyperlink{namespacelibcnn_a6e166be43bf4a7640feef235071df26e}{libcnn\-::print\-\_\-params} (const vector$<$ vector$<$ \-Matrix\-Xd $>$ $>$ \&, const vector$<$ \-Matrix\-Xd $>$ \&, const \-Matrix\-Xd \&, const \-Matrix\-Xd \&)
+\end{DoxyCompactItemize}

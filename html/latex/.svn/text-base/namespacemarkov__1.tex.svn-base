@@ -1,0 +1,34 @@
+\hypertarget{namespacemarkov__1}{\section{markov\-\_\-1 \-Namespace \-Reference}
+\label{namespacemarkov__1}\index{markov\-\_\-1@{markov\-\_\-1}}
+}
+\subsection*{\-Variables}
+\begin{DoxyCompactItemize}
+\item 
+float \hyperlink{namespacemarkov__1_a4a3eda3678257ab2cf6f06891c5ec22c}{roe} = 0.\-9999
+\item 
+list \hyperlink{namespacemarkov__1_ac6e549cf6d4d6df355d884b67fb19851}{roe\-\_\-list} = \mbox{[}$\,$\mbox{]}
+\item 
+int \hyperlink{namespacemarkov__1_a8134563a0c42390906c8914ad337e9d8}{data\-\_\-dimension} = 64
+\item 
+tuple \hyperlink{namespacemarkov__1_a7cc4d10a876ec07da21dbfd4d28e8684}{covariance\-\_\-matrix} = toeplitz(\hyperlink{namespacemarkov__1_ac6e549cf6d4d6df355d884b67fb19851}{roe\-\_\-list}, \hyperlink{namespacemarkov__1_ac6e549cf6d4d6df355d884b67fb19851}{roe\-\_\-list})
+\item 
+\hyperlink{namespacemarkov__1_a3744683663f02bff5cf245a674ab9b32}{\-Data\-Out} = e\-\_\-vecs
+\end{DoxyCompactItemize}
+
+
+\subsection{\-Variable \-Documentation}
+\hypertarget{namespacemarkov__1_a7cc4d10a876ec07da21dbfd4d28e8684}{\index{markov\-\_\-1@{markov\-\_\-1}!covariance\-\_\-matrix@{covariance\-\_\-matrix}}
+\index{covariance\-\_\-matrix@{covariance\-\_\-matrix}!markov_1@{markov\-\_\-1}}
+\subsubsection[{covariance\-\_\-matrix}]{\setlength{\rightskip}{0pt plus 5cm}tuple {\bf markov\-\_\-1\-::covariance\-\_\-matrix} = toeplitz({\bf roe\-\_\-list}, {\bf roe\-\_\-list})}}\label{namespacemarkov__1_a7cc4d10a876ec07da21dbfd4d28e8684}
+\hypertarget{namespacemarkov__1_a8134563a0c42390906c8914ad337e9d8}{\index{markov\-\_\-1@{markov\-\_\-1}!data\-\_\-dimension@{data\-\_\-dimension}}
+\index{data\-\_\-dimension@{data\-\_\-dimension}!markov_1@{markov\-\_\-1}}
+\subsubsection[{data\-\_\-dimension}]{\setlength{\rightskip}{0pt plus 5cm}int {\bf markov\-\_\-1\-::data\-\_\-dimension} = 64}}\label{namespacemarkov__1_a8134563a0c42390906c8914ad337e9d8}
+\hypertarget{namespacemarkov__1_a3744683663f02bff5cf245a674ab9b32}{\index{markov\-\_\-1@{markov\-\_\-1}!\-Data\-Out@{\-Data\-Out}}
+\index{\-Data\-Out@{\-Data\-Out}!markov_1@{markov\-\_\-1}}
+\subsubsection[{\-Data\-Out}]{\setlength{\rightskip}{0pt plus 5cm}{\bf markov\-\_\-1\-::\-Data\-Out} = e\-\_\-vecs}}\label{namespacemarkov__1_a3744683663f02bff5cf245a674ab9b32}
+\hypertarget{namespacemarkov__1_a4a3eda3678257ab2cf6f06891c5ec22c}{\index{markov\-\_\-1@{markov\-\_\-1}!roe@{roe}}
+\index{roe@{roe}!markov_1@{markov\-\_\-1}}
+\subsubsection[{roe}]{\setlength{\rightskip}{0pt plus 5cm}float {\bf markov\-\_\-1\-::roe} = 0.\-9999}}\label{namespacemarkov__1_a4a3eda3678257ab2cf6f06891c5ec22c}
+\hypertarget{namespacemarkov__1_ac6e549cf6d4d6df355d884b67fb19851}{\index{markov\-\_\-1@{markov\-\_\-1}!roe\-\_\-list@{roe\-\_\-list}}
+\index{roe\-\_\-list@{roe\-\_\-list}!markov_1@{markov\-\_\-1}}
+\subsubsection[{roe\-\_\-list}]{\setlength{\rightskip}{0pt plus 5cm}tuple {\bf markov\-\_\-1\-::roe\-\_\-list} = \mbox{[}$\,$\mbox{]}}}\label{namespacemarkov__1_ac6e549cf6d4d6df355d884b67fb19851}

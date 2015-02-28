@@ -1,0 +1,22 @@
+\hypertarget{pool_8cpp}{\section{src/pool.cpp \-File \-Reference}
+\label{pool_8cpp}\index{src/pool.\-cpp@{src/pool.\-cpp}}
+}
+{\ttfamily \#include $<$iostream$>$}\*
+{\ttfamily \#include $<$\-Eigen/\-Dense$>$}\*
+{\ttfamily \#include $<$vector$>$}\*
+{\ttfamily \#include $<$cmath$>$}\*
+{\ttfamily \#include $<$string$>$}\*
+{\ttfamily \#include \char`\"{}pool.\-h\char`\"{}}\*
+\-Include dependency graph for pool.\-cpp\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{pool_8cpp__incl}
+\end{center}
+\end{figure}
+\subsection*{\-Namespaces}
+\begin{DoxyCompactItemize}
+\item 
+namespace \hyperlink{namespacelibcnn}{libcnn}
+\end{DoxyCompactItemize}

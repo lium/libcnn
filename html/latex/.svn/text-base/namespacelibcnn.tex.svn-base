@@ -1,0 +1,311 @@
+\hypertarget{namespacelibcnn}{\section{libcnn \-Namespace \-Reference}
+\label{namespacelibcnn}\index{libcnn@{libcnn}}
+}
+\subsection*{\-Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \hyperlink{classlibcnn_1_1_conv_pool_layer}{\-Conv\-Pool\-Layer}
+\item 
+class \hyperlink{classlibcnn_1_1_pool}{\-Pool}
+\item 
+class \hyperlink{classlibcnn_1_1_softmax}{\-Softmax}
+\end{DoxyCompactItemize}
+\subsection*{\-Functions}
+\begin{DoxyCompactItemize}
+\item 
+double \hyperlink{namespacelibcnn_a5b73556a76dfe9867c10ebd14519fb4e}{sigmoid} (const double \&x)
+\item 
+void \hyperlink{namespacelibcnn_a55bbe6e5488b8a038e5708a32d233090}{get\-\_\-feature\-\_\-vector} (const vector$<$ vector$<$ \-Matrix\-Xd $>$ $>$ \&, \-Matrix\-Xd \&)
+\item 
+void \hyperlink{namespacelibcnn_a78ed8e63be87c4d06bb363af95ce62ec}{softmax2conv} (const \-Matrix\-Xd \&, const int \&, const int \&, const int \&, vector$<$ vector$<$ \-Matrix\-Xd $>$ $>$ \&)
+\item 
+void \hyperlink{namespacelibcnn_a2c5ccad2e675235e71fd5e5641ede4ae}{get\-\_\-parameter} (vector$<$ \-Matrix\-Xd $>$ \&)
+\item 
+void \hyperlink{namespacelibcnn_a493fb452cedcc704e189ad1a3656c0ad}{online\-\_\-test} (const vector$<$ vector$<$ \-Matrix\-Xd $>$ $>$ \&, const \-Vector\-Xi \&, const vector$<$ \-Matrix\-Xd $>$ \&, const \-Matrix\-Xd \&, const vector$<$ \-Matrix\-Xd $>$ \&, const \-Matrix\-Xd \&, const vector$<$ \-Matrix\-Xd $>$ \&, const \-Matrix\-Xd \&, const \-Matrix\-Xd \&, const \-Matrix\-Xd \&, const int \&, const int \&, const int \&, const int \&, const int \&)
+\item 
+void \hyperlink{namespacelibcnn_ab161d6e7087d097f72c086587a661c4a}{normalize} (\-Matrix\-Xd \&)
+\item 
+void \hyperlink{namespacelibcnn_a022f9a6378aa94ec418eb757bead690e}{data\-\_\-generation} (const int \&, const int \&, const int \&, const int \&, vector$<$ vector$<$ \-Matrix\-Xd $>$ $>$ \&, \-Vector\-Xi \&)
+\item 
+void \hyperlink{namespacelibcnn_a4afdb4ab6bfd2c2167c593900ef644f5}{unit\-\_\-scaling} (vector$<$ vector$<$ \-Matrix\-Xd $>$ $>$ \&)
+\item 
+void \hyperlink{namespacelibcnn_a0f018efe5349302aba6f349d17cc90cf}{label\-\_\-sampling} (const int \&, const int \&, const int \&, const int \&, \-Vector\-Xi \&, \-Vector\-Xi \&)
+\item 
+void \hyperlink{namespacelibcnn_a367a409a55921d3810474a42357ff285}{rand\-\_\-classifier} (\-Matrix\-Xd \&, \-Matrix\-Xd \&, const vector$<$ int $>$ \&, const int \&, const int \&, const double \&, const double \&)
+\item 
+void \hyperlink{namespacelibcnn_a449702bcc49494b8e359548d03ba12e3}{rand\-\_\-conv} (vector$<$ vector$<$ \-Matrix\-Xd $>$ $>$ \&, vector$<$ \-Matrix\-Xd $>$ \&, const vector$<$ int $>$ \&, const int \&, const int \&, const double \&, const double \&)
+\item 
+void \hyperlink{namespacelibcnn_a6e166be43bf4a7640feef235071df26e}{print\-\_\-params} (const vector$<$ vector$<$ \-Matrix\-Xd $>$ $>$ \&, const vector$<$ \-Matrix\-Xd $>$ \&, const \-Matrix\-Xd \&, const \-Matrix\-Xd \&)
+\item 
+void \hyperlink{namespacelibcnn_a35fa40f645f5fe20b4cc8d878b1e0c10}{print\-\_\-params} (vector$<$ vector$<$ \-Matrix\-Xd $>$ $>$ \&, vector$<$ \-Matrix\-Xd $>$ \&, vector$<$ \-Matrix\-Xd $>$ \&, vector$<$ \-Matrix\-Xd $>$ \&, vector$<$ \-Matrix\-Xd $>$ \&, \-Matrix\-Xd \&, \-Matrix\-Xd \&, \-Matrix\-Xd \&, \-Matrix\-Xd \&, \-Matrix\-Xd \&)
+\item 
+void \hyperlink{namespacelibcnn_affc4a94fd6208861218bf25631d2ab39}{print\-\_\-params} (vector$<$ vector$<$ \-Matrix\-Xd $>$ $>$ \&weights, vector$<$ \-Matrix\-Xd $>$ \&biases, vector$<$ \-Matrix\-Xd $>$ \&weight\-\_\-0, vector$<$ \-Matrix\-Xd $>$ \&weight\-\_\-1, vector$<$ \-Matrix\-Xd $>$ \&weight\-\_\-2, \-Matrix\-Xd \&bias\-\_\-0, \-Matrix\-Xd \&bias\-\_\-1, \-Matrix\-Xd \&bias\-\_\-2, \-Matrix\-Xd weight\-\_\-class, \-Matrix\-Xd \&bias\-\_\-class)
+\item 
+{\footnotesize template$<$class Matrix $>$ }\\void \hyperlink{namespacelibcnn_ab9d1cc7fff65924fba4673d248ce5b84}{write\-\_\-binary} (const char $\ast$filename, const \-Matrix \&matrix)
+\item 
+{\footnotesize template$<$class Matrix $>$ }\\void \hyperlink{namespacelibcnn_a08fddcf34488abeb9551fa4ba5f69b02}{read\-\_\-binary} (const char $\ast$filename, \-Matrix \&matrix)
+\item 
+void \hyperlink{namespacelibcnn_aa0d2c742374c714e8acadc2f2768db9e}{save} (const vector$<$ vector$<$ \-Matrix\-Xd $>$ $>$ \&, const vector$<$ \-Matrix\-Xd $>$ \&, const \-Matrix\-Xd \&, const \-Matrix\-Xd \&)
+\item 
+void \hyperlink{namespacelibcnn_a05600c0680e871c0893560d97dce3179}{load} (const vector$<$ int $>$ \&num\-\_\-kerns, vector$<$ vector$<$ \-Matrix\-Xd $>$ $>$ \&, vector$<$ \-Matrix\-Xd $>$ \&, \-Matrix\-Xd \&, \-Matrix\-Xd \&)
+\end{DoxyCompactItemize}
+
+
+\subsection{\-Function \-Documentation}
+\hypertarget{namespacelibcnn_a022f9a6378aa94ec418eb757bead690e}{\index{libcnn@{libcnn}!data\-\_\-generation@{data\-\_\-generation}}
+\index{data\-\_\-generation@{data\-\_\-generation}!libcnn@{libcnn}}
+\subsubsection[{data\-\_\-generation}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf libcnn\-::data\-\_\-generation} (
+\begin{DoxyParamCaption}
+\item[{const int \&}]{height, }
+\item[{const int \&}]{width, }
+\item[{const int \&}]{beginning, }
+\item[{const int \&}]{total\-\_\-images, }
+\item[{vector$<$ vector$<$ \-Matrix\-Xd $>$ $>$ \&}]{all\-\_\-data, }
+\item[{\-Vector\-Xi \&}]{all\-\_\-label}
+\end{DoxyParamCaption}
+)}}\label{namespacelibcnn_a022f9a6378aa94ec418eb757bead690e}
+
+
+\-Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=324pt]{namespacelibcnn_a022f9a6378aa94ec418eb757bead690e_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{namespacelibcnn_a55bbe6e5488b8a038e5708a32d233090}{\index{libcnn@{libcnn}!get\-\_\-feature\-\_\-vector@{get\-\_\-feature\-\_\-vector}}
+\index{get\-\_\-feature\-\_\-vector@{get\-\_\-feature\-\_\-vector}!libcnn@{libcnn}}
+\subsubsection[{get\-\_\-feature\-\_\-vector}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf libcnn\-::get\-\_\-feature\-\_\-vector} (
+\begin{DoxyParamCaption}
+\item[{const vector$<$ vector$<$ \-Matrix\-Xd $>$ $>$ \&}]{batch\-\_\-feature\-\_\-maps, }
+\item[{\-Matrix\-Xd \&}]{feature\-\_\-vectors}
+\end{DoxyParamCaption}
+)}}\label{namespacelibcnn_a55bbe6e5488b8a038e5708a32d233090}
+\hypertarget{namespacelibcnn_a2c5ccad2e675235e71fd5e5641ede4ae}{\index{libcnn@{libcnn}!get\-\_\-parameter@{get\-\_\-parameter}}
+\index{get\-\_\-parameter@{get\-\_\-parameter}!libcnn@{libcnn}}
+\subsubsection[{get\-\_\-parameter}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf libcnn\-::get\-\_\-parameter} (
+\begin{DoxyParamCaption}
+\item[{vector$<$ \-Matrix\-Xd $>$ \&}]{feature\-\_\-weights}
+\end{DoxyParamCaption}
+)}}\label{namespacelibcnn_a2c5ccad2e675235e71fd5e5641ede4ae}
+\hypertarget{namespacelibcnn_a0f018efe5349302aba6f349d17cc90cf}{\index{libcnn@{libcnn}!label\-\_\-sampling@{label\-\_\-sampling}}
+\index{label\-\_\-sampling@{label\-\_\-sampling}!libcnn@{libcnn}}
+\subsubsection[{label\-\_\-sampling}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf libcnn\-::label\-\_\-sampling} (
+\begin{DoxyParamCaption}
+\item[{const int \&}]{height, }
+\item[{const int \&}]{width, }
+\item[{const int \&}]{pool, }
+\item[{const int \&}]{images, }
+\item[{\-Vector\-Xi \&}]{all\-\_\-label, }
+\item[{\-Vector\-Xi \&}]{true\-\_\-label}
+\end{DoxyParamCaption}
+)}}\label{namespacelibcnn_a0f018efe5349302aba6f349d17cc90cf}
+\hypertarget{namespacelibcnn_a05600c0680e871c0893560d97dce3179}{\index{libcnn@{libcnn}!load@{load}}
+\index{load@{load}!libcnn@{libcnn}}
+\subsubsection[{load}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf libcnn\-::load} (
+\begin{DoxyParamCaption}
+\item[{const vector$<$ int $>$ \&}]{num\-\_\-kerns, }
+\item[{vector$<$ vector$<$ \-Matrix\-Xd $>$ $>$ \&}]{weights, }
+\item[{vector$<$ \-Matrix\-Xd $>$ \&}]{biases, }
+\item[{\-Matrix\-Xd \&}]{class\-\_\-weight, }
+\item[{\-Matrix\-Xd \&}]{class\-\_\-bias}
+\end{DoxyParamCaption}
+)}}\label{namespacelibcnn_a05600c0680e871c0893560d97dce3179}
+
+
+\-Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=280pt]{namespacelibcnn_a05600c0680e871c0893560d97dce3179_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{namespacelibcnn_ab161d6e7087d097f72c086587a661c4a}{\index{libcnn@{libcnn}!normalize@{normalize}}
+\index{normalize@{normalize}!libcnn@{libcnn}}
+\subsubsection[{normalize}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf libcnn\-::normalize} (
+\begin{DoxyParamCaption}
+\item[{\-Matrix\-Xd \&}]{mat}
+\end{DoxyParamCaption}
+)}}\label{namespacelibcnn_ab161d6e7087d097f72c086587a661c4a}
+\hypertarget{namespacelibcnn_a493fb452cedcc704e189ad1a3656c0ad}{\index{libcnn@{libcnn}!online\-\_\-test@{online\-\_\-test}}
+\index{online\-\_\-test@{online\-\_\-test}!libcnn@{libcnn}}
+\subsubsection[{online\-\_\-test}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf libcnn\-::online\-\_\-test} (
+\begin{DoxyParamCaption}
+\item[{const vector$<$ vector$<$ \-Matrix\-Xd $>$ $>$ \&}]{vec\-\_\-data, }
+\item[{const \-Vector\-Xi \&}]{vec\-\_\-label, }
+\item[{const vector$<$ \-Matrix\-Xd $>$ \&}]{weight\-\_\-0, }
+\item[{const \-Matrix\-Xd \&}]{bias\-\_\-0, }
+\item[{const vector$<$ \-Matrix\-Xd $>$ \&}]{weight\-\_\-1, }
+\item[{const \-Matrix\-Xd \&}]{bias\-\_\-1, }
+\item[{const vector$<$ \-Matrix\-Xd $>$ \&}]{weight\-\_\-2, }
+\item[{const \-Matrix\-Xd \&}]{bias\-\_\-2, }
+\item[{const \-Matrix\-Xd \&}]{weight\-\_\-class, }
+\item[{const \-Matrix\-Xd \&}]{bias\-\_\-class, }
+\item[{const int \&}]{num\-\_\-kerns1, }
+\item[{const int \&}]{num\-\_\-kerns2, }
+\item[{const int \&}]{num\-\_\-kerns3, }
+\item[{const int \&}]{kern\-\_\-size, }
+\item[{const int \&}]{pool\-\_\-size}
+\end{DoxyParamCaption}
+)}}\label{namespacelibcnn_a493fb452cedcc704e189ad1a3656c0ad}
+
+
+\-Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{namespacelibcnn_a493fb452cedcc704e189ad1a3656c0ad_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{namespacelibcnn_a35fa40f645f5fe20b4cc8d878b1e0c10}{\index{libcnn@{libcnn}!print\-\_\-params@{print\-\_\-params}}
+\index{print\-\_\-params@{print\-\_\-params}!libcnn@{libcnn}}
+\subsubsection[{print\-\_\-params}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf libcnn\-::print\-\_\-params} (
+\begin{DoxyParamCaption}
+\item[{vector$<$ vector$<$ \-Matrix\-Xd $>$ $>$ \&}]{, }
+\item[{vector$<$ \-Matrix\-Xd $>$ \&}]{, }
+\item[{vector$<$ \-Matrix\-Xd $>$ \&}]{, }
+\item[{vector$<$ \-Matrix\-Xd $>$ \&}]{, }
+\item[{vector$<$ \-Matrix\-Xd $>$ \&}]{, }
+\item[{\-Matrix\-Xd \&}]{, }
+\item[{\-Matrix\-Xd \&}]{, }
+\item[{\-Matrix\-Xd \&}]{, }
+\item[{\-Matrix\-Xd \&}]{, }
+\item[{\-Matrix\-Xd \&}]{}
+\end{DoxyParamCaption}
+)}}\label{namespacelibcnn_a35fa40f645f5fe20b4cc8d878b1e0c10}
+\hypertarget{namespacelibcnn_affc4a94fd6208861218bf25631d2ab39}{\index{libcnn@{libcnn}!print\-\_\-params@{print\-\_\-params}}
+\index{print\-\_\-params@{print\-\_\-params}!libcnn@{libcnn}}
+\subsubsection[{print\-\_\-params}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf libcnn\-::print\-\_\-params} (
+\begin{DoxyParamCaption}
+\item[{vector$<$ vector$<$ \-Matrix\-Xd $>$ $>$ \&}]{weights, }
+\item[{vector$<$ \-Matrix\-Xd $>$ \&}]{biases, }
+\item[{vector$<$ \-Matrix\-Xd $>$ \&}]{weight\-\_\-0, }
+\item[{vector$<$ \-Matrix\-Xd $>$ \&}]{weight\-\_\-1, }
+\item[{vector$<$ \-Matrix\-Xd $>$ \&}]{weight\-\_\-2, }
+\item[{\-Matrix\-Xd \&}]{bias\-\_\-0, }
+\item[{\-Matrix\-Xd \&}]{bias\-\_\-1, }
+\item[{\-Matrix\-Xd \&}]{bias\-\_\-2, }
+\item[{\-Matrix\-Xd}]{weight\-\_\-class, }
+\item[{\-Matrix\-Xd \&}]{bias\-\_\-class}
+\end{DoxyParamCaption}
+)}}\label{namespacelibcnn_affc4a94fd6208861218bf25631d2ab39}
+\hypertarget{namespacelibcnn_a6e166be43bf4a7640feef235071df26e}{\index{libcnn@{libcnn}!print\-\_\-params@{print\-\_\-params}}
+\index{print\-\_\-params@{print\-\_\-params}!libcnn@{libcnn}}
+\subsubsection[{print\-\_\-params}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf libcnn\-::print\-\_\-params} (
+\begin{DoxyParamCaption}
+\item[{const vector$<$ vector$<$ \-Matrix\-Xd $>$ $>$ \&}]{weights, }
+\item[{const vector$<$ \-Matrix\-Xd $>$ \&}]{biases, }
+\item[{const \-Matrix\-Xd \&}]{weight\-\_\-class, }
+\item[{const \-Matrix\-Xd \&}]{bias\-\_\-class}
+\end{DoxyParamCaption}
+)}}\label{namespacelibcnn_a6e166be43bf4a7640feef235071df26e}
+\hypertarget{namespacelibcnn_a367a409a55921d3810474a42357ff285}{\index{libcnn@{libcnn}!rand\-\_\-classifier@{rand\-\_\-classifier}}
+\index{rand\-\_\-classifier@{rand\-\_\-classifier}!libcnn@{libcnn}}
+\subsubsection[{rand\-\_\-classifier}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf libcnn\-::rand\-\_\-classifier} (
+\begin{DoxyParamCaption}
+\item[{\-Matrix\-Xd \&}]{weight\-\_\-class, }
+\item[{\-Matrix\-Xd \&}]{bias\-\_\-class, }
+\item[{const vector$<$ int $>$ \&}]{num\-\_\-kernels, }
+\item[{const int \&}]{num\-\_\-labels, }
+\item[{const int \&}]{num\-\_\-input\-\_\-maps, }
+\item[{const double \&}]{wb, }
+\item[{const double \&}]{bb}
+\end{DoxyParamCaption}
+)}}\label{namespacelibcnn_a367a409a55921d3810474a42357ff285}
+\hypertarget{namespacelibcnn_a449702bcc49494b8e359548d03ba12e3}{\index{libcnn@{libcnn}!rand\-\_\-conv@{rand\-\_\-conv}}
+\index{rand\-\_\-conv@{rand\-\_\-conv}!libcnn@{libcnn}}
+\subsubsection[{rand\-\_\-conv}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf libcnn\-::rand\-\_\-conv} (
+\begin{DoxyParamCaption}
+\item[{vector$<$ vector$<$ \-Matrix\-Xd $>$ $>$ \&}]{weights, }
+\item[{vector$<$ \-Matrix\-Xd $>$ \&}]{biases, }
+\item[{const vector$<$ int $>$ \&}]{num\-\_\-kernels, }
+\item[{const int \&}]{kernel\-\_\-size, }
+\item[{const int \&}]{num\-\_\-labels, }
+\item[{const double \&}]{weight\-\_\-bound, }
+\item[{const double \&}]{bias\-\_\-bound}
+\end{DoxyParamCaption}
+)}}\label{namespacelibcnn_a449702bcc49494b8e359548d03ba12e3}
+\hypertarget{namespacelibcnn_a08fddcf34488abeb9551fa4ba5f69b02}{\index{libcnn@{libcnn}!read\-\_\-binary@{read\-\_\-binary}}
+\index{read\-\_\-binary@{read\-\_\-binary}!libcnn@{libcnn}}
+\subsubsection[{read\-\_\-binary}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Matrix $>$ void {\bf libcnn\-::read\-\_\-binary} (
+\begin{DoxyParamCaption}
+\item[{const char $\ast$}]{filename, }
+\item[{\-Matrix \&}]{matrix}
+\end{DoxyParamCaption}
+)}}\label{namespacelibcnn_a08fddcf34488abeb9551fa4ba5f69b02}
+\hypertarget{namespacelibcnn_aa0d2c742374c714e8acadc2f2768db9e}{\index{libcnn@{libcnn}!save@{save}}
+\index{save@{save}!libcnn@{libcnn}}
+\subsubsection[{save}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf libcnn\-::save} (
+\begin{DoxyParamCaption}
+\item[{const vector$<$ vector$<$ \-Matrix\-Xd $>$ $>$ \&}]{weights, }
+\item[{const vector$<$ \-Matrix\-Xd $>$ \&}]{biases, }
+\item[{const \-Matrix\-Xd \&}]{class\-\_\-weight, }
+\item[{const \-Matrix\-Xd \&}]{class\-\_\-bias}
+\end{DoxyParamCaption}
+)}}\label{namespacelibcnn_aa0d2c742374c714e8acadc2f2768db9e}
+
+
+\-Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=288pt]{namespacelibcnn_aa0d2c742374c714e8acadc2f2768db9e_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{namespacelibcnn_a5b73556a76dfe9867c10ebd14519fb4e}{\index{libcnn@{libcnn}!sigmoid@{sigmoid}}
+\index{sigmoid@{sigmoid}!libcnn@{libcnn}}
+\subsubsection[{sigmoid}]{\setlength{\rightskip}{0pt plus 5cm}double {\bf libcnn\-::sigmoid} (
+\begin{DoxyParamCaption}
+\item[{const double \&}]{x}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}\label{namespacelibcnn_a5b73556a76dfe9867c10ebd14519fb4e}
+\hypertarget{namespacelibcnn_a78ed8e63be87c4d06bb363af95ce62ec}{\index{libcnn@{libcnn}!softmax2conv@{softmax2conv}}
+\index{softmax2conv@{softmax2conv}!libcnn@{libcnn}}
+\subsubsection[{softmax2conv}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf libcnn\-::softmax2conv} (
+\begin{DoxyParamCaption}
+\item[{const \-Matrix\-Xd \&}]{err\-\_\-softmax, }
+\item[{const int \&}]{batch\-\_\-size, }
+\item[{const int \&}]{map\-\_\-hight, }
+\item[{const int \&}]{map\-\_\-width, }
+\item[{vector$<$ vector$<$ \-Matrix\-Xd $>$ $>$ \&}]{err\-\_\-conv}
+\end{DoxyParamCaption}
+)}}\label{namespacelibcnn_a78ed8e63be87c4d06bb363af95ce62ec}
+\hypertarget{namespacelibcnn_a4afdb4ab6bfd2c2167c593900ef644f5}{\index{libcnn@{libcnn}!unit\-\_\-scaling@{unit\-\_\-scaling}}
+\index{unit\-\_\-scaling@{unit\-\_\-scaling}!libcnn@{libcnn}}
+\subsubsection[{unit\-\_\-scaling}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf libcnn\-::unit\-\_\-scaling} (
+\begin{DoxyParamCaption}
+\item[{vector$<$ vector$<$ \-Matrix\-Xd $>$ $>$ \&}]{all\-\_\-data}
+\end{DoxyParamCaption}
+)}}\label{namespacelibcnn_a4afdb4ab6bfd2c2167c593900ef644f5}
+
+
+\-Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=306pt]{namespacelibcnn_a4afdb4ab6bfd2c2167c593900ef644f5_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{namespacelibcnn_ab9d1cc7fff65924fba4673d248ce5b84}{\index{libcnn@{libcnn}!write\-\_\-binary@{write\-\_\-binary}}
+\index{write\-\_\-binary@{write\-\_\-binary}!libcnn@{libcnn}}
+\subsubsection[{write\-\_\-binary}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class Matrix $>$ void {\bf libcnn\-::write\-\_\-binary} (
+\begin{DoxyParamCaption}
+\item[{const char $\ast$}]{filename, }
+\item[{const \-Matrix \&}]{matrix}
+\end{DoxyParamCaption}
+)}}\label{namespacelibcnn_ab9d1cc7fff65924fba4673d248ce5b84}

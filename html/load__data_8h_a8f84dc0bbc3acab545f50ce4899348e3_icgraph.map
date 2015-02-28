@@ -1,0 +1,8 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$namespacelibcnn.html#a4c271433db43061a9da0ef0183c7ae23" title="libcnn::data_generation" alt="" coords="167,59,321,88"/>
+<area shape="rect" id="node5" href="$train_8cpp.html#a6113682517703008d4dea0c653448610" title="training_single" alt="" coords="372,5,476,35"/>
+<area shape="rect" id="node7" href="$train_8cpp.html#a85d8021bce07b2466383f3891dc6c913" title="training_batch" alt="" coords="373,59,475,88"/>
+<area shape="rect" id="node11" href="$validate_8cpp.html#a41d45236c37b75848f4b1667a11fb50e" title="validate" alt="" coords="391,112,457,141"/>
+<area shape="rect" id="node9" href="$train_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="main" alt="" coords="525,59,576,88"/>
+<area shape="rect" id="node13" href="$validate_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="main" alt="" coords="525,112,576,141"/>
+</map>

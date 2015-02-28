@@ -1,0 +1,136 @@
+\hypertarget{test_2gtest__softmax_8cpp}{\section{test/gtest\-\_\-softmax.cpp \-File \-Reference}
+\label{test_2gtest__softmax_8cpp}\index{test/gtest\-\_\-softmax.\-cpp@{test/gtest\-\_\-softmax.\-cpp}}
+}
+{\ttfamily \#include $<$\-Eigen/\-Dense$>$}\*
+{\ttfamily \#include $<$math.\-h$>$}\*
+{\ttfamily \#include $<$stdlib.\-h$>$}\*
+{\ttfamily \#include $<$iostream$>$}\*
+{\ttfamily \#include $<$gtest/gtest.\-h$>$}\*
+{\ttfamily \#include $<$fstream$>$}\*
+{\ttfamily \#include \char`\"{}yaml-\/cpp/yaml.\-h\char`\"{}}\*
+{\ttfamily \#include $<$string$>$}\*
+{\ttfamily \#include $<$string.\-h$>$}\*
+{\ttfamily \#include \char`\"{}../include/softmax\-\_\-class.\-h\char`\"{}}\*
+\-Include dependency graph for gtest\-\_\-softmax.\-cpp\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{test_2gtest__softmax_8cpp__incl}
+\end{center}
+\end{figure}
+\subsection*{\-Functions}
+\begin{DoxyCompactItemize}
+\item 
+\-Matrix\-Xd \hyperlink{test_2gtest__softmax_8cpp_ab7d7b4f078e317d92400b9bb0b9bdb86}{cnn\-\_\-output} (3, 3)
+\item 
+\-Vector\-Xi \hyperlink{test_2gtest__softmax_8cpp_ab74d1bf93fd1d95503a8200069ae04c0}{ground\-\_\-truth} (3)
+\item 
+void \hyperlink{test_2gtest__softmax_8cpp_a15e6c82d14b7cde034d53e566fd2ff8e}{parser\-\_\-yaml\-\_\-para} (string \&\hyperlink{yaml__t__load_8cpp_a7f01c047eb310166e695d4232ebd1fae}{dir}, \-Matrix\-Xd \&\hyperlink{yaml__t__load_8cpp_a600eac78667d5a813045d8ef2f4395dd}{d}, int \&\hyperlink{yaml__t__load_8cpp_a62c66ce2f11b397011ce5d92cc33f6c0}{\-Label\-\_\-number}, \-Vector\-Xi \&\hyperlink{yaml__t__load_8cpp_a80d599bd22867a8e610e0be09bf1128d}{v}, double \&\hyperlink{yaml__t__load_8cpp_acb484cd30430928d888abe1cfda0d9bb}{w\-\_\-bound}, double \&\hyperlink{yaml__t__load_8cpp_a674b759c775a81169ae20a20b4b2f4db}{b\-\_\-bound}, double \&\hyperlink{yaml__t__load_8cpp_a7b45f711c59e30b2aa59c4c954ad8ea1}{learning\-\_\-rate})
+\item 
+\hyperlink{test_2gtest__softmax_8cpp_a7000779f1149fa088f0c83972dfcbb8b}{\-T\-E\-S\-T} (\-Int\-Test, \-Int\-Number)
+\item 
+int \hyperlink{test_2gtest__softmax_8cpp_a0ddf1224851353fc92bfbff6f499fa97}{main} (int argc, char $\ast$argv\mbox{[}$\,$\mbox{]})
+\end{DoxyCompactItemize}
+\subsection*{\-Variables}
+\begin{DoxyCompactItemize}
+\item 
+string \hyperlink{test_2gtest__softmax_8cpp_a7f01c047eb310166e695d4232ebd1fae}{dir} = string (\char`\"{}../seq.\-yaml\char`\"{})
+\item 
+int \hyperlink{test_2gtest__softmax_8cpp_a62c66ce2f11b397011ce5d92cc33f6c0}{\-Label\-\_\-number}
+\item 
+double \hyperlink{test_2gtest__softmax_8cpp_acb484cd30430928d888abe1cfda0d9bb}{w\-\_\-bound}
+\item 
+double \hyperlink{test_2gtest__softmax_8cpp_a674b759c775a81169ae20a20b4b2f4db}{b\-\_\-bound}
+\item 
+double \hyperlink{test_2gtest__softmax_8cpp_a7b45f711c59e30b2aa59c4c954ad8ea1}{learning\-\_\-rate}
+\end{DoxyCompactItemize}
+
+
+\subsection{\-Function \-Documentation}
+\hypertarget{test_2gtest__softmax_8cpp_ab7d7b4f078e317d92400b9bb0b9bdb86}{\index{test/gtest\-\_\-softmax.\-cpp@{test/gtest\-\_\-softmax.\-cpp}!cnn\-\_\-output@{cnn\-\_\-output}}
+\index{cnn\-\_\-output@{cnn\-\_\-output}!test/gtest_softmax.cpp@{test/gtest\-\_\-softmax.\-cpp}}
+\subsubsection[{cnn\-\_\-output}]{\setlength{\rightskip}{0pt plus 5cm}\-Matrix\-Xd {\bf cnn\-\_\-output} (
+\begin{DoxyParamCaption}
+\item[{3}]{, }
+\item[{3}]{}
+\end{DoxyParamCaption}
+)}}\label{test_2gtest__softmax_8cpp_ab7d7b4f078e317d92400b9bb0b9bdb86}
+\hypertarget{test_2gtest__softmax_8cpp_ab74d1bf93fd1d95503a8200069ae04c0}{\index{test/gtest\-\_\-softmax.\-cpp@{test/gtest\-\_\-softmax.\-cpp}!ground\-\_\-truth@{ground\-\_\-truth}}
+\index{ground\-\_\-truth@{ground\-\_\-truth}!test/gtest_softmax.cpp@{test/gtest\-\_\-softmax.\-cpp}}
+\subsubsection[{ground\-\_\-truth}]{\setlength{\rightskip}{0pt plus 5cm}\-Vector\-Xi {\bf ground\-\_\-truth} (
+\begin{DoxyParamCaption}
+\item[{3}]{}
+\end{DoxyParamCaption}
+)}}\label{test_2gtest__softmax_8cpp_ab74d1bf93fd1d95503a8200069ae04c0}
+\hypertarget{test_2gtest__softmax_8cpp_a0ddf1224851353fc92bfbff6f499fa97}{\index{test/gtest\-\_\-softmax.\-cpp@{test/gtest\-\_\-softmax.\-cpp}!main@{main}}
+\index{main@{main}!test/gtest_softmax.cpp@{test/gtest\-\_\-softmax.\-cpp}}
+\subsubsection[{main}]{\setlength{\rightskip}{0pt plus 5cm}int {\bf main} (
+\begin{DoxyParamCaption}
+\item[{int}]{argc, }
+\item[{char $\ast$}]{argv\mbox{[}$\,$\mbox{]}}
+\end{DoxyParamCaption}
+)}}\label{test_2gtest__softmax_8cpp_a0ddf1224851353fc92bfbff6f499fa97}
+\hypertarget{test_2gtest__softmax_8cpp_a15e6c82d14b7cde034d53e566fd2ff8e}{\index{test/gtest\-\_\-softmax.\-cpp@{test/gtest\-\_\-softmax.\-cpp}!parser\-\_\-yaml\-\_\-para@{parser\-\_\-yaml\-\_\-para}}
+\index{parser\-\_\-yaml\-\_\-para@{parser\-\_\-yaml\-\_\-para}!test/gtest_softmax.cpp@{test/gtest\-\_\-softmax.\-cpp}}
+\subsubsection[{parser\-\_\-yaml\-\_\-para}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf parser\-\_\-yaml\-\_\-para} (
+\begin{DoxyParamCaption}
+\item[{string \&}]{dir, }
+\item[{\-Matrix\-Xd \&}]{d, }
+\item[{int \&}]{\-Label\-\_\-number, }
+\item[{\-Vector\-Xi \&}]{v, }
+\item[{double \&}]{w\-\_\-bound, }
+\item[{double \&}]{b\-\_\-bound, }
+\item[{double \&}]{learning\-\_\-rate}
+\end{DoxyParamCaption}
+)}}\label{test_2gtest__softmax_8cpp_a15e6c82d14b7cde034d53e566fd2ff8e}
+
+
+\-Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=240pt]{test_2gtest__softmax_8cpp_a15e6c82d14b7cde034d53e566fd2ff8e_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{test_2gtest__softmax_8cpp_a7000779f1149fa088f0c83972dfcbb8b}{\index{test/gtest\-\_\-softmax.\-cpp@{test/gtest\-\_\-softmax.\-cpp}!\-T\-E\-S\-T@{\-T\-E\-S\-T}}
+\index{\-T\-E\-S\-T@{\-T\-E\-S\-T}!test/gtest_softmax.cpp@{test/gtest\-\_\-softmax.\-cpp}}
+\subsubsection[{\-T\-E\-S\-T}]{\setlength{\rightskip}{0pt plus 5cm}{\bf \-T\-E\-S\-T} (
+\begin{DoxyParamCaption}
+\item[{\-Int\-Test}]{, }
+\item[{\-Int\-Number}]{}
+\end{DoxyParamCaption}
+)}}\label{test_2gtest__softmax_8cpp_a7000779f1149fa088f0c83972dfcbb8b}
+
+
+\-Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=318pt]{test_2gtest__softmax_8cpp_a7000779f1149fa088f0c83972dfcbb8b_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+\subsection{\-Variable \-Documentation}
+\hypertarget{test_2gtest__softmax_8cpp_a674b759c775a81169ae20a20b4b2f4db}{\index{test/gtest\-\_\-softmax.\-cpp@{test/gtest\-\_\-softmax.\-cpp}!b\-\_\-bound@{b\-\_\-bound}}
+\index{b\-\_\-bound@{b\-\_\-bound}!test/gtest_softmax.cpp@{test/gtest\-\_\-softmax.\-cpp}}
+\subsubsection[{b\-\_\-bound}]{\setlength{\rightskip}{0pt plus 5cm}double {\bf b\-\_\-bound}}}\label{test_2gtest__softmax_8cpp_a674b759c775a81169ae20a20b4b2f4db}
+\hypertarget{test_2gtest__softmax_8cpp_a7f01c047eb310166e695d4232ebd1fae}{\index{test/gtest\-\_\-softmax.\-cpp@{test/gtest\-\_\-softmax.\-cpp}!dir@{dir}}
+\index{dir@{dir}!test/gtest_softmax.cpp@{test/gtest\-\_\-softmax.\-cpp}}
+\subsubsection[{dir}]{\setlength{\rightskip}{0pt plus 5cm}string {\bf dir} = string (\char`\"{}../seq.\-yaml\char`\"{})}}\label{test_2gtest__softmax_8cpp_a7f01c047eb310166e695d4232ebd1fae}
+\hypertarget{test_2gtest__softmax_8cpp_a62c66ce2f11b397011ce5d92cc33f6c0}{\index{test/gtest\-\_\-softmax.\-cpp@{test/gtest\-\_\-softmax.\-cpp}!\-Label\-\_\-number@{\-Label\-\_\-number}}
+\index{\-Label\-\_\-number@{\-Label\-\_\-number}!test/gtest_softmax.cpp@{test/gtest\-\_\-softmax.\-cpp}}
+\subsubsection[{\-Label\-\_\-number}]{\setlength{\rightskip}{0pt plus 5cm}int {\bf \-Label\-\_\-number}}}\label{test_2gtest__softmax_8cpp_a62c66ce2f11b397011ce5d92cc33f6c0}
+\hypertarget{test_2gtest__softmax_8cpp_a7b45f711c59e30b2aa59c4c954ad8ea1}{\index{test/gtest\-\_\-softmax.\-cpp@{test/gtest\-\_\-softmax.\-cpp}!learning\-\_\-rate@{learning\-\_\-rate}}
+\index{learning\-\_\-rate@{learning\-\_\-rate}!test/gtest_softmax.cpp@{test/gtest\-\_\-softmax.\-cpp}}
+\subsubsection[{learning\-\_\-rate}]{\setlength{\rightskip}{0pt plus 5cm}double {\bf learning\-\_\-rate}}}\label{test_2gtest__softmax_8cpp_a7b45f711c59e30b2aa59c4c954ad8ea1}
+\hypertarget{test_2gtest__softmax_8cpp_acb484cd30430928d888abe1cfda0d9bb}{\index{test/gtest\-\_\-softmax.\-cpp@{test/gtest\-\_\-softmax.\-cpp}!w\-\_\-bound@{w\-\_\-bound}}
+\index{w\-\_\-bound@{w\-\_\-bound}!test/gtest_softmax.cpp@{test/gtest\-\_\-softmax.\-cpp}}
+\subsubsection[{w\-\_\-bound}]{\setlength{\rightskip}{0pt plus 5cm}double {\bf w\-\_\-bound}}}\label{test_2gtest__softmax_8cpp_acb484cd30430928d888abe1cfda0d9bb}

@@ -1,0 +1,31 @@
+\hypertarget{confusion_8m}{\section{matlab/visualize/confusion.m \-File \-Reference}
+\label{confusion_8m}\index{matlab/visualize/confusion.\-m@{matlab/visualize/confusion.\-m}}
+}
+\subsection*{\-Variables}
+\begin{DoxyCompactItemize}
+\item 
+function \hyperlink{confusion_8m_a77c71ef956b536f6e6bc4b1898ca2e99}{con\-\_\-mat}
+\item 
+for \hyperlink{confusion_8m_a81b94ba50b782836960e54bcfa99fc88}{i}
+\end{DoxyCompactItemize}
+
+
+\subsection{\-Variable \-Documentation}
+\hypertarget{confusion_8m_a77c71ef956b536f6e6bc4b1898ca2e99}{\index{confusion.\-m@{confusion.\-m}!con\-\_\-mat@{con\-\_\-mat}}
+\index{con\-\_\-mat@{con\-\_\-mat}!confusion.m@{confusion.\-m}}
+\subsubsection[{con\-\_\-mat}]{\setlength{\rightskip}{0pt plus 5cm}function {\bf con\-\_\-mat}}}\label{confusion_8m_a77c71ef956b536f6e6bc4b1898ca2e99}
+{\bfseries \-Initial value\-:}
+\begin{DoxyCode}
+ confusion(predicted, truth, num_labels)
+
+con_mat = zeros(num_labels, num_labels)
+\end{DoxyCode}
+\hypertarget{confusion_8m_a81b94ba50b782836960e54bcfa99fc88}{\index{confusion.\-m@{confusion.\-m}!i@{i}}
+\index{i@{i}!confusion.m@{confusion.\-m}}
+\subsubsection[{i}]{\setlength{\rightskip}{0pt plus 5cm}end for {\bf i}}}\label{confusion_8m_a81b94ba50b782836960e54bcfa99fc88}
+{\bfseries \-Initial value\-:}
+\begin{DoxyCode}
+ 1: length(predicted)
+    con_mat(truth(i) + 1, predicted(i) + 1) = con_mat(truth(i) + 1, predicted(i
+      ) + 1) + 1
+\end{DoxyCode}

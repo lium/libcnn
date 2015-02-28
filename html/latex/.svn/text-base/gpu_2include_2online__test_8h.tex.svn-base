@@ -1,0 +1,24 @@
+\hypertarget{gpu_2include_2online__test_8h}{\section{gpu/include/online\-\_\-test.h \-File \-Reference}
+\label{gpu_2include_2online__test_8h}\index{gpu/include/online\-\_\-test.\-h@{gpu/include/online\-\_\-test.\-h}}
+}
+{\ttfamily \#include $<$iostream$>$}\*
+{\ttfamily \#include $<$\-Eigen/\-Dense$>$}\*
+{\ttfamily \#include $<$vector$>$}\*
+\-Include dependency graph for online\-\_\-test.\-h\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=286pt]{gpu_2include_2online__test_8h__incl}
+\end{center}
+\end{figure}
+\subsection*{\-Namespaces}
+\begin{DoxyCompactItemize}
+\item 
+namespace \hyperlink{namespacelibcnn}{libcnn}
+\end{DoxyCompactItemize}
+\subsection*{\-Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{namespacelibcnn_a493fb452cedcc704e189ad1a3656c0ad}{libcnn\-::online\-\_\-test} (const vector$<$ vector$<$ \-Matrix\-Xd $>$ $>$ \&, const \-Vector\-Xi \&, const vector$<$ \-Matrix\-Xd $>$ \&, const \-Matrix\-Xd \&, const vector$<$ \-Matrix\-Xd $>$ \&, const \-Matrix\-Xd \&, const vector$<$ \-Matrix\-Xd $>$ \&, const \-Matrix\-Xd \&, const \-Matrix\-Xd \&, const \-Matrix\-Xd \&, const int \&, const int \&, const int \&, const int \&, const int \&)
+\end{DoxyCompactItemize}

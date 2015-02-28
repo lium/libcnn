@@ -1,0 +1,102 @@
+\hypertarget{src_2load__data_8cpp}{\section{src/load\-\_\-data.cpp \-File \-Reference}
+\label{src_2load__data_8cpp}\index{src/load\-\_\-data.\-cpp@{src/load\-\_\-data.\-cpp}}
+}
+{\ttfamily \#include $<$sys/types.\-h$>$}\*
+{\ttfamily \#include $<$dirent.\-h$>$}\*
+{\ttfamily \#include $<$errno.\-h$>$}\*
+{\ttfamily \#include $<$vector$>$}\*
+{\ttfamily \#include $<$string.\-h$>$}\*
+{\ttfamily \#include $<$iostream$>$}\*
+{\ttfamily \#include $<$stdlib.\-h$>$}\*
+{\ttfamily \#include $<$fstream$>$}\*
+{\ttfamily \#include $<$\-Eigen/\-Dense$>$}\*
+{\ttfamily \#include $<$cassert$>$}\*
+{\ttfamily \#include $<$algorithm$>$}\*
+{\ttfamily \#include $<$string$>$}\*
+\-Include dependency graph for load\-\_\-data.\-cpp\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{src_2load__data_8cpp__incl}
+\end{center}
+\end{figure}
+\subsection*{\-Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{src_2load__data_8cpp_afbad2e91730f993e296f166a8f89aa9b}{getdir} (const string \&\hyperlink{yaml__t__load_8cpp_a7f01c047eb310166e695d4232ebd1fae}{dir}, vector$<$ string $>$ \&files)
+\item 
+void \hyperlink{src_2load__data_8cpp_a39a205061173088b2222b1d550a8787c}{read\-\_\-image\-\_\-files} (const string \&\hyperlink{yaml__t__load_8cpp_a7f01c047eb310166e695d4232ebd1fae}{dir}, std\-::vector$<$ vector$<$ \-Matrix\-Xd $>$ $>$ \&vvm, const int \&image\-\_\-row\-\_\-dim, const int \&image\-\_\-col\-\_\-dim, const int \&start, const int \&image\-\_\-number)
+\item 
+void \hyperlink{src_2load__data_8cpp_a8f84dc0bbc3acab545f50ce4899348e3}{read\-\_\-label\-\_\-files} (const string \&\hyperlink{yaml__t__load_8cpp_a7f01c047eb310166e695d4232ebd1fae}{dir}, \-Vector\-Xi \&m, const int \&image\-\_\-row\-\_\-dim, const int \&image\-\_\-col\-\_\-dim, const int \&start, const int \&image\-\_\-number, const string \&data\-\_\-mode)
+\item 
+void \hyperlink{src_2load__data_8cpp_ac599c564730d396dcd8eaf64c9878dcf}{read\-\_\-markov\-\_\-files} (const string \&dir\-\_\-name, \-Matrix\-Xd \&markov)
+\end{DoxyCompactItemize}
+
+
+\subsection{\-Function \-Documentation}
+\hypertarget{src_2load__data_8cpp_afbad2e91730f993e296f166a8f89aa9b}{\index{src/load\-\_\-data.\-cpp@{src/load\-\_\-data.\-cpp}!getdir@{getdir}}
+\index{getdir@{getdir}!src/load_data.cpp@{src/load\-\_\-data.\-cpp}}
+\subsubsection[{getdir}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf getdir} (
+\begin{DoxyParamCaption}
+\item[{const string \&}]{dir, }
+\item[{vector$<$ string $>$ \&}]{files}
+\end{DoxyParamCaption}
+)}}\label{src_2load__data_8cpp_afbad2e91730f993e296f166a8f89aa9b}
+\hypertarget{src_2load__data_8cpp_a39a205061173088b2222b1d550a8787c}{\index{src/load\-\_\-data.\-cpp@{src/load\-\_\-data.\-cpp}!read\-\_\-image\-\_\-files@{read\-\_\-image\-\_\-files}}
+\index{read\-\_\-image\-\_\-files@{read\-\_\-image\-\_\-files}!src/load_data.cpp@{src/load\-\_\-data.\-cpp}}
+\subsubsection[{read\-\_\-image\-\_\-files}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf read\-\_\-image\-\_\-files} (
+\begin{DoxyParamCaption}
+\item[{const string \&}]{dir, }
+\item[{std\-::vector$<$ vector$<$ \-Matrix\-Xd $>$ $>$ \&}]{vvm, }
+\item[{const int \&}]{image\-\_\-row\-\_\-dim, }
+\item[{const int \&}]{image\-\_\-col\-\_\-dim, }
+\item[{const int \&}]{start, }
+\item[{const int \&}]{image\-\_\-number}
+\end{DoxyParamCaption}
+)}}\label{src_2load__data_8cpp_a39a205061173088b2222b1d550a8787c}
+
+
+\-Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=248pt]{src_2load__data_8cpp_a39a205061173088b2222b1d550a8787c_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{src_2load__data_8cpp_a8f84dc0bbc3acab545f50ce4899348e3}{\index{src/load\-\_\-data.\-cpp@{src/load\-\_\-data.\-cpp}!read\-\_\-label\-\_\-files@{read\-\_\-label\-\_\-files}}
+\index{read\-\_\-label\-\_\-files@{read\-\_\-label\-\_\-files}!src/load_data.cpp@{src/load\-\_\-data.\-cpp}}
+\subsubsection[{read\-\_\-label\-\_\-files}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf read\-\_\-label\-\_\-files} (
+\begin{DoxyParamCaption}
+\item[{const string \&}]{dir, }
+\item[{\-Vector\-Xi \&}]{m, }
+\item[{const int \&}]{image\-\_\-row\-\_\-dim, }
+\item[{const int \&}]{image\-\_\-col\-\_\-dim, }
+\item[{const int \&}]{start, }
+\item[{const int \&}]{image\-\_\-number, }
+\item[{const string \&}]{data\-\_\-mode}
+\end{DoxyParamCaption}
+)}}\label{src_2load__data_8cpp_a8f84dc0bbc3acab545f50ce4899348e3}
+
+
+\-Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=242pt]{src_2load__data_8cpp_a8f84dc0bbc3acab545f50ce4899348e3_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{src_2load__data_8cpp_ac599c564730d396dcd8eaf64c9878dcf}{\index{src/load\-\_\-data.\-cpp@{src/load\-\_\-data.\-cpp}!read\-\_\-markov\-\_\-files@{read\-\_\-markov\-\_\-files}}
+\index{read\-\_\-markov\-\_\-files@{read\-\_\-markov\-\_\-files}!src/load_data.cpp@{src/load\-\_\-data.\-cpp}}
+\subsubsection[{read\-\_\-markov\-\_\-files}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf read\-\_\-markov\-\_\-files} (
+\begin{DoxyParamCaption}
+\item[{const string \&}]{dir\-\_\-name, }
+\item[{\-Matrix\-Xd \&}]{markov}
+\end{DoxyParamCaption}
+)}}\label{src_2load__data_8cpp_ac599c564730d396dcd8eaf64c9878dcf}

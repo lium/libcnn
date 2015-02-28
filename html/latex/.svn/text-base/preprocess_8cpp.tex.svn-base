@@ -1,0 +1,33 @@
+\hypertarget{preprocess_8cpp}{\section{src/preprocess.cpp \-File \-Reference}
+\label{preprocess_8cpp}\index{src/preprocess.\-cpp@{src/preprocess.\-cpp}}
+}
+{\ttfamily \#include $<$iostream$>$}\*
+{\ttfamily \#include $<$\-Eigen/\-Dense$>$}\*
+{\ttfamily \#include $<$vector$>$}\*
+{\ttfamily \#include $<$cmath$>$}\*
+{\ttfamily \#include \char`\"{}preprocess.\-h\char`\"{}}\*
+{\ttfamily \#include \char`\"{}load\-\_\-data.\-h\char`\"{}}\*
+\-Include dependency graph for preprocess.\-cpp\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{preprocess_8cpp__incl}
+\end{center}
+\end{figure}
+\subsection*{\-Namespaces}
+\begin{DoxyCompactItemize}
+\item 
+namespace \hyperlink{namespacelibcnn}{libcnn}
+\end{DoxyCompactItemize}
+\subsection*{\-Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{namespacelibcnn_ae2c6497cf9f63be67a21d572c1c21490}{libcnn\-::normalize} (\-Matrix\-Xd \&mat)
+\item 
+void \hyperlink{namespacelibcnn_a4c271433db43061a9da0ef0183c7ae23}{libcnn\-::data\-\_\-generation} (const int \&\hyperlink{validate_8cpp_ad13e9131f5062934438fa82334e4b2ee}{height}, const int \&\hyperlink{validate_8cpp_a837aabdd54757cb86d0f66387511753f}{width}, const int \&\hyperlink{validate_8cpp_a34f4541b93687f4eba94f12aadd95050}{beginning}, const int \&total\-\_\-images, vector$<$ vector$<$ \-Matrix\-Xd $>$ $>$ \&all\-\_\-data, \-Vector\-Xi \&all\-\_\-label)
+\item 
+void \hyperlink{namespacelibcnn_a13d7716be59d43890efd2183937a3b0d}{libcnn\-::unit\-\_\-scaling} (vector$<$ vector$<$ \-Matrix\-Xd $>$ $>$ \&all\-\_\-data)
+\item 
+void \hyperlink{namespacelibcnn_af447e1ed172e8a2b9eff29ce5b44008d}{libcnn\-::label\-\_\-sampling} (const int \&\hyperlink{validate_8cpp_ad13e9131f5062934438fa82334e4b2ee}{height}, const int \&\hyperlink{validate_8cpp_a837aabdd54757cb86d0f66387511753f}{width}, const int \&\hyperlink{validate_8cpp_af17a6f9c9fc8fc26d1645cf6291bb0d9}{pool}, const int \&images, \-Vector\-Xi \&all\-\_\-label, \-Vector\-Xi \&true\-\_\-label)
+\end{DoxyCompactItemize}

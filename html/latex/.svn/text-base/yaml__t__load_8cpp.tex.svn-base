@@ -1,0 +1,123 @@
+\hypertarget{yaml__t__load_8cpp}{\section{yaml\-\_\-t\-\_\-load.\-cpp \-File \-Reference}
+\label{yaml__t__load_8cpp}\index{yaml\-\_\-t\-\_\-load.\-cpp@{yaml\-\_\-t\-\_\-load.\-cpp}}
+}
+{\ttfamily \#include $<$iostream$>$}\*
+{\ttfamily \#include $<$fstream$>$}\*
+{\ttfamily \#include \char`\"{}yaml-\/cpp/yaml.\-h\char`\"{}}\*
+{\ttfamily \#include $<$\-Eigen/\-Dense$>$}\*
+{\ttfamily \#include $<$stdlib.\-h$>$}\*
+{\ttfamily \#include $<$string$>$}\*
+{\ttfamily \#include $<$string.\-h$>$}\*
+\-Include dependency graph for yaml\-\_\-t\-\_\-load.\-cpp\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{yaml__t__load_8cpp__incl}
+\end{center}
+\end{figure}
+\subsection*{\-Functions}
+\begin{DoxyCompactItemize}
+\item 
+\-Matrix\-Xd \hyperlink{yaml__t__load_8cpp_a600eac78667d5a813045d8ef2f4395dd}{d} (3, 3)
+\item 
+\-Vector\-Xi \hyperlink{yaml__t__load_8cpp_a80d599bd22867a8e610e0be09bf1128d}{v} (3)
+\item 
+void \hyperlink{yaml__t__load_8cpp_a15e6c82d14b7cde034d53e566fd2ff8e}{parser\-\_\-yaml\-\_\-para} (string \&\hyperlink{yaml__t__load_8cpp_a7f01c047eb310166e695d4232ebd1fae}{dir}, \-Matrix\-Xd \&\hyperlink{yaml__t__load_8cpp_a600eac78667d5a813045d8ef2f4395dd}{d}, int \&\hyperlink{yaml__t__load_8cpp_a62c66ce2f11b397011ce5d92cc33f6c0}{\-Label\-\_\-number}, \-Vector\-Xi \&\hyperlink{yaml__t__load_8cpp_a80d599bd22867a8e610e0be09bf1128d}{v}, double \&\hyperlink{yaml__t__load_8cpp_acb484cd30430928d888abe1cfda0d9bb}{w\-\_\-bound}, double \&\hyperlink{yaml__t__load_8cpp_a674b759c775a81169ae20a20b4b2f4db}{b\-\_\-bound}, double \&\hyperlink{yaml__t__load_8cpp_a7b45f711c59e30b2aa59c4c954ad8ea1}{learning\-\_\-rate})
+\item 
+int \hyperlink{yaml__t__load_8cpp_a0ddf1224851353fc92bfbff6f499fa97}{main} (int argc, char $\ast$argv\mbox{[}$\,$\mbox{]})
+\end{DoxyCompactItemize}
+\subsection*{\-Variables}
+\begin{DoxyCompactItemize}
+\item 
+string \hyperlink{yaml__t__load_8cpp_a7f01c047eb310166e695d4232ebd1fae}{dir} = \char`\"{}../seq.\-yaml\char`\"{}
+\item 
+int \hyperlink{yaml__t__load_8cpp_a62c66ce2f11b397011ce5d92cc33f6c0}{\-Label\-\_\-number}
+\item 
+double \hyperlink{yaml__t__load_8cpp_acb484cd30430928d888abe1cfda0d9bb}{w\-\_\-bound}
+\item 
+double \hyperlink{yaml__t__load_8cpp_a674b759c775a81169ae20a20b4b2f4db}{b\-\_\-bound}
+\item 
+double \hyperlink{yaml__t__load_8cpp_a7b45f711c59e30b2aa59c4c954ad8ea1}{learning\-\_\-rate}
+\end{DoxyCompactItemize}
+
+
+\subsection{\-Function \-Documentation}
+\hypertarget{yaml__t__load_8cpp_a600eac78667d5a813045d8ef2f4395dd}{\index{yaml\-\_\-t\-\_\-load.\-cpp@{yaml\-\_\-t\-\_\-load.\-cpp}!d@{d}}
+\index{d@{d}!yaml_t_load.cpp@{yaml\-\_\-t\-\_\-load.\-cpp}}
+\subsubsection[{d}]{\setlength{\rightskip}{0pt plus 5cm}\-Matrix\-Xd {\bf d} (
+\begin{DoxyParamCaption}
+\item[{3}]{, }
+\item[{3}]{}
+\end{DoxyParamCaption}
+)}}\label{yaml__t__load_8cpp_a600eac78667d5a813045d8ef2f4395dd}
+\hypertarget{yaml__t__load_8cpp_a0ddf1224851353fc92bfbff6f499fa97}{\index{yaml\-\_\-t\-\_\-load.\-cpp@{yaml\-\_\-t\-\_\-load.\-cpp}!main@{main}}
+\index{main@{main}!yaml_t_load.cpp@{yaml\-\_\-t\-\_\-load.\-cpp}}
+\subsubsection[{main}]{\setlength{\rightskip}{0pt plus 5cm}int {\bf main} (
+\begin{DoxyParamCaption}
+\item[{int}]{argc, }
+\item[{char $\ast$}]{argv\mbox{[}$\,$\mbox{]}}
+\end{DoxyParamCaption}
+)}}\label{yaml__t__load_8cpp_a0ddf1224851353fc92bfbff6f499fa97}
+
+
+\-Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=314pt]{yaml__t__load_8cpp_a0ddf1224851353fc92bfbff6f499fa97_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{yaml__t__load_8cpp_a15e6c82d14b7cde034d53e566fd2ff8e}{\index{yaml\-\_\-t\-\_\-load.\-cpp@{yaml\-\_\-t\-\_\-load.\-cpp}!parser\-\_\-yaml\-\_\-para@{parser\-\_\-yaml\-\_\-para}}
+\index{parser\-\_\-yaml\-\_\-para@{parser\-\_\-yaml\-\_\-para}!yaml_t_load.cpp@{yaml\-\_\-t\-\_\-load.\-cpp}}
+\subsubsection[{parser\-\_\-yaml\-\_\-para}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf parser\-\_\-yaml\-\_\-para} (
+\begin{DoxyParamCaption}
+\item[{string \&}]{dir, }
+\item[{\-Matrix\-Xd \&}]{d, }
+\item[{int \&}]{\-Label\-\_\-number, }
+\item[{\-Vector\-Xi \&}]{v, }
+\item[{double \&}]{w\-\_\-bound, }
+\item[{double \&}]{b\-\_\-bound, }
+\item[{double \&}]{learning\-\_\-rate}
+\end{DoxyParamCaption}
+)}}\label{yaml__t__load_8cpp_a15e6c82d14b7cde034d53e566fd2ff8e}
+
+
+\-Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=240pt]{yaml__t__load_8cpp_a15e6c82d14b7cde034d53e566fd2ff8e_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{yaml__t__load_8cpp_a80d599bd22867a8e610e0be09bf1128d}{\index{yaml\-\_\-t\-\_\-load.\-cpp@{yaml\-\_\-t\-\_\-load.\-cpp}!v@{v}}
+\index{v@{v}!yaml_t_load.cpp@{yaml\-\_\-t\-\_\-load.\-cpp}}
+\subsubsection[{v}]{\setlength{\rightskip}{0pt plus 5cm}\-Vector\-Xi {\bf v} (
+\begin{DoxyParamCaption}
+\item[{3}]{}
+\end{DoxyParamCaption}
+)}}\label{yaml__t__load_8cpp_a80d599bd22867a8e610e0be09bf1128d}
+
+
+\subsection{\-Variable \-Documentation}
+\hypertarget{yaml__t__load_8cpp_a674b759c775a81169ae20a20b4b2f4db}{\index{yaml\-\_\-t\-\_\-load.\-cpp@{yaml\-\_\-t\-\_\-load.\-cpp}!b\-\_\-bound@{b\-\_\-bound}}
+\index{b\-\_\-bound@{b\-\_\-bound}!yaml_t_load.cpp@{yaml\-\_\-t\-\_\-load.\-cpp}}
+\subsubsection[{b\-\_\-bound}]{\setlength{\rightskip}{0pt plus 5cm}double {\bf b\-\_\-bound}}}\label{yaml__t__load_8cpp_a674b759c775a81169ae20a20b4b2f4db}
+\hypertarget{yaml__t__load_8cpp_a7f01c047eb310166e695d4232ebd1fae}{\index{yaml\-\_\-t\-\_\-load.\-cpp@{yaml\-\_\-t\-\_\-load.\-cpp}!dir@{dir}}
+\index{dir@{dir}!yaml_t_load.cpp@{yaml\-\_\-t\-\_\-load.\-cpp}}
+\subsubsection[{dir}]{\setlength{\rightskip}{0pt plus 5cm}string {\bf dir} = \char`\"{}../seq.\-yaml\char`\"{}}}\label{yaml__t__load_8cpp_a7f01c047eb310166e695d4232ebd1fae}
+\hypertarget{yaml__t__load_8cpp_a62c66ce2f11b397011ce5d92cc33f6c0}{\index{yaml\-\_\-t\-\_\-load.\-cpp@{yaml\-\_\-t\-\_\-load.\-cpp}!\-Label\-\_\-number@{\-Label\-\_\-number}}
+\index{\-Label\-\_\-number@{\-Label\-\_\-number}!yaml_t_load.cpp@{yaml\-\_\-t\-\_\-load.\-cpp}}
+\subsubsection[{\-Label\-\_\-number}]{\setlength{\rightskip}{0pt plus 5cm}int {\bf \-Label\-\_\-number}}}\label{yaml__t__load_8cpp_a62c66ce2f11b397011ce5d92cc33f6c0}
+\hypertarget{yaml__t__load_8cpp_a7b45f711c59e30b2aa59c4c954ad8ea1}{\index{yaml\-\_\-t\-\_\-load.\-cpp@{yaml\-\_\-t\-\_\-load.\-cpp}!learning\-\_\-rate@{learning\-\_\-rate}}
+\index{learning\-\_\-rate@{learning\-\_\-rate}!yaml_t_load.cpp@{yaml\-\_\-t\-\_\-load.\-cpp}}
+\subsubsection[{learning\-\_\-rate}]{\setlength{\rightskip}{0pt plus 5cm}double {\bf learning\-\_\-rate}}}\label{yaml__t__load_8cpp_a7b45f711c59e30b2aa59c4c954ad8ea1}
+\hypertarget{yaml__t__load_8cpp_acb484cd30430928d888abe1cfda0d9bb}{\index{yaml\-\_\-t\-\_\-load.\-cpp@{yaml\-\_\-t\-\_\-load.\-cpp}!w\-\_\-bound@{w\-\_\-bound}}
+\index{w\-\_\-bound@{w\-\_\-bound}!yaml_t_load.cpp@{yaml\-\_\-t\-\_\-load.\-cpp}}
+\subsubsection[{w\-\_\-bound}]{\setlength{\rightskip}{0pt plus 5cm}double {\bf w\-\_\-bound}}}\label{yaml__t__load_8cpp_acb484cd30430928d888abe1cfda0d9bb}

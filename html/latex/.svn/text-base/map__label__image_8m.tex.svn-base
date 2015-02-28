@@ -1,0 +1,30 @@
+\hypertarget{map__label__image_8m}{\section{matlab/visualize/map\-\_\-label\-\_\-image.m \-File \-Reference}
+\label{map__label__image_8m}\index{matlab/visualize/map\-\_\-label\-\_\-image.\-m@{matlab/visualize/map\-\_\-label\-\_\-image.\-m}}
+}
+\subsection*{\-Variables}
+\begin{DoxyCompactItemize}
+\item 
+function \hyperlink{map__label__image_8m_acb48043a7a1929f4902a19d39f602792}{label\-\_\-img}
+\item 
+for \hyperlink{map__label__image_8m_a6f6ccfcf58b31cb6412107d9d5281426}{i}
+\end{DoxyCompactItemize}
+
+
+\subsection{\-Variable \-Documentation}
+\hypertarget{map__label__image_8m_a6f6ccfcf58b31cb6412107d9d5281426}{\index{map\-\_\-label\-\_\-image.\-m@{map\-\_\-label\-\_\-image.\-m}!i@{i}}
+\index{i@{i}!map_label_image.m@{map\-\_\-label\-\_\-image.\-m}}
+\subsubsection[{i}]{\setlength{\rightskip}{0pt plus 5cm}for {\bf i}}}\label{map__label__image_8m_a6f6ccfcf58b31cb6412107d9d5281426}
+{\bfseries \-Initial value\-:}
+\begin{DoxyCode}
+ size(label_mat) 1: col
+        for j = 1: row
+            pixel_value = map_label_color(label_mat(j,i))
+\end{DoxyCode}
+\hypertarget{map__label__image_8m_acb48043a7a1929f4902a19d39f602792}{\index{map\-\_\-label\-\_\-image.\-m@{map\-\_\-label\-\_\-image.\-m}!label\-\_\-img@{label\-\_\-img}}
+\index{label\-\_\-img@{label\-\_\-img}!map_label_image.m@{map\-\_\-label\-\_\-image.\-m}}
+\subsubsection[{label\-\_\-img}]{\setlength{\rightskip}{0pt plus 5cm}end end {\bf label\-\_\-img}}}\label{map__label__image_8m_acb48043a7a1929f4902a19d39f602792}
+{\bfseries \-Initial value\-:}
+\begin{DoxyCode}
+ map_label_image(label_mat)
+    label_img = []
+\end{DoxyCode}

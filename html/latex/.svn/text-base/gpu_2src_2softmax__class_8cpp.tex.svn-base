@@ -1,0 +1,21 @@
+\hypertarget{gpu_2src_2softmax__class_8cpp}{\section{gpu/src/softmax\-\_\-class.cpp \-File \-Reference}
+\label{gpu_2src_2softmax__class_8cpp}\index{gpu/src/softmax\-\_\-class.\-cpp@{gpu/src/softmax\-\_\-class.\-cpp}}
+}
+{\ttfamily \#include $<$iostream$>$}\*
+{\ttfamily \#include $<$stdlib.\-h$>$}\*
+{\ttfamily \#include $<$\-Eigen/\-Dense$>$}\*
+{\ttfamily \#include $<$math.\-h$>$}\*
+{\ttfamily \#include \char`\"{}softmax\-\_\-class.\-h\char`\"{}}\*
+\-Include dependency graph for softmax\-\_\-class.\-cpp\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{gpu_2src_2softmax__class_8cpp__incl}
+\end{center}
+\end{figure}
+\subsection*{\-Namespaces}
+\begin{DoxyCompactItemize}
+\item 
+namespace \hyperlink{namespacelibcnn}{libcnn}
+\end{DoxyCompactItemize}

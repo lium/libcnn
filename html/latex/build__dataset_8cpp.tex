@@ -1,0 +1,229 @@
+\hypertarget{build__dataset_8cpp}{\section{test/build\-\_\-dataset/build\-\_\-dataset.cpp \-File \-Reference}
+\label{build__dataset_8cpp}\index{test/build\-\_\-dataset/build\-\_\-dataset.\-cpp@{test/build\-\_\-dataset/build\-\_\-dataset.\-cpp}}
+}
+{\ttfamily \#include $<$iostream$>$}\*
+{\ttfamily \#include $<$sys/types.\-h$>$}\*
+{\ttfamily \#include $<$dirent.\-h$>$}\*
+{\ttfamily \#include $<$errno.\-h$>$}\*
+{\ttfamily \#include $<$fstream$>$}\*
+{\ttfamily \#include $<$vector$>$}\*
+{\ttfamily \#include $<$string$>$}\*
+{\ttfamily \#include $<$map$>$}\*
+{\ttfamily \#include $<$eigen3/\-Eigen/\-Dense$>$}\*
+{\ttfamily \#include $<$opencv2/core/core.\-hpp$>$}\*
+{\ttfamily \#include $<$opencv2/highgui/highgui.\-hpp$>$}\*
+{\ttfamily \#include $<$opencv2/imgproc/imgproc.\-hpp$>$}\*
+{\ttfamily \#include $<$opencv2/core/eigen.\-hpp$>$}\*
+\-Include dependency graph for build\-\_\-dataset.\-cpp\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{build__dataset_8cpp__incl}
+\end{center}
+\end{figure}
+\subsection*{\-Typedefs}
+\begin{DoxyCompactItemize}
+\item 
+typedef \-Eigen\-::\-Matrix$<$ uchar, \*
+\-Dynamic, \-Dynamic $>$ \hyperlink{build__dataset_8cpp_a8096e93505cddac4cf99c2301883ab14}{\-Matrix\-Xc}
+\item 
+typedef map$<$ string, \-Mat $>$ \hyperlink{build__dataset_8cpp_a1761a0dff3537da3743c4d92ce94e5a9}{\-Src\-Img\-Map\-Type}
+\item 
+typedef map$<$ string, \-Vector\-Xf $>$ \hyperlink{build__dataset_8cpp_a2ad1d3d85356f042b317cde803b43667}{\-Src\-Depth\-Map\-Type}
+\item 
+typedef map$<$ string, \-Vector\-Xi $>$ \hyperlink{build__dataset_8cpp_a5332f8cbe4a18b3e5263613824a599ee}{\-Src\-Label\-Map\-Type}
+\end{DoxyCompactItemize}
+\subsection*{\-Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{build__dataset_8cpp_ad55cea6ce9e53c805e4fa88ffb179cec}{get\-Name\-List\-In\-File} (string path\-To\-File, vector$<$ string $>$ \&v\-Name\-List)
+\item 
+void \hyperlink{build__dataset_8cpp_aba3394f5f8d4e7581bc5ecbaaf0313b5}{build\-Image\-Subset} (string path\-To\-Image\-Dir, const vector$<$ string $>$ \&name\-List, vector$<$ vector$<$ \-Matrix\-Xi $>$ $>$ \&subset\-Img)
+\item 
+void \hyperlink{build__dataset_8cpp_a46e72f416948302d7a240c2384e9869b}{build\-Region\-Subset} (string path\-To\-Label\-Dir, const vector$<$ string $>$ \&name\-List, \-Vector\-Xi \&subset\-Label)
+\item 
+void \hyperlink{build__dataset_8cpp_a777e74a6234e94a8485bce69b1b6630e}{merge\-Vectors} (const vector$<$ \-Vector\-Xi $>$ \&src, \-Vector\-Xi \&dest)
+\item 
+void \hyperlink{build__dataset_8cpp_ac52bc11ce3cf73533b206f8afb6ae0d5}{build\-Image\-Set} (string path\-To\-Image\-Dir, const vector$<$ string $>$ \&v\-Name\-List\-Eval, const vector$<$ string $>$ \&v\-Name\-List\-Train, vector$<$ vector$<$ \-Matrix\-Xi $>$ $>$ \&img\-Set\-Eval, vector$<$ vector$<$ \-Matrix\-Xi $>$ $>$ \&img\-Set\-Train)
+\item 
+void \hyperlink{build__dataset_8cpp_a6524223e76c6cdcbb8abd8d231a2dae3}{build\-Region\-Set} (string path\-To\-Label\-Dir, const vector$<$ string $>$ \&v\-Name\-List\-Eval, const vector$<$ string $>$ \&v\-Name\-List\-Train, \-Vector\-Xi \&label\-Set\-Eval, \-Vector\-Xi \&label\-Set\-Train)
+\item 
+void \hyperlink{build__dataset_8cpp_a51008ea6d639927b35887511b24530a9}{build\-Data\-Set} (string base\-Path, vector$<$ vector$<$ \-Matrix\-Xi $>$ $>$ \&img\-Set\-Eval, vector$<$ string $>$ \&v\-Filename\-Eval, \-Vector\-Xi \&label\-Set\-Eval, vector$<$ vector$<$ \-Matrix\-Xi $>$ $>$ \&img\-Set\-Train, vector$<$ string $>$ \&v\-Filename\-Train, \-Vector\-Xi \&label\-Set\-Train)
+\item 
+void \hyperlink{build__dataset_8cpp_a2ac061736f98bb0c934b885d485b08f3}{convert\-Eig\-Yuv\-To\-Cv\-Bgr} (const vector$<$ \-Matrix\-Xi $>$ \&v\-Eig\-Yuv, \-Mat \&mat\-Bgr)
+\item 
+void \hyperlink{build__dataset_8cpp_a8662eeae70d4db4c23616897372daa41}{convert\-Label\-To\-Image} (const \-Vector\-Xi \&label, long pos, long length, \-Mat \&img)
+\item 
+void \hyperlink{build__dataset_8cpp_a97ee70a8770dc30d06c744b24eb2fcfc}{help} ()
+\item 
+int \hyperlink{build__dataset_8cpp_a3c04138a5bfe5d72780bb7e82a18e627}{main} (int argc, char $\ast$$\ast$argv)
+\end{DoxyCompactItemize}
+
+
+\subsection{\-Typedef \-Documentation}
+\hypertarget{build__dataset_8cpp_a8096e93505cddac4cf99c2301883ab14}{\index{build\-\_\-dataset.\-cpp@{build\-\_\-dataset.\-cpp}!\-Matrix\-Xc@{\-Matrix\-Xc}}
+\index{\-Matrix\-Xc@{\-Matrix\-Xc}!build_dataset.cpp@{build\-\_\-dataset.\-cpp}}
+\subsubsection[{\-Matrix\-Xc}]{\setlength{\rightskip}{0pt plus 5cm}typedef \-Eigen\-::\-Matrix$<$uchar, \-Dynamic, \-Dynamic$>$ {\bf \-Matrix\-Xc}}}\label{build__dataset_8cpp_a8096e93505cddac4cf99c2301883ab14}
+\hypertarget{build__dataset_8cpp_a2ad1d3d85356f042b317cde803b43667}{\index{build\-\_\-dataset.\-cpp@{build\-\_\-dataset.\-cpp}!\-Src\-Depth\-Map\-Type@{\-Src\-Depth\-Map\-Type}}
+\index{\-Src\-Depth\-Map\-Type@{\-Src\-Depth\-Map\-Type}!build_dataset.cpp@{build\-\_\-dataset.\-cpp}}
+\subsubsection[{\-Src\-Depth\-Map\-Type}]{\setlength{\rightskip}{0pt plus 5cm}typedef map$<$string,\-Vector\-Xf$>$ {\bf \-Src\-Depth\-Map\-Type}}}\label{build__dataset_8cpp_a2ad1d3d85356f042b317cde803b43667}
+\hypertarget{build__dataset_8cpp_a1761a0dff3537da3743c4d92ce94e5a9}{\index{build\-\_\-dataset.\-cpp@{build\-\_\-dataset.\-cpp}!\-Src\-Img\-Map\-Type@{\-Src\-Img\-Map\-Type}}
+\index{\-Src\-Img\-Map\-Type@{\-Src\-Img\-Map\-Type}!build_dataset.cpp@{build\-\_\-dataset.\-cpp}}
+\subsubsection[{\-Src\-Img\-Map\-Type}]{\setlength{\rightskip}{0pt plus 5cm}typedef map$<$string,\-Mat$>$ {\bf \-Src\-Img\-Map\-Type}}}\label{build__dataset_8cpp_a1761a0dff3537da3743c4d92ce94e5a9}
+\hypertarget{build__dataset_8cpp_a5332f8cbe4a18b3e5263613824a599ee}{\index{build\-\_\-dataset.\-cpp@{build\-\_\-dataset.\-cpp}!\-Src\-Label\-Map\-Type@{\-Src\-Label\-Map\-Type}}
+\index{\-Src\-Label\-Map\-Type@{\-Src\-Label\-Map\-Type}!build_dataset.cpp@{build\-\_\-dataset.\-cpp}}
+\subsubsection[{\-Src\-Label\-Map\-Type}]{\setlength{\rightskip}{0pt plus 5cm}typedef map$<$string,\-Vector\-Xi$>$ {\bf \-Src\-Label\-Map\-Type}}}\label{build__dataset_8cpp_a5332f8cbe4a18b3e5263613824a599ee}
+
+
+\subsection{\-Function \-Documentation}
+\hypertarget{build__dataset_8cpp_a51008ea6d639927b35887511b24530a9}{\index{build\-\_\-dataset.\-cpp@{build\-\_\-dataset.\-cpp}!build\-Data\-Set@{build\-Data\-Set}}
+\index{build\-Data\-Set@{build\-Data\-Set}!build_dataset.cpp@{build\-\_\-dataset.\-cpp}}
+\subsubsection[{build\-Data\-Set}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf build\-Data\-Set} (
+\begin{DoxyParamCaption}
+\item[{string}]{base\-Path, }
+\item[{vector$<$ vector$<$ \-Matrix\-Xi $>$ $>$ \&}]{img\-Set\-Eval, }
+\item[{vector$<$ string $>$ \&}]{v\-Filename\-Eval, }
+\item[{\-Vector\-Xi \&}]{label\-Set\-Eval, }
+\item[{vector$<$ vector$<$ \-Matrix\-Xi $>$ $>$ \&}]{img\-Set\-Train, }
+\item[{vector$<$ string $>$ \&}]{v\-Filename\-Train, }
+\item[{\-Vector\-Xi \&}]{label\-Set\-Train}
+\end{DoxyParamCaption}
+)}}\label{build__dataset_8cpp_a51008ea6d639927b35887511b24530a9}
+
+
+\-Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{build__dataset_8cpp_a51008ea6d639927b35887511b24530a9_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{build__dataset_8cpp_ac52bc11ce3cf73533b206f8afb6ae0d5}{\index{build\-\_\-dataset.\-cpp@{build\-\_\-dataset.\-cpp}!build\-Image\-Set@{build\-Image\-Set}}
+\index{build\-Image\-Set@{build\-Image\-Set}!build_dataset.cpp@{build\-\_\-dataset.\-cpp}}
+\subsubsection[{build\-Image\-Set}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf build\-Image\-Set} (
+\begin{DoxyParamCaption}
+\item[{string}]{path\-To\-Image\-Dir, }
+\item[{const vector$<$ string $>$ \&}]{v\-Name\-List\-Eval, }
+\item[{const vector$<$ string $>$ \&}]{v\-Name\-List\-Train, }
+\item[{vector$<$ vector$<$ \-Matrix\-Xi $>$ $>$ \&}]{img\-Set\-Eval, }
+\item[{vector$<$ vector$<$ \-Matrix\-Xi $>$ $>$ \&}]{img\-Set\-Train}
+\end{DoxyParamCaption}
+)}}\label{build__dataset_8cpp_ac52bc11ce3cf73533b206f8afb6ae0d5}
+
+
+\-Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=292pt]{build__dataset_8cpp_ac52bc11ce3cf73533b206f8afb6ae0d5_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{build__dataset_8cpp_aba3394f5f8d4e7581bc5ecbaaf0313b5}{\index{build\-\_\-dataset.\-cpp@{build\-\_\-dataset.\-cpp}!build\-Image\-Subset@{build\-Image\-Subset}}
+\index{build\-Image\-Subset@{build\-Image\-Subset}!build_dataset.cpp@{build\-\_\-dataset.\-cpp}}
+\subsubsection[{build\-Image\-Subset}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf build\-Image\-Subset} (
+\begin{DoxyParamCaption}
+\item[{string}]{path\-To\-Image\-Dir, }
+\item[{const vector$<$ string $>$ \&}]{name\-List, }
+\item[{vector$<$ vector$<$ \-Matrix\-Xi $>$ $>$ \&}]{subset\-Img}
+\end{DoxyParamCaption}
+)}}\label{build__dataset_8cpp_aba3394f5f8d4e7581bc5ecbaaf0313b5}
+\hypertarget{build__dataset_8cpp_a6524223e76c6cdcbb8abd8d231a2dae3}{\index{build\-\_\-dataset.\-cpp@{build\-\_\-dataset.\-cpp}!build\-Region\-Set@{build\-Region\-Set}}
+\index{build\-Region\-Set@{build\-Region\-Set}!build_dataset.cpp@{build\-\_\-dataset.\-cpp}}
+\subsubsection[{build\-Region\-Set}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf build\-Region\-Set} (
+\begin{DoxyParamCaption}
+\item[{string}]{path\-To\-Label\-Dir, }
+\item[{const vector$<$ string $>$ \&}]{v\-Name\-List\-Eval, }
+\item[{const vector$<$ string $>$ \&}]{v\-Name\-List\-Train, }
+\item[{\-Vector\-Xi \&}]{label\-Set\-Eval, }
+\item[{\-Vector\-Xi \&}]{label\-Set\-Train}
+\end{DoxyParamCaption}
+)}}\label{build__dataset_8cpp_a6524223e76c6cdcbb8abd8d231a2dae3}
+
+
+\-Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=298pt]{build__dataset_8cpp_a6524223e76c6cdcbb8abd8d231a2dae3_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{build__dataset_8cpp_a46e72f416948302d7a240c2384e9869b}{\index{build\-\_\-dataset.\-cpp@{build\-\_\-dataset.\-cpp}!build\-Region\-Subset@{build\-Region\-Subset}}
+\index{build\-Region\-Subset@{build\-Region\-Subset}!build_dataset.cpp@{build\-\_\-dataset.\-cpp}}
+\subsubsection[{build\-Region\-Subset}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf build\-Region\-Subset} (
+\begin{DoxyParamCaption}
+\item[{string}]{path\-To\-Label\-Dir, }
+\item[{const vector$<$ string $>$ \&}]{name\-List, }
+\item[{\-Vector\-Xi \&}]{subset\-Label}
+\end{DoxyParamCaption}
+)}}\label{build__dataset_8cpp_a46e72f416948302d7a240c2384e9869b}
+\hypertarget{build__dataset_8cpp_a2ac061736f98bb0c934b885d485b08f3}{\index{build\-\_\-dataset.\-cpp@{build\-\_\-dataset.\-cpp}!convert\-Eig\-Yuv\-To\-Cv\-Bgr@{convert\-Eig\-Yuv\-To\-Cv\-Bgr}}
+\index{convert\-Eig\-Yuv\-To\-Cv\-Bgr@{convert\-Eig\-Yuv\-To\-Cv\-Bgr}!build_dataset.cpp@{build\-\_\-dataset.\-cpp}}
+\subsubsection[{convert\-Eig\-Yuv\-To\-Cv\-Bgr}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf convert\-Eig\-Yuv\-To\-Cv\-Bgr} (
+\begin{DoxyParamCaption}
+\item[{const vector$<$ \-Matrix\-Xi $>$ \&}]{v\-Eig\-Yuv, }
+\item[{\-Mat \&}]{mat\-Bgr}
+\end{DoxyParamCaption}
+)}}\label{build__dataset_8cpp_a2ac061736f98bb0c934b885d485b08f3}
+\hypertarget{build__dataset_8cpp_a8662eeae70d4db4c23616897372daa41}{\index{build\-\_\-dataset.\-cpp@{build\-\_\-dataset.\-cpp}!convert\-Label\-To\-Image@{convert\-Label\-To\-Image}}
+\index{convert\-Label\-To\-Image@{convert\-Label\-To\-Image}!build_dataset.cpp@{build\-\_\-dataset.\-cpp}}
+\subsubsection[{convert\-Label\-To\-Image}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf convert\-Label\-To\-Image} (
+\begin{DoxyParamCaption}
+\item[{const \-Vector\-Xi \&}]{label, }
+\item[{long}]{pos, }
+\item[{long}]{length, }
+\item[{\-Mat \&}]{img}
+\end{DoxyParamCaption}
+)}}\label{build__dataset_8cpp_a8662eeae70d4db4c23616897372daa41}
+\hypertarget{build__dataset_8cpp_ad55cea6ce9e53c805e4fa88ffb179cec}{\index{build\-\_\-dataset.\-cpp@{build\-\_\-dataset.\-cpp}!get\-Name\-List\-In\-File@{get\-Name\-List\-In\-File}}
+\index{get\-Name\-List\-In\-File@{get\-Name\-List\-In\-File}!build_dataset.cpp@{build\-\_\-dataset.\-cpp}}
+\subsubsection[{get\-Name\-List\-In\-File}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf get\-Name\-List\-In\-File} (
+\begin{DoxyParamCaption}
+\item[{string}]{path\-To\-File, }
+\item[{vector$<$ string $>$ \&}]{v\-Name\-List}
+\end{DoxyParamCaption}
+)}}\label{build__dataset_8cpp_ad55cea6ce9e53c805e4fa88ffb179cec}
+\hypertarget{build__dataset_8cpp_a97ee70a8770dc30d06c744b24eb2fcfc}{\index{build\-\_\-dataset.\-cpp@{build\-\_\-dataset.\-cpp}!help@{help}}
+\index{help@{help}!build_dataset.cpp@{build\-\_\-dataset.\-cpp}}
+\subsubsection[{help}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf help} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{build__dataset_8cpp_a97ee70a8770dc30d06c744b24eb2fcfc}
+\hypertarget{build__dataset_8cpp_a3c04138a5bfe5d72780bb7e82a18e627}{\index{build\-\_\-dataset.\-cpp@{build\-\_\-dataset.\-cpp}!main@{main}}
+\index{main@{main}!build_dataset.cpp@{build\-\_\-dataset.\-cpp}}
+\subsubsection[{main}]{\setlength{\rightskip}{0pt plus 5cm}int {\bf main} (
+\begin{DoxyParamCaption}
+\item[{int}]{argc, }
+\item[{char $\ast$$\ast$}]{argv}
+\end{DoxyParamCaption}
+)}}\label{build__dataset_8cpp_a3c04138a5bfe5d72780bb7e82a18e627}
+
+
+\-Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{build__dataset_8cpp_a3c04138a5bfe5d72780bb7e82a18e627_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{build__dataset_8cpp_a777e74a6234e94a8485bce69b1b6630e}{\index{build\-\_\-dataset.\-cpp@{build\-\_\-dataset.\-cpp}!merge\-Vectors@{merge\-Vectors}}
+\index{merge\-Vectors@{merge\-Vectors}!build_dataset.cpp@{build\-\_\-dataset.\-cpp}}
+\subsubsection[{merge\-Vectors}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf merge\-Vectors} (
+\begin{DoxyParamCaption}
+\item[{const vector$<$ \-Vector\-Xi $>$ \&}]{src, }
+\item[{\-Vector\-Xi \&}]{dest}
+\end{DoxyParamCaption}
+)}}\label{build__dataset_8cpp_a777e74a6234e94a8485bce69b1b6630e}

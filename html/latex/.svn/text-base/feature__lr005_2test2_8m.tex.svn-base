@@ -1,0 +1,1069 @@
+\hypertarget{feature__lr005_2test2_8m}{\section{statistics/\-\_\-m\-\_\-file/feature\-\_\-lr005/test2.m \-File \-Reference}
+\label{feature__lr005_2test2_8m}\index{statistics/\-\_\-m\-\_\-file/feature\-\_\-lr005/test2.\-m@{statistics/\-\_\-m\-\_\-file/feature\-\_\-lr005/test2.\-m}}
+}
+\subsection*{\-Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{feature__lr005_2test2_8m_a8c81b380beb2139a43a46125fe4c66f7}{subplot} (3, 6, 1) \hyperlink{get__klt__kernels_8m_acb7f26dfddf92958620c26619872a11b}{imagesc}(\hyperlink{rand__lr005_2test6_8m_a769ba09b1643b62448adba7f78f72b93}{k000i})
+\item 
+\hyperlink{feature__lr005_2test2_8m_a777022882961b6c7b730452345237ef2}{title} ('\-Layer0 \-Initial \-Kernel0')
+\item 
+\hyperlink{feature__lr005_2test2_8m_a8bba05aec0ce2248008df73358845ba9}{subplot} (3, 6, 3) \hyperlink{get__klt__kernels_8m_acb7f26dfddf92958620c26619872a11b}{imagesc}(\hyperlink{rand__lr005_2test6_8m_a9822574381ec6816f534bb5bfef48018}{k001i})
+\item 
+\hyperlink{feature__lr005_2test2_8m_aca0f002ec2f727a0247ad90900b16890}{title} ('\-Layer0 \-Initial \-Kernel1')
+\item 
+\hyperlink{feature__lr005_2test2_8m_ae01c87ec83ecf128b0b754467a5d347a}{subplot} (3, 6, 5) \hyperlink{get__klt__kernels_8m_acb7f26dfddf92958620c26619872a11b}{imagesc}(\hyperlink{rand__lr005_2test6_8m_a40e413404fd8391200a0cbc48171e572}{k002i})
+\item 
+\hyperlink{feature__lr005_2test2_8m_a6345c1a32000ac81669eb75ce75fb823}{title} ('\-Layer0 \-Initial \-Kernel2')
+\item 
+\hyperlink{feature__lr005_2test2_8m_a68edcae5329e7d6054c767154c2d1b40}{subplot} (3, 6, 7) \hyperlink{get__klt__kernels_8m_acb7f26dfddf92958620c26619872a11b}{imagesc}(\hyperlink{rand__lr005_2test6_8m_aa76407325b73a3f367f48ee44f084eb1}{k010i})
+\item 
+\hyperlink{feature__lr005_2test2_8m_a2d7dd745ff3f81d9230b660ddb71e0d5}{title} ('\-Layer1 \-Initial \-Kernel0')
+\item 
+\hyperlink{feature__lr005_2test2_8m_af3ea8ed136699dd99b80e89146a77c4b}{subplot} (3, 6, 9) \hyperlink{get__klt__kernels_8m_acb7f26dfddf92958620c26619872a11b}{imagesc}(\hyperlink{rand__lr005_2test6_8m_ad453a74e3acc45c56a241315f342f7bc}{k011i})
+\item 
+\hyperlink{feature__lr005_2test2_8m_a5a870522791914245c42772d3bccee51}{title} ('\-Layer1 \-Initial \-Kernel1')
+\item 
+\hyperlink{feature__lr005_2test2_8m_a9e6a3e28142074c2294c7bff1c0611b0}{subplot} (3, 6, 11) \hyperlink{get__klt__kernels_8m_acb7f26dfddf92958620c26619872a11b}{imagesc}(\hyperlink{rand__lr005_2test6_8m_aaf00b96ee287742c7aaff30b5d5a1e04}{k012i})
+\item 
+\hyperlink{feature__lr005_2test2_8m_a59187d9fd8df816fa479e6d7c47a2a0e}{title} ('\-Layer1 \-Initial \-Kernel2')
+\item 
+\hyperlink{feature__lr005_2test2_8m_a2b02c8b28025764b50339a42ac23f796}{subplot} (3, 6, 13) \hyperlink{get__klt__kernels_8m_acb7f26dfddf92958620c26619872a11b}{imagesc}(\hyperlink{rand__lr005_2test6_8m_a5bcf083fc4f19a6989ef57d36c9ebe9f}{k020i})
+\item 
+\hyperlink{feature__lr005_2test2_8m_a7efb857a0273c26cd921a91298137e01}{title} ('\-Layer2 \-Initial \-Kernel0')
+\item 
+\hyperlink{feature__lr005_2test2_8m_a6fa0a0f413d11c9c6654863f9f92ae46}{subplot} (3, 6, 15) \hyperlink{get__klt__kernels_8m_acb7f26dfddf92958620c26619872a11b}{imagesc}(\hyperlink{rand__lr005_2test6_8m_a7b88ab6bb156c1c0561ec4e43999d33d}{k021i})
+\item 
+\hyperlink{feature__lr005_2test2_8m_a2ac0b252dbd26c6904ec02aedbb4f365}{title} ('\-Layer2 \-Initial \-Kernel1')
+\item 
+\hyperlink{feature__lr005_2test2_8m_a628f6a5cee9bf4e5610570170b418ffd}{subplot} (3, 6, 17) \hyperlink{get__klt__kernels_8m_acb7f26dfddf92958620c26619872a11b}{imagesc}(\hyperlink{rand__lr005_2test6_8m_a1dce124fb43cbfb75f1306d96c36c080}{k022i})
+\item 
+\hyperlink{feature__lr005_2test2_8m_a5f499f2d39aeae01aee6b996de79a86d}{title} ('\-Layer2 \-Initial \-Kernel2')
+\item 
+\hyperlink{feature__lr005_2test2_8m_adddd7ae63d8becf28cb9a40063b16a4e}{subplot} (3, 6, 2) \hyperlink{get__klt__kernels_8m_acb7f26dfddf92958620c26619872a11b}{imagesc}(\hyperlink{rand__lr005_2test6_8m_a9894c720ca57753a16e8b093a769e6cf}{k000f})
+\item 
+\hyperlink{feature__lr005_2test2_8m_adc08a6113308b4c6c6e253a972618e28}{title} ('\-Layer0 \-Trained \-Kernel0')
+\item 
+\hyperlink{feature__lr005_2test2_8m_a7467d3793af42f60a81d426e13ce2597}{subplot} (3, 6, 4) \hyperlink{get__klt__kernels_8m_acb7f26dfddf92958620c26619872a11b}{imagesc}(\hyperlink{rand__lr005_2test6_8m_a58487ceb62f00b0a36c959ede07b1790}{k001f})
+\item 
+\hyperlink{feature__lr005_2test2_8m_a32c77451dc6e430c5769e8ad46a227bc}{title} ('\-Layer0 \-Trained \-Kernel1')
+\item 
+\hyperlink{feature__lr005_2test2_8m_a8fdf35d0cd22ebaf88d2e5cd3ce27847}{subplot} (3, 6, 6) \hyperlink{get__klt__kernels_8m_acb7f26dfddf92958620c26619872a11b}{imagesc}(\hyperlink{rand__lr005_2test6_8m_a667209d6bf62f3fe4f0e5f798b81487a}{k002f})
+\item 
+\hyperlink{feature__lr005_2test2_8m_ad0736310ff3ae0f1cf1bbaebf6e4d5e6}{title} ('\-Layer0 \-Trained \-Kernel2')
+\item 
+\hyperlink{feature__lr005_2test2_8m_abd1ac949fcfb82f1b6b02d5a8297a425}{subplot} (3, 6, 8) \hyperlink{get__klt__kernels_8m_acb7f26dfddf92958620c26619872a11b}{imagesc}(\hyperlink{rand__lr005_2test6_8m_af72060c799d19ba53a7f6ad3f3349bf5}{k010f})
+\item 
+\hyperlink{feature__lr005_2test2_8m_a71efbd16800e80a94f8e0e13f5f24e2c}{title} ('\-Layer1 \-Trained \-Kernel0')
+\item 
+\hyperlink{feature__lr005_2test2_8m_aa39d054e0ff5331c5f2b0ae32863ed1d}{subplot} (3, 6, 10) \hyperlink{get__klt__kernels_8m_acb7f26dfddf92958620c26619872a11b}{imagesc}(\hyperlink{rand__lr005_2test6_8m_adf30a8c5a703ab81ecaf6eec1bf25d1c}{k011f})
+\item 
+\hyperlink{feature__lr005_2test2_8m_a34f7db380c99323bab8ec762277a1572}{title} ('\-Layer1 \-Trained \-Kernel1')
+\item 
+\hyperlink{feature__lr005_2test2_8m_ae83e76d8e09b7015c121217baf54be89}{subplot} (3, 6, 12) \hyperlink{get__klt__kernels_8m_acb7f26dfddf92958620c26619872a11b}{imagesc}(\hyperlink{rand__lr005_2test6_8m_ac64e928d027b68d2974819252b217a3f}{k012f})
+\item 
+\hyperlink{feature__lr005_2test2_8m_a7e7f79a6b78f95a9f32e7d5e8344346d}{title} ('\-Layer1 \-Trained \-Kernel2')
+\item 
+\hyperlink{feature__lr005_2test2_8m_aa7d7680885d7699d55303ffaae1d2bf5}{subplot} (3, 6, 14) \hyperlink{get__klt__kernels_8m_acb7f26dfddf92958620c26619872a11b}{imagesc}(\hyperlink{rand__lr005_2test6_8m_abc22ed7c397069fd13c6bdee8b872bd2}{k020f})
+\item 
+\hyperlink{feature__lr005_2test2_8m_a880a1436f5fcd111c54b63b4ae61f9e7}{title} ('\-Layer2 \-Trained \-Kernel0')
+\item 
+\hyperlink{feature__lr005_2test2_8m_a607b946bfbbca25cf9ad3bd57a9574c4}{subplot} (3, 6, 16) \hyperlink{get__klt__kernels_8m_acb7f26dfddf92958620c26619872a11b}{imagesc}(\hyperlink{rand__lr005_2test6_8m_a9cef3a2ba011e2da0b434294e0d5b07b}{k021f})
+\item 
+\hyperlink{feature__lr005_2test2_8m_a30e5ec7d4dd7e4371213b8451f57ecab}{title} ('\-Layer2 \-Trained \-Kernel1')
+\item 
+\hyperlink{feature__lr005_2test2_8m_a761e4b868d7f2f4fe560d1b5bbabcd5d}{subplot} (3, 6, 18) \hyperlink{get__klt__kernels_8m_acb7f26dfddf92958620c26619872a11b}{imagesc}(\hyperlink{rand__lr005_2test6_8m_a066f0b6231760604417fbc0d53d4016d}{k022f})
+\item 
+\hyperlink{feature__lr005_2test2_8m_a56297be33120ad19626b3fde3f14b24e}{title} ('\-Layer2 \-Trained \-Kernel2')
+\item 
+\hyperlink{feature__lr005_2test2_8m_a04366f0e35c86b895f2c4cd909d20b02}{subplot} (3, 8, 1) hist(\hyperlink{rand__lr005_2test6_8m_a769ba09b1643b62448adba7f78f72b93}{k000i}
+\item 
+\hyperlink{feature__lr005_2test2_8m_a6b55f2aeb947588076179beb23353ea7}{title} ('\-Layer0 \-Initial \-Kerne0') axis(\mbox{[}-\/0.\-5
+\item 
+\hyperlink{feature__lr005_2test2_8m_a203a12e315c9a9163a71755b9e9b92be}{subplot} (3, 8, 2) hist(\hyperlink{rand__lr005_2test6_8m_a9894c720ca57753a16e8b093a769e6cf}{k000f}
+\item 
+\hyperlink{feature__lr005_2test2_8m_ae1a46f9be3102c602e423bf0178f726d}{subplot} (3, 8, 3) hist(\hyperlink{rand__lr005_2test6_8m_a9822574381ec6816f534bb5bfef48018}{k001i}
+\item 
+\hyperlink{feature__lr005_2test2_8m_a4b1e314eedf90c3cf801e83b66d8b1ca}{subplot} (3, 8, 4) hist(\hyperlink{rand__lr005_2test6_8m_a58487ceb62f00b0a36c959ede07b1790}{k001f}
+\item 
+\hyperlink{feature__lr005_2test2_8m_a9a89daf4011eb126f5d18f54bda97481}{subplot} (3, 8, 5) hist(\hyperlink{rand__lr005_2test6_8m_a40e413404fd8391200a0cbc48171e572}{k002i}
+\item 
+\hyperlink{feature__lr005_2test2_8m_ad09602fe24ba5f96d1cdc27a89bd03fb}{subplot} (3, 8, 6) hist(\hyperlink{rand__lr005_2test6_8m_a667209d6bf62f3fe4f0e5f798b81487a}{k002f}
+\item 
+\hyperlink{feature__lr005_2test2_8m_a2e7045b3689c5ddc90bd4e8dbd6d9e10}{subplot} (3, 8, 7) hist(\hyperlink{rand__lr005_2test6_8m_a25cdede33c3a7224f5ff558f16feee1b}{k0i}
+\item 
+\hyperlink{feature__lr005_2test2_8m_a0849d9e7c6a9f79d9be89645354ced81}{title} ('\-Layer0 \-Initial') axis(\mbox{[}-\/0.\-5
+\item 
+\hyperlink{feature__lr005_2test2_8m_a5d97bb11fe8e42b51bc087b67cf51389}{subplot} (3, 8, 8) hist(\hyperlink{rand__lr005_2test6_8m_a3b323fecee7be18c80c411e9766350c0}{k0f}
+\item 
+\hyperlink{feature__lr005_2test2_8m_ac45f0d60b4962b0c4210a0028add925a}{title} ('\-Layer0 \-Trained') axis(\mbox{[}-\/0.\-5
+\item 
+\hyperlink{feature__lr005_2test2_8m_a47c933c31f99df8e579139da1152b0b6}{subplot} (3, 8, 9) hist(\hyperlink{rand__lr005_2test6_8m_aa76407325b73a3f367f48ee44f084eb1}{k010i}
+\item 
+\hyperlink{feature__lr005_2test2_8m_ad78a048d826f119aefd70544a6d01837}{subplot} (3, 8, 10) hist(\hyperlink{rand__lr005_2test6_8m_af72060c799d19ba53a7f6ad3f3349bf5}{k010f}
+\item 
+\hyperlink{feature__lr005_2test2_8m_a6fb51fb6ec5ddbcc56a4e2756197852b}{subplot} (3, 8, 11) hist(\hyperlink{rand__lr005_2test6_8m_ad453a74e3acc45c56a241315f342f7bc}{k011i}
+\item 
+\hyperlink{feature__lr005_2test2_8m_a2282974fc3336770f24a0aa13eca6db1}{subplot} (3, 8, 12) hist(\hyperlink{rand__lr005_2test6_8m_adf30a8c5a703ab81ecaf6eec1bf25d1c}{k011f}
+\item 
+\hyperlink{feature__lr005_2test2_8m_a7b0090604ecf33daa0ae9a24d1e77d59}{subplot} (3, 8, 13) hist(\hyperlink{rand__lr005_2test6_8m_aaf00b96ee287742c7aaff30b5d5a1e04}{k012i}
+\item 
+\hyperlink{feature__lr005_2test2_8m_ad46a69a9d9e2397de26e5fb944b39132}{subplot} (3, 8, 14) hist(\hyperlink{rand__lr005_2test6_8m_ac64e928d027b68d2974819252b217a3f}{k012f}
+\item 
+\hyperlink{feature__lr005_2test2_8m_a3d95b1f9836afadb93a1757562416ca6}{subplot} (3, 8, 15) hist(\hyperlink{rand__lr005_2test6_8m_a5ceaf95209d434b6225389e200e8597d}{k1i}
+\item 
+\hyperlink{feature__lr005_2test2_8m_a1f7389f7c6487716b87c5944bfe8648e}{title} ('\-Layer1 \-Initial') axis(\mbox{[}-\/0.\-5
+\item 
+\hyperlink{feature__lr005_2test2_8m_a9e946cb75f1d31ff43d1b7bb93be769f}{subplot} (3, 8, 16) hist(\hyperlink{rand__lr005_2test6_8m_ae60a2e3d2157da0cef850061f758c93f}{k1f}
+\item 
+\hyperlink{feature__lr005_2test2_8m_a120814ffb8e19337c48161386965bbe5}{title} ('\-Layer1 \-Trained') axis(\mbox{[}-\/0.\-5
+\item 
+\hyperlink{feature__lr005_2test2_8m_ab1f91e44f492462ed0b96e5ec6b7f094}{subplot} (3, 8, 17) hist(\hyperlink{rand__lr005_2test6_8m_a5bcf083fc4f19a6989ef57d36c9ebe9f}{k020i}
+\item 
+\hyperlink{feature__lr005_2test2_8m_a28871c9fd19c8384592abd5f017bd8f1}{subplot} (3, 8, 18) hist(\hyperlink{rand__lr005_2test6_8m_abc22ed7c397069fd13c6bdee8b872bd2}{k020f}
+\item 
+\hyperlink{feature__lr005_2test2_8m_a9a102c3211bbe88ee445edf0ec0e48c7}{subplot} (3, 8, 19) hist(\hyperlink{rand__lr005_2test6_8m_a7b88ab6bb156c1c0561ec4e43999d33d}{k021i}
+\item 
+\hyperlink{feature__lr005_2test2_8m_af40e1e353e38e986ef8d33453e090887}{subplot} (3, 8, 20) hist(\hyperlink{rand__lr005_2test6_8m_a9cef3a2ba011e2da0b434294e0d5b07b}{k021f}
+\item 
+\hyperlink{feature__lr005_2test2_8m_a247d39ecd8025d57c5b821eba3065db4}{subplot} (3, 8, 21) hist(\hyperlink{rand__lr005_2test6_8m_a1dce124fb43cbfb75f1306d96c36c080}{k022i}
+\item 
+\hyperlink{feature__lr005_2test2_8m_ab5bbdd83dc15e6fc818760f19f270826}{subplot} (3, 8, 22) hist(\hyperlink{rand__lr005_2test6_8m_a066f0b6231760604417fbc0d53d4016d}{k022f}
+\item 
+\hyperlink{feature__lr005_2test2_8m_ac14972a4433eba70b6d07928b26b7261}{subplot} (3, 8, 23) hist(\hyperlink{rand__lr005_2test6_8m_a4a08e00648d3bb5e7c87817ed29f0022}{k2i}
+\item 
+\hyperlink{feature__lr005_2test2_8m_af237c49b6106dfbb7dd7d6429cdd0ddd}{title} ('\-Layer2 \-Initial') axis(\mbox{[}-\/0.\-5
+\item 
+\hyperlink{feature__lr005_2test2_8m_aa4cd7dc15b25111270df26475b68bb48}{subplot} (3, 8, 24) hist(\hyperlink{rand__lr005_2test6_8m_a11d00b94ea5fb4d4016c008a0cea8a2b}{k2f}
+\item 
+\hyperlink{feature__lr005_2test2_8m_aec7aca63730ffeb453caf79fefb915b6}{title} ('\-Layer2 \-Trained') axis(\mbox{[}-\/0.\-5
+\end{DoxyCompactItemize}
+\subsection*{\-Variables}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{feature__lr005_2test2_8m_a769ba09b1643b62448adba7f78f72b93}{k000i}
+\item 
+\hyperlink{feature__lr005_2test2_8m_a9822574381ec6816f534bb5bfef48018}{k001i}
+\item 
+\hyperlink{feature__lr005_2test2_8m_a40e413404fd8391200a0cbc48171e572}{k002i}
+\item 
+\hyperlink{feature__lr005_2test2_8m_aa76407325b73a3f367f48ee44f084eb1}{k010i}
+\item 
+\hyperlink{feature__lr005_2test2_8m_ad453a74e3acc45c56a241315f342f7bc}{k011i}
+\item 
+\hyperlink{feature__lr005_2test2_8m_aaf00b96ee287742c7aaff30b5d5a1e04}{k012i}
+\item 
+\hyperlink{feature__lr005_2test2_8m_a5bcf083fc4f19a6989ef57d36c9ebe9f}{k020i}
+\item 
+\hyperlink{feature__lr005_2test2_8m_a7b88ab6bb156c1c0561ec4e43999d33d}{k021i}
+\item 
+\hyperlink{feature__lr005_2test2_8m_a1dce124fb43cbfb75f1306d96c36c080}{k022i}
+\item 
+\hyperlink{feature__lr005_2test2_8m_a9894c720ca57753a16e8b093a769e6cf}{k000f}
+\item 
+\hyperlink{feature__lr005_2test2_8m_a58487ceb62f00b0a36c959ede07b1790}{k001f}
+\item 
+\hyperlink{feature__lr005_2test2_8m_a667209d6bf62f3fe4f0e5f798b81487a}{k002f}
+\item 
+\hyperlink{feature__lr005_2test2_8m_af72060c799d19ba53a7f6ad3f3349bf5}{k010f}
+\item 
+\hyperlink{feature__lr005_2test2_8m_adf30a8c5a703ab81ecaf6eec1bf25d1c}{k011f}
+\item 
+\hyperlink{feature__lr005_2test2_8m_ac64e928d027b68d2974819252b217a3f}{k012f}
+\item 
+\hyperlink{feature__lr005_2test2_8m_abc22ed7c397069fd13c6bdee8b872bd2}{k020f}
+\item 
+\hyperlink{feature__lr005_2test2_8m_a9cef3a2ba011e2da0b434294e0d5b07b}{k021f}
+\item 
+\hyperlink{feature__lr005_2test2_8m_a066f0b6231760604417fbc0d53d4016d}{k022f}
+\item 
+\hyperlink{feature__lr005_2test2_8m_a391e34f2de441d79152a7b3d6e4c9c86}{figure}
+\item 
+colormap \hyperlink{feature__lr005_2test2_8m_ada8ad40249884b4f8e370f25724a131f}{gray}
+\item 
+\hyperlink{feature__lr005_2test2_8m_a25cdede33c3a7224f5ff558f16feee1b}{k0i} = \mbox{[}\hyperlink{rand__lr005_2test6_8m_a769ba09b1643b62448adba7f78f72b93}{k000i}, \hyperlink{rand__lr005_2test6_8m_a9822574381ec6816f534bb5bfef48018}{k001i}, \hyperlink{rand__lr005_2test6_8m_a40e413404fd8391200a0cbc48171e572}{k002i}\mbox{]}
+\item 
+\hyperlink{feature__lr005_2test2_8m_a5ceaf95209d434b6225389e200e8597d}{k1i} = \mbox{[}\hyperlink{rand__lr005_2test6_8m_aa76407325b73a3f367f48ee44f084eb1}{k010i}, \hyperlink{rand__lr005_2test6_8m_ad453a74e3acc45c56a241315f342f7bc}{k011i}, \hyperlink{rand__lr005_2test6_8m_aaf00b96ee287742c7aaff30b5d5a1e04}{k012i}\mbox{]}
+\item 
+\hyperlink{feature__lr005_2test2_8m_a4a08e00648d3bb5e7c87817ed29f0022}{k2i} = \mbox{[}\hyperlink{rand__lr005_2test6_8m_a5bcf083fc4f19a6989ef57d36c9ebe9f}{k020i}, \hyperlink{rand__lr005_2test6_8m_a7b88ab6bb156c1c0561ec4e43999d33d}{k021i}, \hyperlink{rand__lr005_2test6_8m_a1dce124fb43cbfb75f1306d96c36c080}{k022i}\mbox{]}
+\item 
+\hyperlink{feature__lr005_2test2_8m_a3b323fecee7be18c80c411e9766350c0}{k0f} = \mbox{[}\hyperlink{rand__lr005_2test6_8m_a9894c720ca57753a16e8b093a769e6cf}{k000f}, \hyperlink{rand__lr005_2test6_8m_a58487ceb62f00b0a36c959ede07b1790}{k001f}, \hyperlink{rand__lr005_2test6_8m_a667209d6bf62f3fe4f0e5f798b81487a}{k002f}\mbox{]}
+\item 
+\hyperlink{feature__lr005_2test2_8m_ae60a2e3d2157da0cef850061f758c93f}{k1f} = \mbox{[}\hyperlink{rand__lr005_2test6_8m_af72060c799d19ba53a7f6ad3f3349bf5}{k010f}, \hyperlink{rand__lr005_2test6_8m_adf30a8c5a703ab81ecaf6eec1bf25d1c}{k011f}, \hyperlink{rand__lr005_2test6_8m_ac64e928d027b68d2974819252b217a3f}{k012f}\mbox{]}
+\item 
+\hyperlink{feature__lr005_2test2_8m_a11d00b94ea5fb4d4016c008a0cea8a2b}{k2f} = \mbox{[}\hyperlink{rand__lr005_2test6_8m_abc22ed7c397069fd13c6bdee8b872bd2}{k020f}, \hyperlink{rand__lr005_2test6_8m_a9cef3a2ba011e2da0b434294e0d5b07b}{k021f}, \hyperlink{rand__lr005_2test6_8m_a066f0b6231760604417fbc0d53d4016d}{k022f}\mbox{]}
+\end{DoxyCompactItemize}
+
+
+\subsection{\-Function \-Documentation}
+\hypertarget{feature__lr005_2test2_8m_a8c81b380beb2139a43a46125fe4c66f7}{\index{feature\-\_\-lr005/test2.\-m@{feature\-\_\-lr005/test2.\-m}!subplot@{subplot}}
+\index{subplot@{subplot}!feature_lr005/test2.m@{feature\-\_\-lr005/test2.\-m}}
+\subsubsection[{subplot}]{\setlength{\rightskip}{0pt plus 5cm}{\bf subplot} (
+\begin{DoxyParamCaption}
+\item[{3}]{, }
+\item[{6}]{, }
+\item[{1}]{}
+\end{DoxyParamCaption}
+)}}\label{feature__lr005_2test2_8m_a8c81b380beb2139a43a46125fe4c66f7}
+\hypertarget{feature__lr005_2test2_8m_a8bba05aec0ce2248008df73358845ba9}{\index{feature\-\_\-lr005/test2.\-m@{feature\-\_\-lr005/test2.\-m}!subplot@{subplot}}
+\index{subplot@{subplot}!feature_lr005/test2.m@{feature\-\_\-lr005/test2.\-m}}
+\subsubsection[{subplot}]{\setlength{\rightskip}{0pt plus 5cm}{\bf subplot} (
+\begin{DoxyParamCaption}
+\item[{3}]{, }
+\item[{6}]{, }
+\item[{3}]{}
+\end{DoxyParamCaption}
+)}}\label{feature__lr005_2test2_8m_a8bba05aec0ce2248008df73358845ba9}
+\hypertarget{feature__lr005_2test2_8m_ae01c87ec83ecf128b0b754467a5d347a}{\index{feature\-\_\-lr005/test2.\-m@{feature\-\_\-lr005/test2.\-m}!subplot@{subplot}}
+\index{subplot@{subplot}!feature_lr005/test2.m@{feature\-\_\-lr005/test2.\-m}}
+\subsubsection[{subplot}]{\setlength{\rightskip}{0pt plus 5cm}{\bf subplot} (
+\begin{DoxyParamCaption}
+\item[{3}]{, }
+\item[{6}]{, }
+\item[{5}]{}
+\end{DoxyParamCaption}
+)}}\label{feature__lr005_2test2_8m_ae01c87ec83ecf128b0b754467a5d347a}
+\hypertarget{feature__lr005_2test2_8m_a68edcae5329e7d6054c767154c2d1b40}{\index{feature\-\_\-lr005/test2.\-m@{feature\-\_\-lr005/test2.\-m}!subplot@{subplot}}
+\index{subplot@{subplot}!feature_lr005/test2.m@{feature\-\_\-lr005/test2.\-m}}
+\subsubsection[{subplot}]{\setlength{\rightskip}{0pt plus 5cm}{\bf subplot} (
+\begin{DoxyParamCaption}
+\item[{3}]{, }
+\item[{6}]{, }
+\item[{7}]{}
+\end{DoxyParamCaption}
+)}}\label{feature__lr005_2test2_8m_a68edcae5329e7d6054c767154c2d1b40}
+\hypertarget{feature__lr005_2test2_8m_af3ea8ed136699dd99b80e89146a77c4b}{\index{feature\-\_\-lr005/test2.\-m@{feature\-\_\-lr005/test2.\-m}!subplot@{subplot}}
+\index{subplot@{subplot}!feature_lr005/test2.m@{feature\-\_\-lr005/test2.\-m}}
+\subsubsection[{subplot}]{\setlength{\rightskip}{0pt plus 5cm}{\bf subplot} (
+\begin{DoxyParamCaption}
+\item[{3}]{, }
+\item[{6}]{, }
+\item[{9}]{}
+\end{DoxyParamCaption}
+)}}\label{feature__lr005_2test2_8m_af3ea8ed136699dd99b80e89146a77c4b}
+\hypertarget{feature__lr005_2test2_8m_a9e6a3e28142074c2294c7bff1c0611b0}{\index{feature\-\_\-lr005/test2.\-m@{feature\-\_\-lr005/test2.\-m}!subplot@{subplot}}
+\index{subplot@{subplot}!feature_lr005/test2.m@{feature\-\_\-lr005/test2.\-m}}
+\subsubsection[{subplot}]{\setlength{\rightskip}{0pt plus 5cm}{\bf subplot} (
+\begin{DoxyParamCaption}
+\item[{3}]{, }
+\item[{6}]{, }
+\item[{11}]{}
+\end{DoxyParamCaption}
+)}}\label{feature__lr005_2test2_8m_a9e6a3e28142074c2294c7bff1c0611b0}
+\hypertarget{feature__lr005_2test2_8m_a2b02c8b28025764b50339a42ac23f796}{\index{feature\-\_\-lr005/test2.\-m@{feature\-\_\-lr005/test2.\-m}!subplot@{subplot}}
+\index{subplot@{subplot}!feature_lr005/test2.m@{feature\-\_\-lr005/test2.\-m}}
+\subsubsection[{subplot}]{\setlength{\rightskip}{0pt plus 5cm}{\bf subplot} (
+\begin{DoxyParamCaption}
+\item[{3}]{, }
+\item[{6}]{, }
+\item[{13}]{}
+\end{DoxyParamCaption}
+)}}\label{feature__lr005_2test2_8m_a2b02c8b28025764b50339a42ac23f796}
+\hypertarget{feature__lr005_2test2_8m_a6fa0a0f413d11c9c6654863f9f92ae46}{\index{feature\-\_\-lr005/test2.\-m@{feature\-\_\-lr005/test2.\-m}!subplot@{subplot}}
+\index{subplot@{subplot}!feature_lr005/test2.m@{feature\-\_\-lr005/test2.\-m}}
+\subsubsection[{subplot}]{\setlength{\rightskip}{0pt plus 5cm}{\bf subplot} (
+\begin{DoxyParamCaption}
+\item[{3}]{, }
+\item[{6}]{, }
+\item[{15}]{}
+\end{DoxyParamCaption}
+)}}\label{feature__lr005_2test2_8m_a6fa0a0f413d11c9c6654863f9f92ae46}
+\hypertarget{feature__lr005_2test2_8m_a628f6a5cee9bf4e5610570170b418ffd}{\index{feature\-\_\-lr005/test2.\-m@{feature\-\_\-lr005/test2.\-m}!subplot@{subplot}}
+\index{subplot@{subplot}!feature_lr005/test2.m@{feature\-\_\-lr005/test2.\-m}}
+\subsubsection[{subplot}]{\setlength{\rightskip}{0pt plus 5cm}{\bf subplot} (
+\begin{DoxyParamCaption}
+\item[{3}]{, }
+\item[{6}]{, }
+\item[{17}]{}
+\end{DoxyParamCaption}
+)}}\label{feature__lr005_2test2_8m_a628f6a5cee9bf4e5610570170b418ffd}
+\hypertarget{feature__lr005_2test2_8m_adddd7ae63d8becf28cb9a40063b16a4e}{\index{feature\-\_\-lr005/test2.\-m@{feature\-\_\-lr005/test2.\-m}!subplot@{subplot}}
+\index{subplot@{subplot}!feature_lr005/test2.m@{feature\-\_\-lr005/test2.\-m}}
+\subsubsection[{subplot}]{\setlength{\rightskip}{0pt plus 5cm}{\bf subplot} (
+\begin{DoxyParamCaption}
+\item[{3}]{, }
+\item[{6}]{, }
+\item[{2}]{}
+\end{DoxyParamCaption}
+)}}\label{feature__lr005_2test2_8m_adddd7ae63d8becf28cb9a40063b16a4e}
+\hypertarget{feature__lr005_2test2_8m_a7467d3793af42f60a81d426e13ce2597}{\index{feature\-\_\-lr005/test2.\-m@{feature\-\_\-lr005/test2.\-m}!subplot@{subplot}}
+\index{subplot@{subplot}!feature_lr005/test2.m@{feature\-\_\-lr005/test2.\-m}}
+\subsubsection[{subplot}]{\setlength{\rightskip}{0pt plus 5cm}{\bf subplot} (
+\begin{DoxyParamCaption}
+\item[{3}]{, }
+\item[{6}]{, }
+\item[{4}]{}
+\end{DoxyParamCaption}
+)}}\label{feature__lr005_2test2_8m_a7467d3793af42f60a81d426e13ce2597}
+\hypertarget{feature__lr005_2test2_8m_a8fdf35d0cd22ebaf88d2e5cd3ce27847}{\index{feature\-\_\-lr005/test2.\-m@{feature\-\_\-lr005/test2.\-m}!subplot@{subplot}}
+\index{subplot@{subplot}!feature_lr005/test2.m@{feature\-\_\-lr005/test2.\-m}}
+\subsubsection[{subplot}]{\setlength{\rightskip}{0pt plus 5cm}{\bf subplot} (
+\begin{DoxyParamCaption}
+\item[{3}]{, }
+\item[{6}]{, }
+\item[{6}]{}
+\end{DoxyParamCaption}
+)}}\label{feature__lr005_2test2_8m_a8fdf35d0cd22ebaf88d2e5cd3ce27847}
+\hypertarget{feature__lr005_2test2_8m_abd1ac949fcfb82f1b6b02d5a8297a425}{\index{feature\-\_\-lr005/test2.\-m@{feature\-\_\-lr005/test2.\-m}!subplot@{subplot}}
+\index{subplot@{subplot}!feature_lr005/test2.m@{feature\-\_\-lr005/test2.\-m}}
+\subsubsection[{subplot}]{\setlength{\rightskip}{0pt plus 5cm}{\bf subplot} (
+\begin{DoxyParamCaption}
+\item[{3}]{, }
+\item[{6}]{, }
+\item[{8}]{}
+\end{DoxyParamCaption}
+)}}\label{feature__lr005_2test2_8m_abd1ac949fcfb82f1b6b02d5a8297a425}
+\hypertarget{feature__lr005_2test2_8m_aa39d054e0ff5331c5f2b0ae32863ed1d}{\index{feature\-\_\-lr005/test2.\-m@{feature\-\_\-lr005/test2.\-m}!subplot@{subplot}}
+\index{subplot@{subplot}!feature_lr005/test2.m@{feature\-\_\-lr005/test2.\-m}}
+\subsubsection[{subplot}]{\setlength{\rightskip}{0pt plus 5cm}{\bf subplot} (
+\begin{DoxyParamCaption}
+\item[{3}]{, }
+\item[{6}]{, }
+\item[{10}]{}
+\end{DoxyParamCaption}
+)}}\label{feature__lr005_2test2_8m_aa39d054e0ff5331c5f2b0ae32863ed1d}
+\hypertarget{feature__lr005_2test2_8m_ae83e76d8e09b7015c121217baf54be89}{\index{feature\-\_\-lr005/test2.\-m@{feature\-\_\-lr005/test2.\-m}!subplot@{subplot}}
+\index{subplot@{subplot}!feature_lr005/test2.m@{feature\-\_\-lr005/test2.\-m}}
+\subsubsection[{subplot}]{\setlength{\rightskip}{0pt plus 5cm}{\bf subplot} (
+\begin{DoxyParamCaption}
+\item[{3}]{, }
+\item[{6}]{, }
+\item[{12}]{}
+\end{DoxyParamCaption}
+)}}\label{feature__lr005_2test2_8m_ae83e76d8e09b7015c121217baf54be89}
+\hypertarget{feature__lr005_2test2_8m_aa7d7680885d7699d55303ffaae1d2bf5}{\index{feature\-\_\-lr005/test2.\-m@{feature\-\_\-lr005/test2.\-m}!subplot@{subplot}}
+\index{subplot@{subplot}!feature_lr005/test2.m@{feature\-\_\-lr005/test2.\-m}}
+\subsubsection[{subplot}]{\setlength{\rightskip}{0pt plus 5cm}{\bf subplot} (
+\begin{DoxyParamCaption}
+\item[{3}]{, }
+\item[{6}]{, }
+\item[{14}]{}
+\end{DoxyParamCaption}
+)}}\label{feature__lr005_2test2_8m_aa7d7680885d7699d55303ffaae1d2bf5}
+\hypertarget{feature__lr005_2test2_8m_a607b946bfbbca25cf9ad3bd57a9574c4}{\index{feature\-\_\-lr005/test2.\-m@{feature\-\_\-lr005/test2.\-m}!subplot@{subplot}}
+\index{subplot@{subplot}!feature_lr005/test2.m@{feature\-\_\-lr005/test2.\-m}}
+\subsubsection[{subplot}]{\setlength{\rightskip}{0pt plus 5cm}{\bf subplot} (
+\begin{DoxyParamCaption}
+\item[{3}]{, }
+\item[{6}]{, }
+\item[{16}]{}
+\end{DoxyParamCaption}
+)}}\label{feature__lr005_2test2_8m_a607b946bfbbca25cf9ad3bd57a9574c4}
+\hypertarget{feature__lr005_2test2_8m_a761e4b868d7f2f4fe560d1b5bbabcd5d}{\index{feature\-\_\-lr005/test2.\-m@{feature\-\_\-lr005/test2.\-m}!subplot@{subplot}}
+\index{subplot@{subplot}!feature_lr005/test2.m@{feature\-\_\-lr005/test2.\-m}}
+\subsubsection[{subplot}]{\setlength{\rightskip}{0pt plus 5cm}{\bf subplot} (
+\begin{DoxyParamCaption}
+\item[{3}]{, }
+\item[{6}]{, }
+\item[{18}]{}
+\end{DoxyParamCaption}
+)}}\label{feature__lr005_2test2_8m_a761e4b868d7f2f4fe560d1b5bbabcd5d}
+\hypertarget{feature__lr005_2test2_8m_a04366f0e35c86b895f2c4cd909d20b02}{\index{feature\-\_\-lr005/test2.\-m@{feature\-\_\-lr005/test2.\-m}!subplot@{subplot}}
+\index{subplot@{subplot}!feature_lr005/test2.m@{feature\-\_\-lr005/test2.\-m}}
+\subsubsection[{subplot}]{\setlength{\rightskip}{0pt plus 5cm}{\bf subplot} (
+\begin{DoxyParamCaption}
+\item[{3}]{, }
+\item[{8}]{, }
+\item[{1}]{}
+\end{DoxyParamCaption}
+)}}\label{feature__lr005_2test2_8m_a04366f0e35c86b895f2c4cd909d20b02}
+\hypertarget{feature__lr005_2test2_8m_a203a12e315c9a9163a71755b9e9b92be}{\index{feature\-\_\-lr005/test2.\-m@{feature\-\_\-lr005/test2.\-m}!subplot@{subplot}}
+\index{subplot@{subplot}!feature_lr005/test2.m@{feature\-\_\-lr005/test2.\-m}}
+\subsubsection[{subplot}]{\setlength{\rightskip}{0pt plus 5cm}{\bf subplot} (
+\begin{DoxyParamCaption}
+\item[{3}]{, }
+\item[{8}]{, }
+\item[{2}]{}
+\end{DoxyParamCaption}
+)}}\label{feature__lr005_2test2_8m_a203a12e315c9a9163a71755b9e9b92be}
+\hypertarget{feature__lr005_2test2_8m_ae1a46f9be3102c602e423bf0178f726d}{\index{feature\-\_\-lr005/test2.\-m@{feature\-\_\-lr005/test2.\-m}!subplot@{subplot}}
+\index{subplot@{subplot}!feature_lr005/test2.m@{feature\-\_\-lr005/test2.\-m}}
+\subsubsection[{subplot}]{\setlength{\rightskip}{0pt plus 5cm}{\bf subplot} (
+\begin{DoxyParamCaption}
+\item[{3}]{, }
+\item[{8}]{, }
+\item[{3}]{}
+\end{DoxyParamCaption}
+)}}\label{feature__lr005_2test2_8m_ae1a46f9be3102c602e423bf0178f726d}
+\hypertarget{feature__lr005_2test2_8m_a4b1e314eedf90c3cf801e83b66d8b1ca}{\index{feature\-\_\-lr005/test2.\-m@{feature\-\_\-lr005/test2.\-m}!subplot@{subplot}}
+\index{subplot@{subplot}!feature_lr005/test2.m@{feature\-\_\-lr005/test2.\-m}}
+\subsubsection[{subplot}]{\setlength{\rightskip}{0pt plus 5cm}{\bf subplot} (
+\begin{DoxyParamCaption}
+\item[{3}]{, }
+\item[{8}]{, }
+\item[{4}]{}
+\end{DoxyParamCaption}
+)}}\label{feature__lr005_2test2_8m_a4b1e314eedf90c3cf801e83b66d8b1ca}
+\hypertarget{feature__lr005_2test2_8m_a9a89daf4011eb126f5d18f54bda97481}{\index{feature\-\_\-lr005/test2.\-m@{feature\-\_\-lr005/test2.\-m}!subplot@{subplot}}
+\index{subplot@{subplot}!feature_lr005/test2.m@{feature\-\_\-lr005/test2.\-m}}
+\subsubsection[{subplot}]{\setlength{\rightskip}{0pt plus 5cm}{\bf subplot} (
+\begin{DoxyParamCaption}
+\item[{3}]{, }
+\item[{8}]{, }
+\item[{5}]{}
+\end{DoxyParamCaption}
+)}}\label{feature__lr005_2test2_8m_a9a89daf4011eb126f5d18f54bda97481}
+\hypertarget{feature__lr005_2test2_8m_ad09602fe24ba5f96d1cdc27a89bd03fb}{\index{feature\-\_\-lr005/test2.\-m@{feature\-\_\-lr005/test2.\-m}!subplot@{subplot}}
+\index{subplot@{subplot}!feature_lr005/test2.m@{feature\-\_\-lr005/test2.\-m}}
+\subsubsection[{subplot}]{\setlength{\rightskip}{0pt plus 5cm}{\bf subplot} (
+\begin{DoxyParamCaption}
+\item[{3}]{, }
+\item[{8}]{, }
+\item[{6}]{}
+\end{DoxyParamCaption}
+)}}\label{feature__lr005_2test2_8m_ad09602fe24ba5f96d1cdc27a89bd03fb}
+\hypertarget{feature__lr005_2test2_8m_a2e7045b3689c5ddc90bd4e8dbd6d9e10}{\index{feature\-\_\-lr005/test2.\-m@{feature\-\_\-lr005/test2.\-m}!subplot@{subplot}}
+\index{subplot@{subplot}!feature_lr005/test2.m@{feature\-\_\-lr005/test2.\-m}}
+\subsubsection[{subplot}]{\setlength{\rightskip}{0pt plus 5cm}{\bf subplot} (
+\begin{DoxyParamCaption}
+\item[{3}]{, }
+\item[{8}]{, }
+\item[{7}]{}
+\end{DoxyParamCaption}
+)}}\label{feature__lr005_2test2_8m_a2e7045b3689c5ddc90bd4e8dbd6d9e10}
+\hypertarget{feature__lr005_2test2_8m_a5d97bb11fe8e42b51bc087b67cf51389}{\index{feature\-\_\-lr005/test2.\-m@{feature\-\_\-lr005/test2.\-m}!subplot@{subplot}}
+\index{subplot@{subplot}!feature_lr005/test2.m@{feature\-\_\-lr005/test2.\-m}}
+\subsubsection[{subplot}]{\setlength{\rightskip}{0pt plus 5cm}{\bf subplot} (
+\begin{DoxyParamCaption}
+\item[{3}]{, }
+\item[{8}]{, }
+\item[{8}]{}
+\end{DoxyParamCaption}
+)}}\label{feature__lr005_2test2_8m_a5d97bb11fe8e42b51bc087b67cf51389}
+\hypertarget{feature__lr005_2test2_8m_a47c933c31f99df8e579139da1152b0b6}{\index{feature\-\_\-lr005/test2.\-m@{feature\-\_\-lr005/test2.\-m}!subplot@{subplot}}
+\index{subplot@{subplot}!feature_lr005/test2.m@{feature\-\_\-lr005/test2.\-m}}
+\subsubsection[{subplot}]{\setlength{\rightskip}{0pt plus 5cm}{\bf subplot} (
+\begin{DoxyParamCaption}
+\item[{3}]{, }
+\item[{8}]{, }
+\item[{9}]{}
+\end{DoxyParamCaption}
+)}}\label{feature__lr005_2test2_8m_a47c933c31f99df8e579139da1152b0b6}
+\hypertarget{feature__lr005_2test2_8m_ad78a048d826f119aefd70544a6d01837}{\index{feature\-\_\-lr005/test2.\-m@{feature\-\_\-lr005/test2.\-m}!subplot@{subplot}}
+\index{subplot@{subplot}!feature_lr005/test2.m@{feature\-\_\-lr005/test2.\-m}}
+\subsubsection[{subplot}]{\setlength{\rightskip}{0pt plus 5cm}{\bf subplot} (
+\begin{DoxyParamCaption}
+\item[{3}]{, }
+\item[{8}]{, }
+\item[{10}]{}
+\end{DoxyParamCaption}
+)}}\label{feature__lr005_2test2_8m_ad78a048d826f119aefd70544a6d01837}
+\hypertarget{feature__lr005_2test2_8m_a6fb51fb6ec5ddbcc56a4e2756197852b}{\index{feature\-\_\-lr005/test2.\-m@{feature\-\_\-lr005/test2.\-m}!subplot@{subplot}}
+\index{subplot@{subplot}!feature_lr005/test2.m@{feature\-\_\-lr005/test2.\-m}}
+\subsubsection[{subplot}]{\setlength{\rightskip}{0pt plus 5cm}{\bf subplot} (
+\begin{DoxyParamCaption}
+\item[{3}]{, }
+\item[{8}]{, }
+\item[{11}]{}
+\end{DoxyParamCaption}
+)}}\label{feature__lr005_2test2_8m_a6fb51fb6ec5ddbcc56a4e2756197852b}
+\hypertarget{feature__lr005_2test2_8m_a2282974fc3336770f24a0aa13eca6db1}{\index{feature\-\_\-lr005/test2.\-m@{feature\-\_\-lr005/test2.\-m}!subplot@{subplot}}
+\index{subplot@{subplot}!feature_lr005/test2.m@{feature\-\_\-lr005/test2.\-m}}
+\subsubsection[{subplot}]{\setlength{\rightskip}{0pt plus 5cm}{\bf subplot} (
+\begin{DoxyParamCaption}
+\item[{3}]{, }
+\item[{8}]{, }
+\item[{12}]{}
+\end{DoxyParamCaption}
+)}}\label{feature__lr005_2test2_8m_a2282974fc3336770f24a0aa13eca6db1}
+\hypertarget{feature__lr005_2test2_8m_a7b0090604ecf33daa0ae9a24d1e77d59}{\index{feature\-\_\-lr005/test2.\-m@{feature\-\_\-lr005/test2.\-m}!subplot@{subplot}}
+\index{subplot@{subplot}!feature_lr005/test2.m@{feature\-\_\-lr005/test2.\-m}}
+\subsubsection[{subplot}]{\setlength{\rightskip}{0pt plus 5cm}{\bf subplot} (
+\begin{DoxyParamCaption}
+\item[{3}]{, }
+\item[{8}]{, }
+\item[{13}]{}
+\end{DoxyParamCaption}
+)}}\label{feature__lr005_2test2_8m_a7b0090604ecf33daa0ae9a24d1e77d59}
+\hypertarget{feature__lr005_2test2_8m_ad46a69a9d9e2397de26e5fb944b39132}{\index{feature\-\_\-lr005/test2.\-m@{feature\-\_\-lr005/test2.\-m}!subplot@{subplot}}
+\index{subplot@{subplot}!feature_lr005/test2.m@{feature\-\_\-lr005/test2.\-m}}
+\subsubsection[{subplot}]{\setlength{\rightskip}{0pt plus 5cm}{\bf subplot} (
+\begin{DoxyParamCaption}
+\item[{3}]{, }
+\item[{8}]{, }
+\item[{14}]{}
+\end{DoxyParamCaption}
+)}}\label{feature__lr005_2test2_8m_ad46a69a9d9e2397de26e5fb944b39132}
+\hypertarget{feature__lr005_2test2_8m_a3d95b1f9836afadb93a1757562416ca6}{\index{feature\-\_\-lr005/test2.\-m@{feature\-\_\-lr005/test2.\-m}!subplot@{subplot}}
+\index{subplot@{subplot}!feature_lr005/test2.m@{feature\-\_\-lr005/test2.\-m}}
+\subsubsection[{subplot}]{\setlength{\rightskip}{0pt plus 5cm}{\bf subplot} (
+\begin{DoxyParamCaption}
+\item[{3}]{, }
+\item[{8}]{, }
+\item[{15}]{}
+\end{DoxyParamCaption}
+)}}\label{feature__lr005_2test2_8m_a3d95b1f9836afadb93a1757562416ca6}
+\hypertarget{feature__lr005_2test2_8m_a9e946cb75f1d31ff43d1b7bb93be769f}{\index{feature\-\_\-lr005/test2.\-m@{feature\-\_\-lr005/test2.\-m}!subplot@{subplot}}
+\index{subplot@{subplot}!feature_lr005/test2.m@{feature\-\_\-lr005/test2.\-m}}
+\subsubsection[{subplot}]{\setlength{\rightskip}{0pt plus 5cm}{\bf subplot} (
+\begin{DoxyParamCaption}
+\item[{3}]{, }
+\item[{8}]{, }
+\item[{16}]{}
+\end{DoxyParamCaption}
+)}}\label{feature__lr005_2test2_8m_a9e946cb75f1d31ff43d1b7bb93be769f}
+\hypertarget{feature__lr005_2test2_8m_ab1f91e44f492462ed0b96e5ec6b7f094}{\index{feature\-\_\-lr005/test2.\-m@{feature\-\_\-lr005/test2.\-m}!subplot@{subplot}}
+\index{subplot@{subplot}!feature_lr005/test2.m@{feature\-\_\-lr005/test2.\-m}}
+\subsubsection[{subplot}]{\setlength{\rightskip}{0pt plus 5cm}{\bf subplot} (
+\begin{DoxyParamCaption}
+\item[{3}]{, }
+\item[{8}]{, }
+\item[{17}]{}
+\end{DoxyParamCaption}
+)}}\label{feature__lr005_2test2_8m_ab1f91e44f492462ed0b96e5ec6b7f094}
+\hypertarget{feature__lr005_2test2_8m_a28871c9fd19c8384592abd5f017bd8f1}{\index{feature\-\_\-lr005/test2.\-m@{feature\-\_\-lr005/test2.\-m}!subplot@{subplot}}
+\index{subplot@{subplot}!feature_lr005/test2.m@{feature\-\_\-lr005/test2.\-m}}
+\subsubsection[{subplot}]{\setlength{\rightskip}{0pt plus 5cm}{\bf subplot} (
+\begin{DoxyParamCaption}
+\item[{3}]{, }
+\item[{8}]{, }
+\item[{18}]{}
+\end{DoxyParamCaption}
+)}}\label{feature__lr005_2test2_8m_a28871c9fd19c8384592abd5f017bd8f1}
+\hypertarget{feature__lr005_2test2_8m_a9a102c3211bbe88ee445edf0ec0e48c7}{\index{feature\-\_\-lr005/test2.\-m@{feature\-\_\-lr005/test2.\-m}!subplot@{subplot}}
+\index{subplot@{subplot}!feature_lr005/test2.m@{feature\-\_\-lr005/test2.\-m}}
+\subsubsection[{subplot}]{\setlength{\rightskip}{0pt plus 5cm}{\bf subplot} (
+\begin{DoxyParamCaption}
+\item[{3}]{, }
+\item[{8}]{, }
+\item[{19}]{}
+\end{DoxyParamCaption}
+)}}\label{feature__lr005_2test2_8m_a9a102c3211bbe88ee445edf0ec0e48c7}
+\hypertarget{feature__lr005_2test2_8m_af40e1e353e38e986ef8d33453e090887}{\index{feature\-\_\-lr005/test2.\-m@{feature\-\_\-lr005/test2.\-m}!subplot@{subplot}}
+\index{subplot@{subplot}!feature_lr005/test2.m@{feature\-\_\-lr005/test2.\-m}}
+\subsubsection[{subplot}]{\setlength{\rightskip}{0pt plus 5cm}{\bf subplot} (
+\begin{DoxyParamCaption}
+\item[{3}]{, }
+\item[{8}]{, }
+\item[{20}]{}
+\end{DoxyParamCaption}
+)}}\label{feature__lr005_2test2_8m_af40e1e353e38e986ef8d33453e090887}
+\hypertarget{feature__lr005_2test2_8m_a247d39ecd8025d57c5b821eba3065db4}{\index{feature\-\_\-lr005/test2.\-m@{feature\-\_\-lr005/test2.\-m}!subplot@{subplot}}
+\index{subplot@{subplot}!feature_lr005/test2.m@{feature\-\_\-lr005/test2.\-m}}
+\subsubsection[{subplot}]{\setlength{\rightskip}{0pt plus 5cm}{\bf subplot} (
+\begin{DoxyParamCaption}
+\item[{3}]{, }
+\item[{8}]{, }
+\item[{21}]{}
+\end{DoxyParamCaption}
+)}}\label{feature__lr005_2test2_8m_a247d39ecd8025d57c5b821eba3065db4}
+\hypertarget{feature__lr005_2test2_8m_ab5bbdd83dc15e6fc818760f19f270826}{\index{feature\-\_\-lr005/test2.\-m@{feature\-\_\-lr005/test2.\-m}!subplot@{subplot}}
+\index{subplot@{subplot}!feature_lr005/test2.m@{feature\-\_\-lr005/test2.\-m}}
+\subsubsection[{subplot}]{\setlength{\rightskip}{0pt plus 5cm}{\bf subplot} (
+\begin{DoxyParamCaption}
+\item[{3}]{, }
+\item[{8}]{, }
+\item[{22}]{}
+\end{DoxyParamCaption}
+)}}\label{feature__lr005_2test2_8m_ab5bbdd83dc15e6fc818760f19f270826}
+\hypertarget{feature__lr005_2test2_8m_ac14972a4433eba70b6d07928b26b7261}{\index{feature\-\_\-lr005/test2.\-m@{feature\-\_\-lr005/test2.\-m}!subplot@{subplot}}
+\index{subplot@{subplot}!feature_lr005/test2.m@{feature\-\_\-lr005/test2.\-m}}
+\subsubsection[{subplot}]{\setlength{\rightskip}{0pt plus 5cm}{\bf subplot} (
+\begin{DoxyParamCaption}
+\item[{3}]{, }
+\item[{8}]{, }
+\item[{23}]{}
+\end{DoxyParamCaption}
+)}}\label{feature__lr005_2test2_8m_ac14972a4433eba70b6d07928b26b7261}
+\hypertarget{feature__lr005_2test2_8m_aa4cd7dc15b25111270df26475b68bb48}{\index{feature\-\_\-lr005/test2.\-m@{feature\-\_\-lr005/test2.\-m}!subplot@{subplot}}
+\index{subplot@{subplot}!feature_lr005/test2.m@{feature\-\_\-lr005/test2.\-m}}
+\subsubsection[{subplot}]{\setlength{\rightskip}{0pt plus 5cm}{\bf subplot} (
+\begin{DoxyParamCaption}
+\item[{3}]{, }
+\item[{8}]{, }
+\item[{24}]{}
+\end{DoxyParamCaption}
+)}}\label{feature__lr005_2test2_8m_aa4cd7dc15b25111270df26475b68bb48}
+\hypertarget{feature__lr005_2test2_8m_a777022882961b6c7b730452345237ef2}{\index{feature\-\_\-lr005/test2.\-m@{feature\-\_\-lr005/test2.\-m}!title@{title}}
+\index{title@{title}!feature_lr005/test2.m@{feature\-\_\-lr005/test2.\-m}}
+\subsubsection[{title}]{\setlength{\rightskip}{0pt plus 5cm}{\bf title} (
+\begin{DoxyParamCaption}
+\item[{'\-Layer0 \-Initial \-Kernel0'}]{}
+\end{DoxyParamCaption}
+)}}\label{feature__lr005_2test2_8m_a777022882961b6c7b730452345237ef2}
+\hypertarget{feature__lr005_2test2_8m_aca0f002ec2f727a0247ad90900b16890}{\index{feature\-\_\-lr005/test2.\-m@{feature\-\_\-lr005/test2.\-m}!title@{title}}
+\index{title@{title}!feature_lr005/test2.m@{feature\-\_\-lr005/test2.\-m}}
+\subsubsection[{title}]{\setlength{\rightskip}{0pt plus 5cm}{\bf title} (
+\begin{DoxyParamCaption}
+\item[{'\-Layer0 \-Initial \-Kernel1'}]{}
+\end{DoxyParamCaption}
+)}}\label{feature__lr005_2test2_8m_aca0f002ec2f727a0247ad90900b16890}
+\hypertarget{feature__lr005_2test2_8m_a6345c1a32000ac81669eb75ce75fb823}{\index{feature\-\_\-lr005/test2.\-m@{feature\-\_\-lr005/test2.\-m}!title@{title}}
+\index{title@{title}!feature_lr005/test2.m@{feature\-\_\-lr005/test2.\-m}}
+\subsubsection[{title}]{\setlength{\rightskip}{0pt plus 5cm}{\bf title} (
+\begin{DoxyParamCaption}
+\item[{'\-Layer0 \-Initial \-Kernel2'}]{}
+\end{DoxyParamCaption}
+)}}\label{feature__lr005_2test2_8m_a6345c1a32000ac81669eb75ce75fb823}
+\hypertarget{feature__lr005_2test2_8m_a2d7dd745ff3f81d9230b660ddb71e0d5}{\index{feature\-\_\-lr005/test2.\-m@{feature\-\_\-lr005/test2.\-m}!title@{title}}
+\index{title@{title}!feature_lr005/test2.m@{feature\-\_\-lr005/test2.\-m}}
+\subsubsection[{title}]{\setlength{\rightskip}{0pt plus 5cm}{\bf title} (
+\begin{DoxyParamCaption}
+\item[{'\-Layer1 \-Initial \-Kernel0'}]{}
+\end{DoxyParamCaption}
+)}}\label{feature__lr005_2test2_8m_a2d7dd745ff3f81d9230b660ddb71e0d5}
+\hypertarget{feature__lr005_2test2_8m_a5a870522791914245c42772d3bccee51}{\index{feature\-\_\-lr005/test2.\-m@{feature\-\_\-lr005/test2.\-m}!title@{title}}
+\index{title@{title}!feature_lr005/test2.m@{feature\-\_\-lr005/test2.\-m}}
+\subsubsection[{title}]{\setlength{\rightskip}{0pt plus 5cm}{\bf title} (
+\begin{DoxyParamCaption}
+\item[{'\-Layer1 \-Initial \-Kernel1'}]{}
+\end{DoxyParamCaption}
+)}}\label{feature__lr005_2test2_8m_a5a870522791914245c42772d3bccee51}
+\hypertarget{feature__lr005_2test2_8m_a59187d9fd8df816fa479e6d7c47a2a0e}{\index{feature\-\_\-lr005/test2.\-m@{feature\-\_\-lr005/test2.\-m}!title@{title}}
+\index{title@{title}!feature_lr005/test2.m@{feature\-\_\-lr005/test2.\-m}}
+\subsubsection[{title}]{\setlength{\rightskip}{0pt plus 5cm}{\bf title} (
+\begin{DoxyParamCaption}
+\item[{'\-Layer1 \-Initial \-Kernel2'}]{}
+\end{DoxyParamCaption}
+)}}\label{feature__lr005_2test2_8m_a59187d9fd8df816fa479e6d7c47a2a0e}
+\hypertarget{feature__lr005_2test2_8m_a7efb857a0273c26cd921a91298137e01}{\index{feature\-\_\-lr005/test2.\-m@{feature\-\_\-lr005/test2.\-m}!title@{title}}
+\index{title@{title}!feature_lr005/test2.m@{feature\-\_\-lr005/test2.\-m}}
+\subsubsection[{title}]{\setlength{\rightskip}{0pt plus 5cm}{\bf title} (
+\begin{DoxyParamCaption}
+\item[{'\-Layer2 \-Initial \-Kernel0'}]{}
+\end{DoxyParamCaption}
+)}}\label{feature__lr005_2test2_8m_a7efb857a0273c26cd921a91298137e01}
+\hypertarget{feature__lr005_2test2_8m_a2ac0b252dbd26c6904ec02aedbb4f365}{\index{feature\-\_\-lr005/test2.\-m@{feature\-\_\-lr005/test2.\-m}!title@{title}}
+\index{title@{title}!feature_lr005/test2.m@{feature\-\_\-lr005/test2.\-m}}
+\subsubsection[{title}]{\setlength{\rightskip}{0pt plus 5cm}{\bf title} (
+\begin{DoxyParamCaption}
+\item[{'\-Layer2 \-Initial \-Kernel1'}]{}
+\end{DoxyParamCaption}
+)}}\label{feature__lr005_2test2_8m_a2ac0b252dbd26c6904ec02aedbb4f365}
+\hypertarget{feature__lr005_2test2_8m_a5f499f2d39aeae01aee6b996de79a86d}{\index{feature\-\_\-lr005/test2.\-m@{feature\-\_\-lr005/test2.\-m}!title@{title}}
+\index{title@{title}!feature_lr005/test2.m@{feature\-\_\-lr005/test2.\-m}}
+\subsubsection[{title}]{\setlength{\rightskip}{0pt plus 5cm}{\bf title} (
+\begin{DoxyParamCaption}
+\item[{'\-Layer2 \-Initial \-Kernel2'}]{}
+\end{DoxyParamCaption}
+)}}\label{feature__lr005_2test2_8m_a5f499f2d39aeae01aee6b996de79a86d}
+\hypertarget{feature__lr005_2test2_8m_adc08a6113308b4c6c6e253a972618e28}{\index{feature\-\_\-lr005/test2.\-m@{feature\-\_\-lr005/test2.\-m}!title@{title}}
+\index{title@{title}!feature_lr005/test2.m@{feature\-\_\-lr005/test2.\-m}}
+\subsubsection[{title}]{\setlength{\rightskip}{0pt plus 5cm}{\bf title} (
+\begin{DoxyParamCaption}
+\item[{'\-Layer0 \-Trained \-Kernel0'}]{}
+\end{DoxyParamCaption}
+)}}\label{feature__lr005_2test2_8m_adc08a6113308b4c6c6e253a972618e28}
+\hypertarget{feature__lr005_2test2_8m_a32c77451dc6e430c5769e8ad46a227bc}{\index{feature\-\_\-lr005/test2.\-m@{feature\-\_\-lr005/test2.\-m}!title@{title}}
+\index{title@{title}!feature_lr005/test2.m@{feature\-\_\-lr005/test2.\-m}}
+\subsubsection[{title}]{\setlength{\rightskip}{0pt plus 5cm}{\bf title} (
+\begin{DoxyParamCaption}
+\item[{'\-Layer0 \-Trained \-Kernel1'}]{}
+\end{DoxyParamCaption}
+)}}\label{feature__lr005_2test2_8m_a32c77451dc6e430c5769e8ad46a227bc}
+\hypertarget{feature__lr005_2test2_8m_ad0736310ff3ae0f1cf1bbaebf6e4d5e6}{\index{feature\-\_\-lr005/test2.\-m@{feature\-\_\-lr005/test2.\-m}!title@{title}}
+\index{title@{title}!feature_lr005/test2.m@{feature\-\_\-lr005/test2.\-m}}
+\subsubsection[{title}]{\setlength{\rightskip}{0pt plus 5cm}{\bf title} (
+\begin{DoxyParamCaption}
+\item[{'\-Layer0 \-Trained \-Kernel2'}]{}
+\end{DoxyParamCaption}
+)}}\label{feature__lr005_2test2_8m_ad0736310ff3ae0f1cf1bbaebf6e4d5e6}
+\hypertarget{feature__lr005_2test2_8m_a71efbd16800e80a94f8e0e13f5f24e2c}{\index{feature\-\_\-lr005/test2.\-m@{feature\-\_\-lr005/test2.\-m}!title@{title}}
+\index{title@{title}!feature_lr005/test2.m@{feature\-\_\-lr005/test2.\-m}}
+\subsubsection[{title}]{\setlength{\rightskip}{0pt plus 5cm}{\bf title} (
+\begin{DoxyParamCaption}
+\item[{'\-Layer1 \-Trained \-Kernel0'}]{}
+\end{DoxyParamCaption}
+)}}\label{feature__lr005_2test2_8m_a71efbd16800e80a94f8e0e13f5f24e2c}
+\hypertarget{feature__lr005_2test2_8m_a34f7db380c99323bab8ec762277a1572}{\index{feature\-\_\-lr005/test2.\-m@{feature\-\_\-lr005/test2.\-m}!title@{title}}
+\index{title@{title}!feature_lr005/test2.m@{feature\-\_\-lr005/test2.\-m}}
+\subsubsection[{title}]{\setlength{\rightskip}{0pt plus 5cm}{\bf title} (
+\begin{DoxyParamCaption}
+\item[{'\-Layer1 \-Trained \-Kernel1'}]{}
+\end{DoxyParamCaption}
+)}}\label{feature__lr005_2test2_8m_a34f7db380c99323bab8ec762277a1572}
+\hypertarget{feature__lr005_2test2_8m_a7e7f79a6b78f95a9f32e7d5e8344346d}{\index{feature\-\_\-lr005/test2.\-m@{feature\-\_\-lr005/test2.\-m}!title@{title}}
+\index{title@{title}!feature_lr005/test2.m@{feature\-\_\-lr005/test2.\-m}}
+\subsubsection[{title}]{\setlength{\rightskip}{0pt plus 5cm}{\bf title} (
+\begin{DoxyParamCaption}
+\item[{'\-Layer1 \-Trained \-Kernel2'}]{}
+\end{DoxyParamCaption}
+)}}\label{feature__lr005_2test2_8m_a7e7f79a6b78f95a9f32e7d5e8344346d}
+\hypertarget{feature__lr005_2test2_8m_a880a1436f5fcd111c54b63b4ae61f9e7}{\index{feature\-\_\-lr005/test2.\-m@{feature\-\_\-lr005/test2.\-m}!title@{title}}
+\index{title@{title}!feature_lr005/test2.m@{feature\-\_\-lr005/test2.\-m}}
+\subsubsection[{title}]{\setlength{\rightskip}{0pt plus 5cm}{\bf title} (
+\begin{DoxyParamCaption}
+\item[{'\-Layer2 \-Trained \-Kernel0'}]{}
+\end{DoxyParamCaption}
+)}}\label{feature__lr005_2test2_8m_a880a1436f5fcd111c54b63b4ae61f9e7}
+\hypertarget{feature__lr005_2test2_8m_a30e5ec7d4dd7e4371213b8451f57ecab}{\index{feature\-\_\-lr005/test2.\-m@{feature\-\_\-lr005/test2.\-m}!title@{title}}
+\index{title@{title}!feature_lr005/test2.m@{feature\-\_\-lr005/test2.\-m}}
+\subsubsection[{title}]{\setlength{\rightskip}{0pt plus 5cm}{\bf title} (
+\begin{DoxyParamCaption}
+\item[{'\-Layer2 \-Trained \-Kernel1'}]{}
+\end{DoxyParamCaption}
+)}}\label{feature__lr005_2test2_8m_a30e5ec7d4dd7e4371213b8451f57ecab}
+\hypertarget{feature__lr005_2test2_8m_a56297be33120ad19626b3fde3f14b24e}{\index{feature\-\_\-lr005/test2.\-m@{feature\-\_\-lr005/test2.\-m}!title@{title}}
+\index{title@{title}!feature_lr005/test2.m@{feature\-\_\-lr005/test2.\-m}}
+\subsubsection[{title}]{\setlength{\rightskip}{0pt plus 5cm}{\bf title} (
+\begin{DoxyParamCaption}
+\item[{'\-Layer2 \-Trained \-Kernel2'}]{}
+\end{DoxyParamCaption}
+)}}\label{feature__lr005_2test2_8m_a56297be33120ad19626b3fde3f14b24e}
+\hypertarget{feature__lr005_2test2_8m_a6b55f2aeb947588076179beb23353ea7}{\index{feature\-\_\-lr005/test2.\-m@{feature\-\_\-lr005/test2.\-m}!title@{title}}
+\index{title@{title}!feature_lr005/test2.m@{feature\-\_\-lr005/test2.\-m}}
+\subsubsection[{title}]{\setlength{\rightskip}{0pt plus 5cm}{\bf title} (
+\begin{DoxyParamCaption}
+\item[{'\-Layer0 \-Initial \-Kerne0'}]{}
+\end{DoxyParamCaption}
+)}}\label{feature__lr005_2test2_8m_a6b55f2aeb947588076179beb23353ea7}
+\hypertarget{feature__lr005_2test2_8m_a0849d9e7c6a9f79d9be89645354ced81}{\index{feature\-\_\-lr005/test2.\-m@{feature\-\_\-lr005/test2.\-m}!title@{title}}
+\index{title@{title}!feature_lr005/test2.m@{feature\-\_\-lr005/test2.\-m}}
+\subsubsection[{title}]{\setlength{\rightskip}{0pt plus 5cm}{\bf title} (
+\begin{DoxyParamCaption}
+\item[{'\-Layer0 \-Initial'}]{}
+\end{DoxyParamCaption}
+)}}\label{feature__lr005_2test2_8m_a0849d9e7c6a9f79d9be89645354ced81}
+\hypertarget{feature__lr005_2test2_8m_ac45f0d60b4962b0c4210a0028add925a}{\index{feature\-\_\-lr005/test2.\-m@{feature\-\_\-lr005/test2.\-m}!title@{title}}
+\index{title@{title}!feature_lr005/test2.m@{feature\-\_\-lr005/test2.\-m}}
+\subsubsection[{title}]{\setlength{\rightskip}{0pt plus 5cm}{\bf title} (
+\begin{DoxyParamCaption}
+\item[{'\-Layer0 \-Trained'}]{}
+\end{DoxyParamCaption}
+)}}\label{feature__lr005_2test2_8m_ac45f0d60b4962b0c4210a0028add925a}
+\hypertarget{feature__lr005_2test2_8m_a1f7389f7c6487716b87c5944bfe8648e}{\index{feature\-\_\-lr005/test2.\-m@{feature\-\_\-lr005/test2.\-m}!title@{title}}
+\index{title@{title}!feature_lr005/test2.m@{feature\-\_\-lr005/test2.\-m}}
+\subsubsection[{title}]{\setlength{\rightskip}{0pt plus 5cm}{\bf title} (
+\begin{DoxyParamCaption}
+\item[{'\-Layer1 \-Initial'}]{}
+\end{DoxyParamCaption}
+)}}\label{feature__lr005_2test2_8m_a1f7389f7c6487716b87c5944bfe8648e}
+\hypertarget{feature__lr005_2test2_8m_a120814ffb8e19337c48161386965bbe5}{\index{feature\-\_\-lr005/test2.\-m@{feature\-\_\-lr005/test2.\-m}!title@{title}}
+\index{title@{title}!feature_lr005/test2.m@{feature\-\_\-lr005/test2.\-m}}
+\subsubsection[{title}]{\setlength{\rightskip}{0pt plus 5cm}{\bf title} (
+\begin{DoxyParamCaption}
+\item[{'\-Layer1 \-Trained'}]{}
+\end{DoxyParamCaption}
+)}}\label{feature__lr005_2test2_8m_a120814ffb8e19337c48161386965bbe5}
+\hypertarget{feature__lr005_2test2_8m_af237c49b6106dfbb7dd7d6429cdd0ddd}{\index{feature\-\_\-lr005/test2.\-m@{feature\-\_\-lr005/test2.\-m}!title@{title}}
+\index{title@{title}!feature_lr005/test2.m@{feature\-\_\-lr005/test2.\-m}}
+\subsubsection[{title}]{\setlength{\rightskip}{0pt plus 5cm}{\bf title} (
+\begin{DoxyParamCaption}
+\item[{'\-Layer2 \-Initial'}]{}
+\end{DoxyParamCaption}
+)}}\label{feature__lr005_2test2_8m_af237c49b6106dfbb7dd7d6429cdd0ddd}
+\hypertarget{feature__lr005_2test2_8m_aec7aca63730ffeb453caf79fefb915b6}{\index{feature\-\_\-lr005/test2.\-m@{feature\-\_\-lr005/test2.\-m}!title@{title}}
+\index{title@{title}!feature_lr005/test2.m@{feature\-\_\-lr005/test2.\-m}}
+\subsubsection[{title}]{\setlength{\rightskip}{0pt plus 5cm}{\bf title} (
+\begin{DoxyParamCaption}
+\item[{'\-Layer2 \-Trained'}]{}
+\end{DoxyParamCaption}
+)}}\label{feature__lr005_2test2_8m_aec7aca63730ffeb453caf79fefb915b6}
+
+
+\subsection{\-Variable \-Documentation}
+\hypertarget{feature__lr005_2test2_8m_a391e34f2de441d79152a7b3d6e4c9c86}{\index{feature\-\_\-lr005/test2.\-m@{feature\-\_\-lr005/test2.\-m}!figure@{figure}}
+\index{figure@{figure}!feature_lr005/test2.m@{feature\-\_\-lr005/test2.\-m}}
+\subsubsection[{figure}]{\setlength{\rightskip}{0pt plus 5cm}{\bf figure}}}\label{feature__lr005_2test2_8m_a391e34f2de441d79152a7b3d6e4c9c86}
+\hypertarget{feature__lr005_2test2_8m_ada8ad40249884b4f8e370f25724a131f}{\index{feature\-\_\-lr005/test2.\-m@{feature\-\_\-lr005/test2.\-m}!gray@{gray}}
+\index{gray@{gray}!feature_lr005/test2.m@{feature\-\_\-lr005/test2.\-m}}
+\subsubsection[{gray}]{\setlength{\rightskip}{0pt plus 5cm}colormap {\bf gray}}}\label{feature__lr005_2test2_8m_ada8ad40249884b4f8e370f25724a131f}
+\hypertarget{feature__lr005_2test2_8m_a9894c720ca57753a16e8b093a769e6cf}{\index{feature\-\_\-lr005/test2.\-m@{feature\-\_\-lr005/test2.\-m}!k000f@{k000f}}
+\index{k000f@{k000f}!feature_lr005/test2.m@{feature\-\_\-lr005/test2.\-m}}
+\subsubsection[{k000f}]{\setlength{\rightskip}{0pt plus 5cm}{\bf k000f}}}\label{feature__lr005_2test2_8m_a9894c720ca57753a16e8b093a769e6cf}
+{\bfseries \-Initial value\-:}
+\begin{DoxyCode}
+  [   -0.230927   -0.267923   -0.112116    0.101411    0.223891    0.253798    
+      0.109193
+  -0.267487   -0.193829  -0.0291825    0.122538    0.194792    0.150936   0.022
+      0753
+  -0.244487   -0.133085   0.0325852   0.0769917 -0.00570833  -0.0707235   -0.14
+      2214
+  -0.124212  -0.0781608 -0.00715403   0.0374625   -0.078438   -0.260306   -0.34
+      2285
+  -0.055205   0.0417946    0.111831   0.0691346   -0.109752   -0.284769   -0.37
+      3751
+  0.0881284    0.209201    0.187593   0.0700572  -0.0697165   -0.236783   -0.36
+      5681
+   0.184577     0.22416     0.22243   0.0779914  -0.0440394   -0.162424   -0.28
+      9801 ]
+\end{DoxyCode}
+\hypertarget{feature__lr005_2test2_8m_a769ba09b1643b62448adba7f78f72b93}{\index{feature\-\_\-lr005/test2.\-m@{feature\-\_\-lr005/test2.\-m}!k000i@{k000i}}
+\index{k000i@{k000i}!feature_lr005/test2.m@{feature\-\_\-lr005/test2.\-m}}
+\subsubsection[{k000i}]{\setlength{\rightskip}{0pt plus 5cm}{\bf k000i}}}\label{feature__lr005_2test2_8m_a769ba09b1643b62448adba7f78f72b93}
+{\bfseries \-Initial value\-:}
+\begin{DoxyCode}
+  [ -0.1788  -0.194 -0.0739   0.128  0.2235  0.2272  0.1224
+-0.2288  -0.165 -0.0089  0.1615  0.2052  0.1527  0.0463
+-0.2027 -0.1327  0.0438  0.0818  0.0259  -0.037 -0.1204
+-0.1063 -0.0672  0.0206  0.0509 -0.0462 -0.1755 -0.2556
+-0.0369  0.0291  0.1236  0.0862  -0.061 -0.1771 -0.2357
+ 0.0789  0.1742  0.1843   0.084  0.0036  -0.114 -0.2251
+ 0.1678  0.2162   0.225   0.123   0.041 -0.0413 -0.1301 ]
+\end{DoxyCode}
+\hypertarget{feature__lr005_2test2_8m_a58487ceb62f00b0a36c959ede07b1790}{\index{feature\-\_\-lr005/test2.\-m@{feature\-\_\-lr005/test2.\-m}!k001f@{k001f}}
+\index{k001f@{k001f}!feature_lr005/test2.m@{feature\-\_\-lr005/test2.\-m}}
+\subsubsection[{k001f}]{\setlength{\rightskip}{0pt plus 5cm}{\bf k001f}}}\label{feature__lr005_2test2_8m_a58487ceb62f00b0a36c959ede07b1790}
+{\bfseries \-Initial value\-:}
+\begin{DoxyCode}
+  [   -0.124074   -0.106147  -0.0683576  0.00794477    0.128882    0.140207    
+      0.168601
+  -0.144747   -0.198859   -0.147848 -0.00117611    0.126054     0.20843    0.25
+      7877
+  -0.250435   -0.261242   -0.129169   0.0090821    0.131348    0.245759    0.24
+      2178
+   -0.30747   -0.282871   -0.105808   0.0480251    0.176169    0.205983    0.21
+      6625
+  -0.296699   -0.271219   -0.197142  -0.0082847    0.164689    0.191804    0.22
+      6899
+   -0.25226    -0.25642   -0.184214  -0.0631163   0.0673318    0.133477     0.1
+      4788
+  -0.193696   -0.207683   -0.131256  -0.0443662  -0.0229773  -0.0315583  -0.038
+      1951 ]
+\end{DoxyCode}
+\hypertarget{feature__lr005_2test2_8m_a9822574381ec6816f534bb5bfef48018}{\index{feature\-\_\-lr005/test2.\-m@{feature\-\_\-lr005/test2.\-m}!k001i@{k001i}}
+\index{k001i@{k001i}!feature_lr005/test2.m@{feature\-\_\-lr005/test2.\-m}}
+\subsubsection[{k001i}]{\setlength{\rightskip}{0pt plus 5cm}{\bf k001i}}}\label{feature__lr005_2test2_8m_a9822574381ec6816f534bb5bfef48018}
+{\bfseries \-Initial value\-:}
+\begin{DoxyCode}
+  [ -0.1326 -0.0718 -0.0397  0.0622  0.1539  0.1952  0.2354
+-0.1386 -0.1232  -0.048  0.0837  0.1407  0.2294  0.2678
+-0.1882 -0.1577 -0.0595   0.038  0.1151  0.1974  0.2338
+-0.2242 -0.1693 -0.0795  0.0077  0.0805  0.1414  0.1893
+-0.2387 -0.1771 -0.0933 -0.0124   0.073  0.1225  0.1627
+-0.2348 -0.1926 -0.1191 -0.0311  0.0352  0.0894  0.1114
+-0.1932 -0.1362 -0.0889 -0.0361  0.0218  0.0554  0.0736 ]
+\end{DoxyCode}
+\hypertarget{feature__lr005_2test2_8m_a667209d6bf62f3fe4f0e5f798b81487a}{\index{feature\-\_\-lr005/test2.\-m@{feature\-\_\-lr005/test2.\-m}!k002f@{k002f}}
+\index{k002f@{k002f}!feature_lr005/test2.m@{feature\-\_\-lr005/test2.\-m}}
+\subsubsection[{k002f}]{\setlength{\rightskip}{0pt plus 5cm}{\bf k002f}}}\label{feature__lr005_2test2_8m_a667209d6bf62f3fe4f0e5f798b81487a}
+{\bfseries \-Initial value\-:}
+\begin{DoxyCode}
+  [  0.0848227    0.10173   0.113882   0.103864  0.0851757   0.086441   0.10959
+      5
+  0.090053   0.117146   0.113942   0.086239  0.0808188  0.0324499  0.0234912
+  0.095867   0.104823  0.0819747  0.0572293  0.0318238 -0.0125597 -0.0452289
+ 0.0142098  0.0187083 0.00434741  -0.044815 -0.0911367  -0.108512  -0.129919
+-0.0683474 -0.0826991  -0.113091  -0.137871  -0.186021  -0.216871  -0.206243
+ -0.128673  -0.152187  -0.184626  -0.204072  -0.208531  -0.249688  -0.258002
+ -0.185197  -0.202871  -0.207702  -0.236115  -0.271709  -0.269079  -0.274092 ]
+\end{DoxyCode}
+\hypertarget{feature__lr005_2test2_8m_a40e413404fd8391200a0cbc48171e572}{\index{feature\-\_\-lr005/test2.\-m@{feature\-\_\-lr005/test2.\-m}!k002i@{k002i}}
+\index{k002i@{k002i}!feature_lr005/test2.m@{feature\-\_\-lr005/test2.\-m}}
+\subsubsection[{k002i}]{\setlength{\rightskip}{0pt plus 5cm}{\bf k002i}}}\label{feature__lr005_2test2_8m_a40e413404fd8391200a0cbc48171e572}
+{\bfseries \-Initial value\-:}
+\begin{DoxyCode}
+  [  0.1935  0.1985  0.2002  0.1814  0.1815  0.1733  0.1691
+ 0.1748  0.1881  0.1815  0.1582  0.1457  0.1062  0.0908
+ 0.1521  0.1509   0.137  0.1117  0.0661  0.0197  0.0108
+ 0.0802   0.069  0.0543  0.0136 -0.0283 -0.0551 -0.0824
+-0.0107 -0.0387 -0.0673 -0.0882 -0.1344 -0.1691  -0.155
+-0.0771 -0.1058 -0.1306 -0.1543 -0.1682 -0.1974 -0.2006
+ -0.138 -0.1558 -0.1552 -0.1866 -0.2153 -0.2079 -0.2124 ]
+\end{DoxyCode}
+\hypertarget{feature__lr005_2test2_8m_af72060c799d19ba53a7f6ad3f3349bf5}{\index{feature\-\_\-lr005/test2.\-m@{feature\-\_\-lr005/test2.\-m}!k010f@{k010f}}
+\index{k010f@{k010f}!feature_lr005/test2.m@{feature\-\_\-lr005/test2.\-m}}
+\subsubsection[{k010f}]{\setlength{\rightskip}{0pt plus 5cm}{\bf k010f}}}\label{feature__lr005_2test2_8m_af72060c799d19ba53a7f6ad3f3349bf5}
+{\bfseries \-Initial value\-:}
+\begin{DoxyCode}
+  [   -0.431828   -0.206742    0.511885   -0.289323    0.103341   0.0595703    
+      0.129968
+  -0.318385   -0.232709    0.474808 -0.00506213    0.321513   -0.121851   -0.29
+      5472
+   0.194531    0.110714   -0.382928    0.171903    0.367439   0.0889745   -0.19
+      9735
+  -0.379562   -0.191553    -0.31115    0.238872    0.226059     0.37009    0.14
+      8101
+   0.035635     -0.4246  -0.0230524    0.301528    0.475586   0.0771777   -0.26
+      2262
+  0.0869996    0.288111  -0.0424832   -0.150545    0.112551   -0.260584   -0.10
+      6874
+    0.15032    0.348826   -0.147722     0.30412    0.173868   -0.221877   -0.44
+      3752 ]
+\end{DoxyCode}
+\hypertarget{feature__lr005_2test2_8m_aa76407325b73a3f367f48ee44f084eb1}{\index{feature\-\_\-lr005/test2.\-m@{feature\-\_\-lr005/test2.\-m}!k010i@{k010i}}
+\index{k010i@{k010i}!feature_lr005/test2.m@{feature\-\_\-lr005/test2.\-m}}
+\subsubsection[{k010i}]{\setlength{\rightskip}{0pt plus 5cm}{\bf k010i}}}\label{feature__lr005_2test2_8m_aa76407325b73a3f367f48ee44f084eb1}
+{\bfseries \-Initial value\-:}
+\begin{DoxyCode}
+  [  -0.388768  -0.223787   0.363877  -0.380943  0.0721364   0.130507   0.21576
+      3
+ -0.225779  -0.223948   0.391374  -0.106481   0.202771  -0.114813  -0.215872
+   0.27953   0.184022  -0.296872   0.145057   0.210489  0.0288426  -0.164161
+ -0.307619 -0.0474814  -0.172267   0.233466  0.0833685    0.30672    0.17964
+  0.153515  -0.245476  0.0708532   0.312232   0.376993  0.0612393  -0.224498
+  0.195168   0.371264  0.0105595  -0.119789   0.090019  -0.187135 -0.0610325
+  0.253093   0.376601   -0.11579   0.329681   0.175749  -0.140761  -0.392627 ]
+\end{DoxyCode}
+\hypertarget{feature__lr005_2test2_8m_adf30a8c5a703ab81ecaf6eec1bf25d1c}{\index{feature\-\_\-lr005/test2.\-m@{feature\-\_\-lr005/test2.\-m}!k011f@{k011f}}
+\index{k011f@{k011f}!feature_lr005/test2.m@{feature\-\_\-lr005/test2.\-m}}
+\subsubsection[{k011f}]{\setlength{\rightskip}{0pt plus 5cm}{\bf k011f}}}\label{feature__lr005_2test2_8m_adf30a8c5a703ab81ecaf6eec1bf25d1c}
+{\bfseries \-Initial value\-:}
+\begin{DoxyCode}
+  [     0.0823  -0.426191  -0.551307  0.0452502  -0.159049   0.364555  -0.20054
+      9
+  0.283926  -0.162627   0.110764   0.099445   0.104517   0.217079 -0.0355737
+-0.0653358   0.102506  -0.368989   0.326822  -0.127016   0.144879  -0.058271
+  0.312402   0.321989   0.220332  0.0409915  -0.266279  -0.245902   0.122353
+-0.0996148  -0.208388  -0.216431  -0.364078   0.145331  -0.221843  0.0757631
+ -0.379648   -0.17354  0.0139998  -0.267351   0.259242   -0.20108 -0.0043286
+ 0.0520105  -0.114237   0.022619   -0.18854   0.562086   0.454342  -0.269277 ]
+\end{DoxyCode}
+\hypertarget{feature__lr005_2test2_8m_ad453a74e3acc45c56a241315f342f7bc}{\index{feature\-\_\-lr005/test2.\-m@{feature\-\_\-lr005/test2.\-m}!k011i@{k011i}}
+\index{k011i@{k011i}!feature_lr005/test2.m@{feature\-\_\-lr005/test2.\-m}}
+\subsubsection[{k011i}]{\setlength{\rightskip}{0pt plus 5cm}{\bf k011i}}}\label{feature__lr005_2test2_8m_ad453a74e3acc45c56a241315f342f7bc}
+{\bfseries \-Initial value\-:}
+\begin{DoxyCode}
+  [   0.246355  -0.244722  -0.303385   0.275495   -0.11213   0.360461  -0.15703
+      1
+  0.349527 -0.0831489   0.329069    0.32824   0.167888   0.206495 -0.0338731
+ -0.108417  0.0285604  -0.313468   0.393081  -0.121728   0.098517  -0.146063
+  0.265412   0.227415   0.227122  0.0912585  -0.265774  -0.284261 -0.0604166
+ -0.156954  -0.280378  -0.185744  -0.287632   0.117415  -0.276654  -0.104805
+  -0.36336   -0.16095   0.115375   -0.17108   0.169855  -0.272923 -0.0595307
+  0.098879 -0.0892169   0.133842  -0.129101   0.399638   0.343154  -0.233294 ]
+\end{DoxyCode}
+\hypertarget{feature__lr005_2test2_8m_ac64e928d027b68d2974819252b217a3f}{\index{feature\-\_\-lr005/test2.\-m@{feature\-\_\-lr005/test2.\-m}!k012f@{k012f}}
+\index{k012f@{k012f}!feature_lr005/test2.m@{feature\-\_\-lr005/test2.\-m}}
+\subsubsection[{k012f}]{\setlength{\rightskip}{0pt plus 5cm}{\bf k012f}}}\label{feature__lr005_2test2_8m_ac64e928d027b68d2974819252b217a3f}
+{\bfseries \-Initial value\-:}
+\begin{DoxyCode}
+  [   0.0724628   -0.338082  -0.0682482  -0.0901694   -0.163483  -0.0732239   -
+      0.280352
+  -0.398315   -0.317738  -0.0819543  -0.0867769   -0.182388   -0.312616    0.16
+      5196
+    0.22933   -0.113034   0.0275802  -0.0155491   -0.168885  -0.0543295   0.012
+      1902
+  -0.132509   -0.128777    -0.14989    0.102822    0.242042   -0.116055  -0.014
+      2818
+   0.258729    0.164968   -0.312255    0.234372   -0.219464   -0.322177   -0.38
+      3454
+   0.174908     0.11608    -0.28005    0.187366   -0.350176    0.189438   -0.33
+      9822
+  -0.446656 -0.00976004  -0.0268637   -0.420133   -0.265476    0.176475   -0.44
+      7974 ]
+\end{DoxyCode}
+\hypertarget{feature__lr005_2test2_8m_aaf00b96ee287742c7aaff30b5d5a1e04}{\index{feature\-\_\-lr005/test2.\-m@{feature\-\_\-lr005/test2.\-m}!k012i@{k012i}}
+\index{k012i@{k012i}!feature_lr005/test2.m@{feature\-\_\-lr005/test2.\-m}}
+\subsubsection[{k012i}]{\setlength{\rightskip}{0pt plus 5cm}{\bf k012i}}}\label{feature__lr005_2test2_8m_aaf00b96ee287742c7aaff30b5d5a1e04}
+{\bfseries \-Initial value\-:}
+\begin{DoxyCode}
+  [    0.109451   -0.303548  0.00785077  -0.0749285   -0.194898    -0.13846    
+      -0.31851
+  -0.344156   -0.277451 -0.00476978  -0.0562202   -0.178389   -0.331495    0.14
+      8183
+   0.300548  -0.0528964    0.118186   0.0272051   -0.125671  -0.0242955   0.060
+      8607
+ -0.0150537   -0.015678  -0.0316882     0.16804    0.314553  -0.0420087   0.089
+      3407
+   0.384084    0.290436   -0.198275    0.309907   -0.122544   -0.208946   -0.25
+      6586
+   0.293629    0.225375   -0.183298    0.281142   -0.225123    0.322808   -0.22
+      0954
+  -0.323795    0.118547   0.0840511   -0.292377     -0.1005    0.342313   -0.34
+      2348 ]
+\end{DoxyCode}
+\hypertarget{feature__lr005_2test2_8m_abc22ed7c397069fd13c6bdee8b872bd2}{\index{feature\-\_\-lr005/test2.\-m@{feature\-\_\-lr005/test2.\-m}!k020f@{k020f}}
+\index{k020f@{k020f}!feature_lr005/test2.m@{feature\-\_\-lr005/test2.\-m}}
+\subsubsection[{k020f}]{\setlength{\rightskip}{0pt plus 5cm}{\bf k020f}}}\label{feature__lr005_2test2_8m_abc22ed7c397069fd13c6bdee8b872bd2}
+{\bfseries \-Initial value\-:}
+\begin{DoxyCode}
+  [    0.450076   -0.049169   -0.251898    0.370447   -0.206758    0.180307    
+       0.12115
+   0.361144   0.0565763  -0.0135005 -0.00802646    0.305177  0.00856601   0.036
+      7993
+   -0.24386    -0.24255    0.376292    0.399666   -0.298327   -0.326785    0.35
+      8725
+ 0.00993325    0.355925  -0.0549465   -0.267339    0.277883   -0.072046   -0.11
+      1153
+   0.209094    0.131025   0.0897723    -0.01507    0.108504   0.0930999   0.074
+      4449
+  -0.420937    -0.14991    0.256788   -0.263324   -0.155961   -0.397865   0.030
+      2315
+  0.0467286   -0.189517   -0.173779   -0.191194   -0.176267   -0.263175   0.095
+      7285 ]
+\end{DoxyCode}
+\hypertarget{feature__lr005_2test2_8m_a5bcf083fc4f19a6989ef57d36c9ebe9f}{\index{feature\-\_\-lr005/test2.\-m@{feature\-\_\-lr005/test2.\-m}!k020i@{k020i}}
+\index{k020i@{k020i}!feature_lr005/test2.m@{feature\-\_\-lr005/test2.\-m}}
+\subsubsection[{k020i}]{\setlength{\rightskip}{0pt plus 5cm}{\bf k020i}}}\label{feature__lr005_2test2_8m_a5bcf083fc4f19a6989ef57d36c9ebe9f}
+{\bfseries \-Initial value\-:}
+\begin{DoxyCode}
+  [    0.270211   -0.345463   -0.389342    0.136129   -0.396161  -0.0644185   -
+      0.135435
+   0.339529   -0.128338   -0.136415  -0.0847136    0.146618   -0.156215   -0.12
+      6543
+  -0.231091   -0.379797    0.244295    0.371823   -0.375175   -0.341826      0.
+      2278
+  0.0382506    0.369091  -0.0313512   -0.174531     0.27405 -0.00988112   -0.12
+      4777
+   0.249435    0.149118   0.0546387   0.0587001   0.0861463    0.115447    0.13
+      7042
+  -0.349949    -0.20492    0.167103   -0.249131   -0.206266   -0.321623   0.072
+      0947
+   0.145874    -0.13141  -0.0890379   -0.116878  -0.0876997  -0.0407904    0.24
+      3872 ]
+\end{DoxyCode}
+\hypertarget{feature__lr005_2test2_8m_a9cef3a2ba011e2da0b434294e0d5b07b}{\index{feature\-\_\-lr005/test2.\-m@{feature\-\_\-lr005/test2.\-m}!k021f@{k021f}}
+\index{k021f@{k021f}!feature_lr005/test2.m@{feature\-\_\-lr005/test2.\-m}}
+\subsubsection[{k021f}]{\setlength{\rightskip}{0pt plus 5cm}{\bf k021f}}}\label{feature__lr005_2test2_8m_a9cef3a2ba011e2da0b434294e0d5b07b}
+{\bfseries \-Initial value\-:}
+\begin{DoxyCode}
+  [ -0.0932368  -0.148326   0.174184   0.228534   0.101111  -0.177245   0.42388
+      1
+ -0.109067  0.0108835   0.390529   0.136571 -0.0480065   0.199987  -0.198456
+ -0.128039   0.203612   0.173175   0.467693   -0.18128  -0.209927   -0.22741
+  0.548918 -0.0930093  -0.206335  -0.339617   0.306658   0.219044   0.110458
+   0.34806  -0.317861  -0.121296  -0.389863   0.126613    0.43358   0.386713
+  -0.13901   0.280691   0.364907   0.349441 -0.0595879   0.050714 -0.0155521
+-0.0939474   -0.12932   0.308593 -0.0566909   0.226169   0.467006   0.194273 ]
+\end{DoxyCode}
+\hypertarget{feature__lr005_2test2_8m_a7b88ab6bb156c1c0561ec4e43999d33d}{\index{feature\-\_\-lr005/test2.\-m@{feature\-\_\-lr005/test2.\-m}!k021i@{k021i}}
+\index{k021i@{k021i}!feature_lr005/test2.m@{feature\-\_\-lr005/test2.\-m}}
+\subsubsection[{k021i}]{\setlength{\rightskip}{0pt plus 5cm}{\bf k021i}}}\label{feature__lr005_2test2_8m_a7b88ab6bb156c1c0561ec4e43999d33d}
+{\bfseries \-Initial value\-:}
+\begin{DoxyCode}
+  [  -0.208319  -0.186816    0.11029   0.214192   0.150424  -0.111224   0.38101
+      1
+ -0.160802  -0.122474    0.25496   0.139925  -0.104906  0.0793423   -0.27918
+ -0.245166  0.0364005 0.00337328     0.3952  -0.202148  -0.376807  -0.389944
+  0.327809  -0.182977  -0.354129  -0.321242   0.342105    0.10196   0.091301
+  0.154484  -0.375857  -0.301255  -0.386618   0.134292   0.356868    0.37578
+ -0.273343  0.0612259  0.0615476      0.223 -0.0473143  0.0595939  0.0134297
+ -0.246721  -0.308927  0.0359901 -0.0460196   0.269915   0.318983   0.137172 ]
+\end{DoxyCode}
+\hypertarget{feature__lr005_2test2_8m_a066f0b6231760604417fbc0d53d4016d}{\index{feature\-\_\-lr005/test2.\-m@{feature\-\_\-lr005/test2.\-m}!k022f@{k022f}}
+\index{k022f@{k022f}!feature_lr005/test2.m@{feature\-\_\-lr005/test2.\-m}}
+\subsubsection[{k022f}]{\setlength{\rightskip}{0pt plus 5cm}{\bf k022f}}}\label{feature__lr005_2test2_8m_a066f0b6231760604417fbc0d53d4016d}
+{\bfseries \-Initial value\-:}
+\begin{DoxyCode}
+  [  -0.264079   0.183131  -0.450313 -0.0671662   0.212325  -0.248928  0.034130
+      4
+ -0.299541   0.321176  -0.388782  0.0894572  -0.162424   -0.27262   0.207325
+ -0.237784 -0.0238154  -0.202494   0.175318   0.174002   0.147746   0.216574
+  0.242094 -0.0608215  -0.126422 -0.0598877  -0.407116   -0.28007   0.124735
+  0.240462  -0.109911   0.160572   0.319036  0.0278199  0.0252605   -0.29511
+ -0.149596   0.160697  -0.105829   0.297237  -0.294249 -0.0844285  -0.170024
+  0.364966 -0.0217607   -0.26676  -0.210568   0.352911  0.0892896   -0.27652 ]
+\end{DoxyCode}
+\hypertarget{feature__lr005_2test2_8m_a1dce124fb43cbfb75f1306d96c36c080}{\index{feature\-\_\-lr005/test2.\-m@{feature\-\_\-lr005/test2.\-m}!k022i@{k022i}}
+\index{k022i@{k022i}!feature_lr005/test2.m@{feature\-\_\-lr005/test2.\-m}}
+\subsubsection[{k022i}]{\setlength{\rightskip}{0pt plus 5cm}{\bf k022i}}}\label{feature__lr005_2test2_8m_a1dce124fb43cbfb75f1306d96c36c080}
+{\bfseries \-Initial value\-:}
+\begin{DoxyCode}
+  [  -0.325475   0.228285  -0.379252   0.108203   0.370116  -0.156167   0.13702
+      9
+ -0.325023   0.391362  -0.328007   0.273516 -0.0460465  -0.140788   0.341594
+ -0.226838 -0.0785451  -0.209271   0.330467   0.317687   0.300832   0.371641
+  0.288717  -0.021291 -0.0904763  0.0892141  -0.355359  -0.327882   0.157777
+  0.214902  -0.113544   0.151335   0.394336  0.0289308  -0.149427  -0.386413
+ -0.231638   0.119307  -0.186078   0.340524   -0.30915  -0.177713   -0.23763
+  0.367475 -0.0791858  -0.388516  -0.219485   0.333358  0.0508268  -0.332699 ]
+\end{DoxyCode}
+\hypertarget{feature__lr005_2test2_8m_a3b323fecee7be18c80c411e9766350c0}{\index{feature\-\_\-lr005/test2.\-m@{feature\-\_\-lr005/test2.\-m}!k0f@{k0f}}
+\index{k0f@{k0f}!feature_lr005/test2.m@{feature\-\_\-lr005/test2.\-m}}
+\subsubsection[{k0f}]{\setlength{\rightskip}{0pt plus 5cm}{\bf k0f} = \mbox{[}{\bf k000f}, {\bf k001f}, {\bf k002f}\mbox{]}}}\label{feature__lr005_2test2_8m_a3b323fecee7be18c80c411e9766350c0}
+\hypertarget{feature__lr005_2test2_8m_a25cdede33c3a7224f5ff558f16feee1b}{\index{feature\-\_\-lr005/test2.\-m@{feature\-\_\-lr005/test2.\-m}!k0i@{k0i}}
+\index{k0i@{k0i}!feature_lr005/test2.m@{feature\-\_\-lr005/test2.\-m}}
+\subsubsection[{k0i}]{\setlength{\rightskip}{0pt plus 5cm}{\bf k0i} = \mbox{[}{\bf k000i}, {\bf k001i}, {\bf k002i}\mbox{]}}}\label{feature__lr005_2test2_8m_a25cdede33c3a7224f5ff558f16feee1b}
+\hypertarget{feature__lr005_2test2_8m_ae60a2e3d2157da0cef850061f758c93f}{\index{feature\-\_\-lr005/test2.\-m@{feature\-\_\-lr005/test2.\-m}!k1f@{k1f}}
+\index{k1f@{k1f}!feature_lr005/test2.m@{feature\-\_\-lr005/test2.\-m}}
+\subsubsection[{k1f}]{\setlength{\rightskip}{0pt plus 5cm}{\bf k1f} = \mbox{[}{\bf k010f}, {\bf k011f}, {\bf k012f}\mbox{]}}}\label{feature__lr005_2test2_8m_ae60a2e3d2157da0cef850061f758c93f}
+\hypertarget{feature__lr005_2test2_8m_a5ceaf95209d434b6225389e200e8597d}{\index{feature\-\_\-lr005/test2.\-m@{feature\-\_\-lr005/test2.\-m}!k1i@{k1i}}
+\index{k1i@{k1i}!feature_lr005/test2.m@{feature\-\_\-lr005/test2.\-m}}
+\subsubsection[{k1i}]{\setlength{\rightskip}{0pt plus 5cm}{\bf k1i} = \mbox{[}{\bf k010i}, {\bf k011i}, {\bf k012i}\mbox{]}}}\label{feature__lr005_2test2_8m_a5ceaf95209d434b6225389e200e8597d}
+\hypertarget{feature__lr005_2test2_8m_a11d00b94ea5fb4d4016c008a0cea8a2b}{\index{feature\-\_\-lr005/test2.\-m@{feature\-\_\-lr005/test2.\-m}!k2f@{k2f}}
+\index{k2f@{k2f}!feature_lr005/test2.m@{feature\-\_\-lr005/test2.\-m}}
+\subsubsection[{k2f}]{\setlength{\rightskip}{0pt plus 5cm}{\bf k2f} = \mbox{[}{\bf k020f}, {\bf k021f}, {\bf k022f}\mbox{]}}}\label{feature__lr005_2test2_8m_a11d00b94ea5fb4d4016c008a0cea8a2b}
+\hypertarget{feature__lr005_2test2_8m_a4a08e00648d3bb5e7c87817ed29f0022}{\index{feature\-\_\-lr005/test2.\-m@{feature\-\_\-lr005/test2.\-m}!k2i@{k2i}}
+\index{k2i@{k2i}!feature_lr005/test2.m@{feature\-\_\-lr005/test2.\-m}}
+\subsubsection[{k2i}]{\setlength{\rightskip}{0pt plus 5cm}{\bf k2i} = \mbox{[}{\bf k020i}, {\bf k021i}, {\bf k022i}\mbox{]}}}\label{feature__lr005_2test2_8m_a4a08e00648d3bb5e7c87817ed29f0022}

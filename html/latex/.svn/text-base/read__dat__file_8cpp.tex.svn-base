@@ -1,0 +1,55 @@
+\hypertarget{read__dat__file_8cpp}{\section{src/read\-\_\-dat\-\_\-file.cpp \-File \-Reference}
+\label{read__dat__file_8cpp}\index{src/read\-\_\-dat\-\_\-file.\-cpp@{src/read\-\_\-dat\-\_\-file.\-cpp}}
+}
+{\ttfamily \#include $<$iostream$>$}\*
+{\ttfamily \#include $<$fstream$>$}\*
+{\ttfamily \#include $<$\-Eigen/\-Dense$>$}\*
+{\ttfamily \#include $<$stdlib.\-h$>$}\*
+{\ttfamily \#include $<$sstream$>$}\*
+{\ttfamily \#include $<$cassert$>$}\*
+{\ttfamily \#include $<$vector$>$}\*
+\-Include dependency graph for read\-\_\-dat\-\_\-file.\-cpp\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{read__dat__file_8cpp__incl}
+\end{center}
+\end{figure}
+\subsection*{\-Functions}
+\begin{DoxyCompactItemize}
+\item 
+double \hyperlink{read__dat__file_8cpp_afe0bc81c124c80ed6a71504722cbecaf}{string\-\_\-to\-\_\-double} (string \&s)
+\item 
+int \hyperlink{read__dat__file_8cpp_a0ddf1224851353fc92bfbff6f499fa97}{main} (int argc, char $\ast$argv\mbox{[}$\,$\mbox{]})
+\end{DoxyCompactItemize}
+
+
+\subsection{\-Function \-Documentation}
+\hypertarget{read__dat__file_8cpp_a0ddf1224851353fc92bfbff6f499fa97}{\index{read\-\_\-dat\-\_\-file.\-cpp@{read\-\_\-dat\-\_\-file.\-cpp}!main@{main}}
+\index{main@{main}!read_dat_file.cpp@{read\-\_\-dat\-\_\-file.\-cpp}}
+\subsubsection[{main}]{\setlength{\rightskip}{0pt plus 5cm}int {\bf main} (
+\begin{DoxyParamCaption}
+\item[{int}]{argc, }
+\item[{char $\ast$}]{argv\mbox{[}$\,$\mbox{]}}
+\end{DoxyParamCaption}
+)}}\label{read__dat__file_8cpp_a0ddf1224851353fc92bfbff6f499fa97}
+
+
+\-Here is the call graph for this function\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=242pt]{read__dat__file_8cpp_a0ddf1224851353fc92bfbff6f499fa97_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{read__dat__file_8cpp_afe0bc81c124c80ed6a71504722cbecaf}{\index{read\-\_\-dat\-\_\-file.\-cpp@{read\-\_\-dat\-\_\-file.\-cpp}!string\-\_\-to\-\_\-double@{string\-\_\-to\-\_\-double}}
+\index{string\-\_\-to\-\_\-double@{string\-\_\-to\-\_\-double}!read_dat_file.cpp@{read\-\_\-dat\-\_\-file.\-cpp}}
+\subsubsection[{string\-\_\-to\-\_\-double}]{\setlength{\rightskip}{0pt plus 5cm}double {\bf string\-\_\-to\-\_\-double} (
+\begin{DoxyParamCaption}
+\item[{string \&}]{s}
+\end{DoxyParamCaption}
+)}}\label{read__dat__file_8cpp_afe0bc81c124c80ed6a71504722cbecaf}

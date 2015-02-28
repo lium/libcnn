@@ -1,0 +1,36 @@
+\hypertarget{gpu_2include_2conv__layer_8h}{\section{gpu/include/conv\-\_\-layer.h \-File \-Reference}
+\label{gpu_2include_2conv__layer_8h}\index{gpu/include/conv\-\_\-layer.\-h@{gpu/include/conv\-\_\-layer.\-h}}
+}
+{\ttfamily \#include $<$iostream$>$}\*
+{\ttfamily \#include $<$\-Eigen/\-Dense$>$}\*
+{\ttfamily \#include $<$\-Eigen/\-Core$>$}\*
+{\ttfamily \#include $<$vector$>$}\*
+{\ttfamily \#include $<$string$>$}\*
+{\ttfamily \#include $<$cmath$>$}\*
+\-Include dependency graph for conv\-\_\-layer.\-h\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{gpu_2include_2conv__layer_8h__incl}
+\end{center}
+\end{figure}
+\subsection*{\-Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \hyperlink{classlibcnn_1_1_conv_pool_layer}{libcnn\-::\-Conv\-Pool\-Layer}
+\end{DoxyCompactItemize}
+\subsection*{\-Namespaces}
+\begin{DoxyCompactItemize}
+\item 
+namespace \hyperlink{namespacelibcnn}{libcnn}
+\end{DoxyCompactItemize}
+\subsection*{\-Functions}
+\begin{DoxyCompactItemize}
+\item 
+double \hyperlink{namespacelibcnn_a5b73556a76dfe9867c10ebd14519fb4e}{libcnn\-::sigmoid} (const double \&x)
+\item 
+void \hyperlink{namespacelibcnn_a55bbe6e5488b8a038e5708a32d233090}{libcnn\-::get\-\_\-feature\-\_\-vector} (const vector$<$ vector$<$ \-Matrix\-Xd $>$ $>$ \&, \-Matrix\-Xd \&)
+\item 
+void \hyperlink{namespacelibcnn_a78ed8e63be87c4d06bb363af95ce62ec}{libcnn\-::softmax2conv} (const \-Matrix\-Xd \&, const int \&, const int \&, const int \&, vector$<$ vector$<$ \-Matrix\-Xd $>$ $>$ \&)
+\end{DoxyCompactItemize}

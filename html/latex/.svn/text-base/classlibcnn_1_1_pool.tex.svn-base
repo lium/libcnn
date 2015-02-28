@@ -1,0 +1,104 @@
+\hypertarget{classlibcnn_1_1_pool}{\section{libcnn\-:\-:\-Pool \-Class \-Reference}
+\label{classlibcnn_1_1_pool}\index{libcnn\-::\-Pool@{libcnn\-::\-Pool}}
+}
+
+
+{\ttfamily \#include $<$pool.\-h$>$}
+
+\subsection*{\-Public \-Member \-Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classlibcnn_1_1_pool_a25dda142002e7d9447df8b529a03e8c6}{\-Pool} (const vector$<$ vector$<$ \-Matrix\-Xd $>$ $>$ \&, const int \&, const int \&)
+\item 
+void \hyperlink{classlibcnn_1_1_pool_a7e1edbfb399a7530fb936f0378fbe1a1}{compute} (const vector$<$ vector$<$ \-Matrix\-Xd $>$ $>$ \&)
+\item 
+void \hyperlink{classlibcnn_1_1_pool_a7971925b58312b01b92402f6991460cd}{back\-\_\-prop} (vector$<$ vector$<$ \-Matrix\-Xd $>$ $>$ \&)
+\item 
+\hyperlink{classlibcnn_1_1_pool_a25dda142002e7d9447df8b529a03e8c6}{\-Pool} (const vector$<$ vector$<$ \-Matrix\-Xd $>$ $>$ \&, const int \&, const int \&)
+\item 
+void \hyperlink{classlibcnn_1_1_pool_a7e1edbfb399a7530fb936f0378fbe1a1}{compute} (const vector$<$ vector$<$ \-Matrix\-Xd $>$ $>$ \&)
+\item 
+void \hyperlink{classlibcnn_1_1_pool_a7971925b58312b01b92402f6991460cd}{back\-\_\-prop} (vector$<$ vector$<$ \-Matrix\-Xd $>$ $>$ \&)
+\end{DoxyCompactItemize}
+\subsection*{\-Public \-Attributes}
+\begin{DoxyCompactItemize}
+\item 
+vector$<$ vector$<$ \-Matrix\-Xd $>$ $>$ \hyperlink{classlibcnn_1_1_pool_a64cbcc583ad1bb2bac935aa3012b6370}{output\-\_\-batch\-\_\-pooled}
+\item 
+vector$<$ vector$<$ \-Matrix\-Xd $>$ $>$ \hyperlink{classlibcnn_1_1_pool_a8e645f991ecf5142723cdf468ff8e70d}{grad\-\_\-batch\-\_\-input}
+\item 
+vector$<$ vector$<$ vector\*
+$<$ \-Matrix\-Xd $>$ $>$ $>$ \hyperlink{classlibcnn_1_1_pool_a642547ee5b87d5aa1d0efa66323b8634}{\-\_\-coordinates}
+\end{DoxyCompactItemize}
+
+
+\subsection{\-Constructor \& \-Destructor \-Documentation}
+\hypertarget{classlibcnn_1_1_pool_a25dda142002e7d9447df8b529a03e8c6}{\index{libcnn\-::\-Pool@{libcnn\-::\-Pool}!\-Pool@{\-Pool}}
+\index{\-Pool@{\-Pool}!libcnn::Pool@{libcnn\-::\-Pool}}
+\subsubsection[{\-Pool}]{\setlength{\rightskip}{0pt plus 5cm}{\bf libcnn\-::\-Pool\-::\-Pool} (
+\begin{DoxyParamCaption}
+\item[{const vector$<$ vector$<$ \-Matrix\-Xd $>$ $>$ \&}]{batch\-\_\-input, }
+\item[{const int \&}]{hight, }
+\item[{const int \&}]{width}
+\end{DoxyParamCaption}
+)}}\label{classlibcnn_1_1_pool_a25dda142002e7d9447df8b529a03e8c6}
+\hypertarget{classlibcnn_1_1_pool_a25dda142002e7d9447df8b529a03e8c6}{\index{libcnn\-::\-Pool@{libcnn\-::\-Pool}!\-Pool@{\-Pool}}
+\index{\-Pool@{\-Pool}!libcnn::Pool@{libcnn\-::\-Pool}}
+\subsubsection[{\-Pool}]{\setlength{\rightskip}{0pt plus 5cm}{\bf libcnn\-::\-Pool\-::\-Pool} (
+\begin{DoxyParamCaption}
+\item[{const vector$<$ vector$<$ \-Matrix\-Xd $>$ $>$ \&}]{, }
+\item[{const int \&}]{, }
+\item[{const int \&}]{}
+\end{DoxyParamCaption}
+)}}\label{classlibcnn_1_1_pool_a25dda142002e7d9447df8b529a03e8c6}
+
+
+\subsection{\-Member \-Function \-Documentation}
+\hypertarget{classlibcnn_1_1_pool_a7971925b58312b01b92402f6991460cd}{\index{libcnn\-::\-Pool@{libcnn\-::\-Pool}!back\-\_\-prop@{back\-\_\-prop}}
+\index{back\-\_\-prop@{back\-\_\-prop}!libcnn::Pool@{libcnn\-::\-Pool}}
+\subsubsection[{back\-\_\-prop}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf libcnn\-::\-Pool\-::back\-\_\-prop} (
+\begin{DoxyParamCaption}
+\item[{vector$<$ vector$<$ \-Matrix\-Xd $>$ $>$ \&}]{grad\-\_\-batch\-\_\-next}
+\end{DoxyParamCaption}
+)}}\label{classlibcnn_1_1_pool_a7971925b58312b01b92402f6991460cd}
+\hypertarget{classlibcnn_1_1_pool_a7971925b58312b01b92402f6991460cd}{\index{libcnn\-::\-Pool@{libcnn\-::\-Pool}!back\-\_\-prop@{back\-\_\-prop}}
+\index{back\-\_\-prop@{back\-\_\-prop}!libcnn::Pool@{libcnn\-::\-Pool}}
+\subsubsection[{back\-\_\-prop}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf libcnn\-::\-Pool\-::back\-\_\-prop} (
+\begin{DoxyParamCaption}
+\item[{vector$<$ vector$<$ \-Matrix\-Xd $>$ $>$ \&}]{}
+\end{DoxyParamCaption}
+)}}\label{classlibcnn_1_1_pool_a7971925b58312b01b92402f6991460cd}
+\hypertarget{classlibcnn_1_1_pool_a7e1edbfb399a7530fb936f0378fbe1a1}{\index{libcnn\-::\-Pool@{libcnn\-::\-Pool}!compute@{compute}}
+\index{compute@{compute}!libcnn::Pool@{libcnn\-::\-Pool}}
+\subsubsection[{compute}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf libcnn\-::\-Pool\-::compute} (
+\begin{DoxyParamCaption}
+\item[{const vector$<$ vector$<$ \-Matrix\-Xd $>$ $>$ \&}]{}
+\end{DoxyParamCaption}
+)}}\label{classlibcnn_1_1_pool_a7e1edbfb399a7530fb936f0378fbe1a1}
+\hypertarget{classlibcnn_1_1_pool_a7e1edbfb399a7530fb936f0378fbe1a1}{\index{libcnn\-::\-Pool@{libcnn\-::\-Pool}!compute@{compute}}
+\index{compute@{compute}!libcnn::Pool@{libcnn\-::\-Pool}}
+\subsubsection[{compute}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf libcnn\-::\-Pool\-::compute} (
+\begin{DoxyParamCaption}
+\item[{const vector$<$ vector$<$ \-Matrix\-Xd $>$ $>$ \&}]{batch\-\_\-activated}
+\end{DoxyParamCaption}
+)}}\label{classlibcnn_1_1_pool_a7e1edbfb399a7530fb936f0378fbe1a1}
+
+
+\subsection{\-Member \-Data \-Documentation}
+\hypertarget{classlibcnn_1_1_pool_a642547ee5b87d5aa1d0efa66323b8634}{\index{libcnn\-::\-Pool@{libcnn\-::\-Pool}!\-\_\-coordinates@{\-\_\-coordinates}}
+\index{\-\_\-coordinates@{\-\_\-coordinates}!libcnn::Pool@{libcnn\-::\-Pool}}
+\subsubsection[{\-\_\-coordinates}]{\setlength{\rightskip}{0pt plus 5cm}vector$<$ vector$<$ vector$<$ \-Matrix\-Xd $>$ $>$ $>$ {\bf libcnn\-::\-Pool\-::\-\_\-coordinates}}}\label{classlibcnn_1_1_pool_a642547ee5b87d5aa1d0efa66323b8634}
+\hypertarget{classlibcnn_1_1_pool_a8e645f991ecf5142723cdf468ff8e70d}{\index{libcnn\-::\-Pool@{libcnn\-::\-Pool}!grad\-\_\-batch\-\_\-input@{grad\-\_\-batch\-\_\-input}}
+\index{grad\-\_\-batch\-\_\-input@{grad\-\_\-batch\-\_\-input}!libcnn::Pool@{libcnn\-::\-Pool}}
+\subsubsection[{grad\-\_\-batch\-\_\-input}]{\setlength{\rightskip}{0pt plus 5cm}vector$<$ vector$<$ \-Matrix\-Xd $>$ $>$ {\bf libcnn\-::\-Pool\-::grad\-\_\-batch\-\_\-input}}}\label{classlibcnn_1_1_pool_a8e645f991ecf5142723cdf468ff8e70d}
+\hypertarget{classlibcnn_1_1_pool_a64cbcc583ad1bb2bac935aa3012b6370}{\index{libcnn\-::\-Pool@{libcnn\-::\-Pool}!output\-\_\-batch\-\_\-pooled@{output\-\_\-batch\-\_\-pooled}}
+\index{output\-\_\-batch\-\_\-pooled@{output\-\_\-batch\-\_\-pooled}!libcnn::Pool@{libcnn\-::\-Pool}}
+\subsubsection[{output\-\_\-batch\-\_\-pooled}]{\setlength{\rightskip}{0pt plus 5cm}vector$<$ vector$<$ \-Matrix\-Xd $>$ $>$ {\bf libcnn\-::\-Pool\-::output\-\_\-batch\-\_\-pooled}}}\label{classlibcnn_1_1_pool_a64cbcc583ad1bb2bac935aa3012b6370}
+
+
+\-The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+gpu/include/\hyperlink{gpu_2include_2pool_8h}{pool.\-h}\item 
+include/\hyperlink{include_2pool_8h}{pool.\-h}\item 
+gpu/src/\hyperlink{gpu_2src_2pool_8cpp}{pool.\-cpp}\item 
+src/\hyperlink{src_2pool_8cpp}{pool.\-cpp}\end{DoxyCompactItemize}

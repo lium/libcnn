@@ -1,0 +1,31 @@
+\hypertarget{gpu_2include_2preprocess_8h}{\section{gpu/include/preprocess.h \-File \-Reference}
+\label{gpu_2include_2preprocess_8h}\index{gpu/include/preprocess.\-h@{gpu/include/preprocess.\-h}}
+}
+{\ttfamily \#include $<$iostream$>$}\*
+{\ttfamily \#include $<$\-Eigen/\-Dense$>$}\*
+{\ttfamily \#include $<$\-Eigen/\-Core$>$}\*
+{\ttfamily \#include $<$vector$>$}\*
+\-Include dependency graph for preprocess.\-h\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{gpu_2include_2preprocess_8h__incl}
+\end{center}
+\end{figure}
+\subsection*{\-Namespaces}
+\begin{DoxyCompactItemize}
+\item 
+namespace \hyperlink{namespacelibcnn}{libcnn}
+\end{DoxyCompactItemize}
+\subsection*{\-Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{namespacelibcnn_ab161d6e7087d097f72c086587a661c4a}{libcnn\-::normalize} (\-Matrix\-Xd \&)
+\item 
+void \hyperlink{namespacelibcnn_a022f9a6378aa94ec418eb757bead690e}{libcnn\-::data\-\_\-generation} (const int \&, const int \&, const int \&, const int \&, vector$<$ vector$<$ \-Matrix\-Xd $>$ $>$ \&, \-Vector\-Xi \&)
+\item 
+void \hyperlink{namespacelibcnn_a4afdb4ab6bfd2c2167c593900ef644f5}{libcnn\-::unit\-\_\-scaling} (vector$<$ vector$<$ \-Matrix\-Xd $>$ $>$ \&)
+\item 
+void \hyperlink{namespacelibcnn_a0f018efe5349302aba6f349d17cc90cf}{libcnn\-::label\-\_\-sampling} (const int \&, const int \&, const int \&, const int \&, \-Vector\-Xi \&, \-Vector\-Xi \&)
+\end{DoxyCompactItemize}

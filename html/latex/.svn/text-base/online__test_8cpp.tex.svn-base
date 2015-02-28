@@ -1,0 +1,28 @@
+\hypertarget{online__test_8cpp}{\section{src/online\-\_\-test.cpp \-File \-Reference}
+\label{online__test_8cpp}\index{src/online\-\_\-test.\-cpp@{src/online\-\_\-test.\-cpp}}
+}
+{\ttfamily \#include $<$iostream$>$}\*
+{\ttfamily \#include $<$\-Eigen/\-Dense$>$}\*
+{\ttfamily \#include $<$vector$>$}\*
+{\ttfamily \#include \char`\"{}online\-\_\-test.\-h\char`\"{}}\*
+{\ttfamily \#include \char`\"{}conv\-\_\-layer.\-h\char`\"{}}\*
+{\ttfamily \#include \char`\"{}pool.\-h\char`\"{}}\*
+{\ttfamily \#include \char`\"{}softmax\-\_\-class.\-h\char`\"{}}\*
+\-Include dependency graph for online\-\_\-test.\-cpp\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{online__test_8cpp__incl}
+\end{center}
+\end{figure}
+\subsection*{\-Namespaces}
+\begin{DoxyCompactItemize}
+\item 
+namespace \hyperlink{namespacelibcnn}{libcnn}
+\end{DoxyCompactItemize}
+\subsection*{\-Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{namespacelibcnn_a17f49c82bc27076bcdce95bc0a070702}{libcnn\-::online\-\_\-test} (const vector$<$ vector$<$ \-Matrix\-Xd $>$ $>$ \&vec\-\_\-data, const \-Vector\-Xi \&vec\-\_\-label, const vector$<$ \-Matrix\-Xd $>$ \&weight\-\_\-0, const \-Matrix\-Xd \&bias\-\_\-0, const vector$<$ \-Matrix\-Xd $>$ \&weight\-\_\-1, const \-Matrix\-Xd \&bias\-\_\-1, const vector$<$ \-Matrix\-Xd $>$ \&weight\-\_\-2, const \-Matrix\-Xd \&bias\-\_\-2, const \-Matrix\-Xd \&weight\-\_\-class, const \-Matrix\-Xd \&bias\-\_\-class, const int \&\hyperlink{validate_8cpp_a9b2018494ed2bdca5175de5bea19b198}{num\-\_\-kerns1}, const int \&\hyperlink{validate_8cpp_a5b047b4d1dd331bbb11859d5b91c9f8f}{num\-\_\-kerns2}, const int \&\hyperlink{train_8cpp_a0b12f9b542065fa65cb8604002c2799d}{num\-\_\-kerns3}, const int \&kern\-\_\-size, const int \&\hyperlink{validate_8cpp_ac8d3682725de2f401975e90712ce1e5c}{pool\-\_\-size})
+\end{DoxyCompactItemize}

@@ -1,0 +1,39 @@
+\hypertarget{init__params_8cpp}{\section{src/init\-\_\-params.cpp \-File \-Reference}
+\label{init__params_8cpp}\index{src/init\-\_\-params.\-cpp@{src/init\-\_\-params.\-cpp}}
+}
+{\ttfamily \#include $<$iostream$>$}\*
+{\ttfamily \#include $<$fstream$>$}\*
+{\ttfamily \#include $<$string$>$}\*
+{\ttfamily \#include $<$vector$>$}\*
+{\ttfamily \#include $<$\-Eigen/\-Dense$>$}\*
+{\ttfamily \#include $<$sstream$>$}\*
+{\ttfamily \#include \char`\"{}init\-\_\-params.\-h\char`\"{}}\*
+\-Include dependency graph for init\-\_\-params.\-cpp\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{init__params_8cpp__incl}
+\end{center}
+\end{figure}
+\subsection*{\-Namespaces}
+\begin{DoxyCompactItemize}
+\item 
+namespace \hyperlink{namespacelibcnn}{libcnn}
+\end{DoxyCompactItemize}
+\subsection*{\-Defines}
+\begin{DoxyCompactItemize}
+\item 
+\#define \hyperlink{init__params_8cpp_aae9a32fb4ed60a2b23dd7eca52e8e627}{\-K\-E\-R\-N\-E\-L\-\_\-\-S\-I\-Z\-E}~7
+\end{DoxyCompactItemize}
+\subsection*{\-Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{namespacelibcnn_acaad61fbcad6b1944a7841fa80be11b3}{libcnn\-::get\-\_\-parameter} (vector$<$ \-Matrix\-Xd $>$ \&feature\-\_\-weights)
+\end{DoxyCompactItemize}
+
+
+\subsection{\-Define \-Documentation}
+\hypertarget{init__params_8cpp_aae9a32fb4ed60a2b23dd7eca52e8e627}{\index{init\-\_\-params.\-cpp@{init\-\_\-params.\-cpp}!\-K\-E\-R\-N\-E\-L\-\_\-\-S\-I\-Z\-E@{\-K\-E\-R\-N\-E\-L\-\_\-\-S\-I\-Z\-E}}
+\index{\-K\-E\-R\-N\-E\-L\-\_\-\-S\-I\-Z\-E@{\-K\-E\-R\-N\-E\-L\-\_\-\-S\-I\-Z\-E}!init_params.cpp@{init\-\_\-params.\-cpp}}
+\subsubsection[{\-K\-E\-R\-N\-E\-L\-\_\-\-S\-I\-Z\-E}]{\setlength{\rightskip}{0pt plus 5cm}\#define {\bf \-K\-E\-R\-N\-E\-L\-\_\-\-S\-I\-Z\-E}~7}}\label{init__params_8cpp_aae9a32fb4ed60a2b23dd7eca52e8e627}

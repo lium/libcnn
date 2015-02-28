@@ -1,0 +1,1076 @@
+\hypertarget{rand__lr005_2test6_8m}{\section{statistics/\-\_\-m\-\_\-file/rand\-\_\-lr005/test6.m \-File \-Reference}
+\label{rand__lr005_2test6_8m}\index{statistics/\-\_\-m\-\_\-file/rand\-\_\-lr005/test6.\-m@{statistics/\-\_\-m\-\_\-file/rand\-\_\-lr005/test6.\-m}}
+}
+\subsection*{\-Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{rand__lr005_2test6_8m_a8c81b380beb2139a43a46125fe4c66f7}{subplot} (3, 6, 1) \hyperlink{get__klt__kernels_8m_acb7f26dfddf92958620c26619872a11b}{imagesc}(\hyperlink{rand__lr005_2test6_8m_a769ba09b1643b62448adba7f78f72b93}{k000i})
+\item 
+\hyperlink{rand__lr005_2test6_8m_a777022882961b6c7b730452345237ef2}{title} ('\-Layer0 \-Initial \-Kernel0')
+\item 
+\hyperlink{rand__lr005_2test6_8m_a8bba05aec0ce2248008df73358845ba9}{subplot} (3, 6, 3) \hyperlink{get__klt__kernels_8m_acb7f26dfddf92958620c26619872a11b}{imagesc}(\hyperlink{rand__lr005_2test6_8m_a9822574381ec6816f534bb5bfef48018}{k001i})
+\item 
+\hyperlink{rand__lr005_2test6_8m_aca0f002ec2f727a0247ad90900b16890}{title} ('\-Layer0 \-Initial \-Kernel1')
+\item 
+\hyperlink{rand__lr005_2test6_8m_ae01c87ec83ecf128b0b754467a5d347a}{subplot} (3, 6, 5) \hyperlink{get__klt__kernels_8m_acb7f26dfddf92958620c26619872a11b}{imagesc}(\hyperlink{rand__lr005_2test6_8m_a40e413404fd8391200a0cbc48171e572}{k002i})
+\item 
+\hyperlink{rand__lr005_2test6_8m_a6345c1a32000ac81669eb75ce75fb823}{title} ('\-Layer0 \-Initial \-Kernel2')
+\item 
+\hyperlink{rand__lr005_2test6_8m_a68edcae5329e7d6054c767154c2d1b40}{subplot} (3, 6, 7) \hyperlink{get__klt__kernels_8m_acb7f26dfddf92958620c26619872a11b}{imagesc}(\hyperlink{rand__lr005_2test6_8m_aa76407325b73a3f367f48ee44f084eb1}{k010i})
+\item 
+\hyperlink{rand__lr005_2test6_8m_a2d7dd745ff3f81d9230b660ddb71e0d5}{title} ('\-Layer1 \-Initial \-Kernel0')
+\item 
+\hyperlink{rand__lr005_2test6_8m_af3ea8ed136699dd99b80e89146a77c4b}{subplot} (3, 6, 9) \hyperlink{get__klt__kernels_8m_acb7f26dfddf92958620c26619872a11b}{imagesc}(\hyperlink{rand__lr005_2test6_8m_ad453a74e3acc45c56a241315f342f7bc}{k011i})
+\item 
+\hyperlink{rand__lr005_2test6_8m_a5a870522791914245c42772d3bccee51}{title} ('\-Layer1 \-Initial \-Kernel1')
+\item 
+\hyperlink{rand__lr005_2test6_8m_a9e6a3e28142074c2294c7bff1c0611b0}{subplot} (3, 6, 11) \hyperlink{get__klt__kernels_8m_acb7f26dfddf92958620c26619872a11b}{imagesc}(\hyperlink{rand__lr005_2test6_8m_aaf00b96ee287742c7aaff30b5d5a1e04}{k012i})
+\item 
+\hyperlink{rand__lr005_2test6_8m_a59187d9fd8df816fa479e6d7c47a2a0e}{title} ('\-Layer1 \-Initial \-Kernel2')
+\item 
+\hyperlink{rand__lr005_2test6_8m_a2b02c8b28025764b50339a42ac23f796}{subplot} (3, 6, 13) \hyperlink{get__klt__kernels_8m_acb7f26dfddf92958620c26619872a11b}{imagesc}(\hyperlink{rand__lr005_2test6_8m_a5bcf083fc4f19a6989ef57d36c9ebe9f}{k020i})
+\item 
+\hyperlink{rand__lr005_2test6_8m_a7efb857a0273c26cd921a91298137e01}{title} ('\-Layer2 \-Initial \-Kernel0')
+\item 
+\hyperlink{rand__lr005_2test6_8m_a6fa0a0f413d11c9c6654863f9f92ae46}{subplot} (3, 6, 15) \hyperlink{get__klt__kernels_8m_acb7f26dfddf92958620c26619872a11b}{imagesc}(\hyperlink{rand__lr005_2test6_8m_a7b88ab6bb156c1c0561ec4e43999d33d}{k021i})
+\item 
+\hyperlink{rand__lr005_2test6_8m_a2ac0b252dbd26c6904ec02aedbb4f365}{title} ('\-Layer2 \-Initial \-Kernel1')
+\item 
+\hyperlink{rand__lr005_2test6_8m_a628f6a5cee9bf4e5610570170b418ffd}{subplot} (3, 6, 17) \hyperlink{get__klt__kernels_8m_acb7f26dfddf92958620c26619872a11b}{imagesc}(\hyperlink{rand__lr005_2test6_8m_a1dce124fb43cbfb75f1306d96c36c080}{k022i})
+\item 
+\hyperlink{rand__lr005_2test6_8m_a5f499f2d39aeae01aee6b996de79a86d}{title} ('\-Layer2 \-Initial \-Kernel2')
+\item 
+\hyperlink{rand__lr005_2test6_8m_adddd7ae63d8becf28cb9a40063b16a4e}{subplot} (3, 6, 2) \hyperlink{get__klt__kernels_8m_acb7f26dfddf92958620c26619872a11b}{imagesc}(\hyperlink{rand__lr005_2test6_8m_a9894c720ca57753a16e8b093a769e6cf}{k000f})
+\item 
+\hyperlink{rand__lr005_2test6_8m_adc08a6113308b4c6c6e253a972618e28}{title} ('\-Layer0 \-Trained \-Kernel0')
+\item 
+\hyperlink{rand__lr005_2test6_8m_a7467d3793af42f60a81d426e13ce2597}{subplot} (3, 6, 4) \hyperlink{get__klt__kernels_8m_acb7f26dfddf92958620c26619872a11b}{imagesc}(\hyperlink{rand__lr005_2test6_8m_a58487ceb62f00b0a36c959ede07b1790}{k001f})
+\item 
+\hyperlink{rand__lr005_2test6_8m_a32c77451dc6e430c5769e8ad46a227bc}{title} ('\-Layer0 \-Trained \-Kernel1')
+\item 
+\hyperlink{rand__lr005_2test6_8m_a8fdf35d0cd22ebaf88d2e5cd3ce27847}{subplot} (3, 6, 6) \hyperlink{get__klt__kernels_8m_acb7f26dfddf92958620c26619872a11b}{imagesc}(\hyperlink{rand__lr005_2test6_8m_a667209d6bf62f3fe4f0e5f798b81487a}{k002f})
+\item 
+\hyperlink{rand__lr005_2test6_8m_ad0736310ff3ae0f1cf1bbaebf6e4d5e6}{title} ('\-Layer0 \-Trained \-Kernel2')
+\item 
+\hyperlink{rand__lr005_2test6_8m_abd1ac949fcfb82f1b6b02d5a8297a425}{subplot} (3, 6, 8) \hyperlink{get__klt__kernels_8m_acb7f26dfddf92958620c26619872a11b}{imagesc}(\hyperlink{rand__lr005_2test6_8m_af72060c799d19ba53a7f6ad3f3349bf5}{k010f})
+\item 
+\hyperlink{rand__lr005_2test6_8m_a71efbd16800e80a94f8e0e13f5f24e2c}{title} ('\-Layer1 \-Trained \-Kernel0')
+\item 
+\hyperlink{rand__lr005_2test6_8m_aa39d054e0ff5331c5f2b0ae32863ed1d}{subplot} (3, 6, 10) \hyperlink{get__klt__kernels_8m_acb7f26dfddf92958620c26619872a11b}{imagesc}(\hyperlink{rand__lr005_2test6_8m_adf30a8c5a703ab81ecaf6eec1bf25d1c}{k011f})
+\item 
+\hyperlink{rand__lr005_2test6_8m_a34f7db380c99323bab8ec762277a1572}{title} ('\-Layer1 \-Trained \-Kernel1')
+\item 
+\hyperlink{rand__lr005_2test6_8m_ae83e76d8e09b7015c121217baf54be89}{subplot} (3, 6, 12) \hyperlink{get__klt__kernels_8m_acb7f26dfddf92958620c26619872a11b}{imagesc}(\hyperlink{rand__lr005_2test6_8m_ac64e928d027b68d2974819252b217a3f}{k012f})
+\item 
+\hyperlink{rand__lr005_2test6_8m_a7e7f79a6b78f95a9f32e7d5e8344346d}{title} ('\-Layer1 \-Trained \-Kernel2')
+\item 
+\hyperlink{rand__lr005_2test6_8m_aa7d7680885d7699d55303ffaae1d2bf5}{subplot} (3, 6, 14) \hyperlink{get__klt__kernels_8m_acb7f26dfddf92958620c26619872a11b}{imagesc}(\hyperlink{rand__lr005_2test6_8m_abc22ed7c397069fd13c6bdee8b872bd2}{k020f})
+\item 
+\hyperlink{rand__lr005_2test6_8m_a880a1436f5fcd111c54b63b4ae61f9e7}{title} ('\-Layer2 \-Trained \-Kernel0')
+\item 
+\hyperlink{rand__lr005_2test6_8m_a607b946bfbbca25cf9ad3bd57a9574c4}{subplot} (3, 6, 16) \hyperlink{get__klt__kernels_8m_acb7f26dfddf92958620c26619872a11b}{imagesc}(\hyperlink{rand__lr005_2test6_8m_a9cef3a2ba011e2da0b434294e0d5b07b}{k021f})
+\item 
+\hyperlink{rand__lr005_2test6_8m_a30e5ec7d4dd7e4371213b8451f57ecab}{title} ('\-Layer2 \-Trained \-Kernel1')
+\item 
+\hyperlink{rand__lr005_2test6_8m_a761e4b868d7f2f4fe560d1b5bbabcd5d}{subplot} (3, 6, 18) \hyperlink{get__klt__kernels_8m_acb7f26dfddf92958620c26619872a11b}{imagesc}(\hyperlink{rand__lr005_2test6_8m_a066f0b6231760604417fbc0d53d4016d}{k022f})
+\item 
+\hyperlink{rand__lr005_2test6_8m_a56297be33120ad19626b3fde3f14b24e}{title} ('\-Layer2 \-Trained \-Kernel2')
+\item 
+\hyperlink{rand__lr005_2test6_8m_a04366f0e35c86b895f2c4cd909d20b02}{subplot} (3, 8, 1) hist(\hyperlink{rand__lr005_2test6_8m_a769ba09b1643b62448adba7f78f72b93}{k000i}
+\item 
+\hyperlink{rand__lr005_2test6_8m_a6b55f2aeb947588076179beb23353ea7}{title} ('\-Layer0 \-Initial \-Kerne0') axis(\mbox{[}-\/0.\-5
+\item 
+\hyperlink{rand__lr005_2test6_8m_a203a12e315c9a9163a71755b9e9b92be}{subplot} (3, 8, 2) hist(\hyperlink{rand__lr005_2test6_8m_a9894c720ca57753a16e8b093a769e6cf}{k000f}
+\item 
+\hyperlink{rand__lr005_2test6_8m_ae1a46f9be3102c602e423bf0178f726d}{subplot} (3, 8, 3) hist(\hyperlink{rand__lr005_2test6_8m_a9822574381ec6816f534bb5bfef48018}{k001i}
+\item 
+\hyperlink{rand__lr005_2test6_8m_a4b1e314eedf90c3cf801e83b66d8b1ca}{subplot} (3, 8, 4) hist(\hyperlink{rand__lr005_2test6_8m_a58487ceb62f00b0a36c959ede07b1790}{k001f}
+\item 
+\hyperlink{rand__lr005_2test6_8m_a9a89daf4011eb126f5d18f54bda97481}{subplot} (3, 8, 5) hist(\hyperlink{rand__lr005_2test6_8m_a40e413404fd8391200a0cbc48171e572}{k002i}
+\item 
+\hyperlink{rand__lr005_2test6_8m_ad09602fe24ba5f96d1cdc27a89bd03fb}{subplot} (3, 8, 6) hist(\hyperlink{rand__lr005_2test6_8m_a667209d6bf62f3fe4f0e5f798b81487a}{k002f}
+\item 
+\hyperlink{rand__lr005_2test6_8m_a2e7045b3689c5ddc90bd4e8dbd6d9e10}{subplot} (3, 8, 7) hist(\hyperlink{rand__lr005_2test6_8m_a25cdede33c3a7224f5ff558f16feee1b}{k0i}
+\item 
+\hyperlink{rand__lr005_2test6_8m_a0849d9e7c6a9f79d9be89645354ced81}{title} ('\-Layer0 \-Initial') axis(\mbox{[}-\/0.\-5
+\item 
+\hyperlink{rand__lr005_2test6_8m_a5d97bb11fe8e42b51bc087b67cf51389}{subplot} (3, 8, 8) hist(\hyperlink{rand__lr005_2test6_8m_a3b323fecee7be18c80c411e9766350c0}{k0f}
+\item 
+\hyperlink{rand__lr005_2test6_8m_ac45f0d60b4962b0c4210a0028add925a}{title} ('\-Layer0 \-Trained') axis(\mbox{[}-\/0.\-5
+\item 
+\hyperlink{rand__lr005_2test6_8m_a47c933c31f99df8e579139da1152b0b6}{subplot} (3, 8, 9) hist(\hyperlink{rand__lr005_2test6_8m_aa76407325b73a3f367f48ee44f084eb1}{k010i}
+\item 
+\hyperlink{rand__lr005_2test6_8m_ad78a048d826f119aefd70544a6d01837}{subplot} (3, 8, 10) hist(\hyperlink{rand__lr005_2test6_8m_af72060c799d19ba53a7f6ad3f3349bf5}{k010f}
+\item 
+\hyperlink{rand__lr005_2test6_8m_a6fb51fb6ec5ddbcc56a4e2756197852b}{subplot} (3, 8, 11) hist(\hyperlink{rand__lr005_2test6_8m_ad453a74e3acc45c56a241315f342f7bc}{k011i}
+\item 
+\hyperlink{rand__lr005_2test6_8m_a2282974fc3336770f24a0aa13eca6db1}{subplot} (3, 8, 12) hist(\hyperlink{rand__lr005_2test6_8m_adf30a8c5a703ab81ecaf6eec1bf25d1c}{k011f}
+\item 
+\hyperlink{rand__lr005_2test6_8m_a7b0090604ecf33daa0ae9a24d1e77d59}{subplot} (3, 8, 13) hist(\hyperlink{rand__lr005_2test6_8m_aaf00b96ee287742c7aaff30b5d5a1e04}{k012i}
+\item 
+\hyperlink{rand__lr005_2test6_8m_ad46a69a9d9e2397de26e5fb944b39132}{subplot} (3, 8, 14) hist(\hyperlink{rand__lr005_2test6_8m_ac64e928d027b68d2974819252b217a3f}{k012f}
+\item 
+\hyperlink{rand__lr005_2test6_8m_a3d95b1f9836afadb93a1757562416ca6}{subplot} (3, 8, 15) hist(\hyperlink{rand__lr005_2test6_8m_a5ceaf95209d434b6225389e200e8597d}{k1i}
+\item 
+\hyperlink{rand__lr005_2test6_8m_a1f7389f7c6487716b87c5944bfe8648e}{title} ('\-Layer1 \-Initial') axis(\mbox{[}-\/0.\-5
+\item 
+\hyperlink{rand__lr005_2test6_8m_a9e946cb75f1d31ff43d1b7bb93be769f}{subplot} (3, 8, 16) hist(\hyperlink{rand__lr005_2test6_8m_ae60a2e3d2157da0cef850061f758c93f}{k1f}
+\item 
+\hyperlink{rand__lr005_2test6_8m_a120814ffb8e19337c48161386965bbe5}{title} ('\-Layer1 \-Trained') axis(\mbox{[}-\/0.\-5
+\item 
+\hyperlink{rand__lr005_2test6_8m_ab1f91e44f492462ed0b96e5ec6b7f094}{subplot} (3, 8, 17) hist(\hyperlink{rand__lr005_2test6_8m_a5bcf083fc4f19a6989ef57d36c9ebe9f}{k020i}
+\item 
+\hyperlink{rand__lr005_2test6_8m_a28871c9fd19c8384592abd5f017bd8f1}{subplot} (3, 8, 18) hist(\hyperlink{rand__lr005_2test6_8m_abc22ed7c397069fd13c6bdee8b872bd2}{k020f}
+\item 
+\hyperlink{rand__lr005_2test6_8m_a9a102c3211bbe88ee445edf0ec0e48c7}{subplot} (3, 8, 19) hist(\hyperlink{rand__lr005_2test6_8m_a7b88ab6bb156c1c0561ec4e43999d33d}{k021i}
+\item 
+\hyperlink{rand__lr005_2test6_8m_af40e1e353e38e986ef8d33453e090887}{subplot} (3, 8, 20) hist(\hyperlink{rand__lr005_2test6_8m_a9cef3a2ba011e2da0b434294e0d5b07b}{k021f}
+\item 
+\hyperlink{rand__lr005_2test6_8m_a247d39ecd8025d57c5b821eba3065db4}{subplot} (3, 8, 21) hist(\hyperlink{rand__lr005_2test6_8m_a1dce124fb43cbfb75f1306d96c36c080}{k022i}
+\item 
+\hyperlink{rand__lr005_2test6_8m_ab5bbdd83dc15e6fc818760f19f270826}{subplot} (3, 8, 22) hist(\hyperlink{rand__lr005_2test6_8m_a066f0b6231760604417fbc0d53d4016d}{k022f}
+\item 
+\hyperlink{rand__lr005_2test6_8m_ac14972a4433eba70b6d07928b26b7261}{subplot} (3, 8, 23) hist(\hyperlink{rand__lr005_2test6_8m_a4a08e00648d3bb5e7c87817ed29f0022}{k2i}
+\item 
+\hyperlink{rand__lr005_2test6_8m_af237c49b6106dfbb7dd7d6429cdd0ddd}{title} ('\-Layer2 \-Initial') axis(\mbox{[}-\/0.\-5
+\item 
+\hyperlink{rand__lr005_2test6_8m_aa4cd7dc15b25111270df26475b68bb48}{subplot} (3, 8, 24) hist(\hyperlink{rand__lr005_2test6_8m_a11d00b94ea5fb4d4016c008a0cea8a2b}{k2f}
+\item 
+\hyperlink{rand__lr005_2test6_8m_aec7aca63730ffeb453caf79fefb915b6}{title} ('\-Layer2 \-Trained') axis(\mbox{[}-\/0.\-5
+\end{DoxyCompactItemize}
+\subsection*{\-Variables}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{rand__lr005_2test6_8m_a3f3d3b13a15c726d6aa03db3dd0d6377}{clc}
+\item 
+\hyperlink{rand__lr005_2test6_8m_aebfdce4f6cc7241ba38924f77a12e7cf}{clear}
+\item 
+\hyperlink{rand__lr005_2test6_8m_a769ba09b1643b62448adba7f78f72b93}{k000i}
+\item 
+\hyperlink{rand__lr005_2test6_8m_a9822574381ec6816f534bb5bfef48018}{k001i}
+\item 
+\hyperlink{rand__lr005_2test6_8m_a40e413404fd8391200a0cbc48171e572}{k002i}
+\item 
+\hyperlink{rand__lr005_2test6_8m_aa76407325b73a3f367f48ee44f084eb1}{k010i}
+\item 
+\hyperlink{rand__lr005_2test6_8m_ad453a74e3acc45c56a241315f342f7bc}{k011i}
+\item 
+\hyperlink{rand__lr005_2test6_8m_aaf00b96ee287742c7aaff30b5d5a1e04}{k012i}
+\item 
+\hyperlink{rand__lr005_2test6_8m_a5bcf083fc4f19a6989ef57d36c9ebe9f}{k020i}
+\item 
+\hyperlink{rand__lr005_2test6_8m_a7b88ab6bb156c1c0561ec4e43999d33d}{k021i}
+\item 
+\hyperlink{rand__lr005_2test6_8m_a1dce124fb43cbfb75f1306d96c36c080}{k022i}
+\item 
+\hyperlink{rand__lr005_2test6_8m_a9894c720ca57753a16e8b093a769e6cf}{k000f}
+\item 
+\hyperlink{rand__lr005_2test6_8m_a58487ceb62f00b0a36c959ede07b1790}{k001f}
+\item 
+\hyperlink{rand__lr005_2test6_8m_a667209d6bf62f3fe4f0e5f798b81487a}{k002f}
+\item 
+\hyperlink{rand__lr005_2test6_8m_af72060c799d19ba53a7f6ad3f3349bf5}{k010f}
+\item 
+\hyperlink{rand__lr005_2test6_8m_adf30a8c5a703ab81ecaf6eec1bf25d1c}{k011f}
+\item 
+\hyperlink{rand__lr005_2test6_8m_ac64e928d027b68d2974819252b217a3f}{k012f}
+\item 
+\hyperlink{rand__lr005_2test6_8m_abc22ed7c397069fd13c6bdee8b872bd2}{k020f}
+\item 
+\hyperlink{rand__lr005_2test6_8m_a9cef3a2ba011e2da0b434294e0d5b07b}{k021f}
+\item 
+\hyperlink{rand__lr005_2test6_8m_a066f0b6231760604417fbc0d53d4016d}{k022f}
+\item 
+\hyperlink{rand__lr005_2test6_8m_a391e34f2de441d79152a7b3d6e4c9c86}{figure}
+\item 
+colormap \hyperlink{rand__lr005_2test6_8m_ada8ad40249884b4f8e370f25724a131f}{gray}
+\item 
+\hyperlink{rand__lr005_2test6_8m_a25cdede33c3a7224f5ff558f16feee1b}{k0i} = \mbox{[}\hyperlink{rand__lr005_2test6_8m_a769ba09b1643b62448adba7f78f72b93}{k000i}, \hyperlink{rand__lr005_2test6_8m_a9822574381ec6816f534bb5bfef48018}{k001i}, \hyperlink{rand__lr005_2test6_8m_a40e413404fd8391200a0cbc48171e572}{k002i}\mbox{]}
+\item 
+\hyperlink{rand__lr005_2test6_8m_a5ceaf95209d434b6225389e200e8597d}{k1i} = \mbox{[}\hyperlink{rand__lr005_2test6_8m_aa76407325b73a3f367f48ee44f084eb1}{k010i}, \hyperlink{rand__lr005_2test6_8m_ad453a74e3acc45c56a241315f342f7bc}{k011i}, \hyperlink{rand__lr005_2test6_8m_aaf00b96ee287742c7aaff30b5d5a1e04}{k012i}\mbox{]}
+\item 
+\hyperlink{rand__lr005_2test6_8m_a4a08e00648d3bb5e7c87817ed29f0022}{k2i} = \mbox{[}\hyperlink{rand__lr005_2test6_8m_a5bcf083fc4f19a6989ef57d36c9ebe9f}{k020i}, \hyperlink{rand__lr005_2test6_8m_a7b88ab6bb156c1c0561ec4e43999d33d}{k021i}, \hyperlink{rand__lr005_2test6_8m_a1dce124fb43cbfb75f1306d96c36c080}{k022i}\mbox{]}
+\item 
+\hyperlink{rand__lr005_2test6_8m_a3b323fecee7be18c80c411e9766350c0}{k0f} = \mbox{[}\hyperlink{rand__lr005_2test6_8m_a9894c720ca57753a16e8b093a769e6cf}{k000f}, \hyperlink{rand__lr005_2test6_8m_a58487ceb62f00b0a36c959ede07b1790}{k001f}, \hyperlink{rand__lr005_2test6_8m_a667209d6bf62f3fe4f0e5f798b81487a}{k002f}\mbox{]}
+\item 
+\hyperlink{rand__lr005_2test6_8m_ae60a2e3d2157da0cef850061f758c93f}{k1f} = \mbox{[}\hyperlink{rand__lr005_2test6_8m_af72060c799d19ba53a7f6ad3f3349bf5}{k010f}, \hyperlink{rand__lr005_2test6_8m_adf30a8c5a703ab81ecaf6eec1bf25d1c}{k011f}, \hyperlink{rand__lr005_2test6_8m_ac64e928d027b68d2974819252b217a3f}{k012f}\mbox{]}
+\item 
+\hyperlink{rand__lr005_2test6_8m_a11d00b94ea5fb4d4016c008a0cea8a2b}{k2f} = \mbox{[}\hyperlink{rand__lr005_2test6_8m_abc22ed7c397069fd13c6bdee8b872bd2}{k020f}, \hyperlink{rand__lr005_2test6_8m_a9cef3a2ba011e2da0b434294e0d5b07b}{k021f}, \hyperlink{rand__lr005_2test6_8m_a066f0b6231760604417fbc0d53d4016d}{k022f}\mbox{]}
+\end{DoxyCompactItemize}
+
+
+\subsection{\-Function \-Documentation}
+\hypertarget{rand__lr005_2test6_8m_a8c81b380beb2139a43a46125fe4c66f7}{\index{rand\-\_\-lr005/test6.\-m@{rand\-\_\-lr005/test6.\-m}!subplot@{subplot}}
+\index{subplot@{subplot}!rand_lr005/test6.m@{rand\-\_\-lr005/test6.\-m}}
+\subsubsection[{subplot}]{\setlength{\rightskip}{0pt plus 5cm}{\bf subplot} (
+\begin{DoxyParamCaption}
+\item[{3}]{, }
+\item[{6}]{, }
+\item[{1}]{}
+\end{DoxyParamCaption}
+)}}\label{rand__lr005_2test6_8m_a8c81b380beb2139a43a46125fe4c66f7}
+\hypertarget{rand__lr005_2test6_8m_a8bba05aec0ce2248008df73358845ba9}{\index{rand\-\_\-lr005/test6.\-m@{rand\-\_\-lr005/test6.\-m}!subplot@{subplot}}
+\index{subplot@{subplot}!rand_lr005/test6.m@{rand\-\_\-lr005/test6.\-m}}
+\subsubsection[{subplot}]{\setlength{\rightskip}{0pt plus 5cm}{\bf subplot} (
+\begin{DoxyParamCaption}
+\item[{3}]{, }
+\item[{6}]{, }
+\item[{3}]{}
+\end{DoxyParamCaption}
+)}}\label{rand__lr005_2test6_8m_a8bba05aec0ce2248008df73358845ba9}
+\hypertarget{rand__lr005_2test6_8m_ae01c87ec83ecf128b0b754467a5d347a}{\index{rand\-\_\-lr005/test6.\-m@{rand\-\_\-lr005/test6.\-m}!subplot@{subplot}}
+\index{subplot@{subplot}!rand_lr005/test6.m@{rand\-\_\-lr005/test6.\-m}}
+\subsubsection[{subplot}]{\setlength{\rightskip}{0pt plus 5cm}{\bf subplot} (
+\begin{DoxyParamCaption}
+\item[{3}]{, }
+\item[{6}]{, }
+\item[{5}]{}
+\end{DoxyParamCaption}
+)}}\label{rand__lr005_2test6_8m_ae01c87ec83ecf128b0b754467a5d347a}
+\hypertarget{rand__lr005_2test6_8m_a68edcae5329e7d6054c767154c2d1b40}{\index{rand\-\_\-lr005/test6.\-m@{rand\-\_\-lr005/test6.\-m}!subplot@{subplot}}
+\index{subplot@{subplot}!rand_lr005/test6.m@{rand\-\_\-lr005/test6.\-m}}
+\subsubsection[{subplot}]{\setlength{\rightskip}{0pt plus 5cm}{\bf subplot} (
+\begin{DoxyParamCaption}
+\item[{3}]{, }
+\item[{6}]{, }
+\item[{7}]{}
+\end{DoxyParamCaption}
+)}}\label{rand__lr005_2test6_8m_a68edcae5329e7d6054c767154c2d1b40}
+\hypertarget{rand__lr005_2test6_8m_af3ea8ed136699dd99b80e89146a77c4b}{\index{rand\-\_\-lr005/test6.\-m@{rand\-\_\-lr005/test6.\-m}!subplot@{subplot}}
+\index{subplot@{subplot}!rand_lr005/test6.m@{rand\-\_\-lr005/test6.\-m}}
+\subsubsection[{subplot}]{\setlength{\rightskip}{0pt plus 5cm}{\bf subplot} (
+\begin{DoxyParamCaption}
+\item[{3}]{, }
+\item[{6}]{, }
+\item[{9}]{}
+\end{DoxyParamCaption}
+)}}\label{rand__lr005_2test6_8m_af3ea8ed136699dd99b80e89146a77c4b}
+\hypertarget{rand__lr005_2test6_8m_a9e6a3e28142074c2294c7bff1c0611b0}{\index{rand\-\_\-lr005/test6.\-m@{rand\-\_\-lr005/test6.\-m}!subplot@{subplot}}
+\index{subplot@{subplot}!rand_lr005/test6.m@{rand\-\_\-lr005/test6.\-m}}
+\subsubsection[{subplot}]{\setlength{\rightskip}{0pt plus 5cm}{\bf subplot} (
+\begin{DoxyParamCaption}
+\item[{3}]{, }
+\item[{6}]{, }
+\item[{11}]{}
+\end{DoxyParamCaption}
+)}}\label{rand__lr005_2test6_8m_a9e6a3e28142074c2294c7bff1c0611b0}
+\hypertarget{rand__lr005_2test6_8m_a2b02c8b28025764b50339a42ac23f796}{\index{rand\-\_\-lr005/test6.\-m@{rand\-\_\-lr005/test6.\-m}!subplot@{subplot}}
+\index{subplot@{subplot}!rand_lr005/test6.m@{rand\-\_\-lr005/test6.\-m}}
+\subsubsection[{subplot}]{\setlength{\rightskip}{0pt plus 5cm}{\bf subplot} (
+\begin{DoxyParamCaption}
+\item[{3}]{, }
+\item[{6}]{, }
+\item[{13}]{}
+\end{DoxyParamCaption}
+)}}\label{rand__lr005_2test6_8m_a2b02c8b28025764b50339a42ac23f796}
+\hypertarget{rand__lr005_2test6_8m_a6fa0a0f413d11c9c6654863f9f92ae46}{\index{rand\-\_\-lr005/test6.\-m@{rand\-\_\-lr005/test6.\-m}!subplot@{subplot}}
+\index{subplot@{subplot}!rand_lr005/test6.m@{rand\-\_\-lr005/test6.\-m}}
+\subsubsection[{subplot}]{\setlength{\rightskip}{0pt plus 5cm}{\bf subplot} (
+\begin{DoxyParamCaption}
+\item[{3}]{, }
+\item[{6}]{, }
+\item[{15}]{}
+\end{DoxyParamCaption}
+)}}\label{rand__lr005_2test6_8m_a6fa0a0f413d11c9c6654863f9f92ae46}
+\hypertarget{rand__lr005_2test6_8m_a628f6a5cee9bf4e5610570170b418ffd}{\index{rand\-\_\-lr005/test6.\-m@{rand\-\_\-lr005/test6.\-m}!subplot@{subplot}}
+\index{subplot@{subplot}!rand_lr005/test6.m@{rand\-\_\-lr005/test6.\-m}}
+\subsubsection[{subplot}]{\setlength{\rightskip}{0pt plus 5cm}{\bf subplot} (
+\begin{DoxyParamCaption}
+\item[{3}]{, }
+\item[{6}]{, }
+\item[{17}]{}
+\end{DoxyParamCaption}
+)}}\label{rand__lr005_2test6_8m_a628f6a5cee9bf4e5610570170b418ffd}
+\hypertarget{rand__lr005_2test6_8m_adddd7ae63d8becf28cb9a40063b16a4e}{\index{rand\-\_\-lr005/test6.\-m@{rand\-\_\-lr005/test6.\-m}!subplot@{subplot}}
+\index{subplot@{subplot}!rand_lr005/test6.m@{rand\-\_\-lr005/test6.\-m}}
+\subsubsection[{subplot}]{\setlength{\rightskip}{0pt plus 5cm}{\bf subplot} (
+\begin{DoxyParamCaption}
+\item[{3}]{, }
+\item[{6}]{, }
+\item[{2}]{}
+\end{DoxyParamCaption}
+)}}\label{rand__lr005_2test6_8m_adddd7ae63d8becf28cb9a40063b16a4e}
+\hypertarget{rand__lr005_2test6_8m_a7467d3793af42f60a81d426e13ce2597}{\index{rand\-\_\-lr005/test6.\-m@{rand\-\_\-lr005/test6.\-m}!subplot@{subplot}}
+\index{subplot@{subplot}!rand_lr005/test6.m@{rand\-\_\-lr005/test6.\-m}}
+\subsubsection[{subplot}]{\setlength{\rightskip}{0pt plus 5cm}{\bf subplot} (
+\begin{DoxyParamCaption}
+\item[{3}]{, }
+\item[{6}]{, }
+\item[{4}]{}
+\end{DoxyParamCaption}
+)}}\label{rand__lr005_2test6_8m_a7467d3793af42f60a81d426e13ce2597}
+\hypertarget{rand__lr005_2test6_8m_a8fdf35d0cd22ebaf88d2e5cd3ce27847}{\index{rand\-\_\-lr005/test6.\-m@{rand\-\_\-lr005/test6.\-m}!subplot@{subplot}}
+\index{subplot@{subplot}!rand_lr005/test6.m@{rand\-\_\-lr005/test6.\-m}}
+\subsubsection[{subplot}]{\setlength{\rightskip}{0pt plus 5cm}{\bf subplot} (
+\begin{DoxyParamCaption}
+\item[{3}]{, }
+\item[{6}]{, }
+\item[{6}]{}
+\end{DoxyParamCaption}
+)}}\label{rand__lr005_2test6_8m_a8fdf35d0cd22ebaf88d2e5cd3ce27847}
+\hypertarget{rand__lr005_2test6_8m_abd1ac949fcfb82f1b6b02d5a8297a425}{\index{rand\-\_\-lr005/test6.\-m@{rand\-\_\-lr005/test6.\-m}!subplot@{subplot}}
+\index{subplot@{subplot}!rand_lr005/test6.m@{rand\-\_\-lr005/test6.\-m}}
+\subsubsection[{subplot}]{\setlength{\rightskip}{0pt plus 5cm}{\bf subplot} (
+\begin{DoxyParamCaption}
+\item[{3}]{, }
+\item[{6}]{, }
+\item[{8}]{}
+\end{DoxyParamCaption}
+)}}\label{rand__lr005_2test6_8m_abd1ac949fcfb82f1b6b02d5a8297a425}
+\hypertarget{rand__lr005_2test6_8m_aa39d054e0ff5331c5f2b0ae32863ed1d}{\index{rand\-\_\-lr005/test6.\-m@{rand\-\_\-lr005/test6.\-m}!subplot@{subplot}}
+\index{subplot@{subplot}!rand_lr005/test6.m@{rand\-\_\-lr005/test6.\-m}}
+\subsubsection[{subplot}]{\setlength{\rightskip}{0pt plus 5cm}{\bf subplot} (
+\begin{DoxyParamCaption}
+\item[{3}]{, }
+\item[{6}]{, }
+\item[{10}]{}
+\end{DoxyParamCaption}
+)}}\label{rand__lr005_2test6_8m_aa39d054e0ff5331c5f2b0ae32863ed1d}
+\hypertarget{rand__lr005_2test6_8m_ae83e76d8e09b7015c121217baf54be89}{\index{rand\-\_\-lr005/test6.\-m@{rand\-\_\-lr005/test6.\-m}!subplot@{subplot}}
+\index{subplot@{subplot}!rand_lr005/test6.m@{rand\-\_\-lr005/test6.\-m}}
+\subsubsection[{subplot}]{\setlength{\rightskip}{0pt plus 5cm}{\bf subplot} (
+\begin{DoxyParamCaption}
+\item[{3}]{, }
+\item[{6}]{, }
+\item[{12}]{}
+\end{DoxyParamCaption}
+)}}\label{rand__lr005_2test6_8m_ae83e76d8e09b7015c121217baf54be89}
+\hypertarget{rand__lr005_2test6_8m_aa7d7680885d7699d55303ffaae1d2bf5}{\index{rand\-\_\-lr005/test6.\-m@{rand\-\_\-lr005/test6.\-m}!subplot@{subplot}}
+\index{subplot@{subplot}!rand_lr005/test6.m@{rand\-\_\-lr005/test6.\-m}}
+\subsubsection[{subplot}]{\setlength{\rightskip}{0pt plus 5cm}{\bf subplot} (
+\begin{DoxyParamCaption}
+\item[{3}]{, }
+\item[{6}]{, }
+\item[{14}]{}
+\end{DoxyParamCaption}
+)}}\label{rand__lr005_2test6_8m_aa7d7680885d7699d55303ffaae1d2bf5}
+\hypertarget{rand__lr005_2test6_8m_a607b946bfbbca25cf9ad3bd57a9574c4}{\index{rand\-\_\-lr005/test6.\-m@{rand\-\_\-lr005/test6.\-m}!subplot@{subplot}}
+\index{subplot@{subplot}!rand_lr005/test6.m@{rand\-\_\-lr005/test6.\-m}}
+\subsubsection[{subplot}]{\setlength{\rightskip}{0pt plus 5cm}{\bf subplot} (
+\begin{DoxyParamCaption}
+\item[{3}]{, }
+\item[{6}]{, }
+\item[{16}]{}
+\end{DoxyParamCaption}
+)}}\label{rand__lr005_2test6_8m_a607b946bfbbca25cf9ad3bd57a9574c4}
+\hypertarget{rand__lr005_2test6_8m_a761e4b868d7f2f4fe560d1b5bbabcd5d}{\index{rand\-\_\-lr005/test6.\-m@{rand\-\_\-lr005/test6.\-m}!subplot@{subplot}}
+\index{subplot@{subplot}!rand_lr005/test6.m@{rand\-\_\-lr005/test6.\-m}}
+\subsubsection[{subplot}]{\setlength{\rightskip}{0pt plus 5cm}{\bf subplot} (
+\begin{DoxyParamCaption}
+\item[{3}]{, }
+\item[{6}]{, }
+\item[{18}]{}
+\end{DoxyParamCaption}
+)}}\label{rand__lr005_2test6_8m_a761e4b868d7f2f4fe560d1b5bbabcd5d}
+\hypertarget{rand__lr005_2test6_8m_a04366f0e35c86b895f2c4cd909d20b02}{\index{rand\-\_\-lr005/test6.\-m@{rand\-\_\-lr005/test6.\-m}!subplot@{subplot}}
+\index{subplot@{subplot}!rand_lr005/test6.m@{rand\-\_\-lr005/test6.\-m}}
+\subsubsection[{subplot}]{\setlength{\rightskip}{0pt plus 5cm}{\bf subplot} (
+\begin{DoxyParamCaption}
+\item[{3}]{, }
+\item[{8}]{, }
+\item[{1}]{}
+\end{DoxyParamCaption}
+)}}\label{rand__lr005_2test6_8m_a04366f0e35c86b895f2c4cd909d20b02}
+\hypertarget{rand__lr005_2test6_8m_a203a12e315c9a9163a71755b9e9b92be}{\index{rand\-\_\-lr005/test6.\-m@{rand\-\_\-lr005/test6.\-m}!subplot@{subplot}}
+\index{subplot@{subplot}!rand_lr005/test6.m@{rand\-\_\-lr005/test6.\-m}}
+\subsubsection[{subplot}]{\setlength{\rightskip}{0pt plus 5cm}{\bf subplot} (
+\begin{DoxyParamCaption}
+\item[{3}]{, }
+\item[{8}]{, }
+\item[{2}]{}
+\end{DoxyParamCaption}
+)}}\label{rand__lr005_2test6_8m_a203a12e315c9a9163a71755b9e9b92be}
+\hypertarget{rand__lr005_2test6_8m_ae1a46f9be3102c602e423bf0178f726d}{\index{rand\-\_\-lr005/test6.\-m@{rand\-\_\-lr005/test6.\-m}!subplot@{subplot}}
+\index{subplot@{subplot}!rand_lr005/test6.m@{rand\-\_\-lr005/test6.\-m}}
+\subsubsection[{subplot}]{\setlength{\rightskip}{0pt plus 5cm}{\bf subplot} (
+\begin{DoxyParamCaption}
+\item[{3}]{, }
+\item[{8}]{, }
+\item[{3}]{}
+\end{DoxyParamCaption}
+)}}\label{rand__lr005_2test6_8m_ae1a46f9be3102c602e423bf0178f726d}
+\hypertarget{rand__lr005_2test6_8m_a4b1e314eedf90c3cf801e83b66d8b1ca}{\index{rand\-\_\-lr005/test6.\-m@{rand\-\_\-lr005/test6.\-m}!subplot@{subplot}}
+\index{subplot@{subplot}!rand_lr005/test6.m@{rand\-\_\-lr005/test6.\-m}}
+\subsubsection[{subplot}]{\setlength{\rightskip}{0pt plus 5cm}{\bf subplot} (
+\begin{DoxyParamCaption}
+\item[{3}]{, }
+\item[{8}]{, }
+\item[{4}]{}
+\end{DoxyParamCaption}
+)}}\label{rand__lr005_2test6_8m_a4b1e314eedf90c3cf801e83b66d8b1ca}
+\hypertarget{rand__lr005_2test6_8m_a9a89daf4011eb126f5d18f54bda97481}{\index{rand\-\_\-lr005/test6.\-m@{rand\-\_\-lr005/test6.\-m}!subplot@{subplot}}
+\index{subplot@{subplot}!rand_lr005/test6.m@{rand\-\_\-lr005/test6.\-m}}
+\subsubsection[{subplot}]{\setlength{\rightskip}{0pt plus 5cm}{\bf subplot} (
+\begin{DoxyParamCaption}
+\item[{3}]{, }
+\item[{8}]{, }
+\item[{5}]{}
+\end{DoxyParamCaption}
+)}}\label{rand__lr005_2test6_8m_a9a89daf4011eb126f5d18f54bda97481}
+\hypertarget{rand__lr005_2test6_8m_ad09602fe24ba5f96d1cdc27a89bd03fb}{\index{rand\-\_\-lr005/test6.\-m@{rand\-\_\-lr005/test6.\-m}!subplot@{subplot}}
+\index{subplot@{subplot}!rand_lr005/test6.m@{rand\-\_\-lr005/test6.\-m}}
+\subsubsection[{subplot}]{\setlength{\rightskip}{0pt plus 5cm}{\bf subplot} (
+\begin{DoxyParamCaption}
+\item[{3}]{, }
+\item[{8}]{, }
+\item[{6}]{}
+\end{DoxyParamCaption}
+)}}\label{rand__lr005_2test6_8m_ad09602fe24ba5f96d1cdc27a89bd03fb}
+\hypertarget{rand__lr005_2test6_8m_a2e7045b3689c5ddc90bd4e8dbd6d9e10}{\index{rand\-\_\-lr005/test6.\-m@{rand\-\_\-lr005/test6.\-m}!subplot@{subplot}}
+\index{subplot@{subplot}!rand_lr005/test6.m@{rand\-\_\-lr005/test6.\-m}}
+\subsubsection[{subplot}]{\setlength{\rightskip}{0pt plus 5cm}{\bf subplot} (
+\begin{DoxyParamCaption}
+\item[{3}]{, }
+\item[{8}]{, }
+\item[{7}]{}
+\end{DoxyParamCaption}
+)}}\label{rand__lr005_2test6_8m_a2e7045b3689c5ddc90bd4e8dbd6d9e10}
+\hypertarget{rand__lr005_2test6_8m_a5d97bb11fe8e42b51bc087b67cf51389}{\index{rand\-\_\-lr005/test6.\-m@{rand\-\_\-lr005/test6.\-m}!subplot@{subplot}}
+\index{subplot@{subplot}!rand_lr005/test6.m@{rand\-\_\-lr005/test6.\-m}}
+\subsubsection[{subplot}]{\setlength{\rightskip}{0pt plus 5cm}{\bf subplot} (
+\begin{DoxyParamCaption}
+\item[{3}]{, }
+\item[{8}]{, }
+\item[{8}]{}
+\end{DoxyParamCaption}
+)}}\label{rand__lr005_2test6_8m_a5d97bb11fe8e42b51bc087b67cf51389}
+\hypertarget{rand__lr005_2test6_8m_a47c933c31f99df8e579139da1152b0b6}{\index{rand\-\_\-lr005/test6.\-m@{rand\-\_\-lr005/test6.\-m}!subplot@{subplot}}
+\index{subplot@{subplot}!rand_lr005/test6.m@{rand\-\_\-lr005/test6.\-m}}
+\subsubsection[{subplot}]{\setlength{\rightskip}{0pt plus 5cm}{\bf subplot} (
+\begin{DoxyParamCaption}
+\item[{3}]{, }
+\item[{8}]{, }
+\item[{9}]{}
+\end{DoxyParamCaption}
+)}}\label{rand__lr005_2test6_8m_a47c933c31f99df8e579139da1152b0b6}
+\hypertarget{rand__lr005_2test6_8m_ad78a048d826f119aefd70544a6d01837}{\index{rand\-\_\-lr005/test6.\-m@{rand\-\_\-lr005/test6.\-m}!subplot@{subplot}}
+\index{subplot@{subplot}!rand_lr005/test6.m@{rand\-\_\-lr005/test6.\-m}}
+\subsubsection[{subplot}]{\setlength{\rightskip}{0pt plus 5cm}{\bf subplot} (
+\begin{DoxyParamCaption}
+\item[{3}]{, }
+\item[{8}]{, }
+\item[{10}]{}
+\end{DoxyParamCaption}
+)}}\label{rand__lr005_2test6_8m_ad78a048d826f119aefd70544a6d01837}
+\hypertarget{rand__lr005_2test6_8m_a6fb51fb6ec5ddbcc56a4e2756197852b}{\index{rand\-\_\-lr005/test6.\-m@{rand\-\_\-lr005/test6.\-m}!subplot@{subplot}}
+\index{subplot@{subplot}!rand_lr005/test6.m@{rand\-\_\-lr005/test6.\-m}}
+\subsubsection[{subplot}]{\setlength{\rightskip}{0pt plus 5cm}{\bf subplot} (
+\begin{DoxyParamCaption}
+\item[{3}]{, }
+\item[{8}]{, }
+\item[{11}]{}
+\end{DoxyParamCaption}
+)}}\label{rand__lr005_2test6_8m_a6fb51fb6ec5ddbcc56a4e2756197852b}
+\hypertarget{rand__lr005_2test6_8m_a2282974fc3336770f24a0aa13eca6db1}{\index{rand\-\_\-lr005/test6.\-m@{rand\-\_\-lr005/test6.\-m}!subplot@{subplot}}
+\index{subplot@{subplot}!rand_lr005/test6.m@{rand\-\_\-lr005/test6.\-m}}
+\subsubsection[{subplot}]{\setlength{\rightskip}{0pt plus 5cm}{\bf subplot} (
+\begin{DoxyParamCaption}
+\item[{3}]{, }
+\item[{8}]{, }
+\item[{12}]{}
+\end{DoxyParamCaption}
+)}}\label{rand__lr005_2test6_8m_a2282974fc3336770f24a0aa13eca6db1}
+\hypertarget{rand__lr005_2test6_8m_a7b0090604ecf33daa0ae9a24d1e77d59}{\index{rand\-\_\-lr005/test6.\-m@{rand\-\_\-lr005/test6.\-m}!subplot@{subplot}}
+\index{subplot@{subplot}!rand_lr005/test6.m@{rand\-\_\-lr005/test6.\-m}}
+\subsubsection[{subplot}]{\setlength{\rightskip}{0pt plus 5cm}{\bf subplot} (
+\begin{DoxyParamCaption}
+\item[{3}]{, }
+\item[{8}]{, }
+\item[{13}]{}
+\end{DoxyParamCaption}
+)}}\label{rand__lr005_2test6_8m_a7b0090604ecf33daa0ae9a24d1e77d59}
+\hypertarget{rand__lr005_2test6_8m_ad46a69a9d9e2397de26e5fb944b39132}{\index{rand\-\_\-lr005/test6.\-m@{rand\-\_\-lr005/test6.\-m}!subplot@{subplot}}
+\index{subplot@{subplot}!rand_lr005/test6.m@{rand\-\_\-lr005/test6.\-m}}
+\subsubsection[{subplot}]{\setlength{\rightskip}{0pt plus 5cm}{\bf subplot} (
+\begin{DoxyParamCaption}
+\item[{3}]{, }
+\item[{8}]{, }
+\item[{14}]{}
+\end{DoxyParamCaption}
+)}}\label{rand__lr005_2test6_8m_ad46a69a9d9e2397de26e5fb944b39132}
+\hypertarget{rand__lr005_2test6_8m_a3d95b1f9836afadb93a1757562416ca6}{\index{rand\-\_\-lr005/test6.\-m@{rand\-\_\-lr005/test6.\-m}!subplot@{subplot}}
+\index{subplot@{subplot}!rand_lr005/test6.m@{rand\-\_\-lr005/test6.\-m}}
+\subsubsection[{subplot}]{\setlength{\rightskip}{0pt plus 5cm}{\bf subplot} (
+\begin{DoxyParamCaption}
+\item[{3}]{, }
+\item[{8}]{, }
+\item[{15}]{}
+\end{DoxyParamCaption}
+)}}\label{rand__lr005_2test6_8m_a3d95b1f9836afadb93a1757562416ca6}
+\hypertarget{rand__lr005_2test6_8m_a9e946cb75f1d31ff43d1b7bb93be769f}{\index{rand\-\_\-lr005/test6.\-m@{rand\-\_\-lr005/test6.\-m}!subplot@{subplot}}
+\index{subplot@{subplot}!rand_lr005/test6.m@{rand\-\_\-lr005/test6.\-m}}
+\subsubsection[{subplot}]{\setlength{\rightskip}{0pt plus 5cm}{\bf subplot} (
+\begin{DoxyParamCaption}
+\item[{3}]{, }
+\item[{8}]{, }
+\item[{16}]{}
+\end{DoxyParamCaption}
+)}}\label{rand__lr005_2test6_8m_a9e946cb75f1d31ff43d1b7bb93be769f}
+\hypertarget{rand__lr005_2test6_8m_ab1f91e44f492462ed0b96e5ec6b7f094}{\index{rand\-\_\-lr005/test6.\-m@{rand\-\_\-lr005/test6.\-m}!subplot@{subplot}}
+\index{subplot@{subplot}!rand_lr005/test6.m@{rand\-\_\-lr005/test6.\-m}}
+\subsubsection[{subplot}]{\setlength{\rightskip}{0pt plus 5cm}{\bf subplot} (
+\begin{DoxyParamCaption}
+\item[{3}]{, }
+\item[{8}]{, }
+\item[{17}]{}
+\end{DoxyParamCaption}
+)}}\label{rand__lr005_2test6_8m_ab1f91e44f492462ed0b96e5ec6b7f094}
+\hypertarget{rand__lr005_2test6_8m_a28871c9fd19c8384592abd5f017bd8f1}{\index{rand\-\_\-lr005/test6.\-m@{rand\-\_\-lr005/test6.\-m}!subplot@{subplot}}
+\index{subplot@{subplot}!rand_lr005/test6.m@{rand\-\_\-lr005/test6.\-m}}
+\subsubsection[{subplot}]{\setlength{\rightskip}{0pt plus 5cm}{\bf subplot} (
+\begin{DoxyParamCaption}
+\item[{3}]{, }
+\item[{8}]{, }
+\item[{18}]{}
+\end{DoxyParamCaption}
+)}}\label{rand__lr005_2test6_8m_a28871c9fd19c8384592abd5f017bd8f1}
+\hypertarget{rand__lr005_2test6_8m_a9a102c3211bbe88ee445edf0ec0e48c7}{\index{rand\-\_\-lr005/test6.\-m@{rand\-\_\-lr005/test6.\-m}!subplot@{subplot}}
+\index{subplot@{subplot}!rand_lr005/test6.m@{rand\-\_\-lr005/test6.\-m}}
+\subsubsection[{subplot}]{\setlength{\rightskip}{0pt plus 5cm}{\bf subplot} (
+\begin{DoxyParamCaption}
+\item[{3}]{, }
+\item[{8}]{, }
+\item[{19}]{}
+\end{DoxyParamCaption}
+)}}\label{rand__lr005_2test6_8m_a9a102c3211bbe88ee445edf0ec0e48c7}
+\hypertarget{rand__lr005_2test6_8m_af40e1e353e38e986ef8d33453e090887}{\index{rand\-\_\-lr005/test6.\-m@{rand\-\_\-lr005/test6.\-m}!subplot@{subplot}}
+\index{subplot@{subplot}!rand_lr005/test6.m@{rand\-\_\-lr005/test6.\-m}}
+\subsubsection[{subplot}]{\setlength{\rightskip}{0pt plus 5cm}{\bf subplot} (
+\begin{DoxyParamCaption}
+\item[{3}]{, }
+\item[{8}]{, }
+\item[{20}]{}
+\end{DoxyParamCaption}
+)}}\label{rand__lr005_2test6_8m_af40e1e353e38e986ef8d33453e090887}
+\hypertarget{rand__lr005_2test6_8m_a247d39ecd8025d57c5b821eba3065db4}{\index{rand\-\_\-lr005/test6.\-m@{rand\-\_\-lr005/test6.\-m}!subplot@{subplot}}
+\index{subplot@{subplot}!rand_lr005/test6.m@{rand\-\_\-lr005/test6.\-m}}
+\subsubsection[{subplot}]{\setlength{\rightskip}{0pt plus 5cm}{\bf subplot} (
+\begin{DoxyParamCaption}
+\item[{3}]{, }
+\item[{8}]{, }
+\item[{21}]{}
+\end{DoxyParamCaption}
+)}}\label{rand__lr005_2test6_8m_a247d39ecd8025d57c5b821eba3065db4}
+\hypertarget{rand__lr005_2test6_8m_ab5bbdd83dc15e6fc818760f19f270826}{\index{rand\-\_\-lr005/test6.\-m@{rand\-\_\-lr005/test6.\-m}!subplot@{subplot}}
+\index{subplot@{subplot}!rand_lr005/test6.m@{rand\-\_\-lr005/test6.\-m}}
+\subsubsection[{subplot}]{\setlength{\rightskip}{0pt plus 5cm}{\bf subplot} (
+\begin{DoxyParamCaption}
+\item[{3}]{, }
+\item[{8}]{, }
+\item[{22}]{}
+\end{DoxyParamCaption}
+)}}\label{rand__lr005_2test6_8m_ab5bbdd83dc15e6fc818760f19f270826}
+\hypertarget{rand__lr005_2test6_8m_ac14972a4433eba70b6d07928b26b7261}{\index{rand\-\_\-lr005/test6.\-m@{rand\-\_\-lr005/test6.\-m}!subplot@{subplot}}
+\index{subplot@{subplot}!rand_lr005/test6.m@{rand\-\_\-lr005/test6.\-m}}
+\subsubsection[{subplot}]{\setlength{\rightskip}{0pt plus 5cm}{\bf subplot} (
+\begin{DoxyParamCaption}
+\item[{3}]{, }
+\item[{8}]{, }
+\item[{23}]{}
+\end{DoxyParamCaption}
+)}}\label{rand__lr005_2test6_8m_ac14972a4433eba70b6d07928b26b7261}
+\hypertarget{rand__lr005_2test6_8m_aa4cd7dc15b25111270df26475b68bb48}{\index{rand\-\_\-lr005/test6.\-m@{rand\-\_\-lr005/test6.\-m}!subplot@{subplot}}
+\index{subplot@{subplot}!rand_lr005/test6.m@{rand\-\_\-lr005/test6.\-m}}
+\subsubsection[{subplot}]{\setlength{\rightskip}{0pt plus 5cm}{\bf subplot} (
+\begin{DoxyParamCaption}
+\item[{3}]{, }
+\item[{8}]{, }
+\item[{24}]{}
+\end{DoxyParamCaption}
+)}}\label{rand__lr005_2test6_8m_aa4cd7dc15b25111270df26475b68bb48}
+\hypertarget{rand__lr005_2test6_8m_a777022882961b6c7b730452345237ef2}{\index{rand\-\_\-lr005/test6.\-m@{rand\-\_\-lr005/test6.\-m}!title@{title}}
+\index{title@{title}!rand_lr005/test6.m@{rand\-\_\-lr005/test6.\-m}}
+\subsubsection[{title}]{\setlength{\rightskip}{0pt plus 5cm}{\bf title} (
+\begin{DoxyParamCaption}
+\item[{'\-Layer0 \-Initial \-Kernel0'}]{}
+\end{DoxyParamCaption}
+)}}\label{rand__lr005_2test6_8m_a777022882961b6c7b730452345237ef2}
+\hypertarget{rand__lr005_2test6_8m_aca0f002ec2f727a0247ad90900b16890}{\index{rand\-\_\-lr005/test6.\-m@{rand\-\_\-lr005/test6.\-m}!title@{title}}
+\index{title@{title}!rand_lr005/test6.m@{rand\-\_\-lr005/test6.\-m}}
+\subsubsection[{title}]{\setlength{\rightskip}{0pt plus 5cm}{\bf title} (
+\begin{DoxyParamCaption}
+\item[{'\-Layer0 \-Initial \-Kernel1'}]{}
+\end{DoxyParamCaption}
+)}}\label{rand__lr005_2test6_8m_aca0f002ec2f727a0247ad90900b16890}
+\hypertarget{rand__lr005_2test6_8m_a6345c1a32000ac81669eb75ce75fb823}{\index{rand\-\_\-lr005/test6.\-m@{rand\-\_\-lr005/test6.\-m}!title@{title}}
+\index{title@{title}!rand_lr005/test6.m@{rand\-\_\-lr005/test6.\-m}}
+\subsubsection[{title}]{\setlength{\rightskip}{0pt plus 5cm}{\bf title} (
+\begin{DoxyParamCaption}
+\item[{'\-Layer0 \-Initial \-Kernel2'}]{}
+\end{DoxyParamCaption}
+)}}\label{rand__lr005_2test6_8m_a6345c1a32000ac81669eb75ce75fb823}
+\hypertarget{rand__lr005_2test6_8m_a2d7dd745ff3f81d9230b660ddb71e0d5}{\index{rand\-\_\-lr005/test6.\-m@{rand\-\_\-lr005/test6.\-m}!title@{title}}
+\index{title@{title}!rand_lr005/test6.m@{rand\-\_\-lr005/test6.\-m}}
+\subsubsection[{title}]{\setlength{\rightskip}{0pt plus 5cm}{\bf title} (
+\begin{DoxyParamCaption}
+\item[{'\-Layer1 \-Initial \-Kernel0'}]{}
+\end{DoxyParamCaption}
+)}}\label{rand__lr005_2test6_8m_a2d7dd745ff3f81d9230b660ddb71e0d5}
+\hypertarget{rand__lr005_2test6_8m_a5a870522791914245c42772d3bccee51}{\index{rand\-\_\-lr005/test6.\-m@{rand\-\_\-lr005/test6.\-m}!title@{title}}
+\index{title@{title}!rand_lr005/test6.m@{rand\-\_\-lr005/test6.\-m}}
+\subsubsection[{title}]{\setlength{\rightskip}{0pt plus 5cm}{\bf title} (
+\begin{DoxyParamCaption}
+\item[{'\-Layer1 \-Initial \-Kernel1'}]{}
+\end{DoxyParamCaption}
+)}}\label{rand__lr005_2test6_8m_a5a870522791914245c42772d3bccee51}
+\hypertarget{rand__lr005_2test6_8m_a59187d9fd8df816fa479e6d7c47a2a0e}{\index{rand\-\_\-lr005/test6.\-m@{rand\-\_\-lr005/test6.\-m}!title@{title}}
+\index{title@{title}!rand_lr005/test6.m@{rand\-\_\-lr005/test6.\-m}}
+\subsubsection[{title}]{\setlength{\rightskip}{0pt plus 5cm}{\bf title} (
+\begin{DoxyParamCaption}
+\item[{'\-Layer1 \-Initial \-Kernel2'}]{}
+\end{DoxyParamCaption}
+)}}\label{rand__lr005_2test6_8m_a59187d9fd8df816fa479e6d7c47a2a0e}
+\hypertarget{rand__lr005_2test6_8m_a7efb857a0273c26cd921a91298137e01}{\index{rand\-\_\-lr005/test6.\-m@{rand\-\_\-lr005/test6.\-m}!title@{title}}
+\index{title@{title}!rand_lr005/test6.m@{rand\-\_\-lr005/test6.\-m}}
+\subsubsection[{title}]{\setlength{\rightskip}{0pt plus 5cm}{\bf title} (
+\begin{DoxyParamCaption}
+\item[{'\-Layer2 \-Initial \-Kernel0'}]{}
+\end{DoxyParamCaption}
+)}}\label{rand__lr005_2test6_8m_a7efb857a0273c26cd921a91298137e01}
+\hypertarget{rand__lr005_2test6_8m_a2ac0b252dbd26c6904ec02aedbb4f365}{\index{rand\-\_\-lr005/test6.\-m@{rand\-\_\-lr005/test6.\-m}!title@{title}}
+\index{title@{title}!rand_lr005/test6.m@{rand\-\_\-lr005/test6.\-m}}
+\subsubsection[{title}]{\setlength{\rightskip}{0pt plus 5cm}{\bf title} (
+\begin{DoxyParamCaption}
+\item[{'\-Layer2 \-Initial \-Kernel1'}]{}
+\end{DoxyParamCaption}
+)}}\label{rand__lr005_2test6_8m_a2ac0b252dbd26c6904ec02aedbb4f365}
+\hypertarget{rand__lr005_2test6_8m_a5f499f2d39aeae01aee6b996de79a86d}{\index{rand\-\_\-lr005/test6.\-m@{rand\-\_\-lr005/test6.\-m}!title@{title}}
+\index{title@{title}!rand_lr005/test6.m@{rand\-\_\-lr005/test6.\-m}}
+\subsubsection[{title}]{\setlength{\rightskip}{0pt plus 5cm}{\bf title} (
+\begin{DoxyParamCaption}
+\item[{'\-Layer2 \-Initial \-Kernel2'}]{}
+\end{DoxyParamCaption}
+)}}\label{rand__lr005_2test6_8m_a5f499f2d39aeae01aee6b996de79a86d}
+\hypertarget{rand__lr005_2test6_8m_adc08a6113308b4c6c6e253a972618e28}{\index{rand\-\_\-lr005/test6.\-m@{rand\-\_\-lr005/test6.\-m}!title@{title}}
+\index{title@{title}!rand_lr005/test6.m@{rand\-\_\-lr005/test6.\-m}}
+\subsubsection[{title}]{\setlength{\rightskip}{0pt plus 5cm}{\bf title} (
+\begin{DoxyParamCaption}
+\item[{'\-Layer0 \-Trained \-Kernel0'}]{}
+\end{DoxyParamCaption}
+)}}\label{rand__lr005_2test6_8m_adc08a6113308b4c6c6e253a972618e28}
+\hypertarget{rand__lr005_2test6_8m_a32c77451dc6e430c5769e8ad46a227bc}{\index{rand\-\_\-lr005/test6.\-m@{rand\-\_\-lr005/test6.\-m}!title@{title}}
+\index{title@{title}!rand_lr005/test6.m@{rand\-\_\-lr005/test6.\-m}}
+\subsubsection[{title}]{\setlength{\rightskip}{0pt plus 5cm}{\bf title} (
+\begin{DoxyParamCaption}
+\item[{'\-Layer0 \-Trained \-Kernel1'}]{}
+\end{DoxyParamCaption}
+)}}\label{rand__lr005_2test6_8m_a32c77451dc6e430c5769e8ad46a227bc}
+\hypertarget{rand__lr005_2test6_8m_ad0736310ff3ae0f1cf1bbaebf6e4d5e6}{\index{rand\-\_\-lr005/test6.\-m@{rand\-\_\-lr005/test6.\-m}!title@{title}}
+\index{title@{title}!rand_lr005/test6.m@{rand\-\_\-lr005/test6.\-m}}
+\subsubsection[{title}]{\setlength{\rightskip}{0pt plus 5cm}{\bf title} (
+\begin{DoxyParamCaption}
+\item[{'\-Layer0 \-Trained \-Kernel2'}]{}
+\end{DoxyParamCaption}
+)}}\label{rand__lr005_2test6_8m_ad0736310ff3ae0f1cf1bbaebf6e4d5e6}
+\hypertarget{rand__lr005_2test6_8m_a71efbd16800e80a94f8e0e13f5f24e2c}{\index{rand\-\_\-lr005/test6.\-m@{rand\-\_\-lr005/test6.\-m}!title@{title}}
+\index{title@{title}!rand_lr005/test6.m@{rand\-\_\-lr005/test6.\-m}}
+\subsubsection[{title}]{\setlength{\rightskip}{0pt plus 5cm}{\bf title} (
+\begin{DoxyParamCaption}
+\item[{'\-Layer1 \-Trained \-Kernel0'}]{}
+\end{DoxyParamCaption}
+)}}\label{rand__lr005_2test6_8m_a71efbd16800e80a94f8e0e13f5f24e2c}
+\hypertarget{rand__lr005_2test6_8m_a34f7db380c99323bab8ec762277a1572}{\index{rand\-\_\-lr005/test6.\-m@{rand\-\_\-lr005/test6.\-m}!title@{title}}
+\index{title@{title}!rand_lr005/test6.m@{rand\-\_\-lr005/test6.\-m}}
+\subsubsection[{title}]{\setlength{\rightskip}{0pt plus 5cm}{\bf title} (
+\begin{DoxyParamCaption}
+\item[{'\-Layer1 \-Trained \-Kernel1'}]{}
+\end{DoxyParamCaption}
+)}}\label{rand__lr005_2test6_8m_a34f7db380c99323bab8ec762277a1572}
+\hypertarget{rand__lr005_2test6_8m_a7e7f79a6b78f95a9f32e7d5e8344346d}{\index{rand\-\_\-lr005/test6.\-m@{rand\-\_\-lr005/test6.\-m}!title@{title}}
+\index{title@{title}!rand_lr005/test6.m@{rand\-\_\-lr005/test6.\-m}}
+\subsubsection[{title}]{\setlength{\rightskip}{0pt plus 5cm}{\bf title} (
+\begin{DoxyParamCaption}
+\item[{'\-Layer1 \-Trained \-Kernel2'}]{}
+\end{DoxyParamCaption}
+)}}\label{rand__lr005_2test6_8m_a7e7f79a6b78f95a9f32e7d5e8344346d}
+\hypertarget{rand__lr005_2test6_8m_a880a1436f5fcd111c54b63b4ae61f9e7}{\index{rand\-\_\-lr005/test6.\-m@{rand\-\_\-lr005/test6.\-m}!title@{title}}
+\index{title@{title}!rand_lr005/test6.m@{rand\-\_\-lr005/test6.\-m}}
+\subsubsection[{title}]{\setlength{\rightskip}{0pt plus 5cm}{\bf title} (
+\begin{DoxyParamCaption}
+\item[{'\-Layer2 \-Trained \-Kernel0'}]{}
+\end{DoxyParamCaption}
+)}}\label{rand__lr005_2test6_8m_a880a1436f5fcd111c54b63b4ae61f9e7}
+\hypertarget{rand__lr005_2test6_8m_a30e5ec7d4dd7e4371213b8451f57ecab}{\index{rand\-\_\-lr005/test6.\-m@{rand\-\_\-lr005/test6.\-m}!title@{title}}
+\index{title@{title}!rand_lr005/test6.m@{rand\-\_\-lr005/test6.\-m}}
+\subsubsection[{title}]{\setlength{\rightskip}{0pt plus 5cm}{\bf title} (
+\begin{DoxyParamCaption}
+\item[{'\-Layer2 \-Trained \-Kernel1'}]{}
+\end{DoxyParamCaption}
+)}}\label{rand__lr005_2test6_8m_a30e5ec7d4dd7e4371213b8451f57ecab}
+\hypertarget{rand__lr005_2test6_8m_a56297be33120ad19626b3fde3f14b24e}{\index{rand\-\_\-lr005/test6.\-m@{rand\-\_\-lr005/test6.\-m}!title@{title}}
+\index{title@{title}!rand_lr005/test6.m@{rand\-\_\-lr005/test6.\-m}}
+\subsubsection[{title}]{\setlength{\rightskip}{0pt plus 5cm}{\bf title} (
+\begin{DoxyParamCaption}
+\item[{'\-Layer2 \-Trained \-Kernel2'}]{}
+\end{DoxyParamCaption}
+)}}\label{rand__lr005_2test6_8m_a56297be33120ad19626b3fde3f14b24e}
+\hypertarget{rand__lr005_2test6_8m_a6b55f2aeb947588076179beb23353ea7}{\index{rand\-\_\-lr005/test6.\-m@{rand\-\_\-lr005/test6.\-m}!title@{title}}
+\index{title@{title}!rand_lr005/test6.m@{rand\-\_\-lr005/test6.\-m}}
+\subsubsection[{title}]{\setlength{\rightskip}{0pt plus 5cm}{\bf title} (
+\begin{DoxyParamCaption}
+\item[{'\-Layer0 \-Initial \-Kerne0'}]{}
+\end{DoxyParamCaption}
+)}}\label{rand__lr005_2test6_8m_a6b55f2aeb947588076179beb23353ea7}
+\hypertarget{rand__lr005_2test6_8m_a0849d9e7c6a9f79d9be89645354ced81}{\index{rand\-\_\-lr005/test6.\-m@{rand\-\_\-lr005/test6.\-m}!title@{title}}
+\index{title@{title}!rand_lr005/test6.m@{rand\-\_\-lr005/test6.\-m}}
+\subsubsection[{title}]{\setlength{\rightskip}{0pt plus 5cm}{\bf title} (
+\begin{DoxyParamCaption}
+\item[{'\-Layer0 \-Initial'}]{}
+\end{DoxyParamCaption}
+)}}\label{rand__lr005_2test6_8m_a0849d9e7c6a9f79d9be89645354ced81}
+\hypertarget{rand__lr005_2test6_8m_ac45f0d60b4962b0c4210a0028add925a}{\index{rand\-\_\-lr005/test6.\-m@{rand\-\_\-lr005/test6.\-m}!title@{title}}
+\index{title@{title}!rand_lr005/test6.m@{rand\-\_\-lr005/test6.\-m}}
+\subsubsection[{title}]{\setlength{\rightskip}{0pt plus 5cm}{\bf title} (
+\begin{DoxyParamCaption}
+\item[{'\-Layer0 \-Trained'}]{}
+\end{DoxyParamCaption}
+)}}\label{rand__lr005_2test6_8m_ac45f0d60b4962b0c4210a0028add925a}
+\hypertarget{rand__lr005_2test6_8m_a1f7389f7c6487716b87c5944bfe8648e}{\index{rand\-\_\-lr005/test6.\-m@{rand\-\_\-lr005/test6.\-m}!title@{title}}
+\index{title@{title}!rand_lr005/test6.m@{rand\-\_\-lr005/test6.\-m}}
+\subsubsection[{title}]{\setlength{\rightskip}{0pt plus 5cm}{\bf title} (
+\begin{DoxyParamCaption}
+\item[{'\-Layer1 \-Initial'}]{}
+\end{DoxyParamCaption}
+)}}\label{rand__lr005_2test6_8m_a1f7389f7c6487716b87c5944bfe8648e}
+\hypertarget{rand__lr005_2test6_8m_a120814ffb8e19337c48161386965bbe5}{\index{rand\-\_\-lr005/test6.\-m@{rand\-\_\-lr005/test6.\-m}!title@{title}}
+\index{title@{title}!rand_lr005/test6.m@{rand\-\_\-lr005/test6.\-m}}
+\subsubsection[{title}]{\setlength{\rightskip}{0pt plus 5cm}{\bf title} (
+\begin{DoxyParamCaption}
+\item[{'\-Layer1 \-Trained'}]{}
+\end{DoxyParamCaption}
+)}}\label{rand__lr005_2test6_8m_a120814ffb8e19337c48161386965bbe5}
+\hypertarget{rand__lr005_2test6_8m_af237c49b6106dfbb7dd7d6429cdd0ddd}{\index{rand\-\_\-lr005/test6.\-m@{rand\-\_\-lr005/test6.\-m}!title@{title}}
+\index{title@{title}!rand_lr005/test6.m@{rand\-\_\-lr005/test6.\-m}}
+\subsubsection[{title}]{\setlength{\rightskip}{0pt plus 5cm}{\bf title} (
+\begin{DoxyParamCaption}
+\item[{'\-Layer2 \-Initial'}]{}
+\end{DoxyParamCaption}
+)}}\label{rand__lr005_2test6_8m_af237c49b6106dfbb7dd7d6429cdd0ddd}
+\hypertarget{rand__lr005_2test6_8m_aec7aca63730ffeb453caf79fefb915b6}{\index{rand\-\_\-lr005/test6.\-m@{rand\-\_\-lr005/test6.\-m}!title@{title}}
+\index{title@{title}!rand_lr005/test6.m@{rand\-\_\-lr005/test6.\-m}}
+\subsubsection[{title}]{\setlength{\rightskip}{0pt plus 5cm}{\bf title} (
+\begin{DoxyParamCaption}
+\item[{'\-Layer2 \-Trained'}]{}
+\end{DoxyParamCaption}
+)}}\label{rand__lr005_2test6_8m_aec7aca63730ffeb453caf79fefb915b6}
+
+
+\subsection{\-Variable \-Documentation}
+\hypertarget{rand__lr005_2test6_8m_a3f3d3b13a15c726d6aa03db3dd0d6377}{\index{rand\-\_\-lr005/test6.\-m@{rand\-\_\-lr005/test6.\-m}!clc@{clc}}
+\index{clc@{clc}!rand_lr005/test6.m@{rand\-\_\-lr005/test6.\-m}}
+\subsubsection[{clc}]{\setlength{\rightskip}{0pt plus 5cm}{\bf clc}}}\label{rand__lr005_2test6_8m_a3f3d3b13a15c726d6aa03db3dd0d6377}
+\hypertarget{rand__lr005_2test6_8m_aebfdce4f6cc7241ba38924f77a12e7cf}{\index{rand\-\_\-lr005/test6.\-m@{rand\-\_\-lr005/test6.\-m}!clear@{clear}}
+\index{clear@{clear}!rand_lr005/test6.m@{rand\-\_\-lr005/test6.\-m}}
+\subsubsection[{clear}]{\setlength{\rightskip}{0pt plus 5cm}{\bf clear}}}\label{rand__lr005_2test6_8m_aebfdce4f6cc7241ba38924f77a12e7cf}
+\hypertarget{rand__lr005_2test6_8m_a391e34f2de441d79152a7b3d6e4c9c86}{\index{rand\-\_\-lr005/test6.\-m@{rand\-\_\-lr005/test6.\-m}!figure@{figure}}
+\index{figure@{figure}!rand_lr005/test6.m@{rand\-\_\-lr005/test6.\-m}}
+\subsubsection[{figure}]{\setlength{\rightskip}{0pt plus 5cm}{\bf figure}}}\label{rand__lr005_2test6_8m_a391e34f2de441d79152a7b3d6e4c9c86}
+\hypertarget{rand__lr005_2test6_8m_ada8ad40249884b4f8e370f25724a131f}{\index{rand\-\_\-lr005/test6.\-m@{rand\-\_\-lr005/test6.\-m}!gray@{gray}}
+\index{gray@{gray}!rand_lr005/test6.m@{rand\-\_\-lr005/test6.\-m}}
+\subsubsection[{gray}]{\setlength{\rightskip}{0pt plus 5cm}colormap {\bf gray}}}\label{rand__lr005_2test6_8m_ada8ad40249884b4f8e370f25724a131f}
+\hypertarget{rand__lr005_2test6_8m_a9894c720ca57753a16e8b093a769e6cf}{\index{rand\-\_\-lr005/test6.\-m@{rand\-\_\-lr005/test6.\-m}!k000f@{k000f}}
+\index{k000f@{k000f}!rand_lr005/test6.m@{rand\-\_\-lr005/test6.\-m}}
+\subsubsection[{k000f}]{\setlength{\rightskip}{0pt plus 5cm}{\bf k000f}}}\label{rand__lr005_2test6_8m_a9894c720ca57753a16e8b093a769e6cf}
+{\bfseries \-Initial value\-:}
+\begin{DoxyCode}
+  [  -0.699259   -1.13119  -0.447674   -1.10283  -0.218895  -0.885662  -0.38851
+      5
+ -0.479722  -0.875824   -1.27327  -0.939377  -0.878703  -0.753828  -0.253521
+ -0.458169  -0.397419   -1.17768  -0.510352  -0.576104  -0.909274  -0.742611
+ -0.701811  -0.432898  -0.339358  -0.499529  -0.592132  -0.776564  -0.374189
+  -1.09485  -0.445564  -0.802243  -0.253876  -0.102117  -0.259238  -0.150548
+  -1.23864   -0.52499  -0.748663  -0.673555  -0.702644 -0.0423771  -0.675179
+  -1.27135   -1.13749  -0.778114  -0.589397  -0.177712 -0.0940117  -0.565272 ]
+\end{DoxyCode}
+\hypertarget{rand__lr005_2test6_8m_a769ba09b1643b62448adba7f78f72b93}{\index{rand\-\_\-lr005/test6.\-m@{rand\-\_\-lr005/test6.\-m}!k000i@{k000i}}
+\index{k000i@{k000i}!rand_lr005/test6.m@{rand\-\_\-lr005/test6.\-m}}
+\subsubsection[{k000i}]{\setlength{\rightskip}{0pt plus 5cm}{\bf k000i}}}\label{rand__lr005_2test6_8m_a769ba09b1643b62448adba7f78f72b93}
+{\bfseries \-Initial value\-:}
+\begin{DoxyCode}
+  [   -0.109941   -0.361705    0.350353   -0.356469    0.374936   -0.326357    
+      0.122582
+   0.124364  -0.0864195   -0.374877   -0.123969   -0.199633   -0.130898    0.27
+      4495
+   0.145695    0.273349   -0.373226    0.227951   0.0204574   -0.352808   -0.19
+      8518
+  0.0149511    0.247717    0.307294   0.0236559   -0.135006   -0.288062   0.072
+      9352
+  -0.251087      0.3399   -0.123234    0.243707    0.324731    0.182682    0.29
+      9618
+   -0.29705    0.353954   0.0112548  -0.0802626   -0.233848    0.320541   -0.17
+      1744
+  -0.232753   -0.158173   0.0334497 -0.00607476    0.279945    0.359655  -0.019
+      7707 ]
+\end{DoxyCode}
+\hypertarget{rand__lr005_2test6_8m_a58487ceb62f00b0a36c959ede07b1790}{\index{rand\-\_\-lr005/test6.\-m@{rand\-\_\-lr005/test6.\-m}!k001f@{k001f}}
+\index{k001f@{k001f}!rand_lr005/test6.m@{rand\-\_\-lr005/test6.\-m}}
+\subsubsection[{k001f}]{\setlength{\rightskip}{0pt plus 5cm}{\bf k001f}}}\label{rand__lr005_2test6_8m_a58487ceb62f00b0a36c959ede07b1790}
+{\bfseries \-Initial value\-:}
+\begin{DoxyCode}
+  [  0.0950607   0.187779  -0.110575  -0.132825  -0.361352  -0.227042  -0.22462
+      3
+-0.0277309   -0.29335  -0.432917  -0.382841  -0.360489   -0.41979  -0.430324
+  0.300337   0.291035  -0.250895  -0.280363  -0.289964  -0.240432  -0.199082
+ -0.191977  -0.193838  0.0824473  -0.205339   0.219337  -0.345675   0.147707
+ 0.0349395  -0.379746  -0.381227  -0.181787  0.0964252  -0.275252  -0.433468
+  0.232654   0.214973    0.13359  0.0848105  -0.305499  -0.311601 -0.0278791
+ -0.344858   0.277414  -0.322479   -0.25007  -0.292288 -0.0473791 -0.0964833 ]
+\end{DoxyCode}
+\hypertarget{rand__lr005_2test6_8m_a9822574381ec6816f534bb5bfef48018}{\index{rand\-\_\-lr005/test6.\-m@{rand\-\_\-lr005/test6.\-m}!k001i@{k001i}}
+\index{k001i@{k001i}!rand_lr005/test6.m@{rand\-\_\-lr005/test6.\-m}}
+\subsubsection[{k001i}]{\setlength{\rightskip}{0pt plus 5cm}{\bf k001i}}}\label{rand__lr005_2test6_8m_a9822574381ec6816f534bb5bfef48018}
+{\bfseries \-Initial value\-:}
+\begin{DoxyCode}
+  [   0.179831    0.27662  -0.051841  -0.101984  -0.338798  -0.185581  -0.16059
+      4
+ 0.0562817  -0.238465  -0.399294  -0.354024  -0.339824  -0.395559  -0.395386
+  0.390616   0.346582  -0.223185  -0.268561  -0.268945  -0.223565  -0.163767
+ -0.125213  -0.141781   0.123815   -0.17961   0.241033  -0.308961   0.187565
+ 0.0979616  -0.326571  -0.359279  -0.163118   0.116458  -0.234023   -0.39468
+   0.28277   0.281598   0.146785  0.0951082  -0.278329  -0.276983  0.0130478
+ -0.339385   0.286975  -0.302874  -0.234399   -0.28418  -0.050742 -0.0886206 ]
+\end{DoxyCode}
+\hypertarget{rand__lr005_2test6_8m_a667209d6bf62f3fe4f0e5f798b81487a}{\index{rand\-\_\-lr005/test6.\-m@{rand\-\_\-lr005/test6.\-m}!k002f@{k002f}}
+\index{k002f@{k002f}!rand_lr005/test6.m@{rand\-\_\-lr005/test6.\-m}}
+\subsubsection[{k002f}]{\setlength{\rightskip}{0pt plus 5cm}{\bf k002f}}}\label{rand__lr005_2test6_8m_a667209d6bf62f3fe4f0e5f798b81487a}
+{\bfseries \-Initial value\-:}
+\begin{DoxyCode}
+  [  -0.150143  -0.655603     0.3862   0.304662  0.0447125   0.187442   0.37391
+      6
+  0.543174  -0.135703  -0.272273  -0.149106   0.596592   0.281115  -0.375617
+ -0.589999  -0.790697  -0.235903    0.16977   0.248125  0.0704457   0.242558
+ -0.318462  -0.187673   0.483123   0.527095  -0.116827  -0.381538   0.305049
+  -0.64986   0.065244    0.24074   0.534917   0.159916  -0.535611   0.240159
+-0.0142078   0.216225  -0.148076   0.304195  -0.459081  -0.294145  -0.374738
+ -0.261665  -0.261906   0.365238   0.490459   0.514767  0.0290339   0.113365 ]
+\end{DoxyCode}
+\hypertarget{rand__lr005_2test6_8m_a40e413404fd8391200a0cbc48171e572}{\index{rand\-\_\-lr005/test6.\-m@{rand\-\_\-lr005/test6.\-m}!k002i@{k002i}}
+\index{k002i@{k002i}!rand_lr005/test6.m@{rand\-\_\-lr005/test6.\-m}}
+\subsubsection[{k002i}]{\setlength{\rightskip}{0pt plus 5cm}{\bf k002i}}}\label{rand__lr005_2test6_8m_a40e413404fd8391200a0cbc48171e572}
+{\bfseries \-Initial value\-:}
+\begin{DoxyCode}
+  [  0.0648328  -0.287935    0.34105    0.13648   0.129294   0.342407   0.31606
+      5
+  0.386563 0.00540042 -0.0354436  -0.195214   0.311002   0.108184   -0.31931
+  -0.16787  -0.388553  -0.079756  0.0281445   0.217199  -0.130056   0.246458
+  0.128825  -0.135097   0.334914   0.398576  -0.205873  -0.345529   0.257116
+ -0.355158   0.202481   0.190924   0.215773   0.297565  -0.286416  0.0452467
+ 0.0588545   0.199299  -0.126298   0.262739  -0.350671  -0.118609  -0.233298
+-0.0530074 -0.0729161   0.154773   0.315921   0.322952 -0.0806263   0.192029 ]
+\end{DoxyCode}
+\hypertarget{rand__lr005_2test6_8m_af72060c799d19ba53a7f6ad3f3349bf5}{\index{rand\-\_\-lr005/test6.\-m@{rand\-\_\-lr005/test6.\-m}!k010f@{k010f}}
+\index{k010f@{k010f}!rand_lr005/test6.m@{rand\-\_\-lr005/test6.\-m}}
+\subsubsection[{k010f}]{\setlength{\rightskip}{0pt plus 5cm}{\bf k010f}}}\label{rand__lr005_2test6_8m_af72060c799d19ba53a7f6ad3f3349bf5}
+{\bfseries \-Initial value\-:}
+\begin{DoxyCode}
+  [ -0.00203761   0.0827879    0.267525    0.225116    0.515609    0.605113    
+      0.238133
+  -0.127246    0.581433   -0.135037    0.595162   -0.102409    0.354453   0.017
+      2773
+   0.149294   -0.151374    0.100339   0.0211916   0.0859166     0.50399    0.48
+      2329
+   0.495623   -0.158396    0.448548    0.236442   -0.135018   0.0351431   -0.14
+      9002
+    0.48396    0.530618     0.24931   0.0847761  -0.0585383    0.314475   0.062
+      6931
+   0.571483    0.098696    0.475494    0.558263     0.42091    0.548699  -0.033
+      5481
+   0.582792     0.23229    0.161327  0.00978444    0.567803     0.08787    0.50
+      0507 ]
+\end{DoxyCode}
+\hypertarget{rand__lr005_2test6_8m_aa76407325b73a3f367f48ee44f084eb1}{\index{rand\-\_\-lr005/test6.\-m@{rand\-\_\-lr005/test6.\-m}!k010i@{k010i}}
+\index{k010i@{k010i}!rand_lr005/test6.m@{rand\-\_\-lr005/test6.\-m}}
+\subsubsection[{k010i}]{\setlength{\rightskip}{0pt plus 5cm}{\bf k010i}}}\label{rand__lr005_2test6_8m_aa76407325b73a3f367f48ee44f084eb1}
+{\bfseries \-Initial value\-:}
+\begin{DoxyCode}
+  [   -0.232753   -0.158173   0.0334497 -0.00607476    0.279945    0.359655  -0
+      .0197707
+  -0.361705    0.350353   -0.356469    0.374936   -0.326357    0.122582   -0.22
+      3616
+ -0.0864195   -0.374877   -0.123969   -0.199633   -0.130898    0.274495    0.23
+      9511
+   0.273349   -0.373226    0.227951   0.0204574   -0.352808   -0.198518   -0.38
+      6321
+   0.247717    0.307294   0.0236559   -0.135006   -0.288062   0.0729352   -0.18
+      0085
+     0.3399   -0.123234    0.243707    0.324731    0.182682    0.299618   -0.28
+      4458
+   0.353954   0.0112548  -0.0802626   -0.233848    0.320541   -0.171744     0.2
+      4163 ]
+\end{DoxyCode}
+\hypertarget{rand__lr005_2test6_8m_adf30a8c5a703ab81ecaf6eec1bf25d1c}{\index{rand\-\_\-lr005/test6.\-m@{rand\-\_\-lr005/test6.\-m}!k011f@{k011f}}
+\index{k011f@{k011f}!rand_lr005/test6.m@{rand\-\_\-lr005/test6.\-m}}
+\subsubsection[{k011f}]{\setlength{\rightskip}{0pt plus 5cm}{\bf k011f}}}\label{rand__lr005_2test6_8m_adf30a8c5a703ab81ecaf6eec1bf25d1c}
+{\bfseries \-Initial value\-:}
+\begin{DoxyCode}
+  [   0.810085  -0.250769   0.111009  -0.169863  -0.218556   0.593406   -0.2064
+      4
+  0.979539  0.0303481  -0.648839 -0.0131777  -0.722676  0.0231387   0.475118
+ 0.0221647  -0.427342   -0.39424  -0.638094   0.352134  -0.286952    0.33569
+ -0.258842  -0.588845 -0.0504728   0.200562  -0.466045  -0.621478 -0.0433867
+   0.18474  -0.148736   0.301643    0.66261   0.749081  0.0764908    0.14935
+ -0.659693  -0.279598   0.228612   0.292409   0.613316  -0.252362  -0.167391
+  0.114357  -0.288812   0.737362   0.224521  0.0476298  -0.512465   0.119474 ]
+\end{DoxyCode}
+\hypertarget{rand__lr005_2test6_8m_ad453a74e3acc45c56a241315f342f7bc}{\index{rand\-\_\-lr005/test6.\-m@{rand\-\_\-lr005/test6.\-m}!k011i@{k011i}}
+\index{k011i@{k011i}!rand_lr005/test6.m@{rand\-\_\-lr005/test6.\-m}}
+\subsubsection[{k011i}]{\setlength{\rightskip}{0pt plus 5cm}{\bf k011i}}}\label{rand__lr005_2test6_8m_ad453a74e3acc45c56a241315f342f7bc}
+{\bfseries \-Initial value\-:}
+\begin{DoxyCode}
+  [   0.243571   -0.20082  0.0720458  -0.128593   -0.18273   0.309927   -0.3233
+      8
+   0.35925  -0.113535   -0.32411    0.22097  -0.383507  -0.169953  0.0736051
+ -0.238633  -0.375894  -0.353142  -0.338561   0.106946  -0.243709 -0.0854513
+ -0.162503  -0.320875  0.0317008   0.251637  -0.339159  -0.290893   0.148666
+  0.334185 -0.0398919   0.198472   0.397354   0.375742   0.116512   0.149495
+-0.0382656  -0.106792   0.321352    0.30095   0.268313  -0.219603 -0.0385937
+  0.257954  -0.273683   0.233183   0.265316  -0.101662  -0.211768  -0.219633 ]
+\end{DoxyCode}
+\hypertarget{rand__lr005_2test6_8m_ac64e928d027b68d2974819252b217a3f}{\index{rand\-\_\-lr005/test6.\-m@{rand\-\_\-lr005/test6.\-m}!k012f@{k012f}}
+\index{k012f@{k012f}!rand_lr005/test6.m@{rand\-\_\-lr005/test6.\-m}}
+\subsubsection[{k012f}]{\setlength{\rightskip}{0pt plus 5cm}{\bf k012f}}}\label{rand__lr005_2test6_8m_ac64e928d027b68d2974819252b217a3f}
+{\bfseries \-Initial value\-:}
+\begin{DoxyCode}
+  [   0.134811 -0.0994305   0.565928   0.495955   0.243944    0.23362   0.46961
+      7
+ 0.0862988   0.605966   0.520571  0.0410162  -0.140122   0.573743   0.460008
+ -0.248226   0.140504   0.485744  0.0205037    0.47996  0.0827697   0.209469
+   0.37339    0.12185   0.499275   0.603793     0.6452   0.361063    0.47166
+ -0.177367    0.54447 -0.0865307   0.512874   0.158576   0.523013   0.309016
+ -0.201673  -0.225342  -0.254865   0.262386   0.465467   0.375985  0.0356869
+  0.220595   0.108786   0.486612   0.219079   0.316494    -0.2344   0.266971 ]
+\end{DoxyCode}
+\hypertarget{rand__lr005_2test6_8m_aaf00b96ee287742c7aaff30b5d5a1e04}{\index{rand\-\_\-lr005/test6.\-m@{rand\-\_\-lr005/test6.\-m}!k012i@{k012i}}
+\index{k012i@{k012i}!rand_lr005/test6.m@{rand\-\_\-lr005/test6.\-m}}
+\subsubsection[{k012i}]{\setlength{\rightskip}{0pt plus 5cm}{\bf k012i}}}\label{rand__lr005_2test6_8m_aaf00b96ee287742c7aaff30b5d5a1e04}
+{\bfseries \-Initial value\-:}
+\begin{DoxyCode}
+  [ -0.0520326  -0.298917   0.368174   0.258145  0.0373204  0.0378831   0.32070
+      9
+ -0.117241    0.37594   0.311585   -0.18578  -0.348604   0.352337   0.255273
+  -0.38645 -0.0636731   0.277531  -0.224559   0.263798  -0.124326  0.0365126
+  0.219375 -0.0816473   0.278102   0.334765   0.385288   0.138966   0.288883
+ -0.296271   0.392432  -0.258368   0.287825 -0.0658458   0.328277   0.166858
+ -0.325011  -0.356728  -0.366177  0.0899893   0.277348   0.212001 -0.0859563
+ 0.0710113 -0.0208064   0.387209  0.0834308   0.204663  -0.342681   0.166985 ]
+\end{DoxyCode}
+\hypertarget{rand__lr005_2test6_8m_abc22ed7c397069fd13c6bdee8b872bd2}{\index{rand\-\_\-lr005/test6.\-m@{rand\-\_\-lr005/test6.\-m}!k020f@{k020f}}
+\index{k020f@{k020f}!rand_lr005/test6.m@{rand\-\_\-lr005/test6.\-m}}
+\subsubsection[{k020f}]{\setlength{\rightskip}{0pt plus 5cm}{\bf k020f}}}\label{rand__lr005_2test6_8m_abc22ed7c397069fd13c6bdee8b872bd2}
+{\bfseries \-Initial value\-:}
+\begin{DoxyCode}
+  [    -0.342592    -0.541926    -0.163711    -0.245481     -0.44207     0.3149
+      57    0.0932317
+  -0.0196332    -0.236205    0.0898211   -0.0689004     0.169074    -0.164389  
+         0.263622
+    0.220618    -0.229959    -0.265008     0.349264     0.549434     0.359638  
+         0.428221
+-0.000476174    -0.249935    -0.236541  -0.00120555    -0.406118    -0.297047  
+        0.0509455
+  -0.0960028    -0.376349     0.294557    -0.136834    -0.126482     0.423834  
+         0.221886
+  -0.0772091     0.287878     0.216745     -0.36401     0.395743     0.385163  
+        0.0511615
+   -0.418308     0.353572     -0.35204    -0.251114      0.27033    -0.398819  
+         0.615294 ]
+\end{DoxyCode}
+\hypertarget{rand__lr005_2test6_8m_a5bcf083fc4f19a6989ef57d36c9ebe9f}{\index{rand\-\_\-lr005/test6.\-m@{rand\-\_\-lr005/test6.\-m}!k020i@{k020i}}
+\index{k020i@{k020i}!rand_lr005/test6.m@{rand\-\_\-lr005/test6.\-m}}
+\subsubsection[{k020i}]{\setlength{\rightskip}{0pt plus 5cm}{\bf k020i}}}\label{rand__lr005_2test6_8m_a5bcf083fc4f19a6989ef57d36c9ebe9f}
+{\bfseries \-Initial value\-:}
+\begin{DoxyCode}
+  [   0.166635  -0.312768  0.0430566   0.127299  -0.104521   0.349762   0.36281
+      1
+  0.162086  0.0710192   0.278313    0.22013   0.137764  -0.113381   0.322949
+  0.329634  -0.351372  -0.247144   0.275854   0.337361   0.348344   0.386695
+    0.1014   -0.32748  -0.217977  0.0161819  -0.337886  -0.363006 0.00586786
+ 0.0499113  -0.394827    0.20659 -0.0130119  -0.100149   0.357638   0.201262
+ 0.0196236   0.325976   0.364857  -0.210102   0.266995   0.396973  -0.260449
+ -0.215169   0.277182  -0.160658  -0.216833   0.163514  -0.290487   0.187891 ]
+\end{DoxyCode}
+\hypertarget{rand__lr005_2test6_8m_a9cef3a2ba011e2da0b434294e0d5b07b}{\index{rand\-\_\-lr005/test6.\-m@{rand\-\_\-lr005/test6.\-m}!k021f@{k021f}}
+\index{k021f@{k021f}!rand_lr005/test6.m@{rand\-\_\-lr005/test6.\-m}}
+\subsubsection[{k021f}]{\setlength{\rightskip}{0pt plus 5cm}{\bf k021f}}}\label{rand__lr005_2test6_8m_a9cef3a2ba011e2da0b434294e0d5b07b}
+{\bfseries \-Initial value\-:}
+\begin{DoxyCode}
+  [    0.168648   -0.277681   -0.357771    0.465341   -0.372433   -0.682512    
+      0.165202
+  -0.185522   -0.591408    0.103964   -0.300906 -0.00718275     -0.6092   -0.26
+      7584
+  -0.491748    0.413653    0.191456   -0.471854   -0.297643   -0.155343  -0.076
+      4997
+ -0.0505691    0.341606   -0.415624    0.209588    0.151363    0.143593   -0.20
+      4983
+   0.385544    0.276195   -0.191313   0.0843664   0.0652208   -0.451975     0.9
+      6311
+   0.312581  0.00371115    0.298273  -0.0443979   -0.137006  -0.0248724   -0.10
+      0892
+   0.962677    0.749344    0.490401    0.624808    0.730913     0.49233    0.46
+      5079 ]
+\end{DoxyCode}
+\hypertarget{rand__lr005_2test6_8m_a7b88ab6bb156c1c0561ec4e43999d33d}{\index{rand\-\_\-lr005/test6.\-m@{rand\-\_\-lr005/test6.\-m}!k021i@{k021i}}
+\index{k021i@{k021i}!rand_lr005/test6.m@{rand\-\_\-lr005/test6.\-m}}
+\subsubsection[{k021i}]{\setlength{\rightskip}{0pt plus 5cm}{\bf k021i}}}\label{rand__lr005_2test6_8m_a7b88ab6bb156c1c0561ec4e43999d33d}
+{\bfseries \-Initial value\-:}
+\begin{DoxyCode}
+  [  0.00785132  -0.0884741     -0.2694    0.383111    -0.29784  -0.0179382    
+      0.393735
+  -0.295592   -0.307015    0.138855  -0.0220504  -0.0468842       -0.33   -0.19
+      7148
+  -0.372768    0.334499   0.0326323   -0.173131   -0.260319 -0.00350693  -0.030
+      2891
+   -0.26485    0.207005   -0.319638    0.345922    0.110011    0.293588   -0.27
+      5665
+   0.324538    0.230749   -0.374527  -0.0991017   0.0575239   -0.237015    0.34
+      1706
+   0.303087     0.27186  -0.0190232   -0.186436   -0.233087  -0.0690081   -0.39
+      7657
+   0.151332    0.269119   -0.282644  -0.0482097    0.245161    0.100592   -0.19
+      5303 ]
+\end{DoxyCode}
+\hypertarget{rand__lr005_2test6_8m_a066f0b6231760604417fbc0d53d4016d}{\index{rand\-\_\-lr005/test6.\-m@{rand\-\_\-lr005/test6.\-m}!k022f@{k022f}}
+\index{k022f@{k022f}!rand_lr005/test6.m@{rand\-\_\-lr005/test6.\-m}}
+\subsubsection[{k022f}]{\setlength{\rightskip}{0pt plus 5cm}{\bf k022f}}}\label{rand__lr005_2test6_8m_a066f0b6231760604417fbc0d53d4016d}
+{\bfseries \-Initial value\-:}
+\begin{DoxyCode}
+  [    0.63592   0.358615   0.713109    1.09351   0.868126   0.705064   0.65407
+      6
+ -0.423077   0.566526 -0.0638828   0.346712  -0.128512  -0.175282 -0.0810602
+-0.0725538  0.0240457   0.320829   0.473815  -0.266447   0.326839  0.0866152
+  0.308519 -0.0707715   -0.35791   0.186523   0.117438    -0.3613  0.0853015
+   0.12894 -0.0964949   0.120463    -0.5196   0.127801  -0.319795  -0.332122
+ -0.276221  0.0428459  0.0917707 -0.0541957   0.140337   -0.46251  0.0823356
+-0.0277812  -0.252888 -0.0289105  -0.281565   0.224462  -0.286196  -0.292956 ]
+\end{DoxyCode}
+\hypertarget{rand__lr005_2test6_8m_a1dce124fb43cbfb75f1306d96c36c080}{\index{rand\-\_\-lr005/test6.\-m@{rand\-\_\-lr005/test6.\-m}!k022i@{k022i}}
+\index{k022i@{k022i}!rand_lr005/test6.m@{rand\-\_\-lr005/test6.\-m}}
+\subsubsection[{k022i}]{\setlength{\rightskip}{0pt plus 5cm}{\bf k022i}}}\label{rand__lr005_2test6_8m_a1dce124fb43cbfb75f1306d96c36c080}
+{\bfseries \-Initial value\-:}
+\begin{DoxyCode}
+  [   0.367179  -0.137832   0.373126   0.387583   0.391543   0.266012   0.25941
+      1
+-0.0166799   0.362486   0.154598   0.246985 -0.0785782 -0.0186766  0.0409134
+-0.0779475  -0.151997     0.3195   0.349368 -0.0896506   0.205226   0.166847
+  0.350291 -0.0356721 -0.0448125   0.381318   0.358722   -0.27182   0.232537
+   0.36127 -0.0843982   0.224598  -0.350163   0.304742 -0.0561907  -0.204489
+  0.148922 -0.0123157 -0.0840067 -0.0809215   0.232402  -0.346771  0.0863468
+  0.296213  -0.325661  -0.151225  -0.294347   0.309013  0.0925074  -0.212276 ]
+\end{DoxyCode}
+\hypertarget{rand__lr005_2test6_8m_a3b323fecee7be18c80c411e9766350c0}{\index{rand\-\_\-lr005/test6.\-m@{rand\-\_\-lr005/test6.\-m}!k0f@{k0f}}
+\index{k0f@{k0f}!rand_lr005/test6.m@{rand\-\_\-lr005/test6.\-m}}
+\subsubsection[{k0f}]{\setlength{\rightskip}{0pt plus 5cm}{\bf k0f} = \mbox{[}{\bf k000f}, {\bf k001f}, {\bf k002f}\mbox{]}}}\label{rand__lr005_2test6_8m_a3b323fecee7be18c80c411e9766350c0}
+\hypertarget{rand__lr005_2test6_8m_a25cdede33c3a7224f5ff558f16feee1b}{\index{rand\-\_\-lr005/test6.\-m@{rand\-\_\-lr005/test6.\-m}!k0i@{k0i}}
+\index{k0i@{k0i}!rand_lr005/test6.m@{rand\-\_\-lr005/test6.\-m}}
+\subsubsection[{k0i}]{\setlength{\rightskip}{0pt plus 5cm}{\bf k0i} = \mbox{[}{\bf k000i}, {\bf k001i}, {\bf k002i}\mbox{]}}}\label{rand__lr005_2test6_8m_a25cdede33c3a7224f5ff558f16feee1b}
+\hypertarget{rand__lr005_2test6_8m_ae60a2e3d2157da0cef850061f758c93f}{\index{rand\-\_\-lr005/test6.\-m@{rand\-\_\-lr005/test6.\-m}!k1f@{k1f}}
+\index{k1f@{k1f}!rand_lr005/test6.m@{rand\-\_\-lr005/test6.\-m}}
+\subsubsection[{k1f}]{\setlength{\rightskip}{0pt plus 5cm}{\bf k1f} = \mbox{[}{\bf k010f}, {\bf k011f}, {\bf k012f}\mbox{]}}}\label{rand__lr005_2test6_8m_ae60a2e3d2157da0cef850061f758c93f}
+\hypertarget{rand__lr005_2test6_8m_a5ceaf95209d434b6225389e200e8597d}{\index{rand\-\_\-lr005/test6.\-m@{rand\-\_\-lr005/test6.\-m}!k1i@{k1i}}
+\index{k1i@{k1i}!rand_lr005/test6.m@{rand\-\_\-lr005/test6.\-m}}
+\subsubsection[{k1i}]{\setlength{\rightskip}{0pt plus 5cm}{\bf k1i} = \mbox{[}{\bf k010i}, {\bf k011i}, {\bf k012i}\mbox{]}}}\label{rand__lr005_2test6_8m_a5ceaf95209d434b6225389e200e8597d}
+\hypertarget{rand__lr005_2test6_8m_a11d00b94ea5fb4d4016c008a0cea8a2b}{\index{rand\-\_\-lr005/test6.\-m@{rand\-\_\-lr005/test6.\-m}!k2f@{k2f}}
+\index{k2f@{k2f}!rand_lr005/test6.m@{rand\-\_\-lr005/test6.\-m}}
+\subsubsection[{k2f}]{\setlength{\rightskip}{0pt plus 5cm}{\bf k2f} = \mbox{[}{\bf k020f}, {\bf k021f}, {\bf k022f}\mbox{]}}}\label{rand__lr005_2test6_8m_a11d00b94ea5fb4d4016c008a0cea8a2b}
+\hypertarget{rand__lr005_2test6_8m_a4a08e00648d3bb5e7c87817ed29f0022}{\index{rand\-\_\-lr005/test6.\-m@{rand\-\_\-lr005/test6.\-m}!k2i@{k2i}}
+\index{k2i@{k2i}!rand_lr005/test6.m@{rand\-\_\-lr005/test6.\-m}}
+\subsubsection[{k2i}]{\setlength{\rightskip}{0pt plus 5cm}{\bf k2i} = \mbox{[}{\bf k020i}, {\bf k021i}, {\bf k022i}\mbox{]}}}\label{rand__lr005_2test6_8m_a4a08e00648d3bb5e7c87817ed29f0022}

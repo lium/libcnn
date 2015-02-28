@@ -1,0 +1,71 @@
+\hypertarget{gpu_2include_2load__data_8h}{\section{gpu/include/load\-\_\-data.h \-File \-Reference}
+\label{gpu_2include_2load__data_8h}\index{gpu/include/load\-\_\-data.\-h@{gpu/include/load\-\_\-data.\-h}}
+}
+{\ttfamily \#include $<$cstring$>$}\*
+{\ttfamily \#include $<$vector$>$}\*
+{\ttfamily \#include $<$\-Eigen/\-Dense$>$}\*
+{\ttfamily \#include $<$iostream$>$}\*
+{\ttfamily \#include $<$fstream$>$}\*
+\-Include dependency graph for load\-\_\-data.\-h\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{gpu_2include_2load__data_8h__incl}
+\end{center}
+\end{figure}
+\subsection*{\-Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{gpu_2include_2load__data_8h_afbad2e91730f993e296f166a8f89aa9b}{getdir} (const string \&\hyperlink{yaml__t__load_8cpp_a7f01c047eb310166e695d4232ebd1fae}{dir}, vector$<$ string $>$ \&files)
+\item 
+void \hyperlink{gpu_2include_2load__data_8h_a39a205061173088b2222b1d550a8787c}{read\-\_\-image\-\_\-files} (const string \&\hyperlink{yaml__t__load_8cpp_a7f01c047eb310166e695d4232ebd1fae}{dir}, std\-::vector$<$ vector$<$ \-Matrix\-Xd $>$ $>$ \&vvm, const int \&image\-\_\-row\-\_\-dim, const int \&image\-\_\-col\-\_\-dim, const int \&start, const int \&image\-\_\-number)
+\item 
+void \hyperlink{gpu_2include_2load__data_8h_a8f84dc0bbc3acab545f50ce4899348e3}{read\-\_\-label\-\_\-files} (const string \&\hyperlink{yaml__t__load_8cpp_a7f01c047eb310166e695d4232ebd1fae}{dir}, \-Vector\-Xi \&m, const int \&image\-\_\-row\-\_\-dim, const int \&image\-\_\-col\-\_\-dim, const int \&start, const int \&image\-\_\-number, const string \&data\-\_\-mode)
+\item 
+void \hyperlink{gpu_2include_2load__data_8h_a3e0b753ca980bbac49c49beb20523146}{read\-\_\-markov\-\_\-files} (const string \&\hyperlink{yaml__t__load_8cpp_a7f01c047eb310166e695d4232ebd1fae}{dir}, \-Matrix\-Xd \&markov)
+\end{DoxyCompactItemize}
+
+
+\subsection{\-Function \-Documentation}
+\hypertarget{gpu_2include_2load__data_8h_afbad2e91730f993e296f166a8f89aa9b}{\index{gpu/include/load\-\_\-data.\-h@{gpu/include/load\-\_\-data.\-h}!getdir@{getdir}}
+\index{getdir@{getdir}!gpu/include/load_data.h@{gpu/include/load\-\_\-data.\-h}}
+\subsubsection[{getdir}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf getdir} (
+\begin{DoxyParamCaption}
+\item[{const string \&}]{dir, }
+\item[{vector$<$ string $>$ \&}]{files}
+\end{DoxyParamCaption}
+)}}\label{gpu_2include_2load__data_8h_afbad2e91730f993e296f166a8f89aa9b}
+\hypertarget{gpu_2include_2load__data_8h_a39a205061173088b2222b1d550a8787c}{\index{gpu/include/load\-\_\-data.\-h@{gpu/include/load\-\_\-data.\-h}!read\-\_\-image\-\_\-files@{read\-\_\-image\-\_\-files}}
+\index{read\-\_\-image\-\_\-files@{read\-\_\-image\-\_\-files}!gpu/include/load_data.h@{gpu/include/load\-\_\-data.\-h}}
+\subsubsection[{read\-\_\-image\-\_\-files}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf read\-\_\-image\-\_\-files} (
+\begin{DoxyParamCaption}
+\item[{const string \&}]{dir, }
+\item[{std\-::vector$<$ vector$<$ \-Matrix\-Xd $>$ $>$ \&}]{vvm, }
+\item[{const int \&}]{image\-\_\-row\-\_\-dim, }
+\item[{const int \&}]{image\-\_\-col\-\_\-dim, }
+\item[{const int \&}]{start, }
+\item[{const int \&}]{image\-\_\-number}
+\end{DoxyParamCaption}
+)}}\label{gpu_2include_2load__data_8h_a39a205061173088b2222b1d550a8787c}
+\hypertarget{gpu_2include_2load__data_8h_a8f84dc0bbc3acab545f50ce4899348e3}{\index{gpu/include/load\-\_\-data.\-h@{gpu/include/load\-\_\-data.\-h}!read\-\_\-label\-\_\-files@{read\-\_\-label\-\_\-files}}
+\index{read\-\_\-label\-\_\-files@{read\-\_\-label\-\_\-files}!gpu/include/load_data.h@{gpu/include/load\-\_\-data.\-h}}
+\subsubsection[{read\-\_\-label\-\_\-files}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf read\-\_\-label\-\_\-files} (
+\begin{DoxyParamCaption}
+\item[{const string \&}]{dir, }
+\item[{\-Vector\-Xi \&}]{m, }
+\item[{const int \&}]{image\-\_\-row\-\_\-dim, }
+\item[{const int \&}]{image\-\_\-col\-\_\-dim, }
+\item[{const int \&}]{start, }
+\item[{const int \&}]{image\-\_\-number, }
+\item[{const string \&}]{data\-\_\-mode}
+\end{DoxyParamCaption}
+)}}\label{gpu_2include_2load__data_8h_a8f84dc0bbc3acab545f50ce4899348e3}
+\hypertarget{gpu_2include_2load__data_8h_a3e0b753ca980bbac49c49beb20523146}{\index{gpu/include/load\-\_\-data.\-h@{gpu/include/load\-\_\-data.\-h}!read\-\_\-markov\-\_\-files@{read\-\_\-markov\-\_\-files}}
+\index{read\-\_\-markov\-\_\-files@{read\-\_\-markov\-\_\-files}!gpu/include/load_data.h@{gpu/include/load\-\_\-data.\-h}}
+\subsubsection[{read\-\_\-markov\-\_\-files}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf read\-\_\-markov\-\_\-files} (
+\begin{DoxyParamCaption}
+\item[{const string \&}]{dir, }
+\item[{\-Matrix\-Xd \&}]{markov}
+\end{DoxyParamCaption}
+)}}\label{gpu_2include_2load__data_8h_a3e0b753ca980bbac49c49beb20523146}
